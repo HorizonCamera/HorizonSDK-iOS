@@ -17,7 +17,7 @@ You can register for an account at [https://horizon.camera/sdk](https://horizon.
 
 This framework can be used on devices running iOS version 7.1 or higher.  You can build your application using Xcode 6 or higher.
 
-For more information take a look at the [Installation](https://horizon.camera/static/sdk/docs/docs/documentation-static/Installation%20Guide.html) and [Quick Start](https://horizon.camera/static/sdk/docs/docs/documentation-static/Quick%20Start.html) guides of the [documentation](https://horizon.camera).
+For more information take a look at the [Installation](https://horizon.camera/static/sdk/docs/docs/documentation-static/Installation%20Guide.html) and [Quick Start](https://horizon.camera/static/sdk/docs/docs/documentation-static/Quick%20Start.html) guides of the [documentation](https://horizon.camera/sdk/docs/).
 
 Quick Install Guide
 -------------------
