@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>HVTCameraDelegate Protocol Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1333)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">Horizon SDK </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">Horizon Video Technologies Inc.</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/hvtCamera:didCapturePhotoData:metadata:">- hvtCamera:didCapturePhotoData:metadata:</option>
+		
+		<option value="//api/name/hvtCamera:didCapturePhotoImageRef:metadata:">- hvtCamera:didCapturePhotoImageRef:metadata:</option>
+		
+		<option value="//api/name/hvtCamera:didStopRecordingWithMetadata:">- hvtCamera:didStopRecordingWithMetadata:</option>
+		
+		<option value="//api/name/hvtCamera:didStopRunningWithError:">- hvtCamera:didStopRunningWithError:</option>
+		
+		<option value="//api/name/hvtCamera:didUpdateParams:">- hvtCamera:didUpdateParams:</option>
+		
+		<option value="//api/name/hvtCamera:didUpdateRecordingDuration:">- hvtCamera:didUpdateRecordingDuration:</option>
+		
+		<option value="//api/name/hvtCamera:photoCapturingDidFailWithError:">- hvtCamera:photoCapturingDidFailWithError:</option>
+		
+		<option value="//api/name/hvtCamera:recordingDidFailWithError:">- hvtCamera:recordingDidFailWithError:</option>
+		
+		<option value="//api/name/hvtCameraDidStartRunning:">- hvtCameraDidStartRunning:</option>
+		
+		<option value="//api/name/hvtCameraRecordingDidStart:">- hvtCameraRecordingDidStart:</option>
+		
+		<option value="//api/name/hvtCameraRecordingWillStop:">- hvtCameraRecordingWillStop:</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">HVTCameraDelegate Protocol Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Conforms to</th>
+	<td>NSObject</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>HVTCamera.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>The HVTCameraDelegate protocol defines delegate methods you should implement in order
+to get updates from an <a href="../Classes/HVTCamera.html">HVTCamera</a> instance about the running state, recording status, handle errors and update the UI.</p>
+
+<p>All the delegate methods are invoked in the main thread.</p>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						<a title="Interface Delegate Method" name="task_Interface Delegate Method"></a>
+						<h2 class="task-title">Interface Delegate Method</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/hvtCamera:didUpdateParams:" title="hvtCamera:didUpdateParams:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/hvtCamera:didUpdateParams:">&ndash;&nbsp;hvtCamera:didUpdateParams:</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Implement this method to be notified of the updated device angle and computed scale factors in order to
+adjust your interface elements (i.e. rotate your UI elements).</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)hvtCamera:(HVTCamera *)<em>hvtCamera</em> didUpdateParams:(HVTParams)<em>params</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>hvtCamera</code></th>
+						<td><p>The <a href="../Classes/HVTCamera.html">HVTCamera</a> object calling the delegate method.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>params</code></th>
+						<td><p>The angle (physical yaw) of the device in rads and scale values.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The angle represents the yaw of the device (in the real world) at the time the
+latest video frame was received by the device&rsquo;s camera.</p>
+
+<p>The scale represents the scale that has to be applied to the frame depending on the active levelerCropMode
+and the angle of the device.</p>
+
+<p>You may want to rotate your UI elements to match the attached HVTView(s) appearence
+as illustrated in the following code fragment:</p>
+
+<pre><code>- (void)hvtCamera:(HVTCamera *)hvtCamera didUpdateParams:(HVTParams)params
+{
+    [_uiElement setTransform:CGAffineTransformMakeRotation(params.angle)];
+}
+</code></pre>
+
+<p>The calling frequency matches the frame rate of the <a href="../Classes/HVTCamera.html">HVTCamera</a> instance.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Running State Delegate Method" name="task_Running State Delegate Method"></a>
+						<h2 class="task-title">Running State Delegate Method</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/hvtCameraDidStartRunning:" title="hvtCameraDidStartRunning:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/hvtCameraDidStartRunning:">&ndash;&nbsp;hvtCameraDidStartRunning:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Called when HVTcamera starts running.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)hvtCameraDidStartRunning:(HVTCamera *)<em>hvtCamera</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>hvtCamera</code></th>
+						<td><p>The <a href="../Classes/HVTCamera.html">HVTCamera</a> object calling the delegate method.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/hvtCamera:didStopRunningWithError:" title="hvtCamera:didStopRunningWithError:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/hvtCamera:didStopRunningWithError:">&ndash;&nbsp;hvtCamera:didStopRunningWithError:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Called when HVTcamera stops running due to an error.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)hvtCamera:(HVTCamera *)<em>hvtCamera</em> didStopRunningWithError:(NSError *)<em>error</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>hvtCamera</code></th>
+						<td><p>The <a href="../Classes/HVTCamera.html">HVTCamera</a> object calling the delegate method.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>error</code></th>
+						<td><p>The error occured.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Recording Delegate Methods" name="task_Recording Delegate Methods"></a>
+						<h2 class="task-title">Recording Delegate Methods</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/hvtCameraRecordingDidStart:" title="hvtCameraRecordingDidStart:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/hvtCameraRecordingDidStart:">&ndash;&nbsp;hvtCameraRecordingDidStart:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Called when video recording has begun.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)hvtCameraRecordingDidStart:(HVTCamera *)<em>hvtCamera</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>hvtCamera</code></th>
+						<td><p>The <a href="../Classes/HVTCamera.html">HVTCamera</a> object calling the delegate method.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/hvtCamera:didUpdateRecordingDuration:" title="hvtCamera:didUpdateRecordingDuration:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/hvtCamera:didUpdateRecordingDuration:">&ndash;&nbsp;hvtCamera:didUpdateRecordingDuration:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Implement this method to get the updated recording duration in order to update duration counters
+in your interface.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)hvtCamera:(HVTCamera *)<em>hvtCamera</em> didUpdateRecordingDuration:(NSTimeInterval)<em>duration</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>hvtCamera</code></th>
+						<td><p>The <a href="../Classes/HVTCamera.html">HVTCamera</a> object calling the delegate method.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>duration</code></th>
+						<td><p>The video duration up until this point as a NSTimeInterval variable.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>This method is called for every recorded frame when recording a video.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/hvtCameraRecordingWillStop:" title="hvtCameraRecordingWillStop:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/hvtCameraRecordingWillStop:">&ndash;&nbsp;hvtCameraRecordingWillStop:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Called when video recording is going to stop.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)hvtCameraRecordingWillStop:(HVTCamera *)<em>hvtCamera</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>hvtCamera</code></th>
+						<td><p>The <a href="../Classes/HVTCamera.html">HVTCamera</a> object calling the delegate method.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/hvtCamera:didStopRecordingWithMetadata:" title="hvtCamera:didStopRecordingWithMetadata:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/hvtCamera:didStopRecordingWithMetadata:">&ndash;&nbsp;hvtCamera:didStopRecordingWithMetadata:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Called when video recording has stopped successfully. You can access the recorded
+video&rsquo;s properties through the <code>metadata</code> NSDictionary.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)hvtCamera:(HVTCamera *)<em>hvtCamera</em> didStopRecordingWithMetadata:(NSDictionary *)<em>metadata</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>hvtCamera</code></th>
+						<td><p>The <a href="../Classes/HVTCamera.html">HVTCamera</a> object calling the delegate method.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>metadata</code></th>
+						<td><p>The NSDictionary containing information of the recorded video.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/hvtCamera:recordingDidFailWithError:" title="hvtCamera:recordingDidFailWithError:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/hvtCamera:recordingDidFailWithError:">&ndash;&nbsp;hvtCamera:recordingDidFailWithError:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Called when video recording has stopped due to an error.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)hvtCamera:(HVTCamera *)<em>hvtCamera</em> recordingDidFailWithError:(NSError *)<em>error</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>hvtCamera</code></th>
+						<td><p>The <a href="../Classes/HVTCamera.html">HVTCamera</a> object calling the delegate method.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>error</code></th>
+						<td><p>The error occured</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Photo Capturing Delegate Methods" name="task_Photo Capturing Delegate Methods"></a>
+						<h2 class="task-title">Photo Capturing Delegate Methods</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/hvtCamera:didCapturePhotoData:metadata:" title="hvtCamera:didCapturePhotoData:metadata:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/hvtCamera:didCapturePhotoData:metadata:">&ndash;&nbsp;hvtCamera:didCapturePhotoData:metadata:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Called when a photo has been captured</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)hvtCamera:(HVTCamera *)<em>hvtCamera</em> didCapturePhotoData:(NSData *)<em>photo</em> metadata:(NSDictionary *)<em>metadata</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>hvtCamera</code></th>
+						<td><p>The <a href="../Classes/HVTCamera.html">HVTCamera</a> object calling the delegate method.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>photo</code></th>
+						<td><p>The photo captured as NSData (JPEG representation)</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>metadata</code></th>
+						<td><p>The photo metadata (already passed inside the NSData structure)</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/hvtCamera:didCapturePhotoImageRef:metadata:" title="hvtCamera:didCapturePhotoImageRef:metadata:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/hvtCamera:didCapturePhotoImageRef:metadata:">&ndash;&nbsp;hvtCamera:didCapturePhotoImageRef:metadata:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Called when a photo has been captured</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)hvtCamera:(HVTCamera *)<em>hvtCamera</em> didCapturePhotoImageRef:(CGImageRef)<em>photo</em> metadata:(NSDictionary *)<em>metadata</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>hvtCamera</code></th>
+						<td><p>The <a href="../Classes/HVTCamera.html">HVTCamera</a> object calling the delegate method.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>photo</code></th>
+						<td><p>The photo captured as CGImageRef</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>metadata</code></th>
+						<td><p>The photo metadata</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/hvtCamera:photoCapturingDidFailWithError:" title="hvtCamera:photoCapturingDidFailWithError:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/hvtCamera:photoCapturingDidFailWithError:">&ndash;&nbsp;hvtCamera:photoCapturingDidFailWithError:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Called when photo capturing has not been completed successfully due to an error.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)hvtCamera:(HVTCamera *)<em>hvtCamera</em> photoCapturingDidFailWithError:(NSError *)<em>error</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>hvtCamera</code></th>
+						<td><p>The <a href="../Classes/HVTCamera.html">HVTCamera</a> object calling the delegate method.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>error</code></th>
+						<td><p>The error occured</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2015 Horizon Video Technologies Inc. All rights reserved. Updated: 2015-08-06</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

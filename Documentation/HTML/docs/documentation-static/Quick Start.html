@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Quick Start Document</title>
+
+	<link rel="stylesheet" href="../../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1333)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../../index.html">Horizon SDK </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../../index.html">Horizon Video Technologies Inc.</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="index.html">Home</a></li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview-contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">Quick Start Document</h1>
+
+					<p>Here is a simple guide to get up and running with Horizon SDK in under 5 minutes! If you are looking how you can integrate Horizon SDK to your new or existing project, head over the the <a href="Installation%20Guide.html">Installation Guide</a>.</p>
+
+<h2>Initialization</h2>
+
+<p>Once the SDK is installed, ensure you initialize the SDK upon application launch. For most applications, this can be done in application:didFinishLaunchingWithOptions: of your UIApplicationDelegate class.</p>
+
+<p>The example below contains a placeholder API key, so after placing the code be sure to replace it with your own.</p>
+
+<pre><code>#import &lt;HorizonSDK/HVTSDK.h&gt;
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+
+    // Import HorizonSDK
+    [[HVTSDK sharedInstance] activateWithAPIKey:@"&lt;PLACEHOLDER API KEY&gt;"];
+
+    return YES;
+}
+</code></pre>
+
+<p>After initializing Horizon SDK, create an <a href="../../Classes/HVTCamera.html">HVTCamera</a> instance in your ViewController.</p>
+
+<pre><code>HVTCamera *camera = [HVTCamera new];
+</code></pre>
+
+<p>Optionally, you can set the interfaceOrientation property to the UI orientation of your UIViewController</p>
+
+<pre><code>camera.interfaceOrientation = [[UIApplication sharedApplication] statusBarOrientation];
+</code></pre>
+
+<p>If your app supports multiple orientations, follow the instructions provided in <a href="../../Classes/HVTCamera.html#//api/name/interfaceOrientation">[HVTCamera interfaceOrientation]</a>.</p>
+
+<p>You can also set the camera&rsquo;s delegate defined in the <a href="../../Protocols/HVTCameraDelegate.html">HVTCameraDelegate</a> protocol and implement the protocol&rsquo;s methods in order to handle events like movie recording and photo capturing.</p>
+
+<pre><code>camera.delegate = myCameraDelegate;
+</code></pre>
+
+<h2>Displaying Video preview</h2>
+
+<p>In order to display a video preview, you can create an <a href="../../Classes/HVTView.html">HVTView</a> programmatically or via the Interface Builder.</p>
+
+<p>To create a <a href="../../Classes/HVTView.html">HVTView</a> programmatically, you can do the following:</p>
+
+<pre><code>HVTView *videoPreview = [[HVTView alloc] initWithFrame:CGRectMake(0, 0, 200, 200)];
+[videoPreview setCenter:self.view.center];
+[self.view addSubview:videoPreview];
+</code></pre>
+
+<p>Attach this view to your camera by calling HVTCamera&rsquo;s <code>addView</code> method</p>
+
+<pre><code>[camera addView:videoPreview];
+</code></pre>
+
+<h2>Running</h2>
+
+<p>Let the camera instance run:</p>
+
+<pre><code>[camera startRunning];
+</code></pre>
+
+<p>Make sure you have handled all the camera &amp; microphone permissions as startRunning will throw an exception if it can&rsquo;t access camera or microphone devices.</p>
+
+<p>You can request camera/microphone access by calling AVCaptureDevice&rsquo;s <code>requestAccessForMediaType:completionHandler:</code> method for <code>AVMediaTypeVideo</code> and <code>AVMediaTypeAudio</code> types.</p>
+
+<h2>Recording</h2>
+
+<p>To start video recording call HVTCamera&rsquo;s <code>startRecordingWithMovieURL:</code>.</p>
+
+<p>Provide a <code>NSURL</code> with the file path the movie will be saved to.</p>
+
+<p>Here&rsquo;s an example:</p>
+
+<pre><code>NSURL *recordingURL = [[NSURL alloc] initFileURLWithPath:[NSString pathWithComponents:@[NSTemporaryDirectory(), @"movie.mov"]]];
+
+[camera startRecordingWithMovieURL:_recordingURL];
+</code></pre>
+
+<p>To stop recording call the <code>stopRecording</code> method.</p>
+
+<h3>There you have it! Your fist video recording app!</h3>
+
+<p>Well done! You now have a video recording application, able to record horizontal videos no matter what! You can learn more about every single class and method by taking a look at the <a href="../../hierarchy.html">API reference</a>.</p>
+
+					<footer>
+						<div class="footer-copyright">
+							
+							<p class="copyright">Copyright &copy; 2015 Horizon Video Technologies Inc. All rights reserved. Updated: 2015-08-06</p>
+							
+							
+							<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</p>
+							
+						</div>
+					</footer>
+				</main>
+			</div>
+		</div>
+	</article>
+
+	<script src="../../js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/HVTStillImageOrientation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/HVTStillImageOrientation</TokenIdentifier>
+			<Abstract type="html">Constants indicating the still image frame orientation on the photo mode</Abstract>
+			<DeclaredIn>HVTVars.h</DeclaredIn>
+            
+			
+			<NodeRef refid="19"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/HVTStillImageOrientationAuto</TokenIdentifier>
+            <Abstract type="html">Still image frame will switch automatically from horizontal to vertical and vice versa depending on the rotation of the device.</Abstract>
+            <Declaration>HVTStillImageOrientationAuto</Declaration>
+            
+            <DeclaredIn>HVTVars.h</DeclaredIn>
+            
+            <NodeRef refid="19"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/HVTStillImageOrientationHorizontal</TokenIdentifier>
+            <Abstract type="html">Still image frame will always be horizontal.</Abstract>
+            <Declaration>HVTStillImageOrientationHorizontal</Declaration>
+            
+            <DeclaredIn>HVTVars.h</DeclaredIn>
+            
+            <NodeRef refid="19"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/HVTStillImageOrientationVertical</TokenIdentifier>
+            <Abstract type="html">Still image frame will always be vertical.</Abstract>
+            <Declaration>HVTStillImageOrientationVertical</Declaration>
+            
+            <DeclaredIn>HVTVars.h</DeclaredIn>
+            
+            <NodeRef refid="19"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

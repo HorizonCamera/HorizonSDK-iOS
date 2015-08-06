@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/HVTLevelerCropMode.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/HVTLevelerCropMode</TokenIdentifier>
+			<Abstract type="html">Constants indicating the way the leveling algorithm adjusts the crop region according
+to the device&apos;s physical orientation.</Abstract>
+			<DeclaredIn>HVTVars.h</DeclaredIn>
+            
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/HVTLevelerLockedOrientation</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="16"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/HVTLevelerCropModeFlex</TokenIdentifier>
+            <Abstract type="html">Crop region will rotate and scale accordingly.</Abstract>
+            <Declaration>HVTLevelerCropModeFlex</Declaration>
+            
+            <DeclaredIn>HVTVars.h</DeclaredIn>
+            
+            <NodeRef refid="16"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/HVTLevelerCropModeRotate</TokenIdentifier>
+            <Abstract type="html">Crop region will rotate and use a constant scale level.</Abstract>
+            <Declaration>HVTLevelerCropModeRotate</Declaration>
+            
+            <DeclaredIn>HVTVars.h</DeclaredIn>
+            
+            <NodeRef refid="16"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/HVTLevelerCropModeLocked</TokenIdentifier>
+            <Abstract type="html">Leveling is disabled. Crop region will rotate for specific angles (multiples of pi/2)
+in order to match a horizontal or vertical physical device orientation.
+     
+If recording starts, the current rotation will remain unchanged until recording stops.</Abstract>
+            <Declaration>HVTLevelerCropModeLocked</Declaration>
+            
+            <DeclaredIn>HVTVars.h</DeclaredIn>
+            
+            <NodeRef refid="16"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/HVTCameraControllerCameraFlashMode.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/HVTCameraControllerCameraFlashMode</TokenIdentifier>
+			<Abstract type="html">The flash mode to use with the active camera.</Abstract>
+			<DeclaredIn>HVTCameraController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="12"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/HVTCameraControllerCameraFlashModeOff</TokenIdentifier>
+            <Abstract type="html">Specifies that flash illumination is always off, no matter what the ambient light conditions are.</Abstract>
+            <Declaration>HVTCameraControllerCameraFlashModeOff</Declaration>
+            
+            <DeclaredIn>HVTCameraController.h</DeclaredIn>
+            
+            <NodeRef refid="12"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/HVTCameraControllerCameraFlashModeAuto</TokenIdentifier>
+            <Abstract type="html">Specifies that the device should consider ambient light conditions to automatically determine whether or not to use flash illumination.</Abstract>
+            <Declaration>HVTCameraControllerCameraFlashModeAuto</Declaration>
+            
+            <DeclaredIn>HVTCameraController.h</DeclaredIn>
+            
+            <NodeRef refid="12"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/HVTCameraControllerCameraFlashModeOn</TokenIdentifier>
+            <Abstract type="html">Specifies that flash illumination is always on, no matter what the ambient light conditions are.</Abstract>
+            <Declaration>HVTCameraControllerCameraFlashModeOn</Declaration>
+            
+            <DeclaredIn>HVTCameraController.h</DeclaredIn>
+            
+            <NodeRef refid="12"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

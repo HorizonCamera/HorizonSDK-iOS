@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/HVTBufferDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/HVTBufferDelegate</TokenIdentifier>
+			<Abstract type="html">The HVTBufferDelegate protocol defines the delegate method to be implemented in order
+to receive updates for the leveled sample buffers sent from the HVTCamera instance.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+            
+			
+			<NodeRef refid="7"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/HVTBufferDelegate/hvtCamera:didOutputSampleBuffer:</TokenIdentifier>
+			<Abstract type="html">Implement this method to be notified when you receive a CMSampleBuffer from the delegate in order to
+process it further to your own pipeline.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>- (void)hvtCamera:(HVTCamera *)hvtCamera didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>hvtCamera</Name>
+					<Abstract type="html">The HVTCamera object calling the delegate method.</Abstract>
+				</Parameter><Parameter>
+					<Name>sampleBuffer</Name>
+					<Abstract type="html">The CMSampleBuffer received.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/hvtCamera:didOutputSampleBuffer:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

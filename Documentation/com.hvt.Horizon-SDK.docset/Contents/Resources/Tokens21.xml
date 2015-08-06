@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/HVTViewType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/HVTViewType</TokenIdentifier>
+			<Abstract type="html">Constants indicating whether the HVTView will display a leveled on unleveled preview.</Abstract>
+			<DeclaredIn>HVTView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="21"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/HVTViewTypeNormal</TokenIdentifier>
+            <Abstract type="html">The view will show the camera&apos;s video stream without applying the leveling algorithm.</Abstract>
+            <Declaration>HVTViewTypeNormal</Declaration>
+            
+            <DeclaredIn>HVTView.h</DeclaredIn>
+            
+            <NodeRef refid="21"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/HVTViewTypeLeveled</TokenIdentifier>
+            <Abstract type="html">The view will show the leveled video stream, previewing what will be saved in a video file.</Abstract>
+            <Declaration>HVTViewTypeLeveled</Declaration>
+            
+            <DeclaredIn>HVTView.h</DeclaredIn>
+            
+            <NodeRef refid="21"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

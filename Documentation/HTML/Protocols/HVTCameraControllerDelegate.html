@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>HVTCameraControllerDelegate Protocol Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1333)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">Horizon SDK </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">Horizon Video Technologies Inc.</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/cameraController:didFinishCapturingMediaWithInfo:">- cameraController:didFinishCapturingMediaWithInfo:</option>
+		
+		<option value="//api/name/cameraControllerDidCancel:">- cameraControllerDidCancel:</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">HVTCameraControllerDelegate Protocol Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Conforms to</th>
+	<td>NSObject</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>HVTCameraController.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>The HVTCameraControllerDelegate protocol defines methods that your delegate object must implement to interact with the camera controller interface. The methods of this protocol notify your delegate when the user either finishes capturing an image or movie, or cancels the camera operation.</p>
+
+<p>The delegate methods are responsible for dismissing the picker when the operation completes. To dismiss the picker, call the dismissModalViewControllerAnimated:completion: method of the parent controller responsible for displaying the <a href="../Classes/HVTCameraController.html">HVTCameraController</a> object.</p>
+
+<p>To save a still image to the user’s Camera Roll album, call the UIImageWriteToSavedPhotosAlbum function from within the body of the <a href="#//api/name/cameraController:didFinishCapturingMediaWithInfo:">cameraController:didFinishCapturingMediaWithInfo:</a> method. To save a movie to the user’s Camera Roll album, instead call the UISaveVideoAtPathToSavedPhotosAlbum function. These functions, described in UIKit Function Reference, save the image or movie only; they do not save metadata.</p>
+
+<p>To write additional metadata when saving an image to the Camera Roll, use the PHAssetChangeRequest class from the Photos framework. See the description for the HVTCameraControllerMediaMetadata key.</p>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						<a title="Closing the Camera" name="task_Closing the Camera"></a>
+						
+<h2 class="task-title">Closing the Camera</h2>
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/cameraController:didFinishCapturingMediaWithInfo:" title="cameraController:didFinishCapturingMediaWithInfo:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/cameraController:didFinishCapturingMediaWithInfo:">&ndash;&nbsp;cameraController:didFinishCapturingMediaWithInfo:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Tells the delegate that the user picked a still image or movie.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)cameraController:(HVTCameraController *)<em>cameraController</em> didFinishCapturingMediaWithInfo:(NSDictionary *)<em>info</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>cameraController</code></th>
+						<td><p>The controller object managing the camera interface.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>info</code></th>
+						<td><p>A dictionary containing the original image and the edited image, if an image was picked; or a filesystem URL for the movie, if a movie was picked. The dictionary also contains any relevant editing information. The keys for this dictionary are listed in Editing Information Keys.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Your delegate object’s implementation of this method should pass the specified media on to any custom code that needs it, and should then dismiss the camera controller view.</p>
+
+<p>Implementation of this method is optional, but expected.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCameraController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/cameraControllerDidCancel:" title="cameraControllerDidCancel:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/cameraControllerDidCancel:">&ndash;&nbsp;cameraControllerDidCancel:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Tells the delegate that the user cancelled the pick operation.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)cameraControllerDidCancel:(HVTCameraController *)<em>cameraController</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>cameraController</code></th>
+						<td><p>The controller object managing the camera interface.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Your delegate’s implementation of this method should dismiss the camera controller view by calling the dismissModalViewControllerAnimated:completion: method of the parent view controller.</p>
+
+<p>Implementation of this method is optional, but expected.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCameraController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2015 Horizon Video Technologies Inc. All rights reserved. Updated: 2015-08-06</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/HVTView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/HVTView</TokenIdentifier>
+			<Abstract type="html">HVTView is a subclass of UIView that you use to preview video as it is being captured by HVTCamera.</Abstract>
+			<DeclaredIn>HVTView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="6"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTView/setViewType:</TokenIdentifier>
+			<Abstract type="html">Specifies the preview type of the view.</Abstract>
+			<DeclaredIn>HVTView.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/HVTViewType</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic) HVTViewType viewType</Declaration>
+			
+			
+			<Anchor>//api/name/viewType</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTView/viewType</TokenIdentifier>
+			<Abstract type="html">Specifies the preview type of the view.</Abstract>
+			<DeclaredIn>HVTView.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/HVTViewType</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic) HVTViewType viewType</Declaration>
+			
+			
+			<Anchor>//api/name/viewType</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HVTView/viewType</TokenIdentifier>
+			<Abstract type="html">Specifies the preview type of the view.</Abstract>
+			<DeclaredIn>HVTView.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/HVTViewType</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic) HVTViewType viewType</Declaration>
+			
+			
+			<Anchor>//api/name/viewType</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTView/setEnabled:</TokenIdentifier>
+			<Abstract type="html">Specifies whether the view is enabled or not.</Abstract>
+			<DeclaredIn>HVTView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL enabled</Declaration>
+			
+			
+			<Anchor>//api/name/enabled</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTView/enabled</TokenIdentifier>
+			<Abstract type="html">Specifies whether the view is enabled or not.</Abstract>
+			<DeclaredIn>HVTView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL enabled</Declaration>
+			
+			
+			<Anchor>//api/name/enabled</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HVTView/enabled</TokenIdentifier>
+			<Abstract type="html">Specifies whether the view is enabled or not.</Abstract>
+			<DeclaredIn>HVTView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL enabled</Declaration>
+			
+			
+			<Anchor>//api/name/enabled</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTView/setFilter:</TokenIdentifier>
+			<Abstract type="html">Specifies the active filter for this view.</Abstract>
+			<DeclaredIn>HVTView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CIFilter *filter</Declaration>
+			
+			
+			<Anchor>//api/name/filter</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTView/filter</TokenIdentifier>
+			<Abstract type="html">Specifies the active filter for this view.</Abstract>
+			<DeclaredIn>HVTView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CIFilter *filter</Declaration>
+			
+			
+			<Anchor>//api/name/filter</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HVTView/filter</TokenIdentifier>
+			<Abstract type="html">Specifies the active filter for this view.</Abstract>
+			<DeclaredIn>HVTView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CIFilter *filter</Declaration>
+			
+			
+			<Anchor>//api/name/filter</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTView/setShowHUD:</TokenIdentifier>
+			<Abstract type="html">Specifies whether HUD elements, such as the crop region and corners, are shown.</Abstract>
+			<DeclaredIn>HVTView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL showHUD</Declaration>
+			
+			
+			<Anchor>//api/name/showHUD</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTView/showHUD</TokenIdentifier>
+			<Abstract type="html">Specifies whether HUD elements, such as the crop region and corners, are shown.</Abstract>
+			<DeclaredIn>HVTView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL showHUD</Declaration>
+			
+			
+			<Anchor>//api/name/showHUD</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HVTView/showHUD</TokenIdentifier>
+			<Abstract type="html">Specifies whether HUD elements, such as the crop region and corners, are shown.</Abstract>
+			<DeclaredIn>HVTView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL showHUD</Declaration>
+			
+			
+			<Anchor>//api/name/showHUD</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTView/setFillMode:</TokenIdentifier>
+			<Abstract type="html">Specifies how the video preview is displayed within the view&apos;s bounds rect.</Abstract>
+			<DeclaredIn>HVTView.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/HVTViewFillMode</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic) HVTViewFillMode fillMode</Declaration>
+			
+			
+			<Anchor>//api/name/fillMode</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTView/fillMode</TokenIdentifier>
+			<Abstract type="html">Specifies how the video preview is displayed within the view&apos;s bounds rect.</Abstract>
+			<DeclaredIn>HVTView.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/HVTViewFillMode</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic) HVTViewFillMode fillMode</Declaration>
+			
+			
+			<Anchor>//api/name/fillMode</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HVTView/fillMode</TokenIdentifier>
+			<Abstract type="html">Specifies how the video preview is displayed within the view&apos;s bounds rect.</Abstract>
+			<DeclaredIn>HVTView.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/HVTViewFillMode</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic) HVTViewFillMode fillMode</Declaration>
+			
+			
+			<Anchor>//api/name/fillMode</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTView/setEnablesDoubleTapToChangeFillMode:</TokenIdentifier>
+			<Abstract type="html">Controls if the view will include a double tap gesture to cycle through the different fill modes available.</Abstract>
+			<DeclaredIn>HVTView.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/HVTViewFillMode</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, getter=isDoubleTapToChangeFillModeEnabled) BOOL enablesDoubleTapToChangeFillMode</Declaration>
+			
+			
+			<Anchor>//api/name/enablesDoubleTapToChangeFillMode</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTView/isDoubleTapToChangeFillModeEnabled</TokenIdentifier>
+			<Abstract type="html">Controls if the view will include a double tap gesture to cycle through the different fill modes available.</Abstract>
+			<DeclaredIn>HVTView.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/HVTViewFillMode</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, getter=isDoubleTapToChangeFillModeEnabled) BOOL enablesDoubleTapToChangeFillMode</Declaration>
+			
+			
+			<Anchor>//api/name/enablesDoubleTapToChangeFillMode</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HVTView/enablesDoubleTapToChangeFillMode</TokenIdentifier>
+			<Abstract type="html">Controls if the view will include a double tap gesture to cycle through the different fill modes available.</Abstract>
+			<DeclaredIn>HVTView.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/HVTViewFillMode</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, getter=isDoubleTapToChangeFillModeEnabled) BOOL enablesDoubleTapToChangeFillMode</Declaration>
+			
+			
+			<Anchor>//api/name/enablesDoubleTapToChangeFillMode</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTView/setEnablesTapToFocus:</TokenIdentifier>
+			<Abstract type="html">Controls if the view will include a tap to focus gesture.</Abstract>
+			<DeclaredIn>HVTView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, getter=isTapToFocusEnabled) BOOL enablesTapToFocus</Declaration>
+			
+			
+			<Anchor>//api/name/enablesTapToFocus</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTView/isTapToFocusEnabled</TokenIdentifier>
+			<Abstract type="html">Controls if the view will include a tap to focus gesture.</Abstract>
+			<DeclaredIn>HVTView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, getter=isTapToFocusEnabled) BOOL enablesTapToFocus</Declaration>
+			
+			
+			<Anchor>//api/name/enablesTapToFocus</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HVTView/enablesTapToFocus</TokenIdentifier>
+			<Abstract type="html">Controls if the view will include a tap to focus gesture.</Abstract>
+			<DeclaredIn>HVTView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, getter=isTapToFocusEnabled) BOOL enablesTapToFocus</Declaration>
+			
+			
+			<Anchor>//api/name/enablesTapToFocus</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTView/setEnablesLongPressToLockFocusExposure:</TokenIdentifier>
+			<Abstract type="html">Controls if the view will include a long press to lock focus and exposure gesture.</Abstract>
+			<DeclaredIn>HVTView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, getter=isLongPressToLockFocusExposureEnabled) BOOL enablesLongPressToLockFocusExposure</Declaration>
+			
+			
+			<Anchor>//api/name/enablesLongPressToLockFocusExposure</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTView/isLongPressToLockFocusExposureEnabled</TokenIdentifier>
+			<Abstract type="html">Controls if the view will include a long press to lock focus and exposure gesture.</Abstract>
+			<DeclaredIn>HVTView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, getter=isLongPressToLockFocusExposureEnabled) BOOL enablesLongPressToLockFocusExposure</Declaration>
+			
+			
+			<Anchor>//api/name/enablesLongPressToLockFocusExposure</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HVTView/enablesLongPressToLockFocusExposure</TokenIdentifier>
+			<Abstract type="html">Controls if the view will include a long press to lock focus and exposure gesture.</Abstract>
+			<DeclaredIn>HVTView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, getter=isLongPressToLockFocusExposureEnabled) BOOL enablesLongPressToLockFocusExposure</Declaration>
+			
+			
+			<Anchor>//api/name/enablesLongPressToLockFocusExposure</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="docs/documentation-static/Quick Start.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/doc/Quick Start</TokenIdentifier>
+			<Abstract type="html">Here is a simple guide to get up and running with Horizon SDK in under 5 minutes! If you are looking how you can integrate Horizon SDK to your new or existing project, head over the the [Installation Guide](Installation Guide.html).</Abstract>
+			<DeclaredIn>Quick Start-template.html</DeclaredIn>
+            
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+        
+        
+	</File>
+</Tokens>

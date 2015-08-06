@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/HVTCameraControllerCameraDevice.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/HVTCameraControllerCameraDevice</TokenIdentifier>
+			<Abstract type="html">The camera to use for image or movie capture.</Abstract>
+			<DeclaredIn>HVTCameraController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="11"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/HVTCameraControllerCameraDeviceRear</TokenIdentifier>
+            <Abstract type="html">Specifies the camera on the rear of the device.</Abstract>
+            <Declaration>HVTCameraControllerCameraDeviceRear</Declaration>
+            
+            <DeclaredIn>HVTCameraController.h</DeclaredIn>
+            
+            <NodeRef refid="11"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/HVTCameraControllerCameraDeviceFront</TokenIdentifier>
+            <Abstract type="html">Specifies the camera on the front of the device.</Abstract>
+            <Declaration>HVTCameraControllerCameraDeviceFront</Declaration>
+            
+            <DeclaredIn>HVTCameraController.h</DeclaredIn>
+            
+            <NodeRef refid="11"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

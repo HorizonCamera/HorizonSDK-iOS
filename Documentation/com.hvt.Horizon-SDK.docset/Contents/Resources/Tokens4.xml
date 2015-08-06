@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/HVTCameraController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/HVTCameraController</TokenIdentifier>
+			<Abstract type="html">The HVTCameraController operates exactly as the UIImagePickerController class of UIKit.
+It manages customizable, system-supplied user interfaces for taking pictures and movies on supported devices for use in your app. A camera controller manages user interactions and delivers the results of those interactions to a delegate object.</Abstract>
+			<DeclaredIn>HVTCameraController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="4"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCameraController/setCameraDelegate:</TokenIdentifier>
+			<Abstract type="html">The image picker’s delegate object.</Abstract>
+			<DeclaredIn>HVTCameraController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) id&lt;HVTCameraControllerDelegate&gt; cameraDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/cameraDelegate</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCameraController/cameraDelegate</TokenIdentifier>
+			<Abstract type="html">The image picker’s delegate object.</Abstract>
+			<DeclaredIn>HVTCameraController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) id&lt;HVTCameraControllerDelegate&gt; cameraDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/cameraDelegate</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HVTCameraController/cameraDelegate</TokenIdentifier>
+			<Abstract type="html">The image picker’s delegate object.</Abstract>
+			<DeclaredIn>HVTCameraController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) id&lt;HVTCameraControllerDelegate&gt; cameraDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/cameraDelegate</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCameraController/setMediaTypes:</TokenIdentifier>
+			<Abstract type="html">An array indicating the media types to be accessed by the media picker controller.</Abstract>
+			<DeclaredIn>HVTCameraController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSArray *mediaTypes</Declaration>
+			
+			
+			<Anchor>//api/name/mediaTypes</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCameraController/mediaTypes</TokenIdentifier>
+			<Abstract type="html">An array indicating the media types to be accessed by the media picker controller.</Abstract>
+			<DeclaredIn>HVTCameraController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSArray *mediaTypes</Declaration>
+			
+			
+			<Anchor>//api/name/mediaTypes</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HVTCameraController/mediaTypes</TokenIdentifier>
+			<Abstract type="html">An array indicating the media types to be accessed by the media picker controller.</Abstract>
+			<DeclaredIn>HVTCameraController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSArray *mediaTypes</Declaration>
+			
+			
+			<Anchor>//api/name/mediaTypes</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCameraController/setVideoQuality:</TokenIdentifier>
+			<Abstract type="html">The video recording quality expressed in resolution types.</Abstract>
+			<DeclaredIn>HVTCameraController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) HVTCameraControllerQualityType videoQuality</Declaration>
+			
+			
+			<Anchor>//api/name/videoQuality</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCameraController/videoQuality</TokenIdentifier>
+			<Abstract type="html">The video recording quality expressed in resolution types.</Abstract>
+			<DeclaredIn>HVTCameraController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) HVTCameraControllerQualityType videoQuality</Declaration>
+			
+			
+			<Anchor>//api/name/videoQuality</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HVTCameraController/videoQuality</TokenIdentifier>
+			<Abstract type="html">The video recording quality expressed in resolution types.</Abstract>
+			<DeclaredIn>HVTCameraController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) HVTCameraControllerQualityType videoQuality</Declaration>
+			
+			
+			<Anchor>//api/name/videoQuality</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCameraController/setVideoMaximumDuration:</TokenIdentifier>
+			<Abstract type="html">The maximum duration, in seconds, for a video recording.</Abstract>
+			<DeclaredIn>HVTCameraController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSTimeInterval videoMaximumDuration</Declaration>
+			
+			
+			<Anchor>//api/name/videoMaximumDuration</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCameraController/videoMaximumDuration</TokenIdentifier>
+			<Abstract type="html">The maximum duration, in seconds, for a video recording.</Abstract>
+			<DeclaredIn>HVTCameraController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSTimeInterval videoMaximumDuration</Declaration>
+			
+			
+			<Anchor>//api/name/videoMaximumDuration</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HVTCameraController/videoMaximumDuration</TokenIdentifier>
+			<Abstract type="html">The maximum duration, in seconds, for a video recording.</Abstract>
+			<DeclaredIn>HVTCameraController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSTimeInterval videoMaximumDuration</Declaration>
+			
+			
+			<Anchor>//api/name/videoMaximumDuration</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCameraController/setShowsCameraControls:</TokenIdentifier>
+			<Abstract type="html">Indicates whether the camera controller displays the default camera controls.</Abstract>
+			<DeclaredIn>HVTCameraController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL showsCameraControls</Declaration>
+			
+			
+			<Anchor>//api/name/showsCameraControls</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCameraController/showsCameraControls</TokenIdentifier>
+			<Abstract type="html">Indicates whether the camera controller displays the default camera controls.</Abstract>
+			<DeclaredIn>HVTCameraController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL showsCameraControls</Declaration>
+			
+			
+			<Anchor>//api/name/showsCameraControls</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HVTCameraController/showsCameraControls</TokenIdentifier>
+			<Abstract type="html">Indicates whether the camera controller displays the default camera controls.</Abstract>
+			<DeclaredIn>HVTCameraController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL showsCameraControls</Declaration>
+			
+			
+			<Anchor>//api/name/showsCameraControls</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCameraController/setCameraOverlayView:</TokenIdentifier>
+			<Abstract type="html">The view to display on top of the default image picker interface.</Abstract>
+			<DeclaredIn>HVTCameraController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIView *cameraOverlayView</Declaration>
+			
+			
+			<Anchor>//api/name/cameraOverlayView</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCameraController/cameraOverlayView</TokenIdentifier>
+			<Abstract type="html">The view to display on top of the default image picker interface.</Abstract>
+			<DeclaredIn>HVTCameraController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIView *cameraOverlayView</Declaration>
+			
+			
+			<Anchor>//api/name/cameraOverlayView</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HVTCameraController/cameraOverlayView</TokenIdentifier>
+			<Abstract type="html">The view to display on top of the default image picker interface.</Abstract>
+			<DeclaredIn>HVTCameraController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIView *cameraOverlayView</Declaration>
+			
+			
+			<Anchor>//api/name/cameraOverlayView</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCameraController/setCameraViewTransform:</TokenIdentifier>
+			<Abstract type="html">The transform to apply to the camera’s preview image.</Abstract>
+			<DeclaredIn>HVTCameraController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGAffineTransform cameraViewTransform</Declaration>
+			
+			
+			<Anchor>//api/name/cameraViewTransform</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCameraController/cameraViewTransform</TokenIdentifier>
+			<Abstract type="html">The transform to apply to the camera’s preview image.</Abstract>
+			<DeclaredIn>HVTCameraController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGAffineTransform cameraViewTransform</Declaration>
+			
+			
+			<Anchor>//api/name/cameraViewTransform</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HVTCameraController/cameraViewTransform</TokenIdentifier>
+			<Abstract type="html">The transform to apply to the camera’s preview image.</Abstract>
+			<DeclaredIn>HVTCameraController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGAffineTransform cameraViewTransform</Declaration>
+			
+			
+			<Anchor>//api/name/cameraViewTransform</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCameraController/takePicture</TokenIdentifier>
+			<Abstract type="html">Captures a still image using the camera.</Abstract>
+			<DeclaredIn>HVTCameraController.h</DeclaredIn>
+			
+			<Declaration>- (void)takePicture</Declaration>
+			
+			
+			<Anchor>//api/name/takePicture</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCameraController/startVideoCapture</TokenIdentifier>
+			<Abstract type="html">Starts video capture using the camera specified by the UIImagePickerControllerCameraDevice property.</Abstract>
+			<DeclaredIn>HVTCameraController.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)startVideoCapture</Declaration>
+			
+			<ReturnValue><Abstract type="html">YES on success or NO on failure. This method may return a value of NO for various reasons, among them the following:
+
+Movie capture is already in progress.
+
+The camera controller&apos;s cameraCaptureMode is set to HVTCameraControllerCameraCaptureModePhoto.</Abstract></ReturnValue>
+			<Anchor>//api/name/startVideoCapture</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCameraController/stopVideoCapture</TokenIdentifier>
+			<Abstract type="html">Stops video capture.</Abstract>
+			<DeclaredIn>HVTCameraController.h</DeclaredIn>
+			
+			<Declaration>- (void)stopVideoCapture</Declaration>
+			
+			
+			<Anchor>//api/name/stopVideoCapture</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCameraController/setCameraDevice:</TokenIdentifier>
+			<Abstract type="html">The camera used by the image picker controller.</Abstract>
+			<DeclaredIn>HVTCameraController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) HVTCameraControllerCameraDevice cameraDevice</Declaration>
+			
+			
+			<Anchor>//api/name/cameraDevice</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCameraController/cameraDevice</TokenIdentifier>
+			<Abstract type="html">The camera used by the image picker controller.</Abstract>
+			<DeclaredIn>HVTCameraController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) HVTCameraControllerCameraDevice cameraDevice</Declaration>
+			
+			
+			<Anchor>//api/name/cameraDevice</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HVTCameraController/cameraDevice</TokenIdentifier>
+			<Abstract type="html">The camera used by the image picker controller.</Abstract>
+			<DeclaredIn>HVTCameraController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) HVTCameraControllerCameraDevice cameraDevice</Declaration>
+			
+			
+			<Anchor>//api/name/cameraDevice</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/HVTCameraController/isCameraDeviceAvailable:</TokenIdentifier>
+			<Abstract type="html">Returns a Boolean value that indicates whether a given camera is available.</Abstract>
+			<DeclaredIn>HVTCameraController.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)isCameraDeviceAvailable:(HVTCameraControllerCameraDevice)cameraDevice</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>cameraDevice</Name>
+					<Abstract type="html">A HVTCameraControllerCameraDevice constant indicating the camera whose availability you want to check.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the camera indicated by cameraDevice is available, or NO if it is not available.</Abstract></ReturnValue>
+			<Anchor>//api/name/isCameraDeviceAvailable:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCameraController/setCameraCaptureMode:</TokenIdentifier>
+			<Abstract type="html">The capture mode used by the camera.</Abstract>
+			<DeclaredIn>HVTCameraController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) HVTCameraControllerCameraCaptureMode cameraCaptureMode</Declaration>
+			
+			
+			<Anchor>//api/name/cameraCaptureMode</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCameraController/cameraCaptureMode</TokenIdentifier>
+			<Abstract type="html">The capture mode used by the camera.</Abstract>
+			<DeclaredIn>HVTCameraController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) HVTCameraControllerCameraCaptureMode cameraCaptureMode</Declaration>
+			
+			
+			<Anchor>//api/name/cameraCaptureMode</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HVTCameraController/cameraCaptureMode</TokenIdentifier>
+			<Abstract type="html">The capture mode used by the camera.</Abstract>
+			<DeclaredIn>HVTCameraController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) HVTCameraControllerCameraCaptureMode cameraCaptureMode</Declaration>
+			
+			
+			<Anchor>//api/name/cameraCaptureMode</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCameraController/setCameraFlashMode:</TokenIdentifier>
+			<Abstract type="html">The flash mode used by the active camera.</Abstract>
+			<DeclaredIn>HVTCameraController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) HVTCameraControllerCameraFlashMode cameraFlashMode</Declaration>
+			
+			
+			<Anchor>//api/name/cameraFlashMode</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCameraController/cameraFlashMode</TokenIdentifier>
+			<Abstract type="html">The flash mode used by the active camera.</Abstract>
+			<DeclaredIn>HVTCameraController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) HVTCameraControllerCameraFlashMode cameraFlashMode</Declaration>
+			
+			
+			<Anchor>//api/name/cameraFlashMode</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HVTCameraController/cameraFlashMode</TokenIdentifier>
+			<Abstract type="html">The flash mode used by the active camera.</Abstract>
+			<DeclaredIn>HVTCameraController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) HVTCameraControllerCameraFlashMode cameraFlashMode</Declaration>
+			
+			
+			<Anchor>//api/name/cameraFlashMode</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/HVTCameraController/isFlashAvailableForCameraDevice:</TokenIdentifier>
+			<Abstract type="html">Indicates whether a given camera has flash illumination capability.</Abstract>
+			<DeclaredIn>HVTCameraController.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)isFlashAvailableForCameraDevice:(HVTCameraControllerCameraDevice)cameraDevice</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>cameraDevice</Name>
+					<Abstract type="html">A HVTCameraControllerCameraDevice constant indicating the camera whose flash capability you want to know.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if cameraDevice can use flash illumination, or NO if it cannot.</Abstract></ReturnValue>
+			<Anchor>//api/name/isFlashAvailableForCameraDevice:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

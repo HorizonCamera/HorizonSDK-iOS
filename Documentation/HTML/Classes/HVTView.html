@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>HVTView Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1333)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">Horizon SDK </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">Horizon Video Technologies Inc.</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+	<optgroup label="Properties">
+		
+		<option value="//api/name/enabled">enabled</option>
+		
+		<option value="//api/name/enablesDoubleTapToChangeFillMode">enablesDoubleTapToChangeFillMode</option>
+		
+		<option value="//api/name/enablesLongPressToLockFocusExposure">enablesLongPressToLockFocusExposure</option>
+		
+		<option value="//api/name/enablesTapToFocus">enablesTapToFocus</option>
+		
+		<option value="//api/name/fillMode">fillMode</option>
+		
+		<option value="//api/name/filter">filter</option>
+		
+		<option value="//api/name/showHUD">showHUD</option>
+		
+		<option value="//api/name/viewType">viewType</option>
+		
+	</optgroup>
+	
+
+	
+
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">HVTView Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td>UIView</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>HVTView.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>HVTView is a subclass of UIView that you use to preview video as it is being captured by <a href="../Classes/HVTCamera.html">HVTCamera</a>.</p>
+
+<p>Being a subclass of UIKit&rsquo;s UIView, it inherits all the properties of this class and
+extends its functionality. You can create an HVTView by using the Interface Builder (and setting the
+class property to HVTView) or by instantiating it programmatically with initWithCoder: and
+initWithFrame: methods.</p>
+
+<p>You use this view in conjunction with an <a href="../Classes/HVTCamera.html">HVTCamera</a> instance, as illustrated in the following code fragment:</p>
+
+<pre><code>HVTcamera *camera = [HVTcamera new];
+HVTView *view = // an instance of HVTView created programmatically or in the Interface Builder
+[camera addView:view];
+</code></pre>
+
+<p>The view&rsquo;s orientation is derived by the HVTCamera it is attached to. So, make sure the <a href="../Classes/HVTCamera.html#//api/name/interfaceOrientation">[HVTCamera interfaceOrientation]</a> property
+matches your app&rsquo;s interface orientation.</p>
+
+<p>You can use the <a href="#//api/name/fillMode">fillMode</a> property to influence how the video preview is displayed relative to the view&rsquo;s bounds.
+You can use the <a href="#//api/name/showHUD">showHUD</a> property if you want the crop region to be displayed or not.</p>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						<a title="Configuration" name="task_Configuration"></a>
+						
+<h2 class="task-title">Configuration</h2>
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/viewType" title="viewType"></a>
+	<h3 class="method-title"><code><a href="#//api/name/viewType">&nbsp;&nbsp;viewType</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Specifies the preview type of the view.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) HVTViewType viewType</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>When set to <code>HVTViewTypeNormal</code>, HUD elements can be displayed depending on the <a href="#//api/name/showHUD">showHUD</a> property.</p>
+
+<p>The default value, <code>HVTViewTypeNormal</code> is best suited for most applications.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="../Constants/HVTViewType.html">HVTViewType</a></p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTView.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/enabled" title="enabled"></a>
+	<h3 class="method-title"><code><a href="#//api/name/enabled">&nbsp;&nbsp;enabled</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Specifies whether the view is enabled or not.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL enabled</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Enabled means that the rendering takes place and disabled is when rendering is not active for this view.</p>
+
+<p>Use this property to manually stop the renderning to a specific view for certain cases (e.g. use in a UICollectionViewCell)</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTView.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/filter" title="filter"></a>
+	<h3 class="method-title"><code><a href="#//api/name/filter">&nbsp;&nbsp;filter</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Specifies the active filter for this view.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) CIFilter *filter</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>You can use the predefined filters provided by Core Image library or add your own custom CIKernels.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTView.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/showHUD" title="showHUD"></a>
+	<h3 class="method-title"><code><a href="#//api/name/showHUD">&nbsp;&nbsp;showHUD</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Specifies whether HUD elements, such as the crop region and corners, are shown.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL showHUD</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>This property applies only when <a href="#//api/name/viewType">viewType</a> is set to <code>HVTViewTypeNormal</code>.</p>
+
+<p>The default value is <code>YES</code>.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTView.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/fillMode" title="fillMode"></a>
+	<h3 class="method-title"><code><a href="#//api/name/fillMode">&nbsp;&nbsp;fillMode</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Specifies how the video preview is displayed within the view&rsquo;s bounds rect.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) HVTViewFillMode fillMode</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>A common usage scenario is to toggle the fill mode when the user double taps the view.</p>
+
+<p>The property in animated.</p>
+
+<p>The default value is <code>HVTViewFillModeAspectFit</code>.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="../Constants/HVTViewFillMode.html">HVTViewFillMode</a></p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTView.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/enablesDoubleTapToChangeFillMode" title="enablesDoubleTapToChangeFillMode"></a>
+	<h3 class="method-title"><code><a href="#//api/name/enablesDoubleTapToChangeFillMode">&nbsp;&nbsp;enablesDoubleTapToChangeFillMode</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Controls if the view will include a double tap gesture to cycle through the different fill modes available.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, getter=isDoubleTapToChangeFillModeEnabled) BOOL enablesDoubleTapToChangeFillMode</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The default value is <code>NO</code>.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="../Constants/HVTViewFillMode.html">HVTViewFillMode</a></p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTView.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/enablesTapToFocus" title="enablesTapToFocus"></a>
+	<h3 class="method-title"><code><a href="#//api/name/enablesTapToFocus">&nbsp;&nbsp;enablesTapToFocus</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Controls if the view will include a tap to focus gesture.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, getter=isTapToFocusEnabled) BOOL enablesTapToFocus</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The default value is <code>NO</code>.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTView.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/enablesLongPressToLockFocusExposure" title="enablesLongPressToLockFocusExposure"></a>
+	<h3 class="method-title"><code><a href="#//api/name/enablesLongPressToLockFocusExposure">&nbsp;&nbsp;enablesLongPressToLockFocusExposure</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Controls if the view will include a long press to lock focus and exposure gesture.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, getter=isLongPressToLockFocusExposureEnabled) BOOL enablesLongPressToLockFocusExposure</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The default value is <code>NO</code>.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTView.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2015 Horizon Video Technologies Inc. All rights reserved. Updated: 2015-08-06</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/HVTLevelerFlexSpeed.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/HVTLevelerFlexSpeed</TokenIdentifier>
+			<Abstract type="html">Constants indicating the speed that the crop region scales (the resulting video zooms) when the leveling algorithm
+uses HVTLevelerCropModeFlex mode.</Abstract>
+			<DeclaredIn>HVTVars.h</DeclaredIn>
+            
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/HVTLevelerCropMode</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="17"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/HVTLevelerFlexSpeedSmooth</TokenIdentifier>
+            <Abstract type="html">The scale speed will be slow. This slows down the zoom effect and produces a smoother result.</Abstract>
+            <Declaration>HVTLevelerFlexSpeedSmooth</Declaration>
+            
+            <DeclaredIn>HVTVars.h</DeclaredIn>
+            
+            <NodeRef refid="17"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/HVTLevelerFlexSpeedResponsive</TokenIdentifier>
+            <Abstract type="html">The scale speed will be more responsive. This results to a faster but more unsteady zoom effect.</Abstract>
+            <Declaration>HVTLevelerFlexSpeedResponsive</Declaration>
+            
+            <DeclaredIn>HVTVars.h</DeclaredIn>
+            
+            <NodeRef refid="17"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

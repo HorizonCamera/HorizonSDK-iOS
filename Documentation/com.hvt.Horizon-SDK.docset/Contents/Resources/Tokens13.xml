@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/HVTCameraControllerQualityType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/HVTCameraControllerQualityType</TokenIdentifier>
+			<Abstract type="html">Video quality settings for movies recorded with the built-in camera.</Abstract>
+			<DeclaredIn>HVTCameraController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="13"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/HVTCameraControllerQualityType640x480</TokenIdentifier>
+            <Abstract type="html">640x480 resolution.</Abstract>
+            <Declaration>HVTCameraControllerQualityType640x480</Declaration>
+            
+            <DeclaredIn>HVTCameraController.h</DeclaredIn>
+            
+            <NodeRef refid="13"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/HVTCameraControllerQualityType1280x720</TokenIdentifier>
+            <Abstract type="html">1280x720 resolution.</Abstract>
+            <Declaration>HVTCameraControllerQualityType1280x720</Declaration>
+            
+            <DeclaredIn>HVTCameraController.h</DeclaredIn>
+            
+            <NodeRef refid="13"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/HVTCameraControllerQualityType1920x1080</TokenIdentifier>
+            <Abstract type="html">1920x1080 resolution.</Abstract>
+            <Declaration>HVTCameraControllerQualityType1920x1080</Declaration>
+            
+            <DeclaredIn>HVTCameraController.h</DeclaredIn>
+            
+            <NodeRef refid="13"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/HVTCameraControllerQualityType720X1280</TokenIdentifier>
+            <Abstract type="html">720x1280 (vertical) resolution.</Abstract>
+            <Declaration>HVTCameraControllerQualityType720X1280</Declaration>
+            
+            <DeclaredIn>HVTCameraController.h</DeclaredIn>
+            
+            <NodeRef refid="13"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/HVTCameraControllerQualityType1080x1920</TokenIdentifier>
+            <Abstract type="html">1080x1920 (vertical) resolution.</Abstract>
+            <Declaration>HVTCameraControllerQualityType1080x1920</Declaration>
+            
+            <DeclaredIn>HVTCameraController.h</DeclaredIn>
+            
+            <NodeRef refid="13"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

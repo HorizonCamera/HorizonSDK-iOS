@@ -1,0 +1,1137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/HVTCamera.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/HVTCamera</TokenIdentifier>
+			<Abstract type="html">You can use a HVTCamera object to establish a connection with the device camera, update the attached preview(s)
+and record to an audio/video container file.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+            
+			
+			<NodeRef refid="3"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/setDelegate:</TokenIdentifier>
+			<Abstract type="html">The delegate object.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intf/HVTCameraDelegate</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, weak) id&lt;HVTCameraDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/delegate</TokenIdentifier>
+			<Abstract type="html">The delegate object.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intf/HVTCameraDelegate</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, weak) id&lt;HVTCameraDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HVTCamera/delegate</TokenIdentifier>
+			<Abstract type="html">The delegate object.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intf/HVTCameraDelegate</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, weak) id&lt;HVTCameraDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/setSampleBufferDelegate:queue:</TokenIdentifier>
+			<Abstract type="html">Sets the receiver&apos;s delegate that will accept audio &amp;amp; (leveled) video buffers and a dispatch queue on which the delegate will be
+called.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>- (void)setSampleBufferDelegate:(id&lt;HVTBufferDelegate&gt;)sampleBufferDelegate queue:(dispatch_queue_t)sampleBufferCallbackQueue</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sampleBufferDelegate</Name>
+					<Abstract type="html">An object conforming to the HVTBufferDelegate protocol that will receive sample buffers.</Abstract>
+				</Parameter><Parameter>
+					<Name>sampleBufferCallbackQueue</Name>
+					<Abstract type="html">A dispatch queue on which all sample buffer delegate method will be called.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setSampleBufferDelegate:queue:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/setInterfaceOrientation:</TokenIdentifier>
+			<Abstract type="html">Set this property to the current orientation of the app&apos;s user interface.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIInterfaceOrientation interfaceOrientation</Declaration>
+			
+			
+			<Anchor>//api/name/interfaceOrientation</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/interfaceOrientation</TokenIdentifier>
+			<Abstract type="html">Set this property to the current orientation of the app&apos;s user interface.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIInterfaceOrientation interfaceOrientation</Declaration>
+			
+			
+			<Anchor>//api/name/interfaceOrientation</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HVTCamera/interfaceOrientation</TokenIdentifier>
+			<Abstract type="html">Set this property to the current orientation of the app&apos;s user interface.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIInterfaceOrientation interfaceOrientation</Declaration>
+			
+			
+			<Anchor>//api/name/interfaceOrientation</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/isRunning</TokenIdentifier>
+			<Abstract type="html">Indicates whether the receiver is running.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isRunning</Declaration>
+			
+			<ReturnValue><Abstract type="html">YES if the receiver is running and NO if it is stopped.</Abstract></ReturnValue>
+			<Anchor>//api/name/isRunning</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/startRunning</TokenIdentifier>
+			<Abstract type="html">Tells the receiver to start running.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>- (void)startRunning</Declaration>
+			
+			
+			<Anchor>//api/name/startRunning</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/stopRunning</TokenIdentifier>
+			<Abstract type="html">Tells the receiver to stop running.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>- (void)stopRunning</Declaration>
+			
+			
+			<Anchor>//api/name/stopRunning</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/addView:</TokenIdentifier>
+			<Abstract type="html">Attaches an HVTView in order to display a video preview.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/HVTView</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)addView:(HVTView *)view</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>view</Name>
+					<Abstract type="html">The HVTView which will be added.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addView:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/removeView:</TokenIdentifier>
+			<Abstract type="html">Removes a HVTView.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/HVTView</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)removeView:(HVTView *)view</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>view</Name>
+					<Abstract type="html">The HVTView which will be removed.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/removeView:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/setOutputMovieSize:</TokenIdentifier>
+			<Abstract type="html">Specifies the output movie size of the final video file.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGSize outputMovieSize</Declaration>
+			
+			
+			<Anchor>//api/name/outputMovieSize</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/outputMovieSize</TokenIdentifier>
+			<Abstract type="html">Specifies the output movie size of the final video file.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGSize outputMovieSize</Declaration>
+			
+			
+			<Anchor>//api/name/outputMovieSize</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HVTCamera/outputMovieSize</TokenIdentifier>
+			<Abstract type="html">Specifies the output movie size of the final video file.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGSize outputMovieSize</Declaration>
+			
+			
+			<Anchor>//api/name/outputMovieSize</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/isRecording</TokenIdentifier>
+			<Abstract type="html">Reports whether the instance is currently recording video or not.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isRecording</Declaration>
+			
+			<ReturnValue><Abstract type="html">YES if video recording occures and NO if it isn&apos;t.</Abstract></ReturnValue>
+			<Anchor>//api/name/isRecording</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/startRecordingWithMovieURL:</TokenIdentifier>
+			<Abstract type="html">Starts the video recording.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>- (void)startRecordingWithMovieURL:(NSURL *)movieURL</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>movieURL</Name>
+					<Abstract type="html">The URL of the output file in which the video will be saved.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/startRecordingWithMovieURL:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/startRecordingWithMovieURL:videoSettings:audioSettings:metadata:</TokenIdentifier>
+			<Abstract type="html">Starts the video recording.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>- (void)startRecordingWithMovieURL:(NSURL *)movieURL videoSettings:(NSDictionary *)videoSettings audioSettings:(NSDictionary *)audioSettings metadata:(NSArray *)metadata</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>movieURL</Name>
+					<Abstract type="html">The URL of the output file in which the video will be saved.</Abstract>
+				</Parameter><Parameter>
+					<Name>videoSettings</Name>
+					<Abstract type="html">The settings used for video encoding.
+
+
+See AVVideoSettings.h for more information on how to construct an output settings dictionary.
+If you only require simple preset-based output settings, see AVOutputSettingsAssistant.
+
+Can be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>audioSettings</Name>
+					<Abstract type="html">The settings used for audio encoding.
+
+See AVAudioSettings.h for more information. If you only require simple preset-based output settings,
+see AVOutputSettingsAssistant.
+
+Can be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>metadata</Name>
+					<Abstract type="html">NSArray of AVMetadataItems that are to be written to the output file by the export session.
+
+If the value of this key is nil, any existing metadata in the exported asset will be translated as accurately as possible into
+the appropriate metadata keyspace for the output file and written to the output.
+
+Can be nil</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/startRecordingWithMovieURL:videoSettings:audioSettings:metadata:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/stopRecording</TokenIdentifier>
+			<Abstract type="html">Stops the video recording.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>- (void)stopRecording</Declaration>
+			
+			
+			<Anchor>//api/name/stopRecording</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/pauseRecording</TokenIdentifier>
+			<Abstract type="html">Pauses the video recording.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>- (void)pauseRecording</Declaration>
+			
+			
+			<Anchor>//api/name/pauseRecording</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/resumeRecording</TokenIdentifier>
+			<Abstract type="html">Resumes the video recording.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>- (void)resumeRecording</Declaration>
+			
+			
+			<Anchor>//api/name/resumeRecording</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/isPaused</TokenIdentifier>
+			<Abstract type="html">Reports whether the recording is currently paused</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isPaused</Declaration>
+			
+			<ReturnValue><Abstract type="html">YES if video recording is paused and NO if it isn&apos;t.</Abstract></ReturnValue>
+			<Anchor>//api/name/isPaused</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/setStillImageOrientation:</TokenIdentifier>
+			<Abstract type="html">Handles the still image frame for photo mode</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/HVTStillImageOrientation</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic) HVTStillImageOrientation stillImageOrientation</Declaration>
+			
+			
+			<Anchor>//api/name/stillImageOrientation</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/stillImageOrientation</TokenIdentifier>
+			<Abstract type="html">Handles the still image frame for photo mode</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/HVTStillImageOrientation</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic) HVTStillImageOrientation stillImageOrientation</Declaration>
+			
+			
+			<Anchor>//api/name/stillImageOrientation</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HVTCamera/stillImageOrientation</TokenIdentifier>
+			<Abstract type="html">Handles the still image frame for photo mode</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/HVTStillImageOrientation</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic) HVTStillImageOrientation stillImageOrientation</Declaration>
+			
+			
+			<Anchor>//api/name/stillImageOrientation</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/setGPSMetadata:</TokenIdentifier>
+			<Abstract type="html">Sets the GPS metadata that can be used for photos</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>- (void)setGPSMetadata:(NSDictionary *)gpsMetadata</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>gpsMetadata</Name>
+					<Abstract type="html">The dictionary containing GPS coordinates, conforming kCGImagePropertyGPSDictionary</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setGPSMetadata:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/captureFullResolutionPhoto</TokenIdentifier>
+			<Abstract type="html">Shoots a full resolution photo.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)captureFullResolutionPhoto</Declaration>
+			
+			<ReturnValue><Abstract type="html">NO if another photo capture is in progress and YES otherwise</Abstract></ReturnValue>
+			<Anchor>//api/name/captureFullResolutionPhoto</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/captureFullResolutionPhotoUsingHDR:</TokenIdentifier>
+			<Abstract type="html">Shoots a full resolution photo.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)captureFullResolutionPhotoUsingHDR:(BOOL)usingHDR</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>usingHDR</Name>
+					<Abstract type="html">Capture HDR photo</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">NO if another photo capture is in progress and YES otherwise</Abstract></ReturnValue>
+			<Anchor>//api/name/captureFullResolutionPhotoUsingHDR:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/captureSnapshot</TokenIdentifier>
+			<Abstract type="html">Shoots a snapshot photo, right from the video stream. It can be used while recording</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)captureSnapshot</Declaration>
+			
+			<ReturnValue><Abstract type="html">NO if another photo capture is in progress and YES otherwise</Abstract></ReturnValue>
+			<Anchor>//api/name/captureSnapshot</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/isHDRPhotoCaptureAvailable</TokenIdentifier>
+			<Abstract type="html">Returns if the device can capture full resoltion still image HDR photos</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isHDRPhotoCaptureAvailable</Declaration>
+			
+			<ReturnValue><Abstract type="html">YES if HDR photo capture is available, NO otherwise</Abstract></ReturnValue>
+			<Anchor>//api/name/isHDRPhotoCaptureAvailable</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/setCameraDevice:</TokenIdentifier>
+			<Abstract type="html">The currently active AVFoundation device.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) AVCaptureDevice *cameraDevice</Declaration>
+			
+			
+			<Anchor>//api/name/cameraDevice</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/cameraDevice</TokenIdentifier>
+			<Abstract type="html">The currently active AVFoundation device.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) AVCaptureDevice *cameraDevice</Declaration>
+			
+			
+			<Anchor>//api/name/cameraDevice</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HVTCamera/cameraDevice</TokenIdentifier>
+			<Abstract type="html">The currently active AVFoundation device.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) AVCaptureDevice *cameraDevice</Declaration>
+			
+			
+			<Anchor>//api/name/cameraDevice</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/setCaptureMode:</TokenIdentifier>
+			<Abstract type="html">The capture mode used by the camera.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/HVTCaptureMode</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic) HVTCaptureMode captureMode</Declaration>
+			
+			
+			<Anchor>//api/name/captureMode</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/captureMode</TokenIdentifier>
+			<Abstract type="html">The capture mode used by the camera.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/HVTCaptureMode</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic) HVTCaptureMode captureMode</Declaration>
+			
+			
+			<Anchor>//api/name/captureMode</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HVTCamera/captureMode</TokenIdentifier>
+			<Abstract type="html">The capture mode used by the camera.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/HVTCaptureMode</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic) HVTCaptureMode captureMode</Declaration>
+			
+			
+			<Anchor>//api/name/captureMode</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/setCaptureMode:cameraPosition:</TokenIdentifier>
+			<Abstract type="html">Sets a new capture mode with a specified camera position.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/HVTCaptureMode</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)setCaptureMode:(HVTCaptureMode)captureMode cameraPosition:(AVCaptureDevicePosition)newPosition</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>captureMode</Name>
+					<Abstract type="html">The new capture mode.</Abstract>
+				</Parameter><Parameter>
+					<Name>newPosition</Name>
+					<Abstract type="html">The new camera position.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setCaptureMode:cameraPosition:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/setFlashMode:</TokenIdentifier>
+			<Abstract type="html">The current flash mode</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) AVCaptureFlashMode flashMode</Declaration>
+			
+			
+			<Anchor>//api/name/flashMode</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/flashMode</TokenIdentifier>
+			<Abstract type="html">The current flash mode</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) AVCaptureFlashMode flashMode</Declaration>
+			
+			
+			<Anchor>//api/name/flashMode</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HVTCamera/flashMode</TokenIdentifier>
+			<Abstract type="html">The current flash mode</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) AVCaptureFlashMode flashMode</Declaration>
+			
+			
+			<Anchor>//api/name/flashMode</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/setOutputPixelFormat:</TokenIdentifier>
+			<Abstract type="html">The pixel format used for the exported videos and frames by the hvtCamera:didOutputSampleBuffer: method.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) FourCharCode outputPixelFormat</Declaration>
+			
+			
+			<Anchor>//api/name/outputPixelFormat</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/outputPixelFormat</TokenIdentifier>
+			<Abstract type="html">The pixel format used for the exported videos and frames by the hvtCamera:didOutputSampleBuffer: method.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) FourCharCode outputPixelFormat</Declaration>
+			
+			
+			<Anchor>//api/name/outputPixelFormat</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HVTCamera/outputPixelFormat</TokenIdentifier>
+			<Abstract type="html">The pixel format used for the exported videos and frames by the hvtCamera:didOutputSampleBuffer: method.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) FourCharCode outputPixelFormat</Declaration>
+			
+			
+			<Anchor>//api/name/outputPixelFormat</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/resetFocusExposureWhiteBalance</TokenIdentifier>
+			<Abstract type="html">Clears any focus/exposure/white balance setting that may have been applied by the user, returning them to AVCaptureFocusModeContinuousAutoFocus, AVCaptureExposureModeContinuousAutoExposure and AVCaptureWhiteBalanceModeContinuousAutoWhiteBalance values</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>- (void)resetFocusExposureWhiteBalance</Declaration>
+			
+			
+			<Anchor>//api/name/resetFocusExposureWhiteBalance</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/HVTCamera/isCameraPositionSupported:</TokenIdentifier>
+			<Abstract type="html">Indicated whether the AVCaptureDevicePosition in question is supported by the current device.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)isCameraPositionSupported:(AVCaptureDevicePosition)cameraPosition</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>cameraPosition</Name>
+					<Abstract type="html">The camera position in question.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if device supports the said AVCaptureDevicePosition, NO otherwise</Abstract></ReturnValue>
+			<Anchor>//api/name/isCameraPositionSupported:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/isFlashAvailable</TokenIdentifier>
+			<Abstract type="html">Indicates whether a given camera has flash illumination capability.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isFlashAvailable</Declaration>
+			
+			<ReturnValue><Abstract type="html">YES if device has flash and it is available in HVTCaptureModePhoto or if it has torch and it is available in HVTCaptureModeVideo, NO otherwise</Abstract></ReturnValue>
+			<Anchor>//api/name/isFlashAvailable</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/cameraResolution</TokenIdentifier>
+			<Abstract type="html">Reports the camera resolution for the current cameraDevice.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>- (CGSize)cameraResolution</Declaration>
+			
+			<ReturnValue><Abstract type="html">The camera resolution as a CGSize struct.</Abstract></ReturnValue>
+			<Anchor>//api/name/cameraResolution</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/setCameraResolution:error:</TokenIdentifier>
+			<Abstract type="html">Sets the camera resolution of the current cameraDevice. Frame rate is set to 30 frames/sec.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)setCameraResolution:(CGSize)cameraResolution error:(NSError **)outError</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>cameraResolution</Name>
+					<Abstract type="html">The new camera resolution.</Abstract>
+				</Parameter><Parameter>
+					<Name>outError</Name>
+					<Abstract type="html">The output error.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the camera resolution has been changed and NO if there was an error while changing the camera resolution (check outError for more).</Abstract></ReturnValue>
+			<Anchor>//api/name/setCameraResolution:error:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/setCameraResolution:frameRate:error:</TokenIdentifier>
+			<Abstract type="html">Sets the camera resolution and frame rate of the current cameraDevice.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)setCameraResolution:(CGSize)cameraResolution frameRate:(int)frameRate error:(NSError **)outError</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>cameraResolution</Name>
+					<Abstract type="html">The new camera resolution.</Abstract>
+				</Parameter><Parameter>
+					<Name>frameRate</Name>
+					<Abstract type="html">The new frame rate.</Abstract>
+				</Parameter><Parameter>
+					<Name>outError</Name>
+					<Abstract type="html">The output error.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the camera resolution has been changed and NO if there was an error while changing the camera
+resolution (check outError for more).</Abstract></ReturnValue>
+			<Anchor>//api/name/setCameraResolution:frameRate:error:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/cameraPosition</TokenIdentifier>
+			<Abstract type="html">Reports the camera position of the current cameraDevice.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>- (AVCaptureDevicePosition)cameraPosition</Declaration>
+			
+			<ReturnValue><Abstract type="html">The position of the camera as a value of AVCaptureDevicePosition.</Abstract></ReturnValue>
+			<Anchor>//api/name/cameraPosition</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/setCameraPosition:error:</TokenIdentifier>
+			<Abstract type="html">Selects a cameraDevice having the supplied camera position.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)setCameraPosition:(AVCaptureDevicePosition)newPosition error:(NSError **)outError</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>newPosition</Name>
+					<Abstract type="html">The new camera position.</Abstract>
+				</Parameter><Parameter>
+					<Name>outError</Name>
+					<Abstract type="html">The output error.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the camera position has been changed and NO if there was an error while changing the camera position
+(check outError for more).</Abstract></ReturnValue>
+			<Anchor>//api/name/setCameraPosition:error:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/setCameraPosition:withResolution:error:</TokenIdentifier>
+			<Abstract type="html">Selects a cameraDevice having the supplied camera position and sets its resolution. Frame rate is set to 30 frames/sec.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)setCameraPosition:(AVCaptureDevicePosition)newPosition withResolution:(CGSize)cameraResolution error:(NSError **)outError</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>newPosition</Name>
+					<Abstract type="html">The new camera position.</Abstract>
+				</Parameter><Parameter>
+					<Name>cameraResolution</Name>
+					<Abstract type="html">The new camera resolution.</Abstract>
+				</Parameter><Parameter>
+					<Name>outError</Name>
+					<Abstract type="html">The output error.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the camera resolution has been changed and NO if there was an error while changing the camera resolution
+(check outError for more).</Abstract></ReturnValue>
+			<Anchor>//api/name/setCameraPosition:withResolution:error:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/setCameraPosition:withResolution:frameRate:error:</TokenIdentifier>
+			<Abstract type="html">Selects a cameraDevice having the supplied camera position and sets its resolution and frame rate.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)setCameraPosition:(AVCaptureDevicePosition)newPosition withResolution:(CGSize)cameraResolution frameRate:(int)frameRate error:(NSError **)outError</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>newPosition</Name>
+					<Abstract type="html">The new camera position.</Abstract>
+				</Parameter><Parameter>
+					<Name>cameraResolution</Name>
+					<Abstract type="html">The new camera resolution.</Abstract>
+				</Parameter><Parameter>
+					<Name>frameRate</Name>
+					<Abstract type="html">The new frame rate.</Abstract>
+				</Parameter><Parameter>
+					<Name>outError</Name>
+					<Abstract type="html">The output error.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the camera resolution has been changed and NO if there was an error while changing the camera resolution
+(check outError for more).</Abstract></ReturnValue>
+			<Anchor>//api/name/setCameraPosition:withResolution:frameRate:error:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/isVideoStabilizationModeSupported:</TokenIdentifier>
+			<Abstract type="html">Returns whether the current cameraDevice supports the given video stabilization mode.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isVideoStabilizationModeSupported:(AVCaptureVideoStabilizationMode)videoStabilizationMode</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>videoStabilizationMode</Name>
+					<Abstract type="html">An AVCaptureVideoStabilizationMode to be checked.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A boolean value indicating whether the current  cameraDevice can be stabilized by setting
+preferredVideoStabilizationMode to the given mode.
+.</Abstract></ReturnValue>
+			<Anchor>//api/name/isVideoStabilizationModeSupported:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/isVideoStabilizationSupported</TokenIdentifier>
+			<Abstract type="html">Returns  whether the current cameraDevice supports video stabilization.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isVideoStabilizationSupported</Declaration>
+			
+			<ReturnValue><Abstract type="html">A boolean value  indicating whether the current cameraDevice can be stabilized by setting the
+preferredVideoStabilizationMode property.</Abstract></ReturnValue>
+			<Anchor>//api/name/isVideoStabilizationSupported</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/setPreferredVideoStabilizationMode:</TokenIdentifier>
+			<Abstract type="html">Indicates the prefered stabilization mode to apply when supported by the current cameraDevice.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) AVCaptureVideoStabilizationMode preferredVideoStabilizationMode</Declaration>
+			
+			
+			<Anchor>//api/name/preferredVideoStabilizationMode</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/preferredVideoStabilizationMode</TokenIdentifier>
+			<Abstract type="html">Indicates the prefered stabilization mode to apply when supported by the current cameraDevice.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) AVCaptureVideoStabilizationMode preferredVideoStabilizationMode</Declaration>
+			
+			
+			<Anchor>//api/name/preferredVideoStabilizationMode</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HVTCamera/preferredVideoStabilizationMode</TokenIdentifier>
+			<Abstract type="html">Indicates the prefered stabilization mode to apply when supported by the current cameraDevice.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) AVCaptureVideoStabilizationMode preferredVideoStabilizationMode</Declaration>
+			
+			
+			<Anchor>//api/name/preferredVideoStabilizationMode</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/setMaxRecordingDuration:</TokenIdentifier>
+			<Abstract type="html">Maximum recording duration set by the user. If set and the recording gets past this duration, then it is automatically stopped.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CMTime maxRecordingDuration</Declaration>
+			
+			
+			<Anchor>//api/name/maxRecordingDuration</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/maxRecordingDuration</TokenIdentifier>
+			<Abstract type="html">Maximum recording duration set by the user. If set and the recording gets past this duration, then it is automatically stopped.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CMTime maxRecordingDuration</Declaration>
+			
+			
+			<Anchor>//api/name/maxRecordingDuration</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HVTCamera/maxRecordingDuration</TokenIdentifier>
+			<Abstract type="html">Maximum recording duration set by the user. If set and the recording gets past this duration, then it is automatically stopped.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CMTime maxRecordingDuration</Declaration>
+			
+			
+			<Anchor>//api/name/maxRecordingDuration</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/setLevelerCropMode:</TokenIdentifier>
+			<Abstract type="html">Specifies which crop mode will be used by the leveler.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/HVTLevelerCropMode</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic) HVTLevelerCropMode levelerCropMode</Declaration>
+			
+			
+			<Anchor>//api/name/levelerCropMode</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/levelerCropMode</TokenIdentifier>
+			<Abstract type="html">Specifies which crop mode will be used by the leveler.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/HVTLevelerCropMode</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic) HVTLevelerCropMode levelerCropMode</Declaration>
+			
+			
+			<Anchor>//api/name/levelerCropMode</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HVTCamera/levelerCropMode</TokenIdentifier>
+			<Abstract type="html">Specifies which crop mode will be used by the leveler.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/HVTLevelerCropMode</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic) HVTLevelerCropMode levelerCropMode</Declaration>
+			
+			
+			<Anchor>//api/name/levelerCropMode</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/setLevelerFlexSpeed:</TokenIdentifier>
+			<Abstract type="html">Specifies how fast the leveler zooms when HVTLevelerCropMode is set to HVTLevelerCropModeFlex.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/HVTLevelerFlexSpeed</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic) HVTLevelerFlexSpeed levelerFlexSpeed</Declaration>
+			
+			
+			<Anchor>//api/name/levelerFlexSpeed</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/levelerFlexSpeed</TokenIdentifier>
+			<Abstract type="html">Specifies how fast the leveler zooms when HVTLevelerCropMode is set to HVTLevelerCropModeFlex.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/HVTLevelerFlexSpeed</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic) HVTLevelerFlexSpeed levelerFlexSpeed</Declaration>
+			
+			
+			<Anchor>//api/name/levelerFlexSpeed</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HVTCamera/levelerFlexSpeed</TokenIdentifier>
+			<Abstract type="html">Specifies how fast the leveler zooms when HVTLevelerCropMode is set to HVTLevelerCropModeFlex.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/HVTLevelerFlexSpeed</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic) HVTLevelerFlexSpeed levelerFlexSpeed</Declaration>
+			
+			
+			<Anchor>//api/name/levelerFlexSpeed</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/setLevelerLockedOrientation:</TokenIdentifier>
+			<Abstract type="html">Informs the leveler of the expected device orientation when HVTLevelerCropMode is set
+to HVTLevelerCropModeLocked.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/HVTLevelerLockedOrientation</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic) HVTLevelerLockedOrientation levelerLockedOrientation</Declaration>
+			
+			
+			<Anchor>//api/name/levelerLockedOrientation</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/levelerLockedOrientation</TokenIdentifier>
+			<Abstract type="html">Informs the leveler of the expected device orientation when HVTLevelerCropMode is set
+to HVTLevelerCropModeLocked.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/HVTLevelerLockedOrientation</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic) HVTLevelerLockedOrientation levelerLockedOrientation</Declaration>
+			
+			
+			<Anchor>//api/name/levelerLockedOrientation</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HVTCamera/levelerLockedOrientation</TokenIdentifier>
+			<Abstract type="html">Informs the leveler of the expected device orientation when HVTLevelerCropMode is set
+to HVTLevelerCropModeLocked.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/HVTLevelerLockedOrientation</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic) HVTLevelerLockedOrientation levelerLockedOrientation</Declaration>
+			
+			
+			<Anchor>//api/name/levelerLockedOrientation</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/setActiveFilter:</TokenIdentifier>
+			<Abstract type="html">Sets a custom CIFilter to be applied on the camera stream.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>- (void)setActiveFilter:(CIFilter *)filter</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>filter</Name>
+					<Abstract type="html">The CIFilter to be applied</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setActiveFilter:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/removeActiveFilter</TokenIdentifier>
+			<Abstract type="html">Removes the active filter</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>- (void)removeActiveFilter</Declaration>
+			
+			
+			<Anchor>//api/name/removeActiveFilter</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

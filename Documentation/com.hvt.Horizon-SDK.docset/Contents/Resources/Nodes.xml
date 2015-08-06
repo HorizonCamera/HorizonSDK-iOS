@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocSetNodes version="1.0">
+    <TOC>
+        <Node type="folder">
+            <Name>Horizon SDK</Name>
+            <Path>index.html</Path>
+			<Subnodes>
+                
+				<Node type="folder">
+					<Name>Programming Guides</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="1"/>
+						<NodeRef refid="2"/>
+						
+					</Subnodes>
+				</Node>
+				
+				
+				<Node type="folder">
+					<Name>Classes</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="3"/>
+						<NodeRef refid="4"/>
+						<NodeRef refid="5"/>
+						<NodeRef refid="6"/>
+						
+					</Subnodes>
+				</Node>
+				
+				
+                
+				<Node>
+					<Name>Protocols</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="7"/>
+						<NodeRef refid="8"/>
+						<NodeRef refid="9"/>
+						
+					</Subnodes>
+				</Node>
+				
+                
+				<Node>
+					<Name>Constants</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="10"/>
+						<NodeRef refid="11"/>
+						<NodeRef refid="12"/>
+						<NodeRef refid="13"/>
+						<NodeRef refid="14"/>
+						<NodeRef refid="15"/>
+						<NodeRef refid="16"/>
+						<NodeRef refid="17"/>
+						<NodeRef refid="18"/>
+						<NodeRef refid="19"/>
+						<NodeRef refid="20"/>
+						<NodeRef refid="21"/>
+						
+					</Subnodes>
+				</Node>
+				
+                
+			</Subnodes>
+        </Node>
+    </TOC>
+	<Library>
+		<Node id="1" type="section">
+            <Name>Installation Guide</Name>
+            <Path>docs/documentation-static/Installation Guide.html</Path>
+            
+        </Node>
+		<Node id="2" type="section">
+            <Name>Quick Start</Name>
+            <Path>docs/documentation-static/Quick Start.html</Path>
+            
+        </Node>
+		
+		<Node id="3" type="file" documentType="reference">
+            <Name>HVTCamera</Name>
+            <Path>Classes/HVTCamera.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/HVTCamera.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/HVTCamera.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/HVTCamera.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/HVTCamera.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/HVTCamera.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="4" type="file" documentType="reference">
+            <Name>HVTCameraController</Name>
+            <Path>Classes/HVTCameraController.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/HVTCameraController.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/HVTCameraController.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/HVTCameraController.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/HVTCameraController.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/HVTCameraController.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="5" type="file" documentType="reference">
+            <Name>HVTSDK</Name>
+            <Path>Classes/HVTSDK.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/HVTSDK.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/HVTSDK.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/HVTSDK.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/HVTSDK.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="6" type="file" documentType="reference">
+            <Name>HVTView</Name>
+            <Path>Classes/HVTView.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/HVTView.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/HVTView.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/HVTView.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+            </Subnodes>
+            
+        </Node>
+		
+		
+        <Node id="7" type="file" documentType="reference">
+            <Name>HVTBufferDelegate</Name>
+            <Path>Protocols/HVTBufferDelegate.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Protocols/HVTBufferDelegate.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Protocols/HVTBufferDelegate.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Protocols/HVTBufferDelegate.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="8" type="file" documentType="reference">
+            <Name>HVTCameraControllerDelegate</Name>
+            <Path>Protocols/HVTCameraControllerDelegate.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Protocols/HVTCameraControllerDelegate.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Protocols/HVTCameraControllerDelegate.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Protocols/HVTCameraControllerDelegate.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="9" type="file" documentType="reference">
+            <Name>HVTCameraDelegate</Name>
+            <Path>Protocols/HVTCameraDelegate.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Protocols/HVTCameraDelegate.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Protocols/HVTCameraDelegate.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Protocols/HVTCameraDelegate.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		
+        <Node id="10" type="file" documentType="reference">
+            <Name>HVTCameraControllerCameraCaptureMode</Name>
+            <Path>Constants/HVTCameraControllerCameraCaptureMode.html</Path>
+            
+        </Node>
+		<Node id="11" type="file" documentType="reference">
+            <Name>HVTCameraControllerCameraDevice</Name>
+            <Path>Constants/HVTCameraControllerCameraDevice.html</Path>
+            
+        </Node>
+		<Node id="12" type="file" documentType="reference">
+            <Name>HVTCameraControllerCameraFlashMode</Name>
+            <Path>Constants/HVTCameraControllerCameraFlashMode.html</Path>
+            
+        </Node>
+		<Node id="13" type="file" documentType="reference">
+            <Name>HVTCameraControllerQualityType</Name>
+            <Path>Constants/HVTCameraControllerQualityType.html</Path>
+            
+        </Node>
+		<Node id="14" type="file" documentType="reference">
+            <Name>HVTCaptureMode</Name>
+            <Path>Constants/HVTCaptureMode.html</Path>
+            
+        </Node>
+		<Node id="15" type="file" documentType="reference">
+            <Name>HVTErrorCode</Name>
+            <Path>Constants/HVTErrorCode.html</Path>
+            
+        </Node>
+		<Node id="16" type="file" documentType="reference">
+            <Name>HVTLevelerCropMode</Name>
+            <Path>Constants/HVTLevelerCropMode.html</Path>
+            
+        </Node>
+		<Node id="17" type="file" documentType="reference">
+            <Name>HVTLevelerFlexSpeed</Name>
+            <Path>Constants/HVTLevelerFlexSpeed.html</Path>
+            
+        </Node>
+		<Node id="18" type="file" documentType="reference">
+            <Name>HVTLevelerLockedOrientation</Name>
+            <Path>Constants/HVTLevelerLockedOrientation.html</Path>
+            
+        </Node>
+		<Node id="19" type="file" documentType="reference">
+            <Name>HVTStillImageOrientation</Name>
+            <Path>Constants/HVTStillImageOrientation.html</Path>
+            
+        </Node>
+		<Node id="20" type="file" documentType="reference">
+            <Name>HVTViewFillMode</Name>
+            <Path>Constants/HVTViewFillMode.html</Path>
+            
+        </Node>
+		<Node id="21" type="file" documentType="reference">
+            <Name>HVTViewType</Name>
+            <Path>Constants/HVTViewType.html</Path>
+            
+        </Node>
+		
+        
+	</Library>
+</DocSetNodes>

@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>HVTCameraController Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1333)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">Horizon SDK </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">Horizon Video Technologies Inc.</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+	<optgroup label="Properties">
+		
+		<option value="//api/name/cameraCaptureMode">cameraCaptureMode</option>
+		
+		<option value="//api/name/cameraDelegate">cameraDelegate</option>
+		
+		<option value="//api/name/cameraDevice">cameraDevice</option>
+		
+		<option value="//api/name/cameraFlashMode">cameraFlashMode</option>
+		
+		<option value="//api/name/cameraOverlayView">cameraOverlayView</option>
+		
+		<option value="//api/name/cameraViewTransform">cameraViewTransform</option>
+		
+		<option value="//api/name/mediaTypes">mediaTypes</option>
+		
+		<option value="//api/name/showsCameraControls">showsCameraControls</option>
+		
+		<option value="//api/name/videoMaximumDuration">videoMaximumDuration</option>
+		
+		<option value="//api/name/videoQuality">videoQuality</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Class Methods">
+		
+		<option value="//api/name/isCameraDeviceAvailable:">+ isCameraDeviceAvailable:</option>
+		
+		<option value="//api/name/isFlashAvailableForCameraDevice:">+ isFlashAvailableForCameraDevice:</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/startVideoCapture">- startVideoCapture</option>
+		
+		<option value="//api/name/stopVideoCapture">- stopVideoCapture</option>
+		
+		<option value="//api/name/takePicture">- takePicture</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">HVTCameraController Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td>UIViewController</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>HVTCameraController.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>The HVTCameraController operates exactly as the UIImagePickerController class of UIKit.
+It manages customizable, system-supplied user interfaces for taking pictures and movies on supported devices for use in your app. A camera controller manages user interactions and delivers the results of those interactions to a delegate object.</p>
+
+<p>The role and appearance of the camera controller depend on the source type you assign to it before you present it.</p>
+
+<p>To use the camera controller containing its default controls, perform these steps:</p>
+
+<p>Check which media types are available for the source type you’re using, by calling the availableMediaTypesForSourceType: class method. This lets you distinguish between a camera that can be used for video recording and one that can be used only for still images.</p>
+
+<p>Tell the image picker controller to adjust the UI according to the media types you want to make available—still images, movies, or both—by setting the <a href="#//api/name/mediaTypes">mediaTypes</a> property.</p>
+
+<p>Present the user interface by calling the presentViewController:animated:completion: method of the currently active view controller, passing your configured camera controller as the new view controller.</p>
+
+<p>When the user taps a button to pick a newly-captured or saved image or movie, or cancels the operation, dismiss the image picker using your delegate object. Your delegate can then save it to the Camera Roll on the device.</p>
+
+<p>You can customize an image picker controller to manage user interactions yourself. To do this, provide an overlay view containing the controls you want to display. You can display your custom overlay view in addition to, or instead of, the default controls.</p>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						<a title="Configuring the Picker" name="task_Configuring the Picker"></a>
+						<h2 class="task-title">Configuring the Picker</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/cameraDelegate" title="cameraDelegate"></a>
+	<h3 class="method-title"><code><a href="#//api/name/cameraDelegate">&nbsp;&nbsp;cameraDelegate</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The image picker’s delegate object.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, weak) id&lt;HVTCameraControllerDelegate&gt; cameraDelegate</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The delegate receives notifications when the user finishes capturing an image or movie, or exits the camera interface. The delegate also decides when to dismiss the picker interface, so you must provide a delegate to use a picker.</p>
+
+<p>For information about the methods you can implement for your delegate object, see <a href="../Protocols/HVTCameraControllerDelegate.html">HVTCameraControllerDelegate</a> Protocol Reference.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCameraController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/mediaTypes" title="mediaTypes"></a>
+	<h3 class="method-title"><code><a href="#//api/name/mediaTypes">&nbsp;&nbsp;mediaTypes</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>An array indicating the media types to be accessed by the media picker controller.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSArray *mediaTypes</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Depending on the media types you assign to this property, the camera controller displays a dedicated interface for still images or movies, or a selection control that lets the user choose the camera interface. Before setting this property, check which media types are available by calling the availableMediaTypesForSourceType: class method.</p>
+
+<p>If you set this property to an empty array, or to an array in which none of the media types is available for the current source, the system throws an exception.</p>
+
+<p>By default, this property is set to the single value kUTTypeImage, which designates the still camera interface. To designate the movie capture interface, use the kUTTypeMovie identifier in a statement like this:</p>
+
+<p>myCameraController.mediaTypes = @[(NSString *) kUTTypeMovie];</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCameraController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Configuring the Video Capture Options" name="task_Configuring the Video Capture Options"></a>
+						<h2 class="task-title">Configuring the Video Capture Options</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/videoQuality" title="videoQuality"></a>
+	<h3 class="method-title"><code><a href="#//api/name/videoQuality">&nbsp;&nbsp;videoQuality</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The video recording quality expressed in resolution types.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) HVTCameraControllerQualityType videoQuality</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The video quality setting specified by this property is used during video recording.</p>
+
+<p>The various video qualities are listed in the <a href="../Constants/HVTCameraControllerQualityType.html">HVTCameraControllerQualityType</a> enumeration. The default value is HVTCameraControllerQualityType1920x1080. To capture a movie using a video quality other than the default value, you must set the quality explicitly.</p>
+
+<p>This property is available only if the <a href="#//api/name/mediaTypes">mediaTypes</a> property’s value array includes the kUTTypeMovie media type.</p>
+
+<p>If the <a href="#//api/name/cameraDevice">cameraDevice</a> does not support the videoQuality, it will use the default value.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCameraController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/videoMaximumDuration" title="videoMaximumDuration"></a>
+	<h3 class="method-title"><code><a href="#//api/name/videoMaximumDuration">&nbsp;&nbsp;videoMaximumDuration</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The maximum duration, in seconds, for a video recording.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) NSTimeInterval videoMaximumDuration</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The default value for this property is 10 minutes (600 seconds).</p>
+
+<p>This property is available only if the <a href="#//api/name/mediaTypes">mediaTypes</a> property’s value array includes the kUTTypeMovie media type.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCameraController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Customizing the Camera Controls" name="task_Customizing the Camera Controls"></a>
+						<h2 class="task-title">Customizing the Camera Controls</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/showsCameraControls" title="showsCameraControls"></a>
+	<h3 class="method-title"><code><a href="#//api/name/showsCameraControls">&nbsp;&nbsp;showsCameraControls</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Indicates whether the camera controller displays the default camera controls.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL showsCameraControls</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The default value of this property is YES, which specifies that the default camera controls are visible in the camera controller. Set it to NO to hide the default controls if you want to instead provide a custom overlay view using the <a href="#//api/name/cameraOverlayView">cameraOverlayView</a> property.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCameraController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/cameraOverlayView" title="cameraOverlayView"></a>
+	<h3 class="method-title"><code><a href="#//api/name/cameraOverlayView">&nbsp;&nbsp;cameraOverlayView</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The view to display on top of the default image picker interface.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) UIView *cameraOverlayView</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>You can use an overlay view to present a custom view hierarchy on top of the default camera interface. The camera controller layers your custom overlay view on top of the other views and positions it relative to the screen coordinates. If you have the default camera controls set to be visible, incorporate transparency into your view, or position it to avoid obscuring the underlying content.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCameraController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/cameraViewTransform" title="cameraViewTransform"></a>
+	<h3 class="method-title"><code><a href="#//api/name/cameraViewTransform">&nbsp;&nbsp;cameraViewTransform</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The transform to apply to the camera’s preview image.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) CGAffineTransform cameraViewTransform</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>This transform affects the live preview image only and does not affect your custom overlay view or the default camera controls. You can use this property in conjunction with custom controls to implement your own electronic zoom behaviors.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCameraController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Capturing Still Images or Movies" name="task_Capturing Still Images or Movies"></a>
+						<h2 class="task-title">Capturing Still Images or Movies</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/takePicture" title="takePicture"></a>
+	<h3 class="method-title"><code><a href="#//api/name/takePicture">&ndash;&nbsp;takePicture</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Captures a still image using the camera.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)takePicture</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Calling this method while an image is being captured has no effect. You must wait until the associated delegate object receives an cameraController:didFinishCapturingMediaWithInfo: message before you can capture another picture.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCameraController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/startVideoCapture" title="startVideoCapture"></a>
+	<h3 class="method-title"><code><a href="#//api/name/startVideoCapture">&ndash;&nbsp;startVideoCapture</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Starts video capture using the camera specified by the UIImagePickerControllerCameraDevice property.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BOOL)startVideoCapture</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>YES on success or NO on failure. This method may return a value of NO for various reasons, among them the following:</p>
+
+<p>Movie capture is already in progress.</p>
+
+<p>The camera controller&rsquo;s <a href="#//api/name/cameraCaptureMode">cameraCaptureMode</a> is set to HVTCameraControllerCameraCaptureModePhoto.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCameraController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/stopVideoCapture" title="stopVideoCapture"></a>
+	<h3 class="method-title"><code><a href="#//api/name/stopVideoCapture">&ndash;&nbsp;stopVideoCapture</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Stops video capture.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)stopVideoCapture</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>After you call this method to stop video capture, the system calls the image picker delegate’s cameraController:didFinishCapturingMediaWithInfo: method.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCameraController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Configuring the Camera" name="task_Configuring the Camera"></a>
+						<h2 class="task-title">Configuring the Camera</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/cameraDevice" title="cameraDevice"></a>
+	<h3 class="method-title"><code><a href="#//api/name/cameraDevice">&nbsp;&nbsp;cameraDevice</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The camera used by the image picker controller.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) HVTCameraControllerCameraDevice cameraDevice</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The default is HVTCameraControllerCameraDeviceRear.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCameraController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/isCameraDeviceAvailable:" title="isCameraDeviceAvailable:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/isCameraDeviceAvailable:">+&nbsp;isCameraDeviceAvailable:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns a Boolean value that indicates whether a given camera is available.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (BOOL)isCameraDeviceAvailable:(HVTCameraControllerCameraDevice)<em>cameraDevice</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>cameraDevice</code></th>
+						<td><p>A <a href="../Constants/HVTCameraControllerCameraDevice.html">HVTCameraControllerCameraDevice</a> constant indicating the camera whose availability you want to check.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p><code>YES</code> if the camera indicated by <a href="#//api/name/cameraDevice">cameraDevice</a> is available, or <code>NO</code> if it is not available.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCameraController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/cameraCaptureMode" title="cameraCaptureMode"></a>
+	<h3 class="method-title"><code><a href="#//api/name/cameraCaptureMode">&nbsp;&nbsp;cameraCaptureMode</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The capture mode used by the camera.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) HVTCameraControllerCameraCaptureMode cameraCaptureMode</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The various capture modes are listed in the <a href="../Constants/HVTCameraControllerCameraCaptureMode.html">HVTCameraControllerCameraCaptureMode</a> enumeration. The default value is HVTCameraControllerCameraCaptureModePhoto.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCameraController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/cameraFlashMode" title="cameraFlashMode"></a>
+	<h3 class="method-title"><code><a href="#//api/name/cameraFlashMode">&nbsp;&nbsp;cameraFlashMode</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The flash mode used by the active camera.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) HVTCameraControllerCameraFlashMode cameraFlashMode</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The various flash modes are listed in the <a href="../Constants/HVTCameraControllerCameraFlashMode.html">HVTCameraControllerCameraFlashMode</a> enumeration. The default value is HVTCameraControllerCameraFlashModeAuto.</p>
+
+<p>The value of this property specifies the behavior of the still-image flash when the value of the <a href="#//api/name/cameraCaptureMode">cameraCaptureMode</a> property is HVTCameraControllerCameraCaptureModePhoto, and specifies the behavior of the video torch when <a href="#//api/name/cameraCaptureMode">cameraCaptureMode</a> is HVTCameraControllerCameraCaptureModeVideo.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCameraController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/isFlashAvailableForCameraDevice:" title="isFlashAvailableForCameraDevice:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/isFlashAvailableForCameraDevice:">+&nbsp;isFlashAvailableForCameraDevice:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Indicates whether a given camera has flash illumination capability.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (BOOL)isFlashAvailableForCameraDevice:(HVTCameraControllerCameraDevice)<em>cameraDevice</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>cameraDevice</code></th>
+						<td><p>A <a href="../Constants/HVTCameraControllerCameraDevice.html">HVTCameraControllerCameraDevice</a> constant indicating the camera whose flash capability you want to know.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p><code>YES</code> if <a href="#//api/name/cameraDevice">cameraDevice</a> can use flash illumination, or <code>NO</code> if it cannot.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCameraController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2015 Horizon Video Technologies Inc. All rights reserved. Updated: 2015-08-06</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

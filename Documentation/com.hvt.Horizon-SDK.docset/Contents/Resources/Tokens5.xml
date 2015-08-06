@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/HVTSDK.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/HVTSDK</TokenIdentifier>
+			<Abstract type="html">The base class of Horizon SDK</Abstract>
+			<DeclaredIn>HVTSDK.h</DeclaredIn>
+            
+			
+			<NodeRef refid="5"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/HVTSDK/sharedInstance</TokenIdentifier>
+			<Abstract type="html">Returns the singleton HVTSDK reference to use in your application.</Abstract>
+			<DeclaredIn>HVTSDK.h</DeclaredIn>
+			
+			<Declaration>+ (HVTSDK *)sharedInstance</Declaration>
+			
+			<ReturnValue><Abstract type="html">The HVTSDK singleton instance reference.</Abstract></ReturnValue>
+			<Anchor>//api/name/sharedInstance</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTSDK/activateWithAPIKey:</TokenIdentifier>
+			<Abstract type="html">Start the shared HorizonSDK session
+
+This method serves as the entry point to Horizon SDK.  It must be
+called before instantiating a new HVTCamera object, preferably in the scope
+of application:didFinishLaunchingWithOptions: mthod of your UIApplicationDelegate class.</Abstract>
+			<DeclaredIn>HVTSDK.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)activateWithAPIKey:(NSString *)apiKey</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>apiKey</Name>
+					<Abstract type="html">The API key for this app.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the HVTSDK was successfully activated, NO otherwise (with NSInternalInconsistencyException for exception handling)</Abstract></ReturnValue>
+			<Anchor>//api/name/activateWithAPIKey:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

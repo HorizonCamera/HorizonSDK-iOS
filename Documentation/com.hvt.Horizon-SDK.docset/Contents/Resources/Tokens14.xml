@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/HVTCaptureMode.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/HVTCaptureMode</TokenIdentifier>
+			<Abstract type="html">The category of media for the camera to capture.</Abstract>
+			<DeclaredIn>HVTVars.h</DeclaredIn>
+            
+			
+			<NodeRef refid="14"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/HVTCaptureModeVideo</TokenIdentifier>
+            <Abstract type="html">Specifies that the camera captures movies.</Abstract>
+            <Declaration>HVTCaptureModeVideo</Declaration>
+            
+            <DeclaredIn>HVTVars.h</DeclaredIn>
+            
+            <NodeRef refid="14"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/HVTCaptureModePhoto</TokenIdentifier>
+            <Abstract type="html">Specifies that the camera captures still images.</Abstract>
+            <Declaration>HVTCaptureModePhoto</Declaration>
+            
+            <DeclaredIn>HVTVars.h</DeclaredIn>
+            
+            <NodeRef refid="14"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

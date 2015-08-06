@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/HVTViewFillMode.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/HVTViewFillMode</TokenIdentifier>
+			<Abstract type="html">Constants indicating how the video preview is displayed within the HVTView&apos;s bounds rect.</Abstract>
+			<DeclaredIn>HVTView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="20"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/HVTViewFillModeAspectFit</TokenIdentifier>
+            <Abstract type="html">This preserves the aspect ratio, leaving black bars where the video does not fill the available screen area.</Abstract>
+            <Declaration>HVTViewFillModeAspectFit</Declaration>
+            
+            <DeclaredIn>HVTView.h</DeclaredIn>
+            
+            <NodeRef refid="20"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/HVTViewFillModeAspectFill</TokenIdentifier>
+            <Abstract type="html">This preserves the aspect ratio, but fills the available screen area, cropping the video when necessary.</Abstract>
+            <Declaration>HVTViewFillModeAspectFill</Declaration>
+            
+            <DeclaredIn>HVTView.h</DeclaredIn>
+            
+            <NodeRef refid="20"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

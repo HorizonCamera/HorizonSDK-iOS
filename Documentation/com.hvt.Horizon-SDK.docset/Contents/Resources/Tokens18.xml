@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/HVTLevelerLockedOrientation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/HVTLevelerLockedOrientation</TokenIdentifier>
+			<Abstract type="html">Constants indicating the expected psysical orientation of the device when the leveling algorithm
+uses HVTLevelerCropModeLocked mode.</Abstract>
+			<DeclaredIn>HVTVars.h</DeclaredIn>
+            
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/HVTLevelerCropMode</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="18"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/HVTLevelerLockedOrientationAuto</TokenIdentifier>
+            <Abstract type="html">Horizontal or vertical orientation will be chosen according on the device&apos;s physical orientation.</Abstract>
+            <Declaration>HVTLevelerLockedOrientationAuto</Declaration>
+            
+            <DeclaredIn>HVTVars.h</DeclaredIn>
+            
+            <NodeRef refid="18"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/HVTLevelerLockedOrientationVertical</TokenIdentifier>
+            <Abstract type="html">Device must be held vertically.</Abstract>
+            <Declaration>HVTLevelerLockedOrientationVertical</Declaration>
+            
+            <DeclaredIn>HVTVars.h</DeclaredIn>
+            
+            <NodeRef refid="18"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/HVTLevelerLockedOrientationHorizontal</TokenIdentifier>
+            <Abstract type="html">Device must be held horizontally.</Abstract>
+            <Declaration>HVTLevelerLockedOrientationHorizontal</Declaration>
+            
+            <DeclaredIn>HVTVars.h</DeclaredIn>
+            
+            <NodeRef refid="18"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

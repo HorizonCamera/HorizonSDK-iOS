@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/HVTCameraDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/HVTCameraDelegate</TokenIdentifier>
+			<Abstract type="html">The HVTCameraDelegate protocol defines delegate methods you should implement in order
+to get updates from an HVTCamera instance about the running state, recording status, handle errors and update the UI.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+            
+			
+			<NodeRef refid="9"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/HVTCameraDelegate/hvtCamera:didUpdateParams:</TokenIdentifier>
+			<Abstract type="html">Implement this method to be notified of the updated device angle and computed scale factors in order to
+adjust your interface elements (i.e. rotate your UI elements).</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>- (void)hvtCamera:(HVTCamera *)hvtCamera didUpdateParams:(HVTParams)params</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>hvtCamera</Name>
+					<Abstract type="html">The HVTCamera object calling the delegate method.</Abstract>
+				</Parameter><Parameter>
+					<Name>params</Name>
+					<Abstract type="html">The angle (physical yaw) of the device in rads and scale values.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/hvtCamera:didUpdateParams:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/HVTCameraDelegate/hvtCameraDidStartRunning:</TokenIdentifier>
+			<Abstract type="html">Called when HVTcamera starts running.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>- (void)hvtCameraDidStartRunning:(HVTCamera *)hvtCamera</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>hvtCamera</Name>
+					<Abstract type="html">The HVTCamera object calling the delegate method.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/hvtCameraDidStartRunning:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/HVTCameraDelegate/hvtCamera:didStopRunningWithError:</TokenIdentifier>
+			<Abstract type="html">Called when HVTcamera stops running due to an error.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>- (void)hvtCamera:(HVTCamera *)hvtCamera didStopRunningWithError:(NSError *)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>hvtCamera</Name>
+					<Abstract type="html">The HVTCamera object calling the delegate method.</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">The error occured.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/hvtCamera:didStopRunningWithError:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/HVTCameraDelegate/hvtCameraRecordingDidStart:</TokenIdentifier>
+			<Abstract type="html">Called when video recording has begun.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>- (void)hvtCameraRecordingDidStart:(HVTCamera *)hvtCamera</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>hvtCamera</Name>
+					<Abstract type="html">The HVTCamera object calling the delegate method.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/hvtCameraRecordingDidStart:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/HVTCameraDelegate/hvtCamera:didUpdateRecordingDuration:</TokenIdentifier>
+			<Abstract type="html">Implement this method to get the updated recording duration in order to update duration counters
+in your interface.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>- (void)hvtCamera:(HVTCamera *)hvtCamera didUpdateRecordingDuration:(NSTimeInterval)duration</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>hvtCamera</Name>
+					<Abstract type="html">The HVTCamera object calling the delegate method.</Abstract>
+				</Parameter><Parameter>
+					<Name>duration</Name>
+					<Abstract type="html">The video duration up until this point as a NSTimeInterval variable.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/hvtCamera:didUpdateRecordingDuration:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/HVTCameraDelegate/hvtCameraRecordingWillStop:</TokenIdentifier>
+			<Abstract type="html">Called when video recording is going to stop.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>- (void)hvtCameraRecordingWillStop:(HVTCamera *)hvtCamera</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>hvtCamera</Name>
+					<Abstract type="html">The HVTCamera object calling the delegate method.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/hvtCameraRecordingWillStop:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/HVTCameraDelegate/hvtCamera:didStopRecordingWithMetadata:</TokenIdentifier>
+			<Abstract type="html">Called when video recording has stopped successfully. You can access the recorded
+video&apos;s properties through the metadata NSDictionary.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>- (void)hvtCamera:(HVTCamera *)hvtCamera didStopRecordingWithMetadata:(NSDictionary *)metadata</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>hvtCamera</Name>
+					<Abstract type="html">The HVTCamera object calling the delegate method.</Abstract>
+				</Parameter><Parameter>
+					<Name>metadata</Name>
+					<Abstract type="html">The NSDictionary containing information of the recorded video.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/hvtCamera:didStopRecordingWithMetadata:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/HVTCameraDelegate/hvtCamera:recordingDidFailWithError:</TokenIdentifier>
+			<Abstract type="html">Called when video recording has stopped due to an error.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>- (void)hvtCamera:(HVTCamera *)hvtCamera recordingDidFailWithError:(NSError *)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>hvtCamera</Name>
+					<Abstract type="html">The HVTCamera object calling the delegate method.</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">The error occured</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/hvtCamera:recordingDidFailWithError:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/HVTCameraDelegate/hvtCamera:didCapturePhotoData:metadata:</TokenIdentifier>
+			<Abstract type="html">Called when a photo has been captured</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>- (void)hvtCamera:(HVTCamera *)hvtCamera didCapturePhotoData:(NSData *)photo metadata:(NSDictionary *)metadata</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>hvtCamera</Name>
+					<Abstract type="html">The HVTCamera object calling the delegate method.</Abstract>
+				</Parameter><Parameter>
+					<Name>photo</Name>
+					<Abstract type="html">The photo captured as NSData (JPEG representation)</Abstract>
+				</Parameter><Parameter>
+					<Name>metadata</Name>
+					<Abstract type="html">The photo metadata (already passed inside the NSData structure)</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/hvtCamera:didCapturePhotoData:metadata:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/HVTCameraDelegate/hvtCamera:didCapturePhotoImageRef:metadata:</TokenIdentifier>
+			<Abstract type="html">Called when a photo has been captured</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>- (void)hvtCamera:(HVTCamera *)hvtCamera didCapturePhotoImageRef:(CGImageRef)photo metadata:(NSDictionary *)metadata</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>hvtCamera</Name>
+					<Abstract type="html">The HVTCamera object calling the delegate method.</Abstract>
+				</Parameter><Parameter>
+					<Name>photo</Name>
+					<Abstract type="html">The photo captured as CGImageRef</Abstract>
+				</Parameter><Parameter>
+					<Name>metadata</Name>
+					<Abstract type="html">The photo metadata</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/hvtCamera:didCapturePhotoImageRef:metadata:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/HVTCameraDelegate/hvtCamera:photoCapturingDidFailWithError:</TokenIdentifier>
+			<Abstract type="html">Called when photo capturing has not been completed successfully due to an error.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>- (void)hvtCamera:(HVTCamera *)hvtCamera photoCapturingDidFailWithError:(NSError *)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>hvtCamera</Name>
+					<Abstract type="html">The HVTCamera object calling the delegate method.</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">The error occured</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/hvtCamera:photoCapturingDidFailWithError:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

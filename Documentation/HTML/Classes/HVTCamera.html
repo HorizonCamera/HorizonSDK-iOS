@@ -1,0 +1,2921 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>HVTCamera Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1333)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">Horizon SDK </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">Horizon Video Technologies Inc.</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+	<optgroup label="Properties">
+		
+		<option value="//api/name/cameraDevice">cameraDevice</option>
+		
+		<option value="//api/name/captureMode">captureMode</option>
+		
+		<option value="//api/name/delegate">delegate</option>
+		
+		<option value="//api/name/flashMode">flashMode</option>
+		
+		<option value="//api/name/interfaceOrientation">interfaceOrientation</option>
+		
+		<option value="//api/name/levelerCropMode">levelerCropMode</option>
+		
+		<option value="//api/name/levelerFlexSpeed">levelerFlexSpeed</option>
+		
+		<option value="//api/name/levelerLockedOrientation">levelerLockedOrientation</option>
+		
+		<option value="//api/name/maxRecordingDuration">maxRecordingDuration</option>
+		
+		<option value="//api/name/outputMovieSize">outputMovieSize</option>
+		
+		<option value="//api/name/outputPixelFormat">outputPixelFormat</option>
+		
+		<option value="//api/name/preferredVideoStabilizationMode">preferredVideoStabilizationMode</option>
+		
+		<option value="//api/name/stillImageOrientation">stillImageOrientation</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Class Methods">
+		
+		<option value="//api/name/isCameraPositionSupported:">+ isCameraPositionSupported:</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/addView:">- addView:</option>
+		
+		<option value="//api/name/cameraPosition">- cameraPosition</option>
+		
+		<option value="//api/name/cameraResolution">- cameraResolution</option>
+		
+		<option value="//api/name/captureFullResolutionPhoto">- captureFullResolutionPhoto</option>
+		
+		<option value="//api/name/captureFullResolutionPhotoUsingHDR:">- captureFullResolutionPhotoUsingHDR:</option>
+		
+		<option value="//api/name/captureSnapshot">- captureSnapshot</option>
+		
+		<option value="//api/name/isFlashAvailable">- isFlashAvailable</option>
+		
+		<option value="//api/name/isHDRPhotoCaptureAvailable">- isHDRPhotoCaptureAvailable</option>
+		
+		<option value="//api/name/isPaused">- isPaused</option>
+		
+		<option value="//api/name/isRecording">- isRecording</option>
+		
+		<option value="//api/name/isRunning">- isRunning</option>
+		
+		<option value="//api/name/isVideoStabilizationModeSupported:">- isVideoStabilizationModeSupported:</option>
+		
+		<option value="//api/name/isVideoStabilizationSupported">- isVideoStabilizationSupported</option>
+		
+		<option value="//api/name/pauseRecording">- pauseRecording</option>
+		
+		<option value="//api/name/removeActiveFilter">- removeActiveFilter</option>
+		
+		<option value="//api/name/removeView:">- removeView:</option>
+		
+		<option value="//api/name/resetFocusExposureWhiteBalance">- resetFocusExposureWhiteBalance</option>
+		
+		<option value="//api/name/resumeRecording">- resumeRecording</option>
+		
+		<option value="//api/name/setActiveFilter:">- setActiveFilter:</option>
+		
+		<option value="//api/name/setCameraPosition:error:">- setCameraPosition:error:</option>
+		
+		<option value="//api/name/setCameraPosition:withResolution:error:">- setCameraPosition:withResolution:error:</option>
+		
+		<option value="//api/name/setCameraPosition:withResolution:frameRate:error:">- setCameraPosition:withResolution:frameRate:error:</option>
+		
+		<option value="//api/name/setCameraResolution:error:">- setCameraResolution:error:</option>
+		
+		<option value="//api/name/setCameraResolution:frameRate:error:">- setCameraResolution:frameRate:error:</option>
+		
+		<option value="//api/name/setCaptureMode:cameraPosition:">- setCaptureMode:cameraPosition:</option>
+		
+		<option value="//api/name/setGPSMetadata:">- setGPSMetadata:</option>
+		
+		<option value="//api/name/setSampleBufferDelegate:queue:">- setSampleBufferDelegate:queue:</option>
+		
+		<option value="//api/name/startRecordingWithMovieURL:">- startRecordingWithMovieURL:</option>
+		
+		<option value="//api/name/startRecordingWithMovieURL:videoSettings:audioSettings:metadata:">- startRecordingWithMovieURL:videoSettings:audioSettings:metadata:</option>
+		
+		<option value="//api/name/startRunning">- startRunning</option>
+		
+		<option value="//api/name/stopRecording">- stopRecording</option>
+		
+		<option value="//api/name/stopRunning">- stopRunning</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">HVTCamera Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td>NSObject</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>HVTCamera.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>You can use a HVTCamera object to establish a connection with the device camera, update the attached preview(s)
+and record to an audio/video container file.</p>
+
+<p>When HVTcamera is running, it processes the flow of data from the camera device in real time, by utilizing the
+internal leveler and applying filters. You can alter the leveler&rsquo;s settings using the provided properties. Some
+properties are animated and can be changed even while recording without producing rough transitions in the
+resulting video.</p>
+
+<h4>Usage</h4>
+
+<p>A simple usage scenario of the class requires the following steps in that particular order:</p>
+
+<ul>
+<li>Instantiate a HVTCamera object.</li>
+<li>Set the <a href="#//api/name/interfaceOrientation">interfaceOrientation</a> property.</li>
+<li>(Optional) Implement and set a <a href="../Protocols/HVTCameraDelegate.html">HVTCameraDelegate</a> object.</li>
+<li>If you want to display the video preview, you can attach one or more <a href="../Classes/HVTView.html">HVTView</a> objects by calling <a href="#//api/name/addView:">addView:</a>.</li>
+<li>Invoke <a href="#//api/name/startRunning">startRunning</a>. Make sure you have handled all the camera &amp; microphone permissions first.</li>
+<li>Invoke <a href="#//api/name/startRecordingWithMovieURL:">startRecordingWithMovieURL:</a> to start recording to a QuickTime movie file.</li>
+<li>Invoke <a href="#//api/name/stopRecording">stopRecording</a>.</li>
+<li>Invoke <a href="#//api/name/stopRunning">stopRunning</a>.</li>
+</ul>
+
+
+<h4>Camera resolution</h4>
+
+<p>HVTCamera receives video frames from an AVCaptureDevice instance, which can be accessed by the <a href="#//api/name/cameraDevice">cameraDevice</a>
+property. You can query the supported resolutions using <code>AVCaptureDevice</code>&rsquo;s <code>formats</code> property.</p>
+
+<p>By default, the resolution used is the one set in the <code>AVCaptureDevice</code>&rsquo;s <code>activeFormat</code> property. If you want to
+set a specific resolution, use one of the methods provided by HVTCamera and <strong>not</strong> the <code>AVFoundation</code>&rsquo;s methods.</p>
+
+<p>If you set the resolution or/and frame rate while HVTCamera <a href="#//api/name/isRunning">isRunning</a>, the connection to the deviceCamera will be reset,
+which can take some time. The call will block until the connection has been established. So set the resolution before
+calling <a href="#//api/name/startRunning">startRunning</a> if possible.</p>
+
+<h4>Performance Considerations</h4>
+
+<p>For performance reasons, the maximum supported resolution and frame rate are 1920X1080 and 60 frames/sec respectively.
+In some devices, it is recommended to use a lower resolution. For example, prefer 1280X720 in iPhone 4S.</p>
+
+<p>The use of video filters can significantly impact performance.</p><div class="warning"><p><strong>Warning:</strong> A single instance of HVTCamera must be running at any time.</p></div>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						<a title="Setting the Delegate" name="task_Setting the Delegate"></a>
+						<h2 class="task-title">Setting the Delegate</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/delegate" title="delegate"></a>
+	<h3 class="method-title"><code><a href="#//api/name/delegate">&nbsp;&nbsp;delegate</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The delegate object.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, weak) id&lt;HVTCameraDelegate&gt; delegate</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Set a delegate object, in order to get updates on HVTCamera object&rsquo;s status.</p>
+
+<p>The delegate is not retained.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="../Protocols/HVTCameraDelegate.html">HVTCameraDelegate</a></p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setSampleBufferDelegate:queue:" title="setSampleBufferDelegate:queue:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setSampleBufferDelegate:queue:">&ndash;&nbsp;setSampleBufferDelegate:queue:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Sets the receiver&rsquo;s <a href="#//api/name/delegate">delegate</a> that will accept audio &amp; (leveled) video buffers and a dispatch queue on which the <a href="#//api/name/delegate">delegate</a> will be
+called.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setSampleBufferDelegate:(id&lt;HVTBufferDelegate&gt;)<em>sampleBufferDelegate</em> queue:(dispatch_queue_t)<em>sampleBufferCallbackQueue</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>sampleBufferDelegate</code></th>
+						<td><p>An object conforming to the <a href="../Protocols/HVTBufferDelegate.html">HVTBufferDelegate</a> protocol that will receive sample buffers.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>sampleBufferCallbackQueue</code></th>
+						<td><p>A dispatch queue on which all sample buffer <a href="#//api/name/delegate">delegate</a> method will be called.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Configuration" name="task_Configuration"></a>
+						<h2 class="task-title">Configuration</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/interfaceOrientation" title="interfaceOrientation"></a>
+	<h3 class="method-title"><code><a href="#//api/name/interfaceOrientation">&nbsp;&nbsp;interfaceOrientation</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Set this property to the current orientation of the app&rsquo;s user interface.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) UIInterfaceOrientation interfaceOrientation</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>HVTCamera will adjust the orientation of the attached <a href="../Classes/HVTView.html">HVTView(s)</a> and the angle returned by
+<a href="../Protocols/HVTCameraDelegate.html#//api/name/hvtCamera:didUpdateParams:">[HVTCameraDelegate hvtCamera:didUpdateParams:]</a> to match the supplied interface orientation.</p>
+
+<p>If your app supports multiple orientations, subscribe to the <code>UIDeviceOrientationDidChangeNotification</code>
+and set the property as shown in the following code fragment:</p>
+
+<p>For iOS 8 devices:</p>
+
+<pre><code>// When you receive a UIDeviceOrientationDidChangeNotification:
+_camera.interfaceOrientation = [[UIApplication sharedApplication] statusBarOrientation];
+</code></pre>
+
+<p>For iOS 7 devices:</p>
+
+<pre><code>// When you receive a UIDeviceOrientationDidChangeNotification:
+ UIDeviceOrientation deviceOrientation = [UIDevice currentDevice].orientation;
+
+ if (deviceOrientation == UIDeviceOrientationPortrait
+        || deviceOrientation == UIDeviceOrientationLandscapeLeft
+        || deviceOrientation == UIDeviceOrientationLandscapeRight) {
+    _camera._hvtCameraInstance.interfaceOrientation = (UIInterfaceOrientation)deviceOrientation;
+ }
+</code></pre>
+
+<p>The default value is <code>UIInterfaceOrientationPortrait</code>.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Managing Running State" name="task_Managing Running State"></a>
+						<h2 class="task-title">Managing Running State</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/isRunning" title="isRunning"></a>
+	<h3 class="method-title"><code><a href="#//api/name/isRunning">&ndash;&nbsp;isRunning</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Indicates whether the receiver is running.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BOOL)isRunning</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p><code>YES</code> if the receiver is running and <code>NO</code> if it is stopped.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/startRunning" title="startRunning"></a>
+	<h3 class="method-title"><code><a href="#//api/name/startRunning">&ndash;&nbsp;startRunning</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Tells the receiver to start running.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)startRunning</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Starts the flow of data from the camera device. If <a href="../Classes/HVTView.html">HVTView(s)</a> have been added, they will receive
+updates when new video frames arrive. You can also start video recording.</p>
+
+<p>If the receiver stops running due to an error, it will call the delegate&rsquo;s
+<a href="../Protocols/HVTCameraDelegate.html#//api/name/hvtCamera:didStopRunningWithError:">[HVTCameraDelegate hvtCamera:didStopRunningWithError:]</a> method.</p>
+
+<p>This call blocks until the receiver has completely started up.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/stopRunning" title="stopRunning"></a>
+	<h3 class="method-title"><code><a href="#//api/name/stopRunning">&ndash;&nbsp;stopRunning</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Tells the receiver to stop running.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)stopRunning</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Call this method to conserve battery life if you don&rsquo;t need to update the attached <a href="../Classes/HVTView.html">HVTView(s)</a>
+or if you are not recording.</p>
+
+<p>You don&rsquo;t need to call this explicitly when the apps goes to background. The HVTCamera instance will stop running automatically
+and resume upon entering foreground.</p>
+
+<p>This call blocks until the receiver has completely stopped.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Previewing the Video" name="task_Previewing the Video"></a>
+						<h2 class="task-title">Previewing the Video</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/addView:" title="addView:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/addView:">&ndash;&nbsp;addView:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Attaches an <a href="../Classes/HVTView.html">HVTView</a> in order to display a video preview.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)addView:(HVTView *)<em>view</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>view</code></th>
+						<td><p>The <a href="../Classes/HVTView.html">HVTView</a> which will be added.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="../Classes/HVTView.html">HVTView</a></p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/removeView:" title="removeView:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/removeView:">&ndash;&nbsp;removeView:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Removes a <a href="../Classes/HVTView.html">HVTView</a>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)removeView:(HVTView *)<em>view</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>view</code></th>
+						<td><p>The <a href="../Classes/HVTView.html">HVTView</a> which will be removed.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="../Classes/HVTView.html">HVTView</a></p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Recording Video" name="task_Recording Video"></a>
+						<h2 class="task-title">Recording Video</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/outputMovieSize" title="outputMovieSize"></a>
+	<h3 class="method-title"><code><a href="#//api/name/outputMovieSize">&nbsp;&nbsp;outputMovieSize</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Specifies the output movie size of the final video file.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) CGSize outputMovieSize</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The outputMovieSize can differ from the <a href="#//api/name/cameraResolution">cameraResolution</a>. For example, you can have a 1920x1080
+camera resolution and a 640x640 final video file.</p>
+
+<p>The default value matches the <a href="#//api/name/cameraResolution">cameraResolution</a>, until set explicetely via this property.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/isRecording" title="isRecording"></a>
+	<h3 class="method-title"><code><a href="#//api/name/isRecording">&ndash;&nbsp;isRecording</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Reports whether the instance is currently recording video or not.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BOOL)isRecording</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p><code>YES</code> if video recording occures and <code>NO</code> if it isn&rsquo;t.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/startRecordingWithMovieURL:" title="startRecordingWithMovieURL:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/startRecordingWithMovieURL:">&ndash;&nbsp;startRecordingWithMovieURL:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Starts the video recording.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)startRecordingWithMovieURL:(NSURL *)<em>movieURL</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>movieURL</code></th>
+						<td><p>The URL of the output file in which the video will be saved.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>You must call this method only if the instance <a href="#//api/name/isRunning">isRunning</a>, or an exception is thrown.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/startRecordingWithMovieURL:videoSettings:audioSettings:metadata:" title="startRecordingWithMovieURL:videoSettings:audioSettings:metadata:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/startRecordingWithMovieURL:videoSettings:audioSettings:metadata:">&ndash;&nbsp;startRecordingWithMovieURL:videoSettings:audioSettings:metadata:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Starts the video recording.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)startRecordingWithMovieURL:(NSURL *)<em>movieURL</em> videoSettings:(NSDictionary *)<em>videoSettings</em> audioSettings:(NSDictionary *)<em>audioSettings</em> metadata:(NSArray *)<em>metadata</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>movieURL</code></th>
+						<td><p>The URL of the output file in which the video will be saved.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>videoSettings</code></th>
+						<td><p>The settings used for video encoding.</p>
+
+<p>See AVVideoSettings.h for more information on how to construct an output settings dictionary.
+If you only require simple preset-based output settings, see AVOutputSettingsAssistant.</p>
+
+<p>Can be <code>nil</code>.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>audioSettings</code></th>
+						<td><p>The settings used for audio encoding.</p>
+
+<p>See AVAudioSettings.h for more information. If you only require simple preset-based output settings,
+see AVOutputSettingsAssistant.</p>
+
+<p>Can be <code>nil</code>.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>metadata</code></th>
+						<td><p>NSArray of AVMetadataItems that are to be written to the output file by the export session.</p>
+
+<p>If the value of this key is nil, any existing metadata in the exported asset will be translated as accurately as possible into
+the appropriate metadata keyspace for the output file and written to the output.</p>
+
+<p>Can be <code>nil</code></p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>You must call this method only if the instance <a href="#//api/name/isRunning">isRunning</a>, or an exception is thrown.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/stopRecording" title="stopRecording"></a>
+	<h3 class="method-title"><code><a href="#//api/name/stopRecording">&ndash;&nbsp;stopRecording</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Stops the video recording.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)stopRecording</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/pauseRecording" title="pauseRecording"></a>
+	<h3 class="method-title"><code><a href="#//api/name/pauseRecording">&ndash;&nbsp;pauseRecording</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Pauses the video recording.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)pauseRecording</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/resumeRecording" title="resumeRecording"></a>
+	<h3 class="method-title"><code><a href="#//api/name/resumeRecording">&ndash;&nbsp;resumeRecording</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Resumes the video recording.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)resumeRecording</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/isPaused" title="isPaused"></a>
+	<h3 class="method-title"><code><a href="#//api/name/isPaused">&ndash;&nbsp;isPaused</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Reports whether the recording is currently paused</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BOOL)isPaused</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p><code>YES</code> if video recording is paused and <code>NO</code> if it isn&rsquo;t.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Managing Photo Capture" name="task_Managing Photo Capture"></a>
+						<h2 class="task-title">Managing Photo Capture</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/stillImageOrientation" title="stillImageOrientation"></a>
+	<h3 class="method-title"><code><a href="#//api/name/stillImageOrientation">&nbsp;&nbsp;stillImageOrientation</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Handles the still image frame for photo mode</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) HVTStillImageOrientation stillImageOrientation</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="../Constants/HVTStillImageOrientation.html">HVTStillImageOrientation</a></p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setGPSMetadata:" title="setGPSMetadata:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setGPSMetadata:">&ndash;&nbsp;setGPSMetadata:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Sets the GPS metadata that can be used for photos</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setGPSMetadata:(NSDictionary *)<em>gpsMetadata</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>gpsMetadata</code></th>
+						<td><p>The dictionary containing GPS coordinates, conforming kCGImagePropertyGPSDictionary</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/captureFullResolutionPhoto" title="captureFullResolutionPhoto"></a>
+	<h3 class="method-title"><code><a href="#//api/name/captureFullResolutionPhoto">&ndash;&nbsp;captureFullResolutionPhoto</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Shoots a full resolution photo.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BOOL)captureFullResolutionPhoto</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p><code>NO</code> if another photo capture is in progress and <code>YES</code> otherwise</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>If used while recording then you will hear the shutter sound.</p>
+
+<p>For iPhone 6 and iPhone 6 Plus devices you will get a full resolution photo even while recording,
+for any other device you will get a photo with the same dimensions as the video dimensions declared in the <a href="#//api/name/outputMovieSize">outputMovieSize</a> property.</p>
+
+<p>It is recommended that you use the <a href="#//api/name/captureSnapshot">captureSnapshot</a> method while recording instead.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/captureFullResolutionPhotoUsingHDR:" title="captureFullResolutionPhotoUsingHDR:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/captureFullResolutionPhotoUsingHDR:">&ndash;&nbsp;captureFullResolutionPhotoUsingHDR:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Shoots a full resolution photo.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BOOL)captureFullResolutionPhotoUsingHDR:(BOOL)<em>usingHDR</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>usingHDR</code></th>
+						<td><p>Capture HDR photo</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p><code>NO</code> if another photo capture is in progress and <code>YES</code> otherwise</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>If used while recording then you will hear the shutter sound.</p>
+
+<p>For iPhone 6 and iPhone 6 Plus devices you will get a full resolution photo even while recording,
+for any other device you will get a photo with the same dimensions as the video dimensions declared in the <a href="#//api/name/outputMovieSize">outputMovieSize</a> property.</p>
+
+<p>It is recommended that you use the <a href="#//api/name/captureSnapshot">captureSnapshot</a> method while recording instead.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/captureSnapshot" title="captureSnapshot"></a>
+	<h3 class="method-title"><code><a href="#//api/name/captureSnapshot">&ndash;&nbsp;captureSnapshot</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Shoots a snapshot photo, right from the video stream. It can be used while recording</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BOOL)captureSnapshot</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p><code>NO</code> if another photo capture is in progress and <code>YES</code> otherwise</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/isHDRPhotoCaptureAvailable" title="isHDRPhotoCaptureAvailable"></a>
+	<h3 class="method-title"><code><a href="#//api/name/isHDRPhotoCaptureAvailable">&ndash;&nbsp;isHDRPhotoCaptureAvailable</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns if the device can capture full resoltion still image HDR photos</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BOOL)isHDRPhotoCaptureAvailable</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p><code>YES</code> if HDR photo capture is available, <code>NO</code> otherwise</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Managing the Camera Settings" name="task_Managing the Camera Settings"></a>
+						<h2 class="task-title">Managing the Camera Settings</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/cameraDevice" title="cameraDevice"></a>
+	<h3 class="method-title"><code><a href="#//api/name/cameraDevice">&nbsp;&nbsp;cameraDevice</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The currently active AVFoundation device.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) AVCaptureDevice *cameraDevice</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>You can change the camera device properties by first calling the AVCaptureDevice&rsquo;s lockForConfiguration: method.</p><div class="warning"><p><strong>Warning:</strong> If you want to alter the camera resolution or framerate, do not alter the activeFormat, activeVideoMinFrameDuration or activeVideoMaxFrameDuration properties of the <code>AVFoundation</code> device. Instead, use the methods supplied by HVTCamera.</p></div>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/captureMode" title="captureMode"></a>
+	<h3 class="method-title"><code><a href="#//api/name/captureMode">&nbsp;&nbsp;captureMode</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The capture mode used by the camera.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) HVTCaptureMode captureMode</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The two capture modes are listed in the <a href="../Constants/HVTCaptureMode.html">HVTCaptureMode</a> enumeration. The default value is HVTCaptureModeVideo.</p>
+
+<p>Capture mode changes automatically to HVTCaptureModeVideo value when <a href="#//api/name/setCameraResolution:error:">setCameraResolution:error:</a> or <a href="#//api/name/setCameraResolution:frameRate:error:">setCameraResolution:frameRate:error:</a> methods are called</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="../Constants/HVTCaptureMode.html">HVTCaptureMode</a></p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setCaptureMode:cameraPosition:" title="setCaptureMode:cameraPosition:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setCaptureMode:cameraPosition:">&ndash;&nbsp;setCaptureMode:cameraPosition:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Sets a new capture mode with a specified camera position.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setCaptureMode:(HVTCaptureMode)<em>captureMode</em> cameraPosition:(AVCaptureDevicePosition)<em>newPosition</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>captureMode</code></th>
+						<td><p>The new capture mode.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>newPosition</code></th>
+						<td><p>The new camera position.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="../Constants/HVTCaptureMode.html">HVTCaptureMode</a></p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/flashMode" title="flashMode"></a>
+	<h3 class="method-title"><code><a href="#//api/name/flashMode">&nbsp;&nbsp;flashMode</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The current flash mode</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) AVCaptureFlashMode flashMode</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>You can set or query the current flash mode using this property. Horizon SDK takes care of the availability and the separation between torch/flash for you</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/outputPixelFormat" title="outputPixelFormat"></a>
+	<h3 class="method-title"><code><a href="#//api/name/outputPixelFormat">&nbsp;&nbsp;outputPixelFormat</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The pixel format used for the exported videos and frames by the hvtCamera:didOutputSampleBuffer: method.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) FourCharCode outputPixelFormat</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The default value is kCVPixelFormatType_32BGRA.</p>
+
+<p>You can enter only the following two values for the outputPixelFormat:</p>
+
+<p>kCVPixelFormatType_32BGRA and kCVPixelFormatType_420YpCbCr8BiPlanarVideoRange</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/resetFocusExposureWhiteBalance" title="resetFocusExposureWhiteBalance"></a>
+	<h3 class="method-title"><code><a href="#//api/name/resetFocusExposureWhiteBalance">&ndash;&nbsp;resetFocusExposureWhiteBalance</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Clears any focus/exposure/white balance setting that may have been applied by the user, returning them to AVCaptureFocusModeContinuousAutoFocus, AVCaptureExposureModeContinuousAutoExposure and AVCaptureWhiteBalanceModeContinuousAutoWhiteBalance values</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)resetFocusExposureWhiteBalance</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/isCameraPositionSupported:" title="isCameraPositionSupported:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/isCameraPositionSupported:">+&nbsp;isCameraPositionSupported:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Indicated whether the AVCaptureDevicePosition in question is supported by the current device.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (BOOL)isCameraPositionSupported:(AVCaptureDevicePosition)<em>cameraPosition</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>cameraPosition</code></th>
+						<td><p>The camera position in question.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>YES if device supports the said AVCaptureDevicePosition, NO otherwise</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>This is a class method so you can use it without first instanciating the HVTCamera object.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/isFlashAvailable" title="isFlashAvailable"></a>
+	<h3 class="method-title"><code><a href="#//api/name/isFlashAvailable">&ndash;&nbsp;isFlashAvailable</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Indicates whether a given camera has flash illumination capability.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BOOL)isFlashAvailable</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>YES if device has flash and it is available in HVTCaptureModePhoto or if it has torch and it is available in HVTCaptureModeVideo, NO otherwise</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>To get notified on changes on the property, subscribe to receive NSNotifications with HVTFlashIsAvailableNotification name.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/cameraResolution" title="cameraResolution"></a>
+	<h3 class="method-title"><code><a href="#//api/name/cameraResolution">&ndash;&nbsp;cameraResolution</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Reports the camera resolution for the current <a href="#//api/name/cameraDevice">cameraDevice</a>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (CGSize)cameraResolution</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>The camera resolution as a CGSize struct.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setCameraResolution:error:" title="setCameraResolution:error:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setCameraResolution:error:">&ndash;&nbsp;setCameraResolution:error:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Sets the camera resolution of the current <a href="#//api/name/cameraDevice">cameraDevice</a>. Frame rate is set to 30 frames/sec.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BOOL)setCameraResolution:(CGSize)<em>cameraResolution</em> error:(NSError **)<em>outError</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>cameraResolution</code></th>
+						<td><p>The new camera resolution.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>outError</code></th>
+						<td><p>The output error.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p><code>YES</code> if the camera resolution has been changed and <code>NO</code> if there was an error while changing the camera resolution (check outError for more).</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<div class="warning"><p><strong>Warning:</strong> If you call the method while the receiver <a href="#//api/name/isRunning">isRunning</a>, the connection to the deviceCamera will be reset, which
+can take some time. The call will block until the connection has been established.</p></div>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setCameraResolution:frameRate:error:" title="setCameraResolution:frameRate:error:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setCameraResolution:frameRate:error:">&ndash;&nbsp;setCameraResolution:frameRate:error:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Sets the camera resolution and frame rate of the current <a href="#//api/name/cameraDevice">cameraDevice</a>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BOOL)setCameraResolution:(CGSize)<em>cameraResolution</em> frameRate:(int)<em>frameRate</em> error:(NSError **)<em>outError</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>cameraResolution</code></th>
+						<td><p>The new camera resolution.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>frameRate</code></th>
+						<td><p>The new frame rate.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>outError</code></th>
+						<td><p>The output error.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p><code>YES</code> if the camera resolution has been changed and <code>NO</code> if there was an error while changing the camera
+resolution (check outError for more).</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<div class="warning"><p><strong>Warning:</strong> If you call the method while the receiver <a href="#//api/name/isRunning">isRunning</a>, the connection to the deviceCamera will be reset, which
+can take some time. The call will block until the connection has been established.</p></div>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/cameraPosition" title="cameraPosition"></a>
+	<h3 class="method-title"><code><a href="#//api/name/cameraPosition">&ndash;&nbsp;cameraPosition</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Reports the camera position of the current <a href="#//api/name/cameraDevice">cameraDevice</a>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (AVCaptureDevicePosition)cameraPosition</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>The position of the camera as a value of AVCaptureDevicePosition.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setCameraPosition:error:" title="setCameraPosition:error:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setCameraPosition:error:">&ndash;&nbsp;setCameraPosition:error:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Selects a <a href="#//api/name/cameraDevice">cameraDevice</a> having the supplied camera position.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BOOL)setCameraPosition:(AVCaptureDevicePosition)<em>newPosition</em> error:(NSError **)<em>outError</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>newPosition</code></th>
+						<td><p>The new camera position.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>outError</code></th>
+						<td><p>The output error.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p><code>YES</code> if the camera position has been changed and <code>NO</code> if there was an error while changing the camera position
+(check outError for more).</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The camera resolution and frame rate of the <a href="#//api/name/cameraDevice">cameraDevice</a> is set to its default value or to its previous value if
+it was explicetely set before.</p><div class="warning"><p><strong>Warning:</strong> If you call the method while the receiver <a href="#//api/name/isRunning">isRunning</a>, a connection to the new <a href="#//api/name/cameraDevice">cameraDevice</a> will be established, which
+can take some time. The call will block until the connection has been established.</p></div>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setCameraPosition:withResolution:error:" title="setCameraPosition:withResolution:error:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setCameraPosition:withResolution:error:">&ndash;&nbsp;setCameraPosition:withResolution:error:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Selects a <a href="#//api/name/cameraDevice">cameraDevice</a> having the supplied camera position and sets its resolution. Frame rate is set to 30 frames/sec.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BOOL)setCameraPosition:(AVCaptureDevicePosition)<em>newPosition</em> withResolution:(CGSize)<em>cameraResolution</em> error:(NSError **)<em>outError</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>newPosition</code></th>
+						<td><p>The new camera position.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>cameraResolution</code></th>
+						<td><p>The new camera resolution.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>outError</code></th>
+						<td><p>The output error.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p><code>YES</code> if the camera resolution has been changed and <code>NO</code> if there was an error while changing the camera resolution
+(check outError for more).</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<div class="warning"><p><strong>Warning:</strong> If you call the method while the receiver <a href="#//api/name/isRunning">isRunning</a>, a connection to the new <a href="#//api/name/cameraDevice">cameraDevice</a> will be established, which
+can take some time. The call will block until the connection has been established.</p></div>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setCameraPosition:withResolution:frameRate:error:" title="setCameraPosition:withResolution:frameRate:error:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setCameraPosition:withResolution:frameRate:error:">&ndash;&nbsp;setCameraPosition:withResolution:frameRate:error:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Selects a <a href="#//api/name/cameraDevice">cameraDevice</a> having the supplied camera position and sets its resolution and frame rate.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BOOL)setCameraPosition:(AVCaptureDevicePosition)<em>newPosition</em> withResolution:(CGSize)<em>cameraResolution</em> frameRate:(int)<em>frameRate</em> error:(NSError **)<em>outError</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>newPosition</code></th>
+						<td><p>The new camera position.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>cameraResolution</code></th>
+						<td><p>The new camera resolution.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>frameRate</code></th>
+						<td><p>The new frame rate.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>outError</code></th>
+						<td><p>The output error.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p><code>YES</code> if the camera resolution has been changed and <code>NO</code> if there was an error while changing the camera resolution
+(check outError for more).</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<div class="warning"><p><strong>Warning:</strong> If you call the method while the receiver <a href="#//api/name/isRunning">isRunning</a>, a connection to the new <a href="#//api/name/cameraDevice">cameraDevice</a> will be established, which
+can take some time. The call will block until the connection has been established.</p></div>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Managing the Video Stabilization Settings" name="task_Managing the Video Stabilization Settings"></a>
+						<h2 class="task-title">Managing the Video Stabilization Settings</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/isVideoStabilizationModeSupported:" title="isVideoStabilizationModeSupported:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/isVideoStabilizationModeSupported:">&ndash;&nbsp;isVideoStabilizationModeSupported:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns whether the current <a href="#//api/name/cameraDevice">cameraDevice</a> supports the given video stabilization mode.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BOOL)isVideoStabilizationModeSupported:(AVCaptureVideoStabilizationMode)<em>videoStabilizationMode</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>videoStabilizationMode</code></th>
+						<td><p>An AVCaptureVideoStabilizationMode to be checked.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>A boolean value indicating whether the current  <a href="#//api/name/cameraDevice">cameraDevice</a> can be stabilized by setting
+<a href="#//api/name/preferredVideoStabilizationMode">preferredVideoStabilizationMode</a> to the given mode.
+.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>This methdod is a wrapper of <code>AVCaptureDeviceFormat</code>&rsquo;s <code>isVideoStabilizationModeSupported:</code> method. It will not
+work on an iOS7 runtime.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/isVideoStabilizationSupported" title="isVideoStabilizationSupported"></a>
+	<h3 class="method-title"><code><a href="#//api/name/isVideoStabilizationSupported">&ndash;&nbsp;isVideoStabilizationSupported</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns  whether the current <a href="#//api/name/cameraDevice">cameraDevice</a> supports video stabilization.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BOOL)isVideoStabilizationSupported</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>A boolean value  indicating whether the current <a href="#//api/name/cameraDevice">cameraDevice</a> can be stabilized by setting the
+<a href="#//api/name/preferredVideoStabilizationMode">preferredVideoStabilizationMode</a> property.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>This methdod is a wrapper of <code>AVCaptureDeviceFormat</code>&rsquo;s <code>videoStabilizationSupported</code> property. In iOS8 runtime,
+call <a href="#//api/name/isVideoStabilizationModeSupported:">isVideoStabilizationModeSupported:</a> instead.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/preferredVideoStabilizationMode" title="preferredVideoStabilizationMode"></a>
+	<h3 class="method-title"><code><a href="#//api/name/preferredVideoStabilizationMode">&nbsp;&nbsp;preferredVideoStabilizationMode</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Indicates the prefered stabilization mode to apply when supported by the current <a href="#//api/name/cameraDevice">cameraDevice</a>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) AVCaptureVideoStabilizationMode preferredVideoStabilizationMode</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>This property is a wrapper of <code>AVCaptureConnection</code>&rsquo;s <code>preferredVideoStabilizationMode</code> property for iOS8 devices.
+In iOS7 devices, it sets <code>AVCaptureConnection</code>&rsquo;s <code>setEnablesVideoStabilizationWhenAvailable</code> to <code>YES</code> when the
+preferredVideoStablizationMode is anything but <code>AVCaptureVideoStabilizationModeOff</code>.</p>
+
+<p>The default value is <code>AVCaptureVideoStabilizationModeOff</code>.</p><div class="warning"><p><strong>Warning:</strong> If you set the property while the receiver <a href="#//api/name/isRunning">isRunning</a>, the connection to the deviceCamera will be reset, which
+can take some time. The call will block until the connection has been established.</p></div>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/maxRecordingDuration" title="maxRecordingDuration"></a>
+	<h3 class="method-title"><code><a href="#//api/name/maxRecordingDuration">&nbsp;&nbsp;maxRecordingDuration</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Maximum recording duration set by the user. If set and the recording gets past this duration, then it is automatically stopped.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) CMTime maxRecordingDuration</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Every recording made after setting this property to a valid CMTime will respect the maxRecordingDuration
+In order to return to unlimited recording, user can set this property value to kCMTimeInvalid</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Managing the Leveler Settings" name="task_Managing the Leveler Settings"></a>
+						<h2 class="task-title">Managing the Leveler Settings</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/levelerCropMode" title="levelerCropMode"></a>
+	<h3 class="method-title"><code><a href="#//api/name/levelerCropMode">&nbsp;&nbsp;levelerCropMode</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Specifies which crop mode will be used by the leveler.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) HVTLevelerCropMode levelerCropMode</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The leveler crops each video frame so that the resulting frame is leveled.  This involves rotating
+and scaling the crop region, prior to cropping the frame, according to the device&rsquo;s physical
+orientation at that time. The crop mode is the way the leveler adjusts the rotation and scale of
+the crop region.</p>
+
+<p>Note that scaling the crop region equals to zooming in the original video frame.</p>
+
+<p>The property is animated.</p>
+
+<p>The default value is <code>HVTLevelerCropModeFlex</code>.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="../Constants/HVTLevelerCropMode.html">HVTLevelerCropMode</a></p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/levelerFlexSpeed" title="levelerFlexSpeed"></a>
+	<h3 class="method-title"><code><a href="#//api/name/levelerFlexSpeed">&nbsp;&nbsp;levelerFlexSpeed</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Specifies how fast the leveler zooms when <a href="../Constants/HVTLevelerCropMode.html">HVTLevelerCropMode</a> is set to <code>HVTLevelerCropModeFlex</code>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) HVTLevelerFlexSpeed levelerFlexSpeed</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The default value is <code>HVTLevelerFlexSpeedSmooth</code>.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="../Constants/HVTLevelerFlexSpeed.html">HVTLevelerFlexSpeed</a></p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/levelerLockedOrientation" title="levelerLockedOrientation"></a>
+	<h3 class="method-title"><code><a href="#//api/name/levelerLockedOrientation">&nbsp;&nbsp;levelerLockedOrientation</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Informs the leveler of the expected device orientation when <a href="../Constants/HVTLevelerCropMode.html">HVTLevelerCropMode</a> is set
+to <code>HVTLevelerCropModeLocked</code>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) HVTLevelerLockedOrientation levelerLockedOrientation</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Since leveling is disabled when crop mode is <code>HVTLevelerCropModeLocked</code>, this property should match the device&rsquo;s physical
+orientation. For example, if the user is intented to hold the device vertically, use <code>HVTLevelerLockedOrientationVertical</code>.
+However, if the user decides to turn the device horizontally, the recorded video&rsquo;s orientation will be wrong.</p>
+
+<p>The property is animated.</p>
+
+<p>The default value is <code>HVTLevelerLockedOrientationAuto</code>.</p><div class="warning"><p><strong>Warning:</strong> This does <strong>not</strong> control whether the recorded video will be landscape or portrait. This depends on the
+aspect ratio of <a href="#//api/name/outputMovieSize">outputMovieSize</a>.</p></div>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="../Constants/HVTLevelerLockedOrientation.html">HVTLevelerLockedOrientation</a></p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Managing Video Filters" name="task_Managing Video Filters"></a>
+						<h2 class="task-title">Managing Video Filters</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/setActiveFilter:" title="setActiveFilter:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setActiveFilter:">&ndash;&nbsp;setActiveFilter:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Sets a custom CIFilter to be applied on the camera stream.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setActiveFilter:(CIFilter *)<em>filter</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>filter</code></th>
+						<td><p>The CIFilter to be applied</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The active filter is applied after the Leveler corrects the video orientation.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/removeActiveFilter" title="removeActiveFilter"></a>
+	<h3 class="method-title"><code><a href="#//api/name/removeActiveFilter">&ndash;&nbsp;removeActiveFilter</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Removes the active filter</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)removeActiveFilter</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2015 Horizon Video Technologies Inc. All rights reserved. Updated: 2015-08-06</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>
