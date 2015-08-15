@@ -59,19 +59,56 @@
 }
 </code></pre>
 
-<p>After initializing Horizon SDK, create an <a href="../../Classes/HVTCamera.html">HVTCamera</a> instance in your ViewController.</p>
+<p>After initializing Horizon SDK, you can choose between two different approaches: Using the <a href="../../Classes/HVTCameraController.html">HVTCameraController</a> or handling the whole process programmatically with <a href="../../Classes/HVTCamera.html">HVTCamera</a>.</p>
+
+<p>The first approach provides a fast and easy way of displaying a camera interface with all the controls your users will need to capture videos or shoot photos. The second one provides you with more flexibiliy and control over the camera, the previews and the UI.</p>
+
+<h2>1. Using <a href="../../Classes/HVTCameraController.html">HVTCameraController</a></h2>
+
+<p>The <a href="../../Classes/HVTCameraController.html">HVTCameraController</a> has similar behavior with the build-in <code>UIImagePickerController</code> of the UIKit framework.</p>
+
+<p>To get started with the <a href="../../Classes/HVTCameraController.html">HVTCameraController</a>, first instantiate one.</p>
+
+<pre><code>HVTCameraController *myController = [HVTCameraController new];
+</code></pre>
+
+<p>Provide any additional properties, such as the supported <code>mediaTypes</code> and <code>cameraCaptureMode</code>.</p>
+
+<pre><code>myController.mediaTypes = @[(NSString*)kUTTypeMovie, (NSString*)kUTTypeImage];
+myController.cameraCaptureMode = HVTCameraControllerCameraCaptureModeVideo;
+</code></pre>
+
+<p>Provide a delegate object that the controller will send its notifications.</p>
+
+<pre><code>myController.cameraDelegate = myCameraControllerDelegate;
+</code></pre>
+
+<p>Present the controller.</p>
+
+<pre><code>[self presentViewController:myController animated:YES completion:nil];
+</code></pre>
+
+<p>It is expected that you implement the two methods of <code>HVTCameraControllerDelegate</code> protocol, in order to deal with the recorded videos/photos or the event of the user cancelling the controller.</p>
+
+<h2>2. Using <a href="../../Classes/HVTCamera.html">HVTCamera</a></h2>
+
+<p>Create an <a href="../../Classes/HVTCamera.html">HVTCamera</a> instance in your view controller.</p>
 
 <pre><code>HVTCamera *camera = [HVTCamera new];
 </code></pre>
 
-<p>Optionally, you can set the interfaceOrientation property to the UI orientation of your UIViewController</p>
+<blockquote><p>If you are using the Interface Builder to create your view controllers, then you must instantiate <a href="../../Classes/HVTCamera.html">HVTCamera</a> in the <code>viewDidLoad</code> method instead of the <code>initWithCoder:</code>.</p>
+
+<p>If you are creating the view controllers programmatically then you can use the <code>init</code> or <code>initWithFrame:</code> methods to instantiate the <a href="../../Classes/HVTCamera.html">HVTCamera</a>.</p></blockquote>
+
+<p>Optionally, you can set the <code>interfaceOrientation</code> property to the UI orientation of your UIViewController.</p>
 
 <pre><code>camera.interfaceOrientation = [[UIApplication sharedApplication] statusBarOrientation];
 </code></pre>
 
-<p>If your app supports multiple orientations, follow the instructions provided in <a href="../../Classes/HVTCamera.html#//api/name/interfaceOrientation">[HVTCamera interfaceOrientation]</a>.</p>
+<p>If your app supports multiple orientations, follow the instructions provided in <a href="../../Classes/HVTCamera.html#//api/name/interfaceOrientation"><code>[HVTCamera interfaceOrientation]</code></a>.</p>
 
-<p>You can also set the camera&rsquo;s delegate defined in the <a href="../../Protocols/HVTCameraDelegate.html">HVTCameraDelegate</a> protocol and implement the protocol&rsquo;s methods in order to handle events like movie recording and photo capturing.</p>
+<p>You can also set the camera&rsquo;s delegate defined in the <a href="../../Protocols/HVTCameraDelegate.html"><code>HVTCameraDelegate</code></a> protocol and implement the protocol&rsquo;s methods in order to handle events like movie recording and photo capturing.</p>
 
 <pre><code>camera.delegate = myCameraDelegate;
 </code></pre>
@@ -80,21 +117,21 @@
 
 <p>In order to display a video preview, you can create an <a href="../../Classes/HVTView.html">HVTView</a> programmatically or via the Interface Builder.</p>
 
-<p>To create a <a href="../../Classes/HVTView.html">HVTView</a> programmatically, you can do the following:</p>
+<p>To create a <a href="../../Classes/HVTView.html">HVTView</a> programmatically, you can do the following.</p>
 
 <pre><code>HVTView *videoPreview = [[HVTView alloc] initWithFrame:CGRectMake(0, 0, 200, 200)];
-[videoPreview setCenter:self.view.center];
+videoPreview.center = self.view.center;
 [self.view addSubview:videoPreview];
 </code></pre>
 
-<p>Attach this view to your camera by calling HVTCamera&rsquo;s <code>addView</code> method</p>
+<p>Attach this view to your camera by calling HVTCamera&rsquo;s <code>addView</code> method.</p>
 
 <pre><code>[camera addView:videoPreview];
 </code></pre>
 
 <h2>Running</h2>
 
-<p>Let the camera instance run:</p>
+<p>Open the camera by running the camera instance.</p>
 
 <pre><code>[camera startRunning];
 </code></pre>
@@ -122,10 +159,18 @@
 
 <p>Well done! You now have a video recording application, able to record horizontal videos no matter what! You can learn more about every single class and method by taking a look at the <a href="../../hierarchy.html">API reference</a>.</p>
 
+<h1>Swift Support</h1>
+
+<p>Horizon SDK is built on Objective-C, but it supports projects built on the Swift language.</p>
+
+<p>In order to get Horizon SDK to work with your Swift project, you must add a bridging header.</p>
+
+<p>To create a bridging header, you can follow the instructions by Apple in iOS Developer Library &lsquo;<a href="https://developer.apple.com/library/ios/documentation/Swift/Conceptual/BuildingCocoaApps/MixandMatch.html">Swift and Objective-C in the Same Project</a>&rsquo; or take a look at the HorizonSDK sample project written in Swift, provided with the library.</p>
+
 					<footer>
 						<div class="footer-copyright">
 							
-							<p class="copyright">Copyright &copy; 2015 Horizon Video Technologies Inc. All rights reserved. Updated: 2015-08-06</p>
+							<p class="copyright">Copyright &copy; 2015 Horizon Video Technologies Inc. All rights reserved. Updated: 2015-08-15</p>
 							
 							
 							<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</p>

@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DB7A2E11B7F35D700FB9740 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB7A2E01B7F35D700FB9740 /* AppDelegate.swift */; };
+		9DB7A2E31B7F35D700FB9740 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB7A2E21B7F35D700FB9740 /* ViewController.swift */; };
+		9DB7A2E61B7F35D700FB9740 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DB7A2E41B7F35D700FB9740 /* Main.storyboard */; };
+		9DB7A2E81B7F35D700FB9740 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DB7A2E71B7F35D700FB9740 /* Images.xcassets */; };
+		9DB7A2EB1B7F35D700FB9740 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DB7A2E91B7F35D700FB9740 /* LaunchScreen.xib */; };
+		9DB7A2F71B7F35D700FB9740 /* SwiftHorizonSDKDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB7A2F61B7F35D700FB9740 /* SwiftHorizonSDKDemoTests.swift */; };
+		9DB7A3021B7F361B00FB9740 /* HorizonSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9DB7A3001B7F361B00FB9740 /* HorizonSDK.bundle */; };
+		9DB7A3031B7F361B00FB9740 /* HorizonSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB7A3011B7F361B00FB9740 /* HorizonSDK.framework */; };
+		9DB7A3071B7F389400FB9740 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB7A3061B7F389400FB9740 /* CoreMotion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DB7A2F11B7F35D700FB9740 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DB7A2D31B7F35D700FB9740 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DB7A2DA1B7F35D700FB9740;
+			remoteInfo = SwiftHorizonSDKDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9DB7A2DB1B7F35D700FB9740 /* SwiftHorizonSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftHorizonSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DB7A2DF1B7F35D700FB9740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DB7A2E01B7F35D700FB9740 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9DB7A2E21B7F35D700FB9740 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9DB7A2E51B7F35D700FB9740 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9DB7A2E71B7F35D700FB9740 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9DB7A2EA1B7F35D700FB9740 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9DB7A2F01B7F35D700FB9740 /* SwiftHorizonSDKDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftHorizonSDKDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DB7A2F51B7F35D700FB9740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DB7A2F61B7F35D700FB9740 /* SwiftHorizonSDKDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftHorizonSDKDemoTests.swift; sourceTree = "<group>"; };
+		9DB7A3001B7F361B00FB9740 /* HorizonSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HorizonSDK.bundle; sourceTree = "<group>"; };
+		9DB7A3011B7F361B00FB9740 /* HorizonSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HorizonSDK.framework; sourceTree = "<group>"; };
+		9DB7A3051B7F366300FB9740 /* SwiftHorizonSDKDemo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SwiftHorizonSDKDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		9DB7A3061B7F389400FB9740 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DB7A2D81B7F35D700FB9740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DB7A3071B7F389400FB9740 /* CoreMotion.framework in Frameworks */,
+				9DB7A3031B7F361B00FB9740 /* HorizonSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DB7A2ED1B7F35D700FB9740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DB7A2D21B7F35D700FB9740 = {
+			isa = PBXGroup;
+			children = (
+				9DB7A2DD1B7F35D700FB9740 /* SwiftHorizonSDKDemo */,
+				9DB7A2F31B7F35D700FB9740 /* SwiftHorizonSDKDemoTests */,
+				9DB7A2DC1B7F35D700FB9740 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DB7A2DC1B7F35D700FB9740 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DB7A2DB1B7F35D700FB9740 /* SwiftHorizonSDKDemo.app */,
+				9DB7A2F01B7F35D700FB9740 /* SwiftHorizonSDKDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DB7A2DD1B7F35D700FB9740 /* SwiftHorizonSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9DB7A2E01B7F35D700FB9740 /* AppDelegate.swift */,
+				9DB7A2E21B7F35D700FB9740 /* ViewController.swift */,
+				9DB7A3051B7F366300FB9740 /* SwiftHorizonSDKDemo-Bridging-Header.h */,
+				9DB7A2E41B7F35D700FB9740 /* Main.storyboard */,
+				9DB7A2E71B7F35D700FB9740 /* Images.xcassets */,
+				9DB7A2E91B7F35D700FB9740 /* LaunchScreen.xib */,
+				9DB7A3041B7F361F00FB9740 /* Horizon SDK */,
+				9DB7A2DE1B7F35D700FB9740 /* Supporting Files */,
+			);
+			path = SwiftHorizonSDKDemo;
+			sourceTree = "<group>";
+		};
+		9DB7A2DE1B7F35D700FB9740 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DB7A3061B7F389400FB9740 /* CoreMotion.framework */,
+				9DB7A2DF1B7F35D700FB9740 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9DB7A2F31B7F35D700FB9740 /* SwiftHorizonSDKDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DB7A2F61B7F35D700FB9740 /* SwiftHorizonSDKDemoTests.swift */,
+				9DB7A2F41B7F35D700FB9740 /* Supporting Files */,
+			);
+			path = SwiftHorizonSDKDemoTests;
+			sourceTree = "<group>";
+		};
+		9DB7A2F41B7F35D700FB9740 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DB7A2F51B7F35D700FB9740 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9DB7A3041B7F361F00FB9740 /* Horizon SDK */ = {
+			isa = PBXGroup;
+			children = (
+				9DB7A3001B7F361B00FB9740 /* HorizonSDK.bundle */,
+				9DB7A3011B7F361B00FB9740 /* HorizonSDK.framework */,
+			);
+			name = "Horizon SDK";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DB7A2DA1B7F35D700FB9740 /* HorizonSDK Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DB7A2FA1B7F35D700FB9740 /* Build configuration list for PBXNativeTarget "HorizonSDK Swift" */;
+			buildPhases = (
+				9DB7A2D71B7F35D700FB9740 /* Sources */,
+				9DB7A2D81B7F35D700FB9740 /* Frameworks */,
+				9DB7A2D91B7F35D700FB9740 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HorizonSDK Swift";
+			productName = SwiftHorizonSDKDemo;
+			productReference = 9DB7A2DB1B7F35D700FB9740 /* SwiftHorizonSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9DB7A2EF1B7F35D700FB9740 /* SwiftHorizonSDKDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DB7A2FD1B7F35D700FB9740 /* Build configuration list for PBXNativeTarget "SwiftHorizonSDKDemoTests" */;
+			buildPhases = (
+				9DB7A2EC1B7F35D700FB9740 /* Sources */,
+				9DB7A2ED1B7F35D700FB9740 /* Frameworks */,
+				9DB7A2EE1B7F35D700FB9740 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DB7A2F21B7F35D700FB9740 /* PBXTargetDependency */,
+			);
+			name = SwiftHorizonSDKDemoTests;
+			productName = SwiftHorizonSDKDemoTests;
+			productReference = 9DB7A2F01B7F35D700FB9740 /* SwiftHorizonSDKDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DB7A2D31B7F35D700FB9740 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Horizon Video Technologies";
+				TargetAttributes = {
+					9DB7A2DA1B7F35D700FB9740 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					9DB7A2EF1B7F35D700FB9740 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 9DB7A2DA1B7F35D700FB9740;
+					};
+				};
+			};
+			buildConfigurationList = 9DB7A2D61B7F35D700FB9740 /* Build configuration list for PBXProject "SwiftHorizonSDKDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DB7A2D21B7F35D700FB9740;
+			productRefGroup = 9DB7A2DC1B7F35D700FB9740 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DB7A2DA1B7F35D700FB9740 /* HorizonSDK Swift */,
+				9DB7A2EF1B7F35D700FB9740 /* SwiftHorizonSDKDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DB7A2D91B7F35D700FB9740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DB7A3021B7F361B00FB9740 /* HorizonSDK.bundle in Resources */,
+				9DB7A2E61B7F35D700FB9740 /* Main.storyboard in Resources */,
+				9DB7A2EB1B7F35D700FB9740 /* LaunchScreen.xib in Resources */,
+				9DB7A2E81B7F35D700FB9740 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DB7A2EE1B7F35D700FB9740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DB7A2D71B7F35D700FB9740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DB7A2E31B7F35D700FB9740 /* ViewController.swift in Sources */,
+				9DB7A2E11B7F35D700FB9740 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DB7A2EC1B7F35D700FB9740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DB7A2F71B7F35D700FB9740 /* SwiftHorizonSDKDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DB7A2F21B7F35D700FB9740 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DB7A2DA1B7F35D700FB9740 /* HorizonSDK Swift */;
+			targetProxy = 9DB7A2F11B7F35D700FB9740 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9DB7A2E41B7F35D700FB9740 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DB7A2E51B7F35D700FB9740 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9DB7A2E91B7F35D700FB9740 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DB7A2EA1B7F35D700FB9740 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DB7A2F81B7F35D700FB9740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9DB7A2F91B7F35D700FB9740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DB7A2FB1B7F35D700FB9740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SwiftHorizonSDKDemo",
+				);
+				INFOPLIST_FILE = SwiftHorizonSDKDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftHorizonSDKDemo/SwiftHorizonSDKDemo-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		9DB7A2FC1B7F35D700FB9740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SwiftHorizonSDKDemo",
+				);
+				INFOPLIST_FILE = SwiftHorizonSDKDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftHorizonSDKDemo/SwiftHorizonSDKDemo-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		9DB7A2FE1B7F35D700FB9740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftHorizonSDKDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HorizonSDK Swift.app/HorizonSDK Swift";
+			};
+			name = Debug;
+		};
+		9DB7A2FF1B7F35D700FB9740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftHorizonSDKDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HorizonSDK Swift.app/HorizonSDK Swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DB7A2D61B7F35D700FB9740 /* Build configuration list for PBXProject "SwiftHorizonSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DB7A2F81B7F35D700FB9740 /* Debug */,
+				9DB7A2F91B7F35D700FB9740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DB7A2FA1B7F35D700FB9740 /* Build configuration list for PBXNativeTarget "HorizonSDK Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DB7A2FB1B7F35D700FB9740 /* Debug */,
+				9DB7A2FC1B7F35D700FB9740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DB7A2FD1B7F35D700FB9740 /* Build configuration list for PBXNativeTarget "SwiftHorizonSDKDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DB7A2FE1B7F35D700FB9740 /* Debug */,
+				9DB7A2FF1B7F35D700FB9740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DB7A2D31B7F35D700FB9740 /* Project object */;
+}

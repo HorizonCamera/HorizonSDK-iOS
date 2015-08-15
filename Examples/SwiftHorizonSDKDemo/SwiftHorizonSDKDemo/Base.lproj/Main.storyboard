@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="HorizonSDK_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b1p-wv-Lzw" customClass="HVTView">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" red="0.2155752484" green="0.4515453868" blue="0.92784052309999998" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m48-fJ-t6v">
+                                <rect key="frame" x="270" y="520" width="60" height="60"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.035351606610000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="KPN-Tv-1Jz"/>
+                                    <constraint firstAttribute="width" constant="60" id="PfS-H2-FTg"/>
+                                </constraints>
+                                <state key="normal" title="Record">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="recordTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="tn4-F4-4RJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="b1p-wv-Lzw" secondAttribute="bottom" id="5hG-rQ-iPp"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="m48-fJ-t6v" secondAttribute="bottom" constant="20" id="87Z-yk-AhH"/>
+                            <constraint firstItem="b1p-wv-Lzw" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="RD0-uT-Cms"/>
+                            <constraint firstAttribute="trailing" secondItem="b1p-wv-Lzw" secondAttribute="trailing" id="RdL-me-GSC"/>
+                            <constraint firstAttribute="centerY" secondItem="m48-fJ-t6v" secondAttribute="centerY" id="ZSA-GS-29N"/>
+                            <constraint firstItem="b1p-wv-Lzw" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="top" id="aNH-px-j4S"/>
+                            <constraint firstAttribute="centerX" secondItem="m48-fJ-t6v" secondAttribute="centerX" id="djt-WK-I6f"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="ZSA-GS-29N"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="preview" destination="b1p-wv-Lzw" id="BbG-qt-5ha"/>
+                        <outlet property="recordButton" destination="m48-fJ-t6v" id="fiR-zS-UYL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
