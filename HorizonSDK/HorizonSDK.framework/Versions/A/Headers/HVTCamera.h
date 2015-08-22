@@ -198,6 +198,8 @@
  camera resolution and a 640x640 final video file.
  
  The default value matches the cameraResolution, until set explicetely via this property.
+ 
+ outputMovieSize cannot be set if the captureMode is set to HVTCaptureModePhoto.
  */
 @property (nonatomic) CGSize outputMovieSize;
 
