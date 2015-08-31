@@ -17,7 +17,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
-    [[HVTSDK sharedInstance] activateWithAPIKey:@"dfkYeHg0FLhI4SOb6YqwiLOi8rofoZowRNFB8VyddABoYnUeTC9CVXJ4mCz+KXTHFdjN0nptyQXdCtZG25agDGNvbS5odnQuSG9yaXpvblNESy1TfENV"];
+    [[HVTSDK sharedInstance] activateWithAPIKey:@"1u5Tc9iMAGG4uN1UzFCxQzQmcRdEyCuF2UkquFWy01B+yOYgkEU81rJT6IGZy3cq1PEPAPasjg9CpwCMW4drAWNvbS5odnQuSG9yaXpvblNESy1TfENV"];
 
     return YES;
 }

@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
 
-        HVTSDK.sharedInstance().activateWithAPIKey("hS3P5vvBhXUs3vc7C31F+a+qc/pgU1SW2Lt096LxdmVgYf/dIBO1POxh5JJHfK9vzbGbLP1mngAjJgNJfHN0BWNvbS5odnQuSG9yaXpvblNESy1Td2lmdHxDVQ==")
+        HVTSDK.sharedInstance().activateWithAPIKey("QMCA6kLDQGpK4c92SfmBK7Kr9dNxwekmLCZKYKb4x3Q+OcFQ/iZS8MH2V5xW/0lLkY9JTY3c8UtvV+PDLvRkBWNvbS5odnQuSG9yaXpvblNESy1Td2lmdHxDVQ==")
         
         return true
     }

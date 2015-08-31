@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D7B33F11B948F610004CB17 /* HorizonSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D7B33EF1B948F610004CB17 /* HorizonSDK.framework */; };
+		9D7B33F21B948F610004CB17 /* HorizonSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9D7B33F01B948F610004CB17 /* HorizonSDK.bundle */; };
 		9DB7A2E11B7F35D700FB9740 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB7A2E01B7F35D700FB9740 /* AppDelegate.swift */; };
 		9DB7A2E31B7F35D700FB9740 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB7A2E21B7F35D700FB9740 /* ViewController.swift */; };
 		9DB7A2E61B7F35D700FB9740 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DB7A2E41B7F35D700FB9740 /* Main.storyboard */; };
 		9DB7A2E81B7F35D700FB9740 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DB7A2E71B7F35D700FB9740 /* Images.xcassets */; };
 		9DB7A2EB1B7F35D700FB9740 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DB7A2E91B7F35D700FB9740 /* LaunchScreen.xib */; };
 		9DB7A2F71B7F35D700FB9740 /* SwiftHorizonSDKDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB7A2F61B7F35D700FB9740 /* SwiftHorizonSDKDemoTests.swift */; };
-		9DB7A3021B7F361B00FB9740 /* HorizonSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9DB7A3001B7F361B00FB9740 /* HorizonSDK.bundle */; };
-		9DB7A3031B7F361B00FB9740 /* HorizonSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB7A3011B7F361B00FB9740 /* HorizonSDK.framework */; };
 		9DB7A3071B7F389400FB9740 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB7A3061B7F389400FB9740 /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9DB7A2DB1B7F35D700FB9740 /* SwiftHorizonSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftHorizonSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D7B33EF1B948F610004CB17 /* HorizonSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HorizonSDK.framework; path = ../../../HorizonSDK/HorizonSDK.framework; sourceTree = "<group>"; };
+		9D7B33F01B948F610004CB17 /* HorizonSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = HorizonSDK.bundle; path = ../../../HorizonSDK/HorizonSDK.bundle; sourceTree = "<group>"; };
+		9DB7A2DB1B7F35D700FB9740 /* HorizonSDK Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HorizonSDK Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DB7A2DF1B7F35D700FB9740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DB7A2E01B7F35D700FB9740 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DB7A2E21B7F35D700FB9740 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,8 +41,6 @@
 		9DB7A2F01B7F35D700FB9740 /* SwiftHorizonSDKDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftHorizonSDKDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DB7A2F51B7F35D700FB9740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DB7A2F61B7F35D700FB9740 /* SwiftHorizonSDKDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftHorizonSDKDemoTests.swift; sourceTree = "<group>"; };
-		9DB7A3001B7F361B00FB9740 /* HorizonSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HorizonSDK.bundle; sourceTree = "<group>"; };
-		9DB7A3011B7F361B00FB9740 /* HorizonSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HorizonSDK.framework; sourceTree = "<group>"; };
 		9DB7A3051B7F366300FB9740 /* SwiftHorizonSDKDemo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SwiftHorizonSDKDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		9DB7A3061B7F389400FB9740 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -51,7 +51,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DB7A3071B7F389400FB9740 /* CoreMotion.framework in Frameworks */,
-				9DB7A3031B7F361B00FB9740 /* HorizonSDK.framework in Frameworks */,
+				9D7B33F11B948F610004CB17 /* HorizonSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +77,7 @@
 		9DB7A2DC1B7F35D700FB9740 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9DB7A2DB1B7F35D700FB9740 /* SwiftHorizonSDKDemo.app */,
+				9DB7A2DB1B7F35D700FB9740 /* HorizonSDK Swift.app */,
 				9DB7A2F01B7F35D700FB9740 /* SwiftHorizonSDKDemoTests.xctest */,
 			);
 			name = Products;
@@ -127,8 +127,8 @@
 		9DB7A3041B7F361F00FB9740 /* Horizon SDK */ = {
 			isa = PBXGroup;
 			children = (
-				9DB7A3001B7F361B00FB9740 /* HorizonSDK.bundle */,
-				9DB7A3011B7F361B00FB9740 /* HorizonSDK.framework */,
+				9D7B33EF1B948F610004CB17 /* HorizonSDK.framework */,
+				9D7B33F01B948F610004CB17 /* HorizonSDK.bundle */,
 			);
 			name = "Horizon SDK";
 			sourceTree = "<group>";
@@ -150,7 +150,7 @@
 			);
 			name = "HorizonSDK Swift";
 			productName = SwiftHorizonSDKDemo;
-			productReference = 9DB7A2DB1B7F35D700FB9740 /* SwiftHorizonSDKDemo.app */;
+			productReference = 9DB7A2DB1B7F35D700FB9740 /* HorizonSDK Swift.app */;
 			productType = "com.apple.product-type.application";
 		};
 		9DB7A2EF1B7F35D700FB9740 /* SwiftHorizonSDKDemoTests */ = {
@@ -213,7 +213,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DB7A3021B7F361B00FB9740 /* HorizonSDK.bundle in Resources */,
+				9D7B33F21B948F610004CB17 /* HorizonSDK.bundle in Resources */,
 				9DB7A2E61B7F35D700FB9740 /* Main.storyboard in Resources */,
 				9DB7A2EB1B7F35D700FB9740 /* LaunchScreen.xib in Resources */,
 				9DB7A2E81B7F35D700FB9740 /* Images.xcassets in Resources */,
@@ -365,6 +365,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SwiftHorizonSDKDemo",
+					"/Users/stelabouras/Development/HorizonSDK-product/HorizonSDK",
 				);
 				INFOPLIST_FILE = SwiftHorizonSDKDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -384,6 +385,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SwiftHorizonSDKDemo",
+					"/Users/stelabouras/Development/HorizonSDK-product/HorizonSDK",
 				);
 				INFOPLIST_FILE = SwiftHorizonSDKDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
