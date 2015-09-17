@@ -64,7 +64,10 @@ class ViewController : UIViewController, HVTCameraDelegate {
     // MARK: Private methods
     
     func removeTempMovie(movieURL: NSURL!) {
-        NSFileManager.defaultManager().removeItemAtURL(movieURL, error: nil)
+        do {
+            try NSFileManager.defaultManager().removeItemAtURL(movieURL)
+        } catch _ {
+        }
     }
     
     // MARK: HVTCameraDelegate methods
