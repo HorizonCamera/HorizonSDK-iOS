@@ -21,5 +21,5 @@ Pod::Spec.new do |s|
   s.resource = 'HorizonSDK/HorizonSDK.bundle'
 
   s.frameworks = 'CoreMotion'
-  s.libraries = 'ObjC', 'lstdc++'
+  s.libraries = 'ObjC', 'stdc++'
 end
