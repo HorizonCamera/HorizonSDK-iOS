@@ -64,6 +64,57 @@
 		</Token>
 		
 		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTView/setWatermarkPosition:</TokenIdentifier>
+			<Abstract type="html">Specifies the position of the Horizon watermark on the view.</Abstract>
+			<DeclaredIn>HVTView.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/HVTViewWatermarkPosition</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic) HVTViewWatermarkPosition watermarkPosition</Declaration>
+			
+			
+			<Anchor>//api/name/watermarkPosition</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTView/watermarkPosition</TokenIdentifier>
+			<Abstract type="html">Specifies the position of the Horizon watermark on the view.</Abstract>
+			<DeclaredIn>HVTView.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/HVTViewWatermarkPosition</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic) HVTViewWatermarkPosition watermarkPosition</Declaration>
+			
+			
+			<Anchor>//api/name/watermarkPosition</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HVTView/watermarkPosition</TokenIdentifier>
+			<Abstract type="html">Specifies the position of the Horizon watermark on the view.</Abstract>
+			<DeclaredIn>HVTView.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/HVTViewWatermarkPosition</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic) HVTViewWatermarkPosition watermarkPosition</Declaration>
+			
+			
+			<Anchor>//api/name/watermarkPosition</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/HVTView/setEnabled:</TokenIdentifier>
 			<Abstract type="html">Specifies whether the view is enabled or not.</Abstract>
 			<DeclaredIn>HVTView.h</DeclaredIn>

@@ -27,6 +27,18 @@ typedef NS_ENUM(NSInteger, HVTViewFillMode) {
     HVTViewFillModeAspectFill
 };
 
+/** Constants indicating the position of Horizon watermark in the view. */
+typedef NS_ENUM(NSInteger, HVTViewWatermarkPosition) {
+    /** The Horizon watermark will be placed in the bottom right corner of the view with a 10 points padding. */
+    HVTViewWatermarkPositionBottomRight,
+    /** The Horizon watermark will be placed in the bottom left corner of the view with a 10 points padding. */
+    HVTViewWatermarkPositionBottomLeft,
+    /** The Horizon watermark will be placed in the top right corner of the view with a 10 points padding. */
+    HVTViewWatermarkPositionTopRight,
+    /** The Horizon watermark will be placed in the top left corner of the view with a 10 points padding. */
+    HVTViewWatermarkPositionTopLeft
+};
+
 /** 
  HVTView is a subclass of UIView that you use to preview video as it is being captured by HVTCamera.
  
@@ -59,6 +71,13 @@ typedef NS_ENUM(NSInteger, HVTViewFillMode) {
 
  @see HVTViewType*/
 @property (nonatomic) HVTViewType viewType;
+
+/** Specifies the position of the Horizon watermark on the view.
+ 
+ The default value, `HVTViewWatermarkPositionBottomRight` places the watermark in the bottom right corner of the HVTView.
+ 
+ @see HVTViewWatermarkPosition*/
+@property (nonatomic) HVTViewWatermarkPosition watermarkPosition;
 
 /** Specifies whether the view is enabled or not.
  

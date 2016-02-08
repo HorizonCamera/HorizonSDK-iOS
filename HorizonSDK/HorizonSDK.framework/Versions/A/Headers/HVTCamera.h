@@ -270,6 +270,25 @@
  */
 - (BOOL)isPaused;
 
+/**
+ Returns the video bitrate of the currently active recorder
+ 
+ If the video recorder is not active, this method returns 0.
+ 
+ @return The video bitrate.
+ */
+- (int)recorderVideoBitRate;
+
+/**
+ Returns the audio bitrate of the currently active recorder
+ 
+ If the video recorder is not active, this method returns 0.
+ 
+ @return The audio bitrate.
+ */
+- (int)recorderAudioBitRate;
+
+
 #pragma mark Photo Capture
 /**----------------------------------------------------------------------
  * @name Managing Photo Capture

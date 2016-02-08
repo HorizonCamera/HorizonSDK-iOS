@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/HVTViewWatermarkPosition.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/HVTViewWatermarkPosition</TokenIdentifier>
+			<Abstract type="html">Constants indicating the position of Horizon watermark in the view.</Abstract>
+			<DeclaredIn>HVTView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="22"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/HVTViewWatermarkPositionBottomRight</TokenIdentifier>
+            <Abstract type="html">The Horizon watermark will be placed in the bottom right corner of the view with a 10 points padding.</Abstract>
+            <Declaration>HVTViewWatermarkPositionBottomRight</Declaration>
+            
+            <DeclaredIn>HVTView.h</DeclaredIn>
+            
+            <NodeRef refid="22"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/HVTViewWatermarkPositionBottomLeft</TokenIdentifier>
+            <Abstract type="html">The Horizon watermark will be placed in the bottom left corner of the view with a 10 points padding.</Abstract>
+            <Declaration>HVTViewWatermarkPositionBottomLeft</Declaration>
+            
+            <DeclaredIn>HVTView.h</DeclaredIn>
+            
+            <NodeRef refid="22"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/HVTViewWatermarkPositionTopRight</TokenIdentifier>
+            <Abstract type="html">The Horizon watermark will be placed in the top right corner of the view with a 10 points padding.</Abstract>
+            <Declaration>HVTViewWatermarkPositionTopRight</Declaration>
+            
+            <DeclaredIn>HVTView.h</DeclaredIn>
+            
+            <NodeRef refid="22"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/HVTViewWatermarkPositionTopLeft</TokenIdentifier>
+            <Abstract type="html">The Horizon watermark will be placed in the top left corner of the view with a 10 points padding.</Abstract>
+            <Declaration>HVTViewWatermarkPositionTopLeft</Declaration>
+            
+            <DeclaredIn>HVTView.h</DeclaredIn>
+            
+            <NodeRef refid="22"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

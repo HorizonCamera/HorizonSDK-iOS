@@ -59,6 +59,7 @@
 						<NodeRef refid="19"/>
 						<NodeRef refid="20"/>
 						<NodeRef refid="21"/>
+						<NodeRef refid="22"/>
 						
 					</Subnodes>
 				</Node>
@@ -359,6 +360,11 @@
 		<Node id="21" type="file" documentType="reference">
             <Name>HVTViewType</Name>
             <Path>Constants/HVTViewType.html</Path>
+            
+        </Node>
+		<Node id="22" type="file" documentType="reference">
+            <Name>HVTViewWatermarkPosition</Name>
+            <Path>Constants/HVTViewWatermarkPosition.html</Path>
             
         </Node>
 		

@@ -357,6 +357,30 @@ Can be nil</Abstract>
 		</Token>
 		
 		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/recorderVideoBitRate</TokenIdentifier>
+			<Abstract type="html">Returns the video bitrate of the currently active recorder</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>- (int)recorderVideoBitRate</Declaration>
+			
+			<ReturnValue><Abstract type="html">The video bitrate.</Abstract></ReturnValue>
+			<Anchor>//api/name/recorderVideoBitRate</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/recorderAudioBitRate</TokenIdentifier>
+			<Abstract type="html">Returns the audio bitrate of the currently active recorder</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>- (int)recorderAudioBitRate</Declaration>
+			
+			<ReturnValue><Abstract type="html">The audio bitrate.</Abstract></ReturnValue>
+			<Anchor>//api/name/recorderAudioBitRate</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/setStillImageOrientation:</TokenIdentifier>
 			<Abstract type="html">Handles the still image frame for photo mode</Abstract>
 			<DeclaredIn>HVTCamera.h</DeclaredIn>
