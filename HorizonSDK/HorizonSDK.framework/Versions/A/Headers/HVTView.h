@@ -110,6 +110,16 @@ typedef NS_ENUM(NSInteger, HVTViewWatermarkPosition) {
  @see HVTViewFillMode*/
 @property (nonatomic) HVTViewFillMode fillMode;
 
+/** Assigns the color to the circle that is being displayed when the user tries to focus in a point of the HVTView.
+ 
+ The default color is white.*/
+@property (nonatomic) UIColor *focusViewColor;
+
+/** Assigns the border width to the circle that is being displayed when the user tries to focus in a point of the HVTView.
+ 
+ The default border width is 1.0*/
+@property (nonatomic) CGFloat focusViewBorderWidth;
+
 /** Controls if the view will include a double tap gesture to cycle through the different fill modes available.
  
  The default value is `NO`.

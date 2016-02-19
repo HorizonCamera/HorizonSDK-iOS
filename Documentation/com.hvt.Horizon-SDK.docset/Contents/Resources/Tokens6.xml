@@ -274,6 +274,78 @@
 		</Token>
 		
 		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTView/setFocusViewColor:</TokenIdentifier>
+			<Abstract type="html">Assigns the color to the circle that is being displayed when the user tries to focus in a point of the HVTView.</Abstract>
+			<DeclaredIn>HVTView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIColor *focusViewColor</Declaration>
+			
+			
+			<Anchor>//api/name/focusViewColor</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTView/focusViewColor</TokenIdentifier>
+			<Abstract type="html">Assigns the color to the circle that is being displayed when the user tries to focus in a point of the HVTView.</Abstract>
+			<DeclaredIn>HVTView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIColor *focusViewColor</Declaration>
+			
+			
+			<Anchor>//api/name/focusViewColor</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HVTView/focusViewColor</TokenIdentifier>
+			<Abstract type="html">Assigns the color to the circle that is being displayed when the user tries to focus in a point of the HVTView.</Abstract>
+			<DeclaredIn>HVTView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIColor *focusViewColor</Declaration>
+			
+			
+			<Anchor>//api/name/focusViewColor</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTView/setFocusViewBorderWidth:</TokenIdentifier>
+			<Abstract type="html">Assigns the border width to the circle that is being displayed when the user tries to focus in a point of the HVTView.</Abstract>
+			<DeclaredIn>HVTView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat focusViewBorderWidth</Declaration>
+			
+			
+			<Anchor>//api/name/focusViewBorderWidth</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTView/focusViewBorderWidth</TokenIdentifier>
+			<Abstract type="html">Assigns the border width to the circle that is being displayed when the user tries to focus in a point of the HVTView.</Abstract>
+			<DeclaredIn>HVTView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat focusViewBorderWidth</Declaration>
+			
+			
+			<Anchor>//api/name/focusViewBorderWidth</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HVTView/focusViewBorderWidth</TokenIdentifier>
+			<Abstract type="html">Assigns the border width to the circle that is being displayed when the user tries to focus in a point of the HVTView.</Abstract>
+			<DeclaredIn>HVTView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat focusViewBorderWidth</Declaration>
+			
+			
+			<Anchor>//api/name/focusViewBorderWidth</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/HVTView/setEnablesDoubleTapToChangeFillMode:</TokenIdentifier>
 			<Abstract type="html">Controls if the view will include a double tap gesture to cycle through the different fill modes available.</Abstract>
 			<DeclaredIn>HVTView.h</DeclaredIn>
