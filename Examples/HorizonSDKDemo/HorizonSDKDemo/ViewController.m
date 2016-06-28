@@ -93,7 +93,7 @@
     NSString *newDuration = @"00:00";
     
     if(seconds > 3600.0)
-        newDuration = [NSString stringWithFormat:@"%02lu:%02lu:%02lu", seconds/3600UL, (seconds / 60UL - 60UL), seconds % 60UL];
+        newDuration = [NSString stringWithFormat:@"%02lu:%02lu:%02lu", seconds/3600UL, ((seconds / 60UL) % 60UL), seconds % 60UL];
     else
         newDuration = [NSString stringWithFormat:@"%02lu:%02lu", seconds / 60UL, seconds % 60UL];
     

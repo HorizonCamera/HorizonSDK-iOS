@@ -84,7 +84,7 @@ class ViewController : UIViewController, HVTCameraDelegate {
         
         if(seconds > 3600) {
             
-            newDuration = NSString(format: "%02lu:%02lu:%02lu", seconds/3600, (seconds / 60 - 60), seconds % 60) as String
+            newDuration = NSString(format: "%02lu:%02lu:%02lu", seconds/3600, ((seconds / 60) % 60), seconds % 60) as String
         }
         else {
             
