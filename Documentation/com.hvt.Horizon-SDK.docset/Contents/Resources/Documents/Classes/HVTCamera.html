@@ -56,6 +56,8 @@
 	
 	<optgroup label="Properties">
 		
+		<option value="//api/name/brightnessValue">brightnessValue</option>
+		
 		<option value="//api/name/cameraDevice">cameraDevice</option>
 		
 		<option value="//api/name/captureMode">captureMode</option>
@@ -119,8 +121,6 @@
 		<option value="//api/name/isRunning">- isRunning</option>
 		
 		<option value="//api/name/isVideoStabilizationModeSupported:">- isVideoStabilizationModeSupported:</option>
-		
-		<option value="//api/name/isVideoStabilizationSupported">- isVideoStabilizationSupported</option>
 		
 		<option value="//api/name/pauseRecording">- pauseRecording</option>
 		
@@ -1396,7 +1396,7 @@ the appropriate metadata keyspace for the output file and written to the output.
 			
 			<div class="method-subsection return">
 				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p><code>NO</code> if another photo capture is in progress and <code>YES</code> otherwise</p>
+				<p><code>NO</code> if another photo capture is in progress or if photo capturing is not supported and <code>YES</code> otherwise</p>
 			</div>
 			
 
@@ -1405,12 +1405,10 @@ the appropriate metadata keyspace for the output file and written to the output.
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>If used while recording then you will hear the shutter sound.</p>
+				<p>If used while recording then you will receive a HVTErrorPhotoModeNotEnabled error by the
+hvtCamera:photoCapturingDidFailWithError: <a href="#//api/name/delegate">delegate</a> method.</p>
 
-<p>For iPhone 6 and iPhone 6 Plus devices you will get a full resolution photo even while recording,
-for any other device you will get a photo with the same dimensions as the video dimensions declared in the <a href="#//api/name/outputMovieSize">outputMovieSize</a> property.</p>
-
-<p>It is recommended that you use the <a href="#//api/name/captureSnapshot">captureSnapshot</a> method while recording instead.</p>
+<p>While recording, you can use the <a href="#//api/name/captureSnapshot">captureSnapshot</a> method to take photos.</p>
 			</div>
 			
 
@@ -1475,10 +1473,10 @@ for any other device you will get a photo with the same dimensions as the video 
 				<h4 class="method-subtitle">Discussion</h4>
 				<p>If used while recording then you will hear the shutter sound.</p>
 
-<p>For iPhone 6 and iPhone 6 Plus devices you will get a full resolution photo even while recording,
-for any other device you will get a photo with the same dimensions as the video dimensions declared in the <a href="#//api/name/outputMovieSize">outputMovieSize</a> property.</p>
+<p>If used while recording then you will receive a HVTErrorPhotoModeNotEnabled error by the
+hvtCamera:photoCapturingDidFailWithError: <a href="#//api/name/delegate">delegate</a> method.</p>
 
-<p>It is recommended that you use the <a href="#//api/name/captureSnapshot">captureSnapshot</a> method while recording instead.</p>
+<p>While recording, you can use the <a href="#//api/name/captureSnapshot">captureSnapshot</a> method to take photos.</p>
 			</div>
 			
 
@@ -1845,6 +1843,63 @@ for any other device you will get a photo with the same dimensions as the video 
 <p>You can enter only the following two values for the outputPixelFormat:</p>
 
 <p>kCVPixelFormatType_32BGRA and kCVPixelFormatType_420YpCbCr8BiPlanarVideoRange</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/brightnessValue" title="brightnessValue"></a>
+	<h3 class="method-title"><code><a href="#//api/name/brightnessValue">&nbsp;&nbsp;brightnessValue</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The brightness value, indicating how dark or bright the scene currently is.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) float brightnessValue</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The value can be negative (for dark scenes) or positive (for bright scenes) and
+is updated in real-time.</p>
+
+<p>You can observe the changes to this value using KVO.</p>
+
+<p>e.g.</p>
+
+<pre><code>[self addObserver:self
+        forKeyPath:@"_camera.brightnessValue"
+            options:(NSKeyValueObservingOptionInitial | NSKeyValueObservingOptionOld | NSKeyValueObservingOptionNew)
+            context:(__bridge void *)(self)];
+</code></pre>
 			</div>
 			
 
@@ -2553,59 +2608,6 @@ work on an iOS7 runtime.</p>
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/isVideoStabilizationSupported" title="isVideoStabilizationSupported"></a>
-	<h3 class="method-title"><code><a href="#//api/name/isVideoStabilizationSupported">&ndash;&nbsp;isVideoStabilizationSupported</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Returns  whether the current <a href="#//api/name/cameraDevice">cameraDevice</a> supports video stabilization.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (BOOL)isVideoStabilizationSupported</code></div>
-
-		    
-			
-
-			
-			<div class="method-subsection return">
-				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>A boolean value  indicating whether the current <a href="#//api/name/cameraDevice">cameraDevice</a> can be stabilized by setting the
-<a href="#//api/name/preferredVideoStabilizationMode">preferredVideoStabilizationMode</a> property.</p>
-			</div>
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>This methdod is a wrapper of <code>AVCaptureDeviceFormat</code>&rsquo;s <code>videoStabilizationSupported</code> property. In iOS8 runtime,
-call <a href="#//api/name/isVideoStabilizationModeSupported:">isVideoStabilizationModeSupported:</a> instead.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">HVTCamera.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
 	<a name="//api/name/preferredVideoStabilizationMode" title="preferredVideoStabilizationMode"></a>
 	<h3 class="method-title"><code><a href="#//api/name/preferredVideoStabilizationMode">&nbsp;&nbsp;preferredVideoStabilizationMode</a></code>
 </h3>
@@ -3013,7 +3015,7 @@ aspect ratio of <a href="#//api/name/outputMovieSize">outputMovieSize</a>.</p></
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2016 Horizon Video Technologies Inc. All rights reserved. Updated: 2016-02-19</p>
+						<p class="copyright">Copyright &copy; 2016 Horizon Video Technologies Inc. All rights reserved. Updated: 2016-10-04</p>
 						
 						
 						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</p>

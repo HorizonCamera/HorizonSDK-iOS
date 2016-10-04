@@ -43,5 +43,11 @@
     </array>
     <key>UIRequiresFullScreen</key>
     <true/>
+    <key>NSCameraUsageDescription</key>
+    <string>This app uses your device&apos;s camera to record video</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>This app uses your device&apos;s microphone to record audio</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>This app uses your Photo Library to store videos and photos</string>
 </dict>
 </plist>

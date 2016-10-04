@@ -22,31 +22,33 @@ class ViewController : UIViewController, HVTCameraDelegate {
     override func viewDidLoad() {
         
         super.viewDidLoad()
-                
+        
         recordButton.layer.cornerRadius = 30.0
         
-        preview.fillMode = .AspectFill
+        preview.fillMode = .aspectFill
         
         camera = HVTCamera()
-        camera.addView(preview)
+        camera.add(preview)
         camera.delegate = self
         
-        AVCaptureDevice.requestAccessForMediaType(AVMediaTypeVideo, completionHandler: { (Bool) -> Void in
+        AVCaptureDevice.requestAccess(forMediaType: AVMediaTypeVideo, completionHandler: { (Bool) -> Void in
             
-            AVCaptureDevice.requestAccessForMediaType(AVMediaTypeAudio, completionHandler: { (Bool) -> Void in
+            AVCaptureDevice.requestAccess(forMediaType: AVMediaTypeAudio, completionHandler: { (Bool) -> Void in
                 
                 self.camera.startRunning();
             });
         });
     }
     
-    override func prefersStatusBarHidden() -> Bool {
-        return true
+    override var prefersStatusBarHidden: Bool {
+        get {
+            return true
+        }  
     }
     
     // MARK: IB methods
     
-    @IBAction func recordTapped(sender: UIButton) {
+    @IBAction func recordTapped(_ sender: AnyObject) {
         
         if(camera.isRecording()) {
             
@@ -54,10 +56,10 @@ class ViewController : UIViewController, HVTCameraDelegate {
         }
         else {
             
-            let filePath        = NSString.pathWithComponents([NSTemporaryDirectory(), "Movie.mov"])
+            let filePath        = NSString.path(withComponents: [NSTemporaryDirectory(), "Movie.mov"])
             let recordingURL    = NSURL(fileURLWithPath: filePath)
             
-            camera.startRecordingWithMovieURL(recordingURL)
+            camera.startRecording(withMovieURL: recordingURL as URL!)
         }
     }
     
@@ -65,19 +67,19 @@ class ViewController : UIViewController, HVTCameraDelegate {
     
     func removeTempMovie(movieURL: NSURL!) {
         do {
-            try NSFileManager.defaultManager().removeItemAtURL(movieURL)
+            try FileManager.default.removeItem(at: movieURL as URL)
         } catch _ {
         }
     }
     
     // MARK: HVTCameraDelegate methods
     
-    func hvtCameraRecordingDidStart(hvtCamera: HVTCamera!) {
+    func hvtCameraRecordingDidStart(_ hvtCamera: HVTCamera!) {
         
-        recordButton.setTitle("Stop", forState: .Normal)
+        recordButton.setTitle("Stop", for: .normal)
     }
     
-    func hvtCamera(hvtCamera: HVTCamera!, didUpdateRecordingDuration duration: NSTimeInterval) {
+    func hvtCamera(_ hvtCamera: HVTCamera!, didUpdateRecordingDuration duration: TimeInterval) {
         
         let seconds = Int(duration)
         var newDuration = "00:00"
@@ -91,28 +93,29 @@ class ViewController : UIViewController, HVTCameraDelegate {
             newDuration = NSString(format: "%02lu:%02lu", seconds / 60, seconds % 60) as String
         }
         
-        recordButton.setTitle(newDuration, forState: .Normal)
+        recordButton.setTitle(newDuration, for: .normal)
     }
     
-    func hvtCamera(hvtCamera: HVTCamera!, recordingDidFailWithError error: NSError!) {
+    func hvtCamera(_ hvtCamera: HVTCamera!, recordingDidFailWithError error: Error!) {
         
-        recordButton.setTitle("Record", forState: .Normal)
+        recordButton.setTitle("Record", for: .normal)
     }
     
-    func hvtCamera(hvtCamera: HVTCamera!, didStopRecordingWithMetadata metadata: [NSObject : AnyObject]!) {
+    func hvtCamera(_ hvtCamera: HVTCamera!, didStopRecordingWithMetadata metadata: [AnyHashable : Any]!) {
         
-        recordButton.setTitle("Record", forState: .Normal)
+        recordButton.setTitle("Record", for: .normal)
         
         let metadataDict = metadata as NSDictionary
-        let movieURL = metadataDict.objectForKey(HVTMetadataMovieURLKey) as! NSURL
+        let movieURL = metadataDict.object(forKey: HVTMetadataMovieURLKey) as! NSURL
         
-        ALAssetsLibrary().writeVideoAtPathToSavedPhotosAlbum(movieURL, completionBlock: { (path: NSURL!,error: NSError!) -> Void in
-            self.removeTempMovie(movieURL)
-        })
+        ALAssetsLibrary().writeVideoAtPath(toSavedPhotosAlbum: movieURL as URL!) { (path, error) in
+
+            self.removeTempMovie(movieURL: movieURL)
+        }
     }
     
-    func hvtCamera(hvtCamera: HVTCamera!, didUpdateParams params: HVTParams) {
-        recordButton.transform = CGAffineTransformMakeRotation(CGFloat(params.angle))
+    func hvtCamera(_ hvtCamera: HVTCamera!, didUpdate params: HVTParams) {
+        recordButton.transform = CGAffineTransform(rotationAngle: CGFloat(params.angle))
     }
 }
 

@@ -38,6 +38,10 @@ typedef NS_ENUM(NSInteger, HVTErrorCode) {
     HVTErrorVideoNotFoundDuringComposition  = -3303,
 /** Photo capture failed due to already pending photo capture.*/
     HVTErrorPhotoCaptureBusy                = -3304,
+/** Full resolution photo not captured as the photo mode wasn't enabled.*/
+    HVTErrorPhotoModeNotEnabled             = -3305,
+/** HDR not supported by the device, or the camera is not currently in photo mode.*/
+    HVTErrorPhotoHDRNotSupported            = -3306,
 };
 
 /**

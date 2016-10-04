@@ -455,7 +455,7 @@ Can be nil</Abstract>
 			
 			<Declaration>- (BOOL)captureFullResolutionPhoto</Declaration>
 			
-			<ReturnValue><Abstract type="html">NO if another photo capture is in progress and YES otherwise</Abstract></ReturnValue>
+			<ReturnValue><Abstract type="html">NO if another photo capture is in progress or if photo capturing is not supported and YES otherwise</Abstract></ReturnValue>
 			<Anchor>//api/name/captureFullResolutionPhoto</Anchor>
             <NodeRef refid="3"/>
 		</Token>
@@ -686,6 +686,42 @@ Can be nil</Abstract>
 		</Token>
 		
 		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/setBrightnessValue:</TokenIdentifier>
+			<Abstract type="html">The brightness value, indicating how dark or bright the scene currently is.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float brightnessValue</Declaration>
+			
+			
+			<Anchor>//api/name/brightnessValue</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/brightnessValue</TokenIdentifier>
+			<Abstract type="html">The brightness value, indicating how dark or bright the scene currently is.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float brightnessValue</Declaration>
+			
+			
+			<Anchor>//api/name/brightnessValue</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HVTCamera/brightnessValue</TokenIdentifier>
+			<Abstract type="html">The brightness value, indicating how dark or bright the scene currently is.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) float brightnessValue</Declaration>
+			
+			
+			<Anchor>//api/name/brightnessValue</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/resetFocusExposureWhiteBalance</TokenIdentifier>
 			<Abstract type="html">Clears any focus/exposure/white balance setting that may have been applied by the user, returning them to AVCaptureFocusModeContinuousAutoFocus, AVCaptureExposureModeContinuousAutoExposure and AVCaptureWhiteBalanceModeContinuousAutoWhiteBalance values</Abstract>
 			<DeclaredIn>HVTCamera.h</DeclaredIn>
@@ -882,19 +918,6 @@ resolution (check outError for more).</Abstract></ReturnValue>
 preferredVideoStabilizationMode to the given mode.
 .</Abstract></ReturnValue>
 			<Anchor>//api/name/isVideoStabilizationModeSupported:</Anchor>
-            <NodeRef refid="3"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/isVideoStabilizationSupported</TokenIdentifier>
-			<Abstract type="html">Returns  whether the current cameraDevice supports video stabilization.</Abstract>
-			<DeclaredIn>HVTCamera.h</DeclaredIn>
-			
-			<Declaration>- (BOOL)isVideoStabilizationSupported</Declaration>
-			
-			<ReturnValue><Abstract type="html">A boolean value  indicating whether the current cameraDevice can be stabilized by setting the
-preferredVideoStabilizationMode property.</Abstract></ReturnValue>
-			<Anchor>//api/name/isVideoStabilizationSupported</Anchor>
             <NodeRef refid="3"/>
 		</Token>
 		

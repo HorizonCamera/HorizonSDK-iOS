@@ -73,6 +73,26 @@
             <NodeRef refid="15"/>
         </Token>
         
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/HVTErrorPhotoModeNotEnabled</TokenIdentifier>
+            <Abstract type="html">Full resolution photo not captured as the photo mode wasn&apos;t enabled.</Abstract>
+            <Declaration>HVTErrorPhotoModeNotEnabled</Declaration>
+            
+            <DeclaredIn>HVTVars.h</DeclaredIn>
+            
+            <NodeRef refid="15"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/HVTErrorPhotoHDRNotSupported</TokenIdentifier>
+            <Abstract type="html">HDR not supported by the device, or the camera is not currently in photo mode.</Abstract>
+            <Declaration>HVTErrorPhotoHDRNotSupported</Declaration>
+            
+            <DeclaredIn>HVTVars.h</DeclaredIn>
+            
+            <NodeRef refid="15"/>
+        </Token>
+        
         
 	</File>
 </Tokens>

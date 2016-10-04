@@ -312,14 +312,12 @@
 /**
  Shoots a full resolution photo.
  
- If used while recording then you will hear the shutter sound.
+ If used while recording then you will receive a HVTErrorPhotoModeNotEnabled error by the
+ hvtCamera:photoCapturingDidFailWithError: delegate method.
  
- For iPhone 6 and iPhone 6 Plus devices you will get a full resolution photo even while recording,
- for any other device you will get a photo with the same dimensions as the video dimensions declared in the outputMovieSize property.
+ While recording, you can use the captureSnapshot method to take photos.
  
- It is recommended that you use the captureSnapshot method while recording instead.
- 
- @return `NO` if another photo capture is in progress and `YES` otherwise
+ @return `NO` if another photo capture is in progress or if photo capturing is not supported and `YES` otherwise
  */
 - (BOOL)captureFullResolutionPhoto;
 
@@ -328,10 +326,10 @@
  
  If used while recording then you will hear the shutter sound. 
  
- For iPhone 6 and iPhone 6 Plus devices you will get a full resolution photo even while recording,
- for any other device you will get a photo with the same dimensions as the video dimensions declared in the outputMovieSize property.
+ If used while recording then you will receive a HVTErrorPhotoModeNotEnabled error by the
+ hvtCamera:photoCapturingDidFailWithError: delegate method.
  
- It is recommended that you use the captureSnapshot method while recording instead.
+ While recording, you can use the captureSnapshot method to take photos.
  
  @param usingHDR Capture HDR photo
  
@@ -402,6 +400,23 @@
  kCVPixelFormatType_32BGRA and kCVPixelFormatType_420YpCbCr8BiPlanarVideoRange
  */
 @property (nonatomic) FourCharCode outputPixelFormat;
+
+/**
+ The brightness value, indicating how dark or bright the scene currently is.
+ 
+ The value can be negative (for dark scenes) or positive (for bright scenes) and
+ is updated in real-time.
+ 
+ You can observe the changes to this value using KVO.
+ 
+ e.g.
+ 
+    [self addObserver:self
+            forKeyPath:@"_camera.brightnessValue"
+                options:(NSKeyValueObservingOptionInitial | NSKeyValueObservingOptionOld | NSKeyValueObservingOptionNew)
+                context:(__bridge void *)(self)];
+ */
+@property (nonatomic, readonly) float brightnessValue;
 
 /** 
  Clears any focus/exposure/white balance setting that may have been applied by the user, returning them to AVCaptureFocusModeContinuousAutoFocus, AVCaptureExposureModeContinuousAutoExposure and AVCaptureWhiteBalanceModeContinuousAutoWhiteBalance values
@@ -538,17 +553,6 @@
 - (BOOL)isVideoStabilizationModeSupported:(AVCaptureVideoStabilizationMode)videoStabilizationMode;
 
 /**
- Returns  whether the current cameraDevice supports video stabilization.
- 
- This methdod is a wrapper of `AVCaptureDeviceFormat`'s `videoStabilizationSupported` property. In iOS8 runtime,
- call isVideoStabilizationModeSupported: instead.
- 
- @return A boolean value  indicating whether the current cameraDevice can be stabilized by setting the
- preferredVideoStabilizationMode property.
- */
-- (BOOL)isVideoStabilizationSupported NS_DEPRECATED_IOS(7_0, 8_0);
-
-/**
  Indicates the prefered stabilization mode to apply when supported by the current cameraDevice.
  
  This property is a wrapper of `AVCaptureConnection`'s `preferredVideoStabilizationMode` property for iOS8 devices.
@@ -645,7 +649,7 @@
  The HVTBufferDelegate protocol defines the delegate method to be implemented in order
  to receive updates for the leveled sample buffers sent from the HVTCamera instance.
  
- The delegate method are invoked in the queue defined from .
+ The delegate method are invoked in the queue defined from setSampleBufferDelegate:queue: method.
  */
 @protocol HVTBufferDelegate <NSObject>
 
