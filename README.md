@@ -1,7 +1,7 @@
 Horizon SDK for iOS
 =======================
 
-<img src="https://horizon.camera/static/sdk/docs/docs/documentation-static/images/horizonsdk-logo.png" alt="Horizon SDK logo" style="width:100px;height:100px;">
+![Horizon logo](/docs/documentation-static/images/horizonsdk-logo.png)
 
 Horizon SDK is a state of the art real-time video recording / photo shooting iOS library.
 
@@ -20,7 +20,7 @@ In order to use Horizon SDK on your app, you have to receive an API key by [cont
 
 The library can be used on devices running iOS version 8 or higher.  You can build your application using the latest Xcode.
 
-For more information take a look at the [Installation](https://horizon.camera/static/sdk/docs/docs/documentation-static/Installation%20Guide.html) and [Quick Start](https://horizon.camera/static/sdk/docs/docs/documentation-static/Quick%20Start.html) guides of the [documentation](https://horizon.camera/sdk/docs/).
+For more information take a look at the [Installation](https://horizoncamera.github.io/HorizonSDK-iOS/docs/documentation-static/Installation%20Guide.html) and [Quick Start](https://horizoncamera.github.io/HorizonSDK-iOS/docs/documentation-static/Quick%20Start.html) guides of the [documentation](https://horizon.camera/sdk/docs/).
 
 Examples
 --------
