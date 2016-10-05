@@ -1,7 +1,7 @@
 Horizon SDK for iOS
 =======================
 
-![Horizon logo](/docs/documentation-static/images/horizonsdk-logo.png)
+![Horizon logo](https://horizoncamera.github.io/HorizonSDK-iOS/docs/documentation-static/images/horizonsdk-logo.png)
 
 Horizon SDK is a state of the art real-time video recording / photo shooting iOS library.
 
