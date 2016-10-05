@@ -20,7 +20,7 @@ In order to use Horizon SDK on your app, you have to receive an API key by [cont
 
 The library can be used on devices running iOS version 8 or higher.  You can build your application using the latest Xcode.
 
-For more information take a look at the [Installation](https://horizoncamera.github.io/HorizonSDK-iOS/docs/documentation-static/Installation%20Guide.html) and [Quick Start](https://horizoncamera.github.io/HorizonSDK-iOS/docs/documentation-static/Quick%20Start.html) guides of the [documentation](https://horizon.camera/sdk/docs/).
+For more information take a look at the [Installation](https://horizoncamera.github.io/HorizonSDK-iOS/docs/documentation-static/Installation%20Guide.html) and [Quick Start](https://horizoncamera.github.io/HorizonSDK-iOS/docs/documentation-static/Quick%20Start.html) guides of the [documentation](https://horizoncamera.github.io/HorizonSDK-iOS/).
 
 Examples
 --------
