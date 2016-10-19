@@ -27,7 +27,7 @@ extern NSString *const HVTErrorDomain;
  activateWithAPIKey:settings: dictionary argument, which controls
  the frequency of the low-pass filter that is used internally to smoothen out the change of scale.
  
- Higher values provide smoother result.
+ Smaller values provide smoother result.
  
  The value must be a positive float number.
  
