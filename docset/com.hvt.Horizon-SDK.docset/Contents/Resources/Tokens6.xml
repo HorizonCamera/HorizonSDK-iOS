@@ -346,6 +346,42 @@
 		</Token>
 		
 		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTView/setCropRegionTintColor:</TokenIdentifier>
+			<Abstract type="html">Sets and returns the tint color for the dark area of the crop region.</Abstract>
+			<DeclaredIn>HVTView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIColor *cropRegionTintColor</Declaration>
+			
+			
+			<Anchor>//api/name/cropRegionTintColor</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTView/cropRegionTintColor</TokenIdentifier>
+			<Abstract type="html">Sets and returns the tint color for the dark area of the crop region.</Abstract>
+			<DeclaredIn>HVTView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIColor *cropRegionTintColor</Declaration>
+			
+			
+			<Anchor>//api/name/cropRegionTintColor</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HVTView/cropRegionTintColor</TokenIdentifier>
+			<Abstract type="html">Sets and returns the tint color for the dark area of the crop region.</Abstract>
+			<DeclaredIn>HVTView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIColor *cropRegionTintColor</Declaration>
+			
+			
+			<Anchor>//api/name/cropRegionTintColor</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/HVTView/setEnablesDoubleTapToChangeFillMode:</TokenIdentifier>
 			<Abstract type="html">Controls if the view will include a double tap gesture to cycle through the different fill modes available.</Abstract>
 			<DeclaredIn>HVTView.h</DeclaredIn>

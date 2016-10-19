@@ -30,7 +30,7 @@
 
 This method serves as the entry point to Horizon SDK.  It must be
 called before instantiating a new HVTCamera object, preferably in the scope
-of application:didFinishLaunchingWithOptions: mthod of your UIApplicationDelegate class.</Abstract>
+of application:didFinishLaunchingWithOptions: method of your UIApplicationDelegate class.</Abstract>
 			<DeclaredIn>HVTSDK.h</DeclaredIn>
 			
 			<Declaration>- (BOOL)activateWithAPIKey:(NSString *)apiKey</Declaration>
@@ -42,6 +42,30 @@ of application:didFinishLaunchingWithOptions: mthod of your UIApplicationDelegat
 			</Parameters>
 			<ReturnValue><Abstract type="html">YES if the HVTSDK was successfully activated, NO otherwise (with NSInternalInconsistencyException for exception handling)</Abstract></ReturnValue>
 			<Anchor>//api/name/activateWithAPIKey:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTSDK/activateWithAPIKey:settings:</TokenIdentifier>
+			<Abstract type="html">Start the shared HorizonSDK session with extra settings
+
+This method serves as the entry point to Horizon SDK.  It must be
+called before instantiating a new HVTCamera object, preferably in the scope
+of application:didFinishLaunchingWithOptions: method of your UIApplicationDelegate class.</Abstract>
+			<DeclaredIn>HVTSDK.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)activateWithAPIKey:(NSString *)apiKey settings:(NSDictionary *)settingsDictionary</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>apiKey</Name>
+					<Abstract type="html">The API key for this app.</Abstract>
+				</Parameter><Parameter>
+					<Name>settingsDictionary</Name>
+					<Abstract type="html">You can control various extra parameters using settings dictionary (@see HVTScaleFilterFrequencySettingsKey)</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the HVTSDK was successfully activated, NO otherwise (with NSInternalInconsistencyException for exception handling)</Abstract></ReturnValue>
+			<Anchor>//api/name/activateWithAPIKey:settings:</Anchor>
             <NodeRef refid="5"/>
 		</Token>
 		

@@ -21,7 +21,14 @@ uses HVTLevelerCropModeFlex mode.</Abstract>
         
         <Token>
             <TokenIdentifier>//apple_ref/c/econst/HVTLevelerFlexSpeedSmooth</TokenIdentifier>
-            <Abstract type="html">The scale speed will be slow. This slows down the zoom effect and produces a smoother result.</Abstract>
+            <Abstract type="html">     The scale speed will be slow. This slows down the zoom effect 
+     and produces a smoother result.
+     
+     A low-pass filter is used internally to smoothen out the change of scale. 
+     
+     You can change its frequency by providing a settings NSDictionary at the HVTSDK class method
+     activateWithAPIKey:settings: using the key HVTScaleFilterFrequencySettingsKey.
+     </Abstract>
             <Declaration>HVTLevelerFlexSpeedSmooth</Declaration>
             
             <DeclaredIn>HVTVars.h</DeclaredIn>
@@ -31,7 +38,8 @@ uses HVTLevelerCropModeFlex mode.</Abstract>
         
         <Token>
             <TokenIdentifier>//apple_ref/c/econst/HVTLevelerFlexSpeedResponsive</TokenIdentifier>
-            <Abstract type="html">The scale speed will be more responsive. This results to a faster but more unsteady zoom effect.</Abstract>
+            <Abstract type="html">     The scale speed will be more responsive. This results to a faster but more unsteady zoom effect.
+     </Abstract>
             <Declaration>HVTLevelerFlexSpeedResponsive</Declaration>
             
             <DeclaredIn>HVTVars.h</DeclaredIn>

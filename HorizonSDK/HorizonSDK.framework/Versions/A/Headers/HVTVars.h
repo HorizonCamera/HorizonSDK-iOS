@@ -23,6 +23,19 @@ typedef struct
 extern NSString *const HVTErrorDomain;
 
 /**
+ User-provided NSDictionary key for the HVTSDK class method
+ activateWithAPIKey:settings: dictionary argument, which controls
+ the frequency of the low-pass filter that is used internally to smoothen out the change of scale.
+ 
+ Higher values provide smoother result.
+ 
+ The value must be a positive float number.
+ 
+ Default value is 1.8
+ */
+extern NSString *const HVTScaleFilterFrequencySettingsKey;
+
+/**
  Horizon SDK-related error codes
  */
 typedef NS_ENUM(NSInteger, HVTErrorCode) {
@@ -92,9 +105,19 @@ If recording starts, the current rotation will remain unchanged until recording 
  @see HVTLevelerCropMode
  */
 typedef NS_ENUM(NSInteger, HVTLevelerFlexSpeed) {
-    /** The scale speed will be slow. This slows down the zoom effect and produces a smoother result.*/
+    /**
+     The scale speed will be slow. This slows down the zoom effect 
+     and produces a smoother result.
+     
+     A low-pass filter is used internally to smoothen out the change of scale. 
+     
+     You can change its frequency by providing a settings NSDictionary at the HVTSDK class method
+     activateWithAPIKey:settings: using the key HVTScaleFilterFrequencySettingsKey.
+     */
     HVTLevelerFlexSpeedSmooth,
-    /** The scale speed will be more responsive. This results to a faster but more unsteady zoom effect.*/
+    /** 
+     The scale speed will be more responsive. This results to a faster but more unsteady zoom effect.
+     */
     HVTLevelerFlexSpeedResponsive
 };
 

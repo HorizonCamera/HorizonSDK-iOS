@@ -63,23 +63,28 @@ typedef NS_ENUM(NSInteger, HVTViewWatermarkPosition) {
 
 /** @name Configuration */
 
-/** Specifies the preview type of the view.
+/** 
+ Specifies the preview type of the view.
  
  When set to `HVTViewTypeNormal`, HUD elements can be displayed depending on the showHUD property.
  
  The default value, `HVTViewTypeNormal` is best suited for most applications.
 
- @see HVTViewType*/
+ @see HVTViewType
+ */
 @property (nonatomic) HVTViewType viewType;
 
-/** Specifies the position of the Horizon watermark on the view.
+/** 
+ Specifies the position of the Horizon watermark on the view.
  
  The default value, `HVTViewWatermarkPositionBottomRight` places the watermark in the bottom right corner of the HVTView.
  
- @see HVTViewWatermarkPosition*/
+ @see HVTViewWatermarkPosition
+ */
 @property (nonatomic) HVTViewWatermarkPosition watermarkPosition;
 
-/** Specifies whether the view is enabled or not.
+/** 
+ Specifies whether the view is enabled or not.
  
  Enabled means that the rendering takes place and disabled is when rendering is not active for this view.
  
@@ -87,53 +92,77 @@ typedef NS_ENUM(NSInteger, HVTViewWatermarkPosition) {
  */
 @property (nonatomic) BOOL enabled;
 
-/** Specifies the active filter for this view.
+/** 
+ Specifies the active filter for this view.
  
  You can use the predefined filters provided by Core Image library or add your own custom CIKernels.
  */
 @property (nonatomic) CIFilter *filter;
 
-/** Specifies whether HUD elements, such as the crop region and corners, are shown.
+/** 
+ Specifies whether HUD elements, such as the crop region and corners, are shown.
  
  This property applies only when viewType is set to `HVTViewTypeNormal`.
  
- The default value is `YES`. */
+ The default value is `YES`. 
+ */
 @property (nonatomic) BOOL showHUD;
 
-/** Specifies how the video preview is displayed within the view's bounds rect.
+/** 
+ Specifies how the video preview is displayed within the view's bounds rect.
  
  A common usage scenario is to toggle the fill mode when the user double taps the view.
  
  The property in animated. 
  
  The default value is `HVTViewFillModeAspectFit`.
- @see HVTViewFillMode*/
+ @see HVTViewFillMode
+ */
 @property (nonatomic) HVTViewFillMode fillMode;
 
-/** Assigns the color to the circle that is being displayed when the user tries to focus in a point of the HVTView.
+/** 
+ Assigns the color to the circle that is being displayed when the user tries to focus in a point of the HVTView.
  
- The default color is white.*/
+ The default color is white
+ .*/
 @property (nonatomic) UIColor *focusViewColor;
 
-/** Assigns the border width to the circle that is being displayed when the user tries to focus in a point of the HVTView.
+/** 
+ Assigns the border width to the circle that is being displayed when the user tries to focus in a point of the HVTView.
  
- The default border width is 1.0*/
+ The default border width is 1.0
+ */
 @property (nonatomic) CGFloat focusViewBorderWidth;
 
-/** Controls if the view will include a double tap gesture to cycle through the different fill modes available.
+/**
+ Sets and returns the tint color for the dark area of the crop region.
+
+ The RGB values of this color will be multiplied with the video. The alpha value is not used. For example set it to [UIColor grayColor] for a dark look.
+ 
+ The default color is (0.5f, 0.5f, 0.5f, 1.0f).
+ */
+@property (nonatomic) UIColor *cropRegionTintColor;
+
+/** 
+ Controls if the view will include a double tap gesture to cycle through the different fill modes available.
  
  The default value is `NO`.
- @see HVTViewFillMode*/
+ @see HVTViewFillMode
+ */
 @property (nonatomic, getter=isDoubleTapToChangeFillModeEnabled) BOOL enablesDoubleTapToChangeFillMode;
 
-/** Controls if the view will include a tap to focus gesture.
+/** 
+ Controls if the view will include a tap to focus gesture.
  
- The default value is `NO`.*/
+ The default value is `NO`.
+ */
 @property (nonatomic, getter=isTapToFocusEnabled) BOOL enablesTapToFocus;
 
-/** Controls if the view will include a long press to lock focus and exposure gesture.
+/** 
+ Controls if the view will include a long press to lock focus and exposure gesture.
  
- The default value is `NO`.*/
+ The default value is `NO`.
+ */
 @property (nonatomic, getter=isLongPressToLockFocusExposureEnabled) BOOL enablesLongPressToLockFocusExposure;
 
 @end
