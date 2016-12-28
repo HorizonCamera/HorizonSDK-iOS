@@ -8,6 +8,7 @@
 
 import UIKit
 import AssetsLibrary
+import HorizonSDK
 
 class ViewController : UIViewController, HVTCameraDelegate {
     

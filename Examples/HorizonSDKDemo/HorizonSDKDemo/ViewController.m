@@ -7,8 +7,8 @@
 //
 
 #import "ViewController.h"
-#import <HorizonSDK/HVTSDK.h>
 
+@import HorizonSDK;
 @import AssetsLibrary;
 
 @interface ViewController () <HVTCameraDelegate>

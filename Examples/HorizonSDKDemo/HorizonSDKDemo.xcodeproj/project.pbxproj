@@ -7,32 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9D4ACDAA1A83ABA90048D567 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA7D43A1A839FFA00CB7E05 /* CoreMotion.framework */; };
-		9D77099C1A8A7C9C001C845E /* HorizonSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9D77099A1A8A7C9C001C845E /* HorizonSDK.bundle */; };
-		9D77099D1A8A7C9C001C845E /* HorizonSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D77099B1A8A7C9C001C845E /* HorizonSDK.framework */; };
 		9DA7D4121A839E1200CB7E05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA7D4111A839E1200CB7E05 /* main.m */; };
 		9DA7D4151A839E1200CB7E05 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA7D4141A839E1200CB7E05 /* AppDelegate.m */; };
 		9DA7D4181A839E1200CB7E05 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA7D4171A839E1200CB7E05 /* ViewController.m */; };
 		9DA7D41B1A839E1200CB7E05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA7D4191A839E1200CB7E05 /* Main.storyboard */; };
 		9DA7D41D1A839E1200CB7E05 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DA7D41C1A839E1200CB7E05 /* Images.xcassets */; };
 		9DA7D4201A839E1200CB7E05 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DA7D41E1A839E1200CB7E05 /* LaunchScreen.xib */; };
-		9DA7D42C1A839E1200CB7E05 /* HorizonSDKDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA7D42B1A839E1200CB7E05 /* HorizonSDKDemoTests.m */; };
+		9DF039D71E13D1BE00226180 /* HorizonSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D77099B1A8A7C9C001C845E /* HorizonSDK.framework */; };
+		9DF039D81E13D1BE00226180 /* HorizonSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D77099B1A8A7C9C001C845E /* HorizonSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		9DA7D4261A839E1200CB7E05 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9DA7D4041A839E1200CB7E05 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9DA7D40B1A839E1200CB7E05;
-			remoteInfo = HorizonSDKDemo;
+/* Begin PBXCopyFilesBuildPhase section */
+		9DF039D91E13D1BE00226180 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9DF039D81E13D1BE00226180 /* HorizonSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXContainerItemProxy section */
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9D77099A1A8A7C9C001C845E /* HorizonSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HorizonSDK.bundle; sourceTree = "<group>"; };
 		9D77099B1A8A7C9C001C845E /* HorizonSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HorizonSDK.framework; sourceTree = "<group>"; };
-		9DA7D40C1A839E1200CB7E05 /* HorizonSDK S.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HorizonSDK S.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DA7D40C1A839E1200CB7E05 /* HorizonSDK-S.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HorizonSDK-S.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DA7D4101A839E1200CB7E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DA7D4111A839E1200CB7E05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9DA7D4131A839E1200CB7E05 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,10 +43,6 @@
 		9DA7D41A1A839E1200CB7E05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DA7D41C1A839E1200CB7E05 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9DA7D41F1A839E1200CB7E05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		9DA7D4251A839E1200CB7E05 /* HorizonSDKDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HorizonSDKDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9DA7D42A1A839E1200CB7E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9DA7D42B1A839E1200CB7E05 /* HorizonSDKDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorizonSDKDemoTests.m; sourceTree = "<group>"; };
-		9DA7D43A1A839FFA00CB7E05 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,15 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D4ACDAA1A83ABA90048D567 /* CoreMotion.framework in Frameworks */,
-				9D77099D1A8A7C9C001C845E /* HorizonSDK.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9DA7D4221A839E1200CB7E05 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				9DF039D71E13D1BE00226180 /* HorizonSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,7 +60,6 @@
 		9D7709991A8A7C9C001C845E /* HorizonSDK */ = {
 			isa = PBXGroup;
 			children = (
-				9D77099A1A8A7C9C001C845E /* HorizonSDK.bundle */,
 				9D77099B1A8A7C9C001C845E /* HorizonSDK.framework */,
 			);
 			name = HorizonSDK;
@@ -82,7 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				9DA7D40E1A839E1200CB7E05 /* HorizonSDKDemo */,
-				9DA7D4281A839E1200CB7E05 /* HorizonSDKDemoTests */,
 				9DA7D40D1A839E1200CB7E05 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +77,7 @@
 		9DA7D40D1A839E1200CB7E05 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9DA7D40C1A839E1200CB7E05 /* HorizonSDK S.app */,
-				9DA7D4251A839E1200CB7E05 /* HorizonSDKDemoTests.xctest */,
+				9DA7D40C1A839E1200CB7E05 /* HorizonSDK-S.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,26 +101,8 @@
 		9DA7D40F1A839E1200CB7E05 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9DA7D43A1A839FFA00CB7E05 /* CoreMotion.framework */,
 				9DA7D4101A839E1200CB7E05 /* Info.plist */,
 				9DA7D4111A839E1200CB7E05 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		9DA7D4281A839E1200CB7E05 /* HorizonSDKDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				9DA7D42B1A839E1200CB7E05 /* HorizonSDKDemoTests.m */,
-				9DA7D4291A839E1200CB7E05 /* Supporting Files */,
-			);
-			path = HorizonSDKDemoTests;
-			sourceTree = "<group>";
-		};
-		9DA7D4291A839E1200CB7E05 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				9DA7D42A1A839E1200CB7E05 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -142,40 +110,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9DA7D40B1A839E1200CB7E05 /* HorizonSDK S */ = {
+		9DA7D40B1A839E1200CB7E05 /* HorizonSDK-S */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9DA7D42F1A839E1200CB7E05 /* Build configuration list for PBXNativeTarget "HorizonSDK S" */;
+			buildConfigurationList = 9DA7D42F1A839E1200CB7E05 /* Build configuration list for PBXNativeTarget "HorizonSDK-S" */;
 			buildPhases = (
 				9DA7D4081A839E1200CB7E05 /* Sources */,
 				9DA7D4091A839E1200CB7E05 /* Frameworks */,
 				9DA7D40A1A839E1200CB7E05 /* Resources */,
+				9DF039D91E13D1BE00226180 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "HorizonSDK S";
+			name = "HorizonSDK-S";
 			productName = HorizonSDKDemo;
-			productReference = 9DA7D40C1A839E1200CB7E05 /* HorizonSDK S.app */;
+			productReference = 9DA7D40C1A839E1200CB7E05 /* HorizonSDK-S.app */;
 			productType = "com.apple.product-type.application";
-		};
-		9DA7D4241A839E1200CB7E05 /* HorizonSDKDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9DA7D4321A839E1200CB7E05 /* Build configuration list for PBXNativeTarget "HorizonSDKDemoTests" */;
-			buildPhases = (
-				9DA7D4211A839E1200CB7E05 /* Sources */,
-				9DA7D4221A839E1200CB7E05 /* Frameworks */,
-				9DA7D4231A839E1200CB7E05 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9DA7D4271A839E1200CB7E05 /* PBXTargetDependency */,
-			);
-			name = HorizonSDKDemoTests;
-			productName = HorizonSDKDemoTests;
-			productReference = 9DA7D4251A839E1200CB7E05 /* HorizonSDKDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -189,11 +140,6 @@
 					9DA7D40B1A839E1200CB7E05 = {
 						CreatedOnToolsVersion = 6.1.1;
 						DevelopmentTeam = 557NA63EQK;
-					};
-					9DA7D4241A839E1200CB7E05 = {
-						CreatedOnToolsVersion = 6.1.1;
-						DevelopmentTeam = 557NA63EQK;
-						TestTargetID = 9DA7D40B1A839E1200CB7E05;
 					};
 				};
 			};
@@ -210,8 +156,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9DA7D40B1A839E1200CB7E05 /* HorizonSDK S */,
-				9DA7D4241A839E1200CB7E05 /* HorizonSDKDemoTests */,
+				9DA7D40B1A839E1200CB7E05 /* HorizonSDK-S */,
 			);
 		};
 /* End PBXProject section */
@@ -221,17 +166,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D77099C1A8A7C9C001C845E /* HorizonSDK.bundle in Resources */,
 				9DA7D41B1A839E1200CB7E05 /* Main.storyboard in Resources */,
 				9DA7D4201A839E1200CB7E05 /* LaunchScreen.xib in Resources */,
 				9DA7D41D1A839E1200CB7E05 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9DA7D4231A839E1200CB7E05 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,23 +185,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9DA7D4211A839E1200CB7E05 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9DA7D42C1A839E1200CB7E05 /* HorizonSDKDemoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		9DA7D4271A839E1200CB7E05 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9DA7D40B1A839E1200CB7E05 /* HorizonSDK S */;
-			targetProxy = 9DA7D4261A839E1200CB7E05 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9DA7D4191A839E1200CB7E05 /* Main.storyboard */ = {
@@ -383,10 +304,7 @@
 				INFOPLIST_FILE = HorizonSDKDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-lstdc++",
-				);
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hvt.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -404,50 +322,9 @@
 				INFOPLIST_FILE = HorizonSDKDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-lstdc++",
-				);
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hvt.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		9DA7D4331A839E1200CB7E05 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 557NA63EQK;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = HorizonSDKDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hvt.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HorizonSDK S.app/HorizonSDK S";
-			};
-			name = Debug;
-		};
-		9DA7D4341A839E1200CB7E05 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 557NA63EQK;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = HorizonSDKDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hvt.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HorizonSDK S.app/HorizonSDK S";
 			};
 			name = Release;
 		};
@@ -463,20 +340,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9DA7D42F1A839E1200CB7E05 /* Build configuration list for PBXNativeTarget "HorizonSDK S" */ = {
+		9DA7D42F1A839E1200CB7E05 /* Build configuration list for PBXNativeTarget "HorizonSDK-S" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9DA7D4301A839E1200CB7E05 /* Debug */,
 				9DA7D4311A839E1200CB7E05 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9DA7D4321A839E1200CB7E05 /* Build configuration list for PBXNativeTarget "HorizonSDKDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9DA7D4331A839E1200CB7E05 /* Debug */,
-				9DA7D4341A839E1200CB7E05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

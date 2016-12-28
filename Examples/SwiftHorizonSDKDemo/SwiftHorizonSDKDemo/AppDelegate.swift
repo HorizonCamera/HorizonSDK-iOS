@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import HorizonSDK
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

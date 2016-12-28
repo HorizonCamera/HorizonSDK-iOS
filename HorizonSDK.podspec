@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'HorizonSDK'
-  s.version          = '2.0'
+  s.version          = '2.1'
   s.license          =  { :type => 'Commercial', :text => "See https://horizon.camera/sdk/termsofservice" }
   s.homepage         = 'https://horizon.camera/sdk/'
   s.documentation_url = 'https://horizon.camera/sdk/docs/'
@@ -30,15 +30,9 @@ DESC
 
   s.platform = :ios
   
-  s.ios.deployment_target = '7.1'
+  s.ios.deployment_target = '8.0'
   
-  s.requires_arc = true
-
   s.preserve_paths = 'README.md'
 
   s.vendored_frameworks = 'HorizonSDK/HorizonSDK.framework'
-  s.resource = 'HorizonSDK/HorizonSDK.bundle'
-
-  s.frameworks = 'CoreMotion'
-  s.libraries = 'ObjC', 'stdc++'
 end
