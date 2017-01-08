@@ -6,11 +6,11 @@
 	<dict>
 		<key>HVTCameraController.nib</key>
 		<data>
-		Uj+QkzsmUdBbJ8n9YoPe6eRvqzY=
+		OV8Kl78jzz0U3Vtm779QvSz+tCU=
 		</data>
 		<key>HVTCameraPlaybackController.nib</key>
 		<data>
-		Ao2OqOQffRmRHsfghMNxECziA40=
+		xjC7xo1A3mR2XePail9ehWtV1ds=
 		</data>
 		<key>Headers/HVTCamera.h</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		PPAyZi58FDDtILR3HsP7DrCqH/0=
+		PpfG8X/D6GkJCnkAtLvL9frB294=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -207,22 +207,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Uj+QkzsmUdBbJ8n9YoPe6eRvqzY=
+			OV8Kl78jzz0U3Vtm779QvSz+tCU=
 			</data>
 			<key>hash2</key>
 			<data>
-			zQ3mM8ts8oS74UZJeR3UlZbaw/jTuKLfTre6xOtydQ0=
+			hRj89SzZ4syodu4XKHaJVbLDzyuowtoX6RLkHoTJxqI=
 			</data>
 		</dict>
 		<key>HVTCameraPlaybackController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ao2OqOQffRmRHsfghMNxECziA40=
+			xjC7xo1A3mR2XePail9ehWtV1ds=
 			</data>
 			<key>hash2</key>
 			<data>
-			2LDI4psK52gTxqSJIY2lcWfjELhYtqUL5waEYxT5iSE=
+			nt1GG3lcqmBlR3ufiYxyiZNFhulDJFe651hFKBPpnug=
 			</data>
 		</dict>
 		<key>Headers/HVTCamera.h</key>
