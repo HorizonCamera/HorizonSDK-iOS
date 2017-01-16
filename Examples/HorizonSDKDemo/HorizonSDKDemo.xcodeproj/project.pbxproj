@@ -118,6 +118,7 @@
 				9DA7D4091A839E1200CB7E05 /* Frameworks */,
 				9DA7D40A1A839E1200CB7E05 /* Resources */,
 				9DF039D91E13D1BE00226180 /* Embed Frameworks */,
+				9D2A23651E2CFB5400465096 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -173,6 +174,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9D2A23651E2CFB5400465096 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/HorizonSDK.framework/strip-archs.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9DA7D4081A839E1200CB7E05 /* Sources */ = {

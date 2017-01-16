@@ -33,7 +33,7 @@
     [self.camera setDelegate:self];
     [self.camera addView:self.preview];
     
-    [self authorizeCamera];
+   // [self authorizeCamera];
 }
 
 - (BOOL)prefersStatusBarHidden
@@ -44,6 +44,12 @@
 #pragma mark - IB methods
 
 - (IBAction)toggleRecording:(id)sender {
+    
+    if(![self.camera isRunning]) {
+        
+        [self.camera startRunning];
+        return;
+    }
     
     if([self.camera isRecording])
         [self.camera stopRecording];
