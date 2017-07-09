@@ -131,8 +131,12 @@ typedef NS_ENUM(NSInteger, HVTLevelerLockedOrientation) {
     HVTLevelerLockedOrientationAuto = 0,
     /** Device must be held vertically.*/
     HVTLevelerLockedOrientationVertical,
+    /** The leveler is always locked into the vertical orientation, regardless of the device's orientation.*/
+    HVTLevelerLockedOrientationAlwaysVertical,
     /** Device must be held horizontally.*/
-    HVTLevelerLockedOrientationHorizontal
+    HVTLevelerLockedOrientationHorizontal,
+    /** The leveler is always locked into the horizontal orientation, regardless of the device's orientation.*/
+    HVTLevelerLockedOrientationAlwaysHorizontal
 };
 
 /**

@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import AssetsLibrary
+import Photos
 import HorizonSDK
 
 class ViewController : UIViewController, HVTCameraDelegate {
@@ -66,9 +66,9 @@ class ViewController : UIViewController, HVTCameraDelegate {
     
     // MARK: Private methods
     
-    func removeTempMovie(movieURL: NSURL!) {
+    func removeTempMovie(movieURL: URL!) {
         do {
-            try FileManager.default.removeItem(at: movieURL as URL)
+            try FileManager.default.removeItem(at: movieURL)
         } catch _ {
         }
     }
@@ -107,12 +107,21 @@ class ViewController : UIViewController, HVTCameraDelegate {
         recordButton.setTitle("Record", for: .normal)
         
         let metadataDict = metadata as NSDictionary
-        let movieURL = metadataDict.object(forKey: HVTMetadataMovieURLKey) as! NSURL
-        
-        ALAssetsLibrary().writeVideoAtPath(toSavedPhotosAlbum: movieURL as URL!) { (path, error) in
+        let movieURL = metadataDict.object(forKey: HVTMetadataMovieURLKey) as! URL
 
-            self.removeTempMovie(movieURL: movieURL)
-        }
+        PHPhotoLibrary.requestAuthorization({ (status:PHAuthorizationStatus) in
+            
+            if(status != .authorized) {
+                return
+            }
+          
+            PHPhotoLibrary.shared().performChanges({
+                PHAssetChangeRequest.creationRequestForAssetFromVideo(atFileURL: movieURL)
+            }, completionHandler: { (success, error) in
+                
+                self.removeTempMovie(movieURL: movieURL)
+            })
+        })
     }
     
     func hvtCamera(_ hvtCamera: HVTCamera!, didUpdate params: HVTParams) {

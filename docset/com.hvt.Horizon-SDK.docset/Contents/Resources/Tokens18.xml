@@ -40,9 +40,29 @@ uses HVTLevelerCropModeLocked mode.</Abstract>
         </Token>
         
         <Token>
+            <TokenIdentifier>//apple_ref/c/econst/HVTLevelerLockedOrientationAlwaysVertical</TokenIdentifier>
+            <Abstract type="html">The leveler is always locked into the vertical orientation, regardless of the device&apos;s orientation.</Abstract>
+            <Declaration>HVTLevelerLockedOrientationAlwaysVertical</Declaration>
+            
+            <DeclaredIn>HVTVars.h</DeclaredIn>
+            
+            <NodeRef refid="18"/>
+        </Token>
+        
+        <Token>
             <TokenIdentifier>//apple_ref/c/econst/HVTLevelerLockedOrientationHorizontal</TokenIdentifier>
             <Abstract type="html">Device must be held horizontally.</Abstract>
             <Declaration>HVTLevelerLockedOrientationHorizontal</Declaration>
+            
+            <DeclaredIn>HVTVars.h</DeclaredIn>
+            
+            <NodeRef refid="18"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/HVTLevelerLockedOrientationAlwaysHorizontal</TokenIdentifier>
+            <Abstract type="html">The leveler is always locked into the horizontal orientation, regardless of the device&apos;s orientation.</Abstract>
+            <Declaration>HVTLevelerLockedOrientationAlwaysHorizontal</Declaration>
             
             <DeclaredIn>HVTVars.h</DeclaredIn>
             

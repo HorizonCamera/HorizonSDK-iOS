@@ -9,7 +9,7 @@
 #import "ViewController.h"
 
 @import HorizonSDK;
-@import AssetsLibrary;
+@import Photos;
 
 @interface ViewController () <HVTCameraDelegate>
 {
@@ -211,15 +211,19 @@
     [self.recordButton setTitle:@"Record" forState:UIControlStateNormal];
     
     NSURL *movieURL = [metadata objectForKey:HVTMetadataMovieURLKey];
-    
-    ALAssetsLibrary *library = [ALAssetsLibrary new];
-    
-    [library writeVideoAtPathToSavedPhotosAlbum:movieURL
-                                completionBlock:^(NSURL *assetURL, NSError *error) {
-                                    
-                                    [[NSFileManager defaultManager] removeItemAtURL:movieURL
-                                                                              error:NULL];
-                                }];
+        
+    [PHPhotoLibrary requestAuthorization:^(PHAuthorizationStatus status) {
+        
+        if(status == PHAuthorizationStatusAuthorized) {
+            
+            [[PHPhotoLibrary sharedPhotoLibrary] performChanges:^{ [PHAssetChangeRequest creationRequestForAssetFromVideoAtFileURL:movieURL]; }
+                                              completionHandler:^(BOOL success, NSError *error) {
+                                                  
+                                                  [[NSFileManager defaultManager] removeItemAtURL:movieURL
+                                                                                            error:NULL];
+                                              }];
+        }
+    }];
 }
 
 @end

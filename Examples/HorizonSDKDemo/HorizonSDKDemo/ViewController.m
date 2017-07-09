@@ -9,7 +9,7 @@
 #import "ViewController.h"
 
 @import HorizonSDK;
-@import AssetsLibrary;
+@import Photos;
 
 @interface ViewController () <HVTCameraDelegate>
 
@@ -33,7 +33,7 @@
     [self.camera setDelegate:self];
     [self.camera addView:self.preview];
     
-   // [self authorizeCamera];
+    [self authorizeCamera];
 }
 
 - (BOOL)prefersStatusBarHidden
@@ -117,13 +117,17 @@
     
     NSURL *movieURL = [metadata objectForKey:HVTMetadataMovieURLKey];
     
-    ALAssetsLibrary *library = [ALAssetsLibrary new];
-    
-    [library writeVideoAtPathToSavedPhotosAlbum:movieURL
-                                completionBlock:^(NSURL *assetURL, NSError *error) {
+    [PHPhotoLibrary requestAuthorization:^(PHAuthorizationStatus status) {
         
-        [[NSFileManager defaultManager] removeItemAtURL:movieURL
-                                                  error:NULL];
+        if(status == PHAuthorizationStatusAuthorized) {
+
+            [[PHPhotoLibrary sharedPhotoLibrary] performChanges:^{ [PHAssetChangeRequest creationRequestForAssetFromVideoAtFileURL:movieURL]; }
+                                              completionHandler:^(BOOL success, NSError *error) {
+                                                 
+                                                  [[NSFileManager defaultManager] removeItemAtURL:movieURL
+                                                                                            error:NULL];
+                                              }];
+        }
     }];
 }
 
