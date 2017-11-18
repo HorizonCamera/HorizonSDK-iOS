@@ -200,8 +200,32 @@
  The default value matches the cameraResolution, until set explicetely via this property.
  
  outputMovieSize cannot be set if the captureMode is set to HVTCaptureModePhoto.
+ 
+ @see setOutputMovieSize:error: For a more fine grained control on whether the
+ property has been successfully set or not.
+ 
+ It is recommended that you call this property setter (or the `setOutputMovieSize:error:`
+ method after setting up the resolution.
  */
 @property (nonatomic) CGSize outputMovieSize;
+
+/**
+ Specifies the output movie size of the final video file,
+ providing more info about whether the method had succeeded or not.
+ 
+ For example outputMovieSize cannot be set if the captureMode is set
+ to HVTCaptureModePhoto. If you call just the property setter (`setOutputMovieSize:`)
+ you will not get an error if the method doesn't allow you to set this
+ property while in photo mode.
+ 
+ This method will return NO and provide
+ and NSError about it.
+ 
+ @param outputMovieSize The desired output movie size
+ @param outError The error object in case that setting the size was unsuccessful
+ @return YES if the outputMovieSize has been set, NO otherwise
+ */
+- (BOOL)setOutputMovieSize:(CGSize)outputMovieSize error:(NSError **)outError;
 
 /**
  Reports whether the instance is currently recording video or not.
@@ -532,6 +556,35 @@
  (check outError for more).
  */
 - (BOOL)setCameraPosition:(AVCaptureDevicePosition)newPosition withResolution:(CGSize)cameraResolution frameRate:(int)frameRate error:(NSError **)outError;
+
+/**
+ Sets a specific camera device provided by the user.
+
+ @warning If you call the method while the receiver isRunning, a connection to the new cameraDevice will be established, which
+ can take some time. The call will block until the connection has been established.
+ 
+ @param captureDevice The new capture device
+ 
+ @param outError The output error
+ @return `YES` if the camera device has been changed and `NO` if there was an error while changing the camera device
+ */
+- (BOOL)setCaptureDevice:(AVCaptureDevice *)captureDevice error:(NSError **)outError;
+
+/**
+ Sets a specific camera device with a given resolution and framerate provided by the user.
+ 
+ @warning If you call the method while the receiver isRunning, a connection to the new cameraDevice will be established, which
+ can take some time. The call will block until the connection has been established.
+ 
+ @param captureDevice The new capture device
+ @param cameraResolution The new camera resolution.
+ @param frameRate The new frame rate.
+ @param outError The output error.
+ 
+ @return `YES` if the camera resolution has been changed and `NO` if there was an error while changing the camera resolution
+ (check outError for more).
+ */
+- (BOOL)setCaptureDevice:(AVCaptureDevice *)captureDevice resolution:(CGSize)cameraResolution frameRate:(int)frameRate error:(NSError **)outError;
 
 #pragma mark Video Stabilization Settings
 /**----------------------------------------------------------------------

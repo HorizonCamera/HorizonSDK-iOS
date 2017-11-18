@@ -55,6 +55,10 @@ typedef NS_ENUM(NSInteger, HVTErrorCode) {
     HVTErrorPhotoModeNotEnabled             = -3305,
 /** HDR not supported by the device, or the camera is not currently in photo mode.*/
     HVTErrorPhotoHDRNotSupported            = -3306,
+/** Capture device was not provided. */
+    HVTErrorCaptureDeviceNotProvided        = -3307,
+/** Video mode was not active during the call of the particular method.*/
+    HVTErrorVideoModeNotEnabled             = -3308
 };
 
 /**

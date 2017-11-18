@@ -93,6 +93,26 @@
             <NodeRef refid="15"/>
         </Token>
         
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/HVTErrorCaptureDeviceNotProvided</TokenIdentifier>
+            <Abstract type="html">Capture device was not provided.</Abstract>
+            <Declaration>HVTErrorCaptureDeviceNotProvided</Declaration>
+            
+            <DeclaredIn>HVTVars.h</DeclaredIn>
+            
+            <NodeRef refid="15"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/HVTErrorVideoModeNotEnabled</TokenIdentifier>
+            <Abstract type="html">Video mode was not active during the call of the particular method.</Abstract>
+            <Declaration>HVTErrorVideoModeNotEnabled</Declaration>
+            
+            <DeclaredIn>HVTVars.h</DeclaredIn>
+            
+            <NodeRef refid="15"/>
+        </Token>
+        
         
 	</File>
 </Tokens>

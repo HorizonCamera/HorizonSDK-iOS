@@ -206,6 +206,11 @@ called.</Abstract>
 			<Abstract type="html">Specifies the output movie size of the final video file.</Abstract>
 			<DeclaredIn>HVTCamera.h</DeclaredIn>
 			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/setOutputMovieSize:error:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
 			<Declaration>@property (nonatomic) CGSize outputMovieSize</Declaration>
 			
 			
@@ -218,6 +223,11 @@ called.</Abstract>
 			<Abstract type="html">Specifies the output movie size of the final video file.</Abstract>
 			<DeclaredIn>HVTCamera.h</DeclaredIn>
 			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/setOutputMovieSize:error:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
 			<Declaration>@property (nonatomic) CGSize outputMovieSize</Declaration>
 			
 			
@@ -230,10 +240,36 @@ called.</Abstract>
 			<Abstract type="html">Specifies the output movie size of the final video file.</Abstract>
 			<DeclaredIn>HVTCamera.h</DeclaredIn>
 			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/setOutputMovieSize:error:</TokenIdentifier>
+		
+	</RelatedTokens>
+	
 			<Declaration>@property (nonatomic) CGSize outputMovieSize</Declaration>
 			
 			
 			<Anchor>//api/name/outputMovieSize</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/setOutputMovieSize:error:</TokenIdentifier>
+			<Abstract type="html">Specifies the output movie size of the final video file,
+providing more info about whether the method had succeeded or not.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)setOutputMovieSize:(CGSize)outputMovieSize error:(NSError **)outError</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>outputMovieSize</Name>
+					<Abstract type="html">The desired output movie size</Abstract>
+				</Parameter><Parameter>
+					<Name>outError</Name>
+					<Abstract type="html">The error object in case that setting the size was unsuccessful</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the outputMovieSize has been set, NO otherwise</Abstract></ReturnValue>
+			<Anchor>//api/name/setOutputMovieSize:error:</Anchor>
             <NodeRef refid="3"/>
 		</Token>
 		
@@ -899,6 +935,53 @@ resolution (check outError for more).</Abstract></ReturnValue>
 			<ReturnValue><Abstract type="html">YES if the camera resolution has been changed and NO if there was an error while changing the camera resolution
 (check outError for more).</Abstract></ReturnValue>
 			<Anchor>//api/name/setCameraPosition:withResolution:frameRate:error:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/setCaptureDevice:error:</TokenIdentifier>
+			<Abstract type="html">Sets a specific camera device provided by the user.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)setCaptureDevice:(AVCaptureDevice *)captureDevice error:(NSError **)outError</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>captureDevice</Name>
+					<Abstract type="html">The new capture device</Abstract>
+				</Parameter><Parameter>
+					<Name>outError</Name>
+					<Abstract type="html">The output error</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the camera device has been changed and NO if there was an error while changing the camera device</Abstract></ReturnValue>
+			<Anchor>//api/name/setCaptureDevice:error:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HVTCamera/setCaptureDevice:resolution:frameRate:error:</TokenIdentifier>
+			<Abstract type="html">Sets a specific camera device with a given resolution and framerate provided by the user.</Abstract>
+			<DeclaredIn>HVTCamera.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)setCaptureDevice:(AVCaptureDevice *)captureDevice resolution:(CGSize)cameraResolution frameRate:(int)frameRate error:(NSError **)outError</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>captureDevice</Name>
+					<Abstract type="html">The new capture device</Abstract>
+				</Parameter><Parameter>
+					<Name>cameraResolution</Name>
+					<Abstract type="html">The new camera resolution.</Abstract>
+				</Parameter><Parameter>
+					<Name>frameRate</Name>
+					<Abstract type="html">The new frame rate.</Abstract>
+				</Parameter><Parameter>
+					<Name>outError</Name>
+					<Abstract type="html">The output error.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the camera resolution has been changed and NO if there was an error while changing the camera resolution
+(check outError for more).</Abstract></ReturnValue>
+			<Anchor>//api/name/setCaptureDevice:resolution:frameRate:error:</Anchor>
             <NodeRef refid="3"/>
 		</Token>
 		

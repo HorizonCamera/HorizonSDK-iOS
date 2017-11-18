@@ -148,9 +148,15 @@
 		
 		<option value="//api/name/setCameraResolution:frameRate:error:">- setCameraResolution:frameRate:error:</option>
 		
+		<option value="//api/name/setCaptureDevice:error:">- setCaptureDevice:error:</option>
+		
+		<option value="//api/name/setCaptureDevice:resolution:frameRate:error:">- setCaptureDevice:resolution:frameRate:error:</option>
+		
 		<option value="//api/name/setCaptureMode:cameraPosition:">- setCaptureMode:cameraPosition:</option>
 		
 		<option value="//api/name/setGPSMetadata:">- setGPSMetadata:</option>
+		
+		<option value="//api/name/setOutputMovieSize:error:">- setOutputMovieSize:error:</option>
 		
 		<option value="//api/name/setSampleBufferDelegate:queue:">- setSampleBufferDelegate:queue:</option>
 		
@@ -781,6 +787,94 @@ camera resolution and a 640x640 final video file.</p>
 <p>The default value matches the <a href="#//api/name/cameraResolution">cameraResolution</a>, until set explicetely via this property.</p>
 
 <p>outputMovieSize cannot be set if the <a href="#//api/name/captureMode">captureMode</a> is set to HVTCaptureModePhoto.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="#//api/name/setOutputMovieSize:error:">- setOutputMovieSize:error:</a> For a more fine grained control on whether the
+property has been successfully set or not.</p>
+
+<p>It is recommended that you call this property setter (or the <code>setOutputMovieSize:error:</code>
+method after setting up the resolution.</p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setOutputMovieSize:error:" title="setOutputMovieSize:error:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setOutputMovieSize:error:">&ndash;&nbsp;setOutputMovieSize:error:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Specifies the output movie size of the final video file,
+providing more info about whether the method had succeeded or not.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BOOL)setOutputMovieSize:(CGSize)<em>outputMovieSize</em> error:(NSError **)<em>outError</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>outputMovieSize</code></th>
+						<td><p>The desired output movie size</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>outError</code></th>
+						<td><p>The error object in case that setting the size was unsuccessful</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>YES if the <a href="#//api/name/outputMovieSize">outputMovieSize</a> has been set, NO otherwise</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>For example <a href="#//api/name/outputMovieSize">outputMovieSize</a> cannot be set if the <a href="#//api/name/captureMode">captureMode</a> is set
+to HVTCaptureModePhoto. If you call just the property setter (<a href="#//api/name/outputMovieSize"><code>setOutputMovieSize:</code></a>)
+you will not get an error if the method doesn&rsquo;t allow you to set this
+property while in photo mode.</p>
+
+<p>This method will return NO and provide
+and NSError about it.</p>
 			</div>
 			
 
@@ -2533,6 +2627,155 @@ can take some time. The call will block until the connection has been establishe
 			
 		</div>
 	</div>
+</div><div class="section-method">
+	<a name="//api/name/setCaptureDevice:error:" title="setCaptureDevice:error:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setCaptureDevice:error:">&ndash;&nbsp;setCaptureDevice:error:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Sets a specific camera device provided by the user.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BOOL)setCaptureDevice:(AVCaptureDevice *)<em>captureDevice</em> error:(NSError **)<em>outError</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>captureDevice</code></th>
+						<td><p>The new capture device</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>outError</code></th>
+						<td><p>The output error</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p><code>YES</code> if the camera device has been changed and <code>NO</code> if there was an error while changing the camera device</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<div class="warning"><p><strong>Warning:</strong> If you call the method while the receiver <a href="#//api/name/isRunning">isRunning</a>, a connection to the new <a href="#//api/name/cameraDevice">cameraDevice</a> will be established, which
+can take some time. The call will block until the connection has been established.</p></div>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setCaptureDevice:resolution:frameRate:error:" title="setCaptureDevice:resolution:frameRate:error:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setCaptureDevice:resolution:frameRate:error:">&ndash;&nbsp;setCaptureDevice:resolution:frameRate:error:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Sets a specific camera device with a given resolution and framerate provided by the user.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BOOL)setCaptureDevice:(AVCaptureDevice *)<em>captureDevice</em> resolution:(CGSize)<em>cameraResolution</em> frameRate:(int)<em>frameRate</em> error:(NSError **)<em>outError</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>captureDevice</code></th>
+						<td><p>The new capture device</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>cameraResolution</code></th>
+						<td><p>The new camera resolution.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>frameRate</code></th>
+						<td><p>The new frame rate.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>outError</code></th>
+						<td><p>The output error.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p><code>YES</code> if the camera resolution has been changed and <code>NO</code> if there was an error while changing the camera resolution
+(check outError for more).</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<div class="warning"><p><strong>Warning:</strong> If you call the method while the receiver <a href="#//api/name/isRunning">isRunning</a>, a connection to the new <a href="#//api/name/cameraDevice">cameraDevice</a> will be established, which
+can take some time. The call will block until the connection has been established.</p></div>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">HVTCamera.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
 </div>
 						</div>
 						
@@ -3015,7 +3258,7 @@ aspect ratio of <a href="#//api/name/outputMovieSize">outputMovieSize</a>.</p></
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2017 Horizon Video Technologies Inc. All rights reserved. Updated: 2017-07-09</p>
+						<p class="copyright">Copyright &copy; 2017 Horizon Video Technologies Inc. All rights reserved. Updated: 2017-11-18</p>
 						
 						
 						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</p>
