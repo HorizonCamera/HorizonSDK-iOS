@@ -32,9 +32,9 @@ class ViewController : UIViewController, HVTCameraDelegate {
         camera.add(preview)
         camera.delegate = self
         
-        AVCaptureDevice.requestAccess(forMediaType: AVMediaTypeVideo, completionHandler: { (Bool) -> Void in
+        AVCaptureDevice.requestAccess(for: AVMediaType.video, completionHandler: { (Bool) -> Void in
             
-            AVCaptureDevice.requestAccess(forMediaType: AVMediaTypeAudio, completionHandler: { (Bool) -> Void in
+            AVCaptureDevice.requestAccess(for: AVMediaType.audio, completionHandler: { (Bool) -> Void in
                 
                 self.camera.startRunning();
             });
