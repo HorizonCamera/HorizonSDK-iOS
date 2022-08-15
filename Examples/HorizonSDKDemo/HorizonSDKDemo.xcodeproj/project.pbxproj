@@ -3,18 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D731F0628AA830C00AF72D2 /* HorizonSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D731F0528AA830C00AF72D2 /* HorizonSDK.xcframework */; };
+		9D731F0728AA830C00AF72D2 /* HorizonSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D731F0528AA830C00AF72D2 /* HorizonSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9DA7D4121A839E1200CB7E05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA7D4111A839E1200CB7E05 /* main.m */; };
 		9DA7D4151A839E1200CB7E05 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA7D4141A839E1200CB7E05 /* AppDelegate.m */; };
 		9DA7D4181A839E1200CB7E05 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA7D4171A839E1200CB7E05 /* ViewController.m */; };
 		9DA7D41B1A839E1200CB7E05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA7D4191A839E1200CB7E05 /* Main.storyboard */; };
 		9DA7D41D1A839E1200CB7E05 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DA7D41C1A839E1200CB7E05 /* Images.xcassets */; };
 		9DA7D4201A839E1200CB7E05 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DA7D41E1A839E1200CB7E05 /* LaunchScreen.xib */; };
-		9DF039D71E13D1BE00226180 /* HorizonSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D77099B1A8A7C9C001C845E /* HorizonSDK.framework */; };
-		9DF039D81E13D1BE00226180 /* HorizonSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D77099B1A8A7C9C001C845E /* HorizonSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				9DF039D81E13D1BE00226180 /* HorizonSDK.framework in Embed Frameworks */,
+				9D731F0728AA830C00AF72D2 /* HorizonSDK.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -32,7 +32,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9D77099B1A8A7C9C001C845E /* HorizonSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HorizonSDK.framework; sourceTree = "<group>"; };
+		9D731F0528AA830C00AF72D2 /* HorizonSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = HorizonSDK.xcframework; path = ../../HorizonSDK/HorizonSDK.xcframework; sourceTree = "<group>"; };
 		9DA7D40C1A839E1200CB7E05 /* HorizonSDK-S.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HorizonSDK-S.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DA7D4101A839E1200CB7E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DA7D4111A839E1200CB7E05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -50,20 +50,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DF039D71E13D1BE00226180 /* HorizonSDK.framework in Frameworks */,
+				9D731F0628AA830C00AF72D2 /* HorizonSDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9D7709991A8A7C9C001C845E /* HorizonSDK */ = {
+		9D731F0428AA830C00AF72D2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9D77099B1A8A7C9C001C845E /* HorizonSDK.framework */,
+				9D731F0528AA830C00AF72D2 /* HorizonSDK.xcframework */,
 			);
-			name = HorizonSDK;
-			path = ../../../HorizonSDK;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		9DA7D4031A839E1200CB7E05 = {
@@ -71,6 +70,7 @@
 			children = (
 				9DA7D40E1A839E1200CB7E05 /* HorizonSDKDemo */,
 				9DA7D40D1A839E1200CB7E05 /* Products */,
+				9D731F0428AA830C00AF72D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,7 +92,6 @@
 				9DA7D4191A839E1200CB7E05 /* Main.storyboard */,
 				9DA7D41C1A839E1200CB7E05 /* Images.xcassets */,
 				9DA7D41E1A839E1200CB7E05 /* LaunchScreen.xib */,
-				9D7709991A8A7C9C001C845E /* HorizonSDK */,
 				9DA7D40F1A839E1200CB7E05 /* Supporting Files */,
 			);
 			path = HorizonSDKDemo;
@@ -118,7 +117,6 @@
 				9DA7D4091A839E1200CB7E05 /* Frameworks */,
 				9DA7D40A1A839E1200CB7E05 /* Resources */,
 				9DF039D91E13D1BE00226180 /* Embed Frameworks */,
-				9D2A23651E2CFB5400465096 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -149,6 +147,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -174,22 +173,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		9D2A23651E2CFB5400465096 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "bash \"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/HorizonSDK.framework/strip-archs.sh\"";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9DA7D4081A839E1200CB7E05 /* Sources */ = {
@@ -332,7 +315,10 @@
 				);
 				INFOPLIST_FILE = HorizonSDKDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hvt.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -350,7 +336,10 @@
 				);
 				INFOPLIST_FILE = HorizonSDKDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hvt.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'HorizonSDK'
-  s.version          = '2.7'
+  s.version          = '2.8'
   s.license          =  { :type => 'Commercial', :text => "See https://horizon.camera/sdk/termsofservice" }
   s.homepage         = 'https://horizon.camera/sdk/'
   s.documentation_url = 'https://horizon.camera/sdk/docs/'
@@ -27,12 +27,11 @@ For more information take a look at the Installation and Quick Start guides of t
 #leveling #filter #capture #video #photo
 DESC
   s.source           = { :git => "https://github.com/HorizonCamera/HorizonSDK-iOS.git", :tag => s.version.to_s }
-
   s.platform = :ios
   
   s.ios.deployment_target = '8.0'
   
   s.preserve_paths = 'README.md'
 
-  s.vendored_frameworks = 'HorizonSDK/HorizonSDK.framework'
+  s.vendored_frameworks = 'HorizonSDK/HorizonSDK.xcframework'
 end

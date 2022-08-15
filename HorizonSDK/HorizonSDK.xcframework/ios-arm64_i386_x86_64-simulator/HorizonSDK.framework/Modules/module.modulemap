@@ -1,0 +1,6 @@
+framework module HorizonSDK {
+  umbrella header "HorizonSDK.h"
+
+  export *
+  module * { export * }
+}
