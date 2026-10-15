@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'HorizonSDK'
   s.version          = '3.0'
-  s.license          =  { :type => 'Commercial', :text => "See https://horizon.camera/sdk/termsofservice" }
+  s.license          =  { :type => 'Commercial', :text => "See https://horizon.camera/sdk/tos/" }
   s.homepage         = 'https://horizon.camera/sdk/'
   s.documentation_url = 'https://horizoncamera.github.io/HorizonSDK-iOS/'
   s.summary          = 'Horizon SDK makes it easy to integrate video and photo recording capabilities to your mobile apps.'
