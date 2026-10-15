@@ -36,6 +36,17 @@
     [self authorizeCamera];
 }
 
+- (void)viewDidLayoutSubviews {
+    [super viewDidLayoutSubviews];
+
+    // The preview follows the interface: tell the camera whenever the window rotates (iPad)
+    UIWindowScene *scene = self.view.window.windowScene;
+
+    if (scene) {
+        self.camera.interfaceOrientation = scene.interfaceOrientation;
+    }
+}
+
 - (BOOL)prefersStatusBarHidden
 {
     return YES;
@@ -47,7 +58,7 @@
     
     if(![self.camera isRunning]) {
         
-        [self.camera startRunning];
+        [self startCamera];
         return;
     }
     
@@ -56,12 +67,26 @@
     else
     {
         NSURL *recordingURL = [[NSURL alloc] initFileURLWithPath:[NSString pathWithComponents:@[NSTemporaryDirectory(), @"Movie.MOV"]]];
+        HVTRecordingConfiguration *configuration = [HVTRecordingConfiguration configurationWithMovieURL:recordingURL];
+        NSError *error = nil;
 
-        [self.camera startRecordingWithMovieURL:recordingURL];
+        if (![self.camera startRecordingWithConfiguration:configuration error:&error]) {
+            NSLog(@"Cannot record: %@", error);
+        }
     }
 }
 
 #pragma mark - Private methods
+
+// Starts off the main thread; the completion reports why it could not start (e.g. camera access denied)
+- (void)startCamera
+{
+    [self.camera startRunningWithCompletion:^(NSError *error) {
+        if (error) {
+            NSLog(@"Cannot start the camera: %@", error);
+        }
+    }];
+}
 
 - (void)authorizeCamera
 {
@@ -80,7 +105,7 @@
                              completionHandler:^(BOOL granted) {
                                  
                                  dispatch_async(dispatch_get_main_queue(), ^{
-                                     [self.camera startRunning];
+                                     [self startCamera];
                                  });
                              }];
 }
@@ -117,7 +142,7 @@
     
     NSURL *movieURL = [metadata objectForKey:HVTMetadataMovieURLKey];
     
-    [PHPhotoLibrary requestAuthorization:^(PHAuthorizationStatus status) {
+    [PHPhotoLibrary requestAuthorizationForAccessLevel:PHAccessLevelAddOnly handler:^(PHAuthorizationStatus status) {
         
         if(status == PHAuthorizationStatusAuthorized) {
 

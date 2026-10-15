@@ -76,15 +76,22 @@
 
 - (IBAction)positionButtonTapped:(id)sender {
     
+    AVCaptureDevicePosition position = ([_camera cameraPosition] == AVCaptureDevicePositionBack ? AVCaptureDevicePositionFront : AVCaptureDevicePositionBack);
+
+    // The wide-angle camera on the other side: every iPhone and iPad has one, front and back
+    NSUInteger index = [[HVTCamera availableDevices] indexOfObjectPassingTest:^BOOL(AVCaptureDevice *device, NSUInteger idx, BOOL *stop) {
+        return device.position == position && [device.deviceType isEqualToString:AVCaptureDeviceTypeBuiltInWideAngleCamera];
+    }];
+
+    if (index == NSNotFound) {
+        return;
+    }
+
     NSError *error = nil;
-    
-    if([_camera cameraPosition] == AVCaptureDevicePositionBack)
-        [_camera setCameraPosition:AVCaptureDevicePositionFront withResolution:CGSizeMake(1280.0, 720.0) error:&error];
-    else
-        [_camera setCameraPosition:AVCaptureDevicePositionBack withResolution:CGSizeMake(1920.0, 1080.0) error:&error];
-    
-    if(error)
-        NSLog(@"%@", error);
+
+    if (![_camera setCaptureDevice:[HVTCamera availableDevices][index] error:&error]) {
+        NSLog(@"Cannot switch camera: %@", error);
+    }
 }
 
 - (IBAction)cropButtonTapped:(id)sender {
@@ -125,12 +132,26 @@
     else
     {
         NSURL *recordingURL = [[NSURL alloc] initFileURLWithPath:[NSString pathWithComponents:@[NSTemporaryDirectory(), @"Movie.MOV"]]];
-        
-        [self.camera startRecordingWithMovieURL:recordingURL];
+        HVTRecordingConfiguration *configuration = [HVTRecordingConfiguration configurationWithMovieURL:recordingURL];
+        NSError *error = nil;
+
+        if (![self.camera startRecordingWithConfiguration:configuration error:&error]) {
+            NSLog(@"Cannot record: %@", error);
+        }
     }
 }
 
 #pragma mark - Private methods
+
+// Starts off the main thread; the completion reports why it could not start (e.g. camera access denied)
+- (void)startCamera
+{
+    [self.camera startRunningWithCompletion:^(NSError *error) {
+        if (error) {
+            NSLog(@"Cannot start the camera: %@", error);
+        }
+    }];
+}
 
 - (void)doubleTap {
     
@@ -157,7 +178,7 @@
                              completionHandler:^(BOOL granted) {
                                  
                                  dispatch_async(dispatch_get_main_queue(), ^{
-                                     [self.camera startRunning];
+                                     [self startCamera];
                                  });
                              }];
 }
@@ -212,7 +233,7 @@
     
     NSURL *movieURL = [metadata objectForKey:HVTMetadataMovieURLKey];
         
-    [PHPhotoLibrary requestAuthorization:^(PHAuthorizationStatus status) {
+    [PHPhotoLibrary requestAuthorizationForAccessLevel:PHAccessLevelAddOnly handler:^(PHAuthorizationStatus status) {
         
         if(status == PHAuthorizationStatusAuthorized) {
             

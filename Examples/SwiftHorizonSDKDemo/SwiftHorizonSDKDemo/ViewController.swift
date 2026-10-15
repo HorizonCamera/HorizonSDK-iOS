@@ -36,9 +36,20 @@ class ViewController : UIViewController, HVTCameraDelegate {
             
             AVCaptureDevice.requestAccess(for: AVMediaType.audio, completionHandler: { (Bool) -> Void in
                 
-                self.camera.startRunning();
+                DispatchQueue.main.async {
+                    self.startCamera()
+                }
             });
         });
+    }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        
+        // The preview follows the interface: tell the camera whenever the window rotates (iPad)
+        if let scene = view.window?.windowScene {
+            camera.interfaceOrientation = scene.interfaceOrientation
+        }
     }
     
     override var prefersStatusBarHidden: Bool {
@@ -57,16 +68,29 @@ class ViewController : UIViewController, HVTCameraDelegate {
         }
         else {
             
-            let filePath        = NSString.path(withComponents: [NSTemporaryDirectory(), "Movie.mov"])
-            let recordingURL    = NSURL(fileURLWithPath: filePath)
+            let recordingURL    = FileManager.default.temporaryDirectory.appendingPathComponent("Movie.mov")
+            let configuration   = HVTRecordingConfiguration(movieURL: recordingURL)
             
-            camera.startRecording(withMovieURL: recordingURL as URL!)
+            do {
+                try camera.startRecording(with: configuration)
+            } catch {
+                print("Cannot record: \(error)")
+            }
         }
     }
     
     // MARK: Private methods
     
-    func removeTempMovie(movieURL: URL!) {
+    // Starts off the main thread; the completion reports why it could not start (e.g. camera access denied)
+    func startCamera() {
+        camera.startRunning { error in
+            if let error = error {
+                print("Cannot start the camera: \(error)")
+            }
+        }
+    }
+    
+    func removeTempMovie(movieURL: URL) {
         do {
             try FileManager.default.removeItem(at: movieURL)
         } catch _ {
@@ -75,12 +99,12 @@ class ViewController : UIViewController, HVTCameraDelegate {
     
     // MARK: HVTCameraDelegate methods
     
-    func hvtCameraRecordingDidStart(_ hvtCamera: HVTCamera!) {
+    func hvtCameraRecordingDidStart(_ hvtCamera: HVTCamera) {
         
         recordButton.setTitle("Stop", for: .normal)
     }
     
-    func hvtCamera(_ hvtCamera: HVTCamera!, didUpdateRecordingDuration duration: TimeInterval) {
+    func hvtCamera(_ hvtCamera: HVTCamera, didUpdateRecordingDuration duration: TimeInterval) {
         
         let seconds = Int(duration)
         var newDuration = "00:00"
@@ -97,19 +121,20 @@ class ViewController : UIViewController, HVTCameraDelegate {
         recordButton.setTitle(newDuration, for: .normal)
     }
     
-    func hvtCamera(_ hvtCamera: HVTCamera!, recordingDidFailWithError error: Error!) {
+    func hvtCamera(_ hvtCamera: HVTCamera, recordingDidFailWithError error: Error) {
         
         recordButton.setTitle("Record", for: .normal)
     }
     
-    func hvtCamera(_ hvtCamera: HVTCamera!, didStopRecordingWithMetadata metadata: [AnyHashable : Any]!) {
+    func hvtCamera(_ hvtCamera: HVTCamera, didStopRecordingWithMetadata metadata: [String : Any]) {
         
         recordButton.setTitle("Record", for: .normal)
         
-        let metadataDict = metadata as NSDictionary
-        let movieURL = metadataDict.object(forKey: HVTMetadataMovieURLKey) as! URL
+        guard let movieURL = metadata[HVTMetadataMovieURLKey] as? URL else {
+            return
+        }
 
-        PHPhotoLibrary.requestAuthorization({ (status:PHAuthorizationStatus) in
+        PHPhotoLibrary.requestAuthorization(for: .addOnly, handler: { (status:PHAuthorizationStatus) in
             
             if(status != .authorized) {
                 return
@@ -124,7 +149,7 @@ class ViewController : UIViewController, HVTCameraDelegate {
         })
     }
     
-    func hvtCamera(_ hvtCamera: HVTCamera!, didUpdate params: HVTParams) {
+    func hvtCamera(_ hvtCamera: HVTCamera, didUpdate params: HVTParams) {
         recordButton.transform = CGAffineTransform(rotationAngle: CGFloat(params.angle))
     }
 }

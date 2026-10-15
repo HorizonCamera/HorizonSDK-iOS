@@ -18,7 +18,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
-    [[HVTSDK sharedInstance] activateWithAPIKey:@"1u5Tc9iMAGG4uN1UzFCxQzQmcRdEyCuF2UkquFWy01B+yOYgkEU81rJT6IGZy3cq1PEPAPasjg9CpwCMW4drAWNvbS5odnQuSG9yaXpvblNESy1TfENV"];
+    NSError *error = nil;
+
+    if (![[HVTSDK sharedInstance] activateWithAPIKey:@"1u5Tc9iMAGG4uN1UzFCxQzQmcRdEyCuF2UkquFWy01B+yOYgkEU81rJT6IGZy3cq1PEPAPasjg9CpwCMW4drAWNvbS5odnQuSG9yaXpvblNESy1TfENV" error:&error]) {
+        NSLog(@"Horizon SDK activation failed: %@", error);
+    }
 
     return YES;
 }

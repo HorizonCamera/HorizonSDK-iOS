@@ -16,7 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey : Any]? = nil) -> Bool {
 
-        HVTSDK.sharedInstance().activate(withAPIKey: "QMCA6kLDQGpK4c92SfmBK7Kr9dNxwekmLCZKYKb4x3Q+OcFQ/iZS8MH2V5xW/0lLkY9JTY3c8UtvV+PDLvRkBWNvbS5odnQuSG9yaXpvblNESy1Td2lmdHxDVQ==")
+        do {
+            try HVTSDK.sharedInstance().activate(withAPIKey: "QMCA6kLDQGpK4c92SfmBK7Kr9dNxwekmLCZKYKb4x3Q+OcFQ/iZS8MH2V5xW/0lLkY9JTY3c8UtvV+PDLvRkBWNvbS5odnQuSG9yaXpvblNESy1Td2lmdHxDVQ==")
+        } catch {
+            print("Horizon SDK activation failed: \(error)")
+        }
         
         return true
     }
