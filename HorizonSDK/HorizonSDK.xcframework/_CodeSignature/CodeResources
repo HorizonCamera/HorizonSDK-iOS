@@ -50,11 +50,11 @@
 		</data>
 		<key>ios-arm64/HorizonSDK.framework/HorizonSDK</key>
 		<data>
-		SsMSDqg5mPFEQzT17lNcT7/1ja8=
+		K6jFLvZfURY9PLyRJT4VKUJboL8=
 		</data>
 		<key>ios-arm64/HorizonSDK.framework/Info.plist</key>
 		<data>
-		8lps3AZ/ueBnK0W436gq2ehRpXw=
+		ml9W/FpqyDdq7MtpkCfyc/SHle0=
 		</data>
 		<key>ios-arm64/HorizonSDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -270,11 +270,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/HorizonSDK.framework/HorizonSDK</key>
 		<data>
-		Xd26cH+rgCufCtmVZiFWB3VXjTY=
+		uXKr8lj4NoPNvm9DS+rGoO/FRmc=
 		</data>
 		<key>ios-arm64_x86_64-simulator/HorizonSDK.framework/Info.plist</key>
 		<data>
-		1LE8mAg+HIqvAEwIunrFUqeAYy0=
+		Dcbz01RLd+rfCUgP4p4g1J8kCdc=
 		</data>
 		<key>ios-arm64_x86_64-simulator/HorizonSDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -528,14 +528,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yZYe2ClG6k2lhZHnc4cP/Q0b+tbJqrzg8emVpNR/RS8=
+			K9DcEuBtCNtEhKmYLmt90mOq3C9S3pwvVokJ/RznhDU=
 			</data>
 		</dict>
 		<key>ios-arm64/HorizonSDK.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			13hCIowpxxUC+3JSuOnRGpSlSpAqNaJw1Kya8WubbGQ=
+			NBBgibEKNhoEV8FNNdX7SSzI3VVJCdQiZvFWmNkKcEY=
 			</data>
 		</dict>
 		<key>ios-arm64/HorizonSDK.framework/Modules/module.modulemap</key>
@@ -913,14 +913,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gTphdyGNhmgKL5F2P5s8LwpZasGUE5EuV4fgPTVh4oM=
+			1NgW0YXtqBr1e+ta7QmpuPOquCEbtFV5cffC9QodBFY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/HorizonSDK.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1hfOHg97bbQCerB64wIupagV91jNE5HSqgxAOyTdlrc=
+			k5AbzECwsK7RGJ8bxxNTi0Cnldo+efnd+xYS4PqvGD4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/HorizonSDK.framework/Modules/module.modulemap</key>

@@ -35,7 +35,7 @@ In Xcode, choose File › Add Package Dependencies, enter `https://github.com/Ho
 pod 'HorizonSDK', '~> 3.0'
 ```
 
-CocoaPods trunk stops accepting new versions on December 2, 2026. Releases after 3.0 ship through Swift Package Manager only.
+CocoaPods trunk stops accepting new versions on December 2, 2026. Releases after that date ship through Swift Package Manager only.
 
 ### Manually
 

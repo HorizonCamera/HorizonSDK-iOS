@@ -1,3 +1,17 @@
+# Horizon SDK 3.0.1
+
+A fix release, with no API changes.
+
+## Fixed
+
+- **Crop mode changes are quicker.** Switching between Flex, Rotate and Locked eased the zoom and angle over 0.7-0.8 s, and Locked to Flex took over 2 s while Flex's zoom smoothing caught up. Every change now settles in about a third of a second.
+- **Crop mode changes animate smoothly.** `HVTView` drew its crop rectangle only when a camera frame arrived, so a mode change stepped at the camera's frame rate (under 20 fps in dim light). During a change the view now redraws at the screen's rate. Leveled views still update once per camera frame.
+
+## Installation
+
+- **Swift Package Manager**: `https://github.com/HorizonCamera/HorizonSDK-iOS`, from 3.0.1.
+- **CocoaPods**: `pod 'HorizonSDK', '~> 3.0'`.
+
 # Horizon SDK 3.0
 
 A modernization release: iOS 15+, Swift Package Manager, a Metal preview, new capture APIs, and more than 50 fixes for crashes, hangs and wrong output.
