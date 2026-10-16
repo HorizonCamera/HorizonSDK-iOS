@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'HorizonSDK'
-  s.version          = '3.0.1'
+  s.version          = '3.0.2'
   s.license          =  { :type => 'Commercial', :text => "See https://horizon.camera/sdk/tos/" }
   s.homepage         = 'https://horizon.camera/sdk/'
   s.documentation_url = 'https://horizoncamera.github.io/HorizonSDK-iOS/'

@@ -1,3 +1,16 @@
+# Horizon SDK 3.0.2
+
+A packaging fix, with no API or behavior changes.
+
+## Fixed
+
+- **Debug symbols ship with the framework.** Each XCFramework slice now carries its dSYM. Archiving an app that uses the SDK no longer reports "Upload Symbols Failed" for `HorizonSDK.framework` on App Store Connect upload, and SDK frames in crash reports show function names and line numbers instead of addresses.
+
+## Installation
+
+- **Swift Package Manager**: `https://github.com/HorizonCamera/HorizonSDK-iOS`, from 3.0.2.
+- **CocoaPods**: `pod 'HorizonSDK', '~> 3.0'`.
+
 # Horizon SDK 3.0.1
 
 A fix release, with no API changes.

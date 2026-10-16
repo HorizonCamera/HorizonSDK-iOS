@@ -1,0 +1,1222 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/horizon-sdk/build/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/HorizonSDK/InstallationBuildProductsLocation/Library/Frameworks/HorizonSDK.framework/HorizonSDK'
+relocations:
+  - { offset: 0x33, size: 0x8, addend: 0x0, symName: _HorizonSDKVersionString, symObjAddr: 0x0, symBinAddr: 0x33B50, symSize: 0x0 }
+  - { offset: 0x67, size: 0x8, addend: 0x0, symName: _HorizonSDKVersionNumber, symObjAddr: 0x30, symBinAddr: 0x33B80, symSize: 0x0 }
+  - { offset: 0xA2, size: 0x8, addend: 0x0, symName: __ZN13HVTAngleQueueC2Ev, symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x10 }
+  - { offset: 0x5627, size: 0x8, addend: 0x0, symName: __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIddEELb0EEEvT1_S8_T0_NS_15iterator_traitsIS8_E15difference_typeEb, symObjAddr: 0x1370, symBinAddr: 0x5370, symSize: 0x410 }
+  - { offset: 0x5EC8, size: 0x8, addend: 0x0, symName: __ZNSt3__126__insertion_sort_unguardedB9nqe220106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIddEEEEvT1_S8_T0_, symObjAddr: 0x1BC8, symBinAddr: 0x5BC8, symSize: 0x9C }
+  - { offset: 0x603F, size: 0x8, addend: 0x0, symName: __ZNSt3__117__floyd_sift_downB9nqe220106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIddEEEET1_S8_OT0_NS_15iterator_traitsIS8_E15difference_typeE, symObjAddr: 0x2430, symBinAddr: 0x6430, symSize: 0x8C }
+  - { offset: 0x614A, size: 0x8, addend: 0x0, symName: __ZNSt3__131__partition_with_equals_on_leftB9nqe220106INS_17_ClassicAlgPolicyEPNS_4pairIddEERNS_6__lessIvvEEEET0_S8_S8_T1_, symObjAddr: 0x1C64, symBinAddr: 0x5C64, symSize: 0x144 }
+  - { offset: 0x6459, size: 0x8, addend: 0x0, symName: __ZNSt3__132__partition_with_equals_on_rightB9nqe220106INS_17_ClassicAlgPolicyEPNS_4pairIddEERNS_6__lessIvvEEEENS2_IT0_bEES8_S8_T1_, symObjAddr: 0x1DA8, symBinAddr: 0x5DA8, symSize: 0x144 }
+  - { offset: 0x6764, size: 0x8, addend: 0x0, symName: __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIddEEEEbT1_S8_T0_, symObjAddr: 0x1EEC, symBinAddr: 0x5EEC, symSize: 0x2A4 }
+  - { offset: 0x8968, size: 0x8, addend: 0x0, symName: __ZNSt3__14prevB9nqe220106INS_16reverse_iteratorINS_16__deque_iteratorI20HVTDeviceMotionEventPS3_RS3_PS4_lLl102EEEEELi0EEET_S9_, symObjAddr: 0xB94, symBinAddr: 0x4B94, symSize: 0xAC }
+  - { offset: 0x8A7E, size: 0x8, addend: 0x0, symName: __ZNSt3__14prevB9nqe220106INS_16__deque_iteratorI20HVTDeviceMotionEventPS2_RS2_PS3_lLl102EEELi0EEET_S7_, symObjAddr: 0xC40, symBinAddr: 0x4C40, symSize: 0x98 }
+  - { offset: 0x8D95, size: 0x8, addend: 0x0, symName: __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorINS_4pairIddEEEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m, symObjAddr: 0xE34, symBinAddr: 0x4E34, symSize: 0x34 }
+  - { offset: 0x8E1E, size: 0x8, addend: 0x0, symName: __ZSt28__throw_bad_array_new_lengthB9nqe220106v, symObjAddr: 0xE68, symBinAddr: 0x4E68, symSize: 0x28 }
+  - { offset: 0x8E3A, size: 0x8, addend: 0x0, symName: __ZNSt3__120__throw_length_errorB9nqe220106EPKc, symObjAddr: 0xDC0, symBinAddr: 0x4DC0, symSize: 0x50 }
+  - { offset: 0x933F, size: 0x8, addend: 0x0, symName: __ZNSt3__17__sort3B9nqe220106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIddEELi0EEEbT1_S8_S8_T0_, symObjAddr: 0x1780, symBinAddr: 0x5780, symSize: 0x150 }
+  - { offset: 0x99AA, size: 0x8, addend: 0x0, symName: __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIddEELi0EEEvT1_S8_S8_S8_S8_T0_, symObjAddr: 0x18D0, symBinAddr: 0x58D0, symSize: 0x220 }
+  - { offset: 0xA259, size: 0x8, addend: 0x0, symName: __ZNSt3__116__insertion_sortB9nqe220106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIddEEEEvT1_S8_T0_, symObjAddr: 0x1AF0, symBinAddr: 0x5AF0, symSize: 0xD8 }
+  - { offset: 0xA3A6, size: 0x8, addend: 0x0, symName: __ZNSt3__119__partial_sort_implB9nqe220106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIddEES7_EET1_S8_S8_T2_OT0_, symObjAddr: 0x2190, symBinAddr: 0x6190, symSize: 0x164 }
+  - { offset: 0xA8E3, size: 0x8, addend: 0x0, symName: __ZNSt3__111__sift_downB9nqe220106INS_17_ClassicAlgPolicyELb0ERNS_6__lessIvvEEPNS_4pairIddEEEEvT2_OT1_NS_15iterator_traitsIS8_E15difference_typeESD_, symObjAddr: 0x22F4, symBinAddr: 0x62F4, symSize: 0x13C }
+  - { offset: 0xAAB1, size: 0x8, addend: 0x0, symName: __ZNSt3__19__sift_upB9nqe220106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIddEEEEvT1_S8_OT0_NS_15iterator_traitsIS8_E15difference_typeE, symObjAddr: 0x24BC, symBinAddr: 0x64BC, symSize: 0xA8 }
+  - { offset: 0xABFC, size: 0x8, addend: 0x0, symName: __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIdEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m, symObjAddr: 0x25B4, symBinAddr: 0x65A0, symSize: 0x34 }
+  - { offset: 0xAC85, size: 0x8, addend: 0x0, symName: __ZNSt3__16vectorIdNS_9allocatorIdEEEC2B9nqe220106EmRKd, symObjAddr: 0x25E8, symBinAddr: 0x65D4, symSize: 0x80 }
+  - { offset: 0xB0ED, size: 0x8, addend: 0x0, symName: __ZNSt3__15dequeI20HVTDeviceMotionEventNS_9allocatorIS1_EEE9__emplaceIJRKS1_EEENS_16__deque_iteratorIS1_PS1_RS1_PS9_lLl102EEENS8_IS1_PS6_S7_PKSD_lLl102EEEDpOT_, symObjAddr: 0x2D1C, symBinAddr: 0x6BE8, symSize: 0x460 }
+  - { offset: 0xBB1A, size: 0x8, addend: 0x0, symName: __ZNSt3__127__for_each_segment_backwardB9nqe220106INS_16__deque_iteratorI20HVTDeviceMotionEventPS2_RS2_PS3_lLl102EEEZNKS_20__move_backward_implINS_17_ClassicAlgPolicyEEclB9nqe220106IS6_S6_Li0EEENS_4pairIT_T0_EESC_SC_SD_EUlS3_S3_E_EEvSC_SC_SD_, symObjAddr: 0x3918, symBinAddr: 0x75F0, symSize: 0xC4 }
+  - { offset: 0xBE08, size: 0x8, addend: 0x0, symName: __ZNSt3__118__for_each_segmentB9nqe220106INS_16__deque_iteratorI20HVTDeviceMotionEventPS2_RS2_PS3_lLl102EEEZNKS_11__move_implINS_17_ClassicAlgPolicyEEclB9nqe220106IS6_S6_Li0EEENS_4pairIT_T0_EESC_SC_SD_EUlS3_S3_E_EEvSC_SC_SD_, symObjAddr: 0x3590, symBinAddr: 0x7268, symSize: 0x2DC }
+  - { offset: 0xDD83, size: 0x8, addend: 0x0, symName: __ZSt28__throw_bad_array_new_lengthB9nqe220106v, symObjAddr: 0xE68, symBinAddr: 0x4E68, symSize: 0x28 }
+  - { offset: 0xE56E, size: 0x8, addend: 0x0, symName: __ZN13HVTAngleQueueC2Ev, symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x10 }
+  - { offset: 0xE590, size: 0x8, addend: 0x0, symName: __ZN13HVTAngleQueueC2Ev, symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x10 }
+  - { offset: 0xE5AB, size: 0x8, addend: 0x0, symName: __ZN13HVTAngleQueueC2Ev, symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x10 }
+  - { offset: 0xE5E9, size: 0x8, addend: 0x0, symName: __ZN13HVTAngleQueueC1Ev, symObjAddr: 0x10, symBinAddr: 0x4010, symSize: 0x10 }
+  - { offset: 0xE616, size: 0x8, addend: 0x0, symName: __ZN13HVTAngleQueueC1Ev, symObjAddr: 0x10, symBinAddr: 0x4010, symSize: 0x10 }
+  - { offset: 0xE631, size: 0x8, addend: 0x0, symName: __ZN13HVTAngleQueueC1Ev, symObjAddr: 0x10, symBinAddr: 0x4010, symSize: 0x10 }
+  - { offset: 0xE64C, size: 0x8, addend: 0x0, symName: __ZN13HVTAngleQueueC1Ev, symObjAddr: 0x10, symBinAddr: 0x4010, symSize: 0x10 }
+  - { offset: 0xE821, size: 0x8, addend: 0x0, symName: __ZN13HVTAngleQueue18enqueueMotionEventE20HVTDeviceMotionEvent, symObjAddr: 0x20, symBinAddr: 0x4020, symSize: 0x1B0 }
+  - { offset: 0xEB0D, size: 0x8, addend: 0x0, symName: __ZNSt3__15dequeI20HVTDeviceMotionEventNS_9allocatorIS1_EEE9__emplaceIJRKS1_EEENS_16__deque_iteratorIS1_PS1_RS1_PS9_lLl102EEENS8_IS1_PS6_S7_PKSD_lLl102EEEDpOT_, symObjAddr: 0x2D1C, symBinAddr: 0x6BE8, symSize: 0x460 }
+  - { offset: 0xF473, size: 0x8, addend: 0x0, symName: __ZNSt3__15dequeI20HVTDeviceMotionEventNS_9allocatorIS1_EEE9push_backERKS1_, symObjAddr: 0x1EC, symBinAddr: 0x41EC, symSize: 0xAC }
+  - { offset: 0xF5B6, size: 0x8, addend: 0x0, symName: __ZNSt3__15dequeI20HVTDeviceMotionEventNS_9allocatorIS1_EEE26__maybe_remove_front_spareB9nqe220106Eb, symObjAddr: 0x3AB8, symBinAddr: 0x7790, symSize: 0x5C }
+  - { offset: 0xF733, size: 0x8, addend: 0x0, symName: __ZN13HVTAngleQueue15preprocessEventER20HVTDeviceMotionEvent, symObjAddr: 0x1D0, symBinAddr: 0x41D0, symSize: 0x1C }
+  - { offset: 0xF823, size: 0x8, addend: 0x0, symName: __ZNSt3__15dequeI20HVTDeviceMotionEventNS_9allocatorIS1_EEE19__add_back_capacityEv, symObjAddr: 0x2668, symBinAddr: 0x6654, symSize: 0x1B0 }
+  - { offset: 0x105B2, size: 0x8, addend: 0x0, symName: __ZN13HVTAngleQueue26getLevelParamsForTimestampEd, symObjAddr: 0x298, symBinAddr: 0x4298, symSize: 0x22C }
+  - { offset: 0x10CF6, size: 0x8, addend: 0x0, symName: __ZN13HVTAngleQueue17closestDataToTimeEd, symObjAddr: 0x4C4, symBinAddr: 0x44C4, symSize: 0x2D4 }
+  - { offset: 0x111A9, size: 0x8, addend: 0x0, symName: __ZN14HVTCubicSpline8addPointEdd, symObjAddr: 0x798, symBinAddr: 0x4798, symSize: 0x68 }
+  - { offset: 0x11364, size: 0x8, addend: 0x0, symName: __ZN14HVTCubicSplineclEd, symObjAddr: 0x800, symBinAddr: 0x4800, symSize: 0x124 }
+  - { offset: 0x114DC, size: 0x8, addend: 0x0, symName: __ZN13HVTAngleQueue19closestSampleToTimeEd, symObjAddr: 0x924, symBinAddr: 0x4924, symSize: 0x230 }
+  - { offset: 0x117F4, size: 0x8, addend: 0x0, symName: __ZN14HVTCubicSplineD1Ev, symObjAddr: 0xB54, symBinAddr: 0x4B54, symSize: 0x40 }
+  - { offset: 0x11BCC, size: 0x8, addend: 0x0, symName: __ZNSt3__116__deque_iteratorI20HVTDeviceMotionEventPS1_RS1_PS2_lLl102EEpLB9nqe220106El, symObjAddr: 0x386C, symBinAddr: 0x7544, symSize: 0xAC }
+  - { offset: 0x11ECB, size: 0x8, addend: 0x0, symName: __ZZNSt3__16vectorINS_4pairIddEENS_9allocatorIS2_EEE12emplace_backIJRdS7_EEEvDpOT_ENKUlvE0_clEv, symObjAddr: 0xCD8, symBinAddr: 0x4CD8, symSize: 0xD4 }
+  - { offset: 0x121DC, size: 0x8, addend: 0x0, symName: __ZNSt3__16vectorINS_4pairIddEENS_9allocatorIS2_EEE20__throw_length_errorB9nqe220106Ev, symObjAddr: 0xDAC, symBinAddr: 0x4DAC, symSize: 0x14 }
+  - { offset: 0x122AB, size: 0x8, addend: 0x0, symName: __ZN14HVTCubicSpline5solveEv, symObjAddr: 0xE90, symBinAddr: 0x4E90, symSize: 0x24C }
+  - { offset: 0x12B7E, size: 0x8, addend: 0x0, symName: __ZNK14HVTCubicSpline9highSlopeEv, symObjAddr: 0x10DC, symBinAddr: 0x50DC, symSize: 0x50 }
+  - { offset: 0x12BB4, size: 0x8, addend: 0x0, symName: __ZNK14HVTCubicSpline9highSlopeEv, symObjAddr: 0x10DC, symBinAddr: 0x50DC, symSize: 0x50 }
+  - { offset: 0x12C74, size: 0x8, addend: 0x0, symName: __ZNK14HVTCubicSpline8evaluateEmd, symObjAddr: 0x112C, symBinAddr: 0x512C, symSize: 0x70 }
+  - { offset: 0x12D11, size: 0x8, addend: 0x0, symName: __ZNK14HVTCubicSpline8evaluateEmd, symObjAddr: 0x112C, symBinAddr: 0x512C, symSize: 0x70 }
+  - { offset: 0x12F6E, size: 0x8, addend: 0x0, symName: __ZNSt3__16vectorINS_4pairIddEENS_9allocatorIS2_EEE20__throw_length_errorB9nqe220106Ev, symObjAddr: 0xDAC, symBinAddr: 0x4DAC, symSize: 0x14 }
+  - { offset: 0x12F85, size: 0x8, addend: 0x0, symName: __ZNSt3__120__throw_length_errorB9nqe220106EPKc, symObjAddr: 0xDC0, symBinAddr: 0x4DC0, symSize: 0x50 }
+  - { offset: 0x12F90, size: 0x8, addend: 0x0, symName: __ZNSt12length_errorC1B9nqe220106EPKc, symObjAddr: 0xE10, symBinAddr: 0x4E10, symSize: 0x24 }
+  - { offset: 0x1308A, size: 0x8, addend: 0x0, symName: __ZN14HVTCubicSpline15separateEqualXsEv, symObjAddr: 0x119C, symBinAddr: 0x519C, symSize: 0xD0 }
+  - { offset: 0x13221, size: 0x8, addend: 0x0, symName: __ZNSt3__16vectorIdNS_9allocatorIdEEE6assignEmRKd, symObjAddr: 0x126C, symBinAddr: 0x526C, symSize: 0x104 }
+  - { offset: 0x1366F, size: 0x8, addend: 0x0, symName: __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIddEELb0EEEvT1_S8_T0_NS_15iterator_traitsIS8_E15difference_typeEb, symObjAddr: 0x1370, symBinAddr: 0x5370, symSize: 0x410 }
+  - { offset: 0x1367A, size: 0x8, addend: 0x0, symName: __ZNSt3__16vectorIdNS_9allocatorIdEEEC2B9nqe220106EmRKd, symObjAddr: 0x25E8, symBinAddr: 0x65D4, symSize: 0x80 }
+  - { offset: 0x138E8, size: 0x8, addend: 0x0, symName: __ZN14HVTCubicSpline5solveEv.cold.1, symObjAddr: 0x3B14, symBinAddr: 0x2A1B4, symSize: 0x1C }
+  - { offset: 0x13BA5, size: 0x8, addend: 0x0, symName: __ZNSt3__16vectorIdNS_9allocatorIdEEE11__vallocateB9nqe220106Em, symObjAddr: 0x2564, symBinAddr: 0x6564, symSize: 0x3C }
+  - { offset: 0x13C0F, size: 0x8, addend: 0x0, symName: __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIdEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m, symObjAddr: 0x25B4, symBinAddr: 0x65A0, symSize: 0x34 }
+  - { offset: 0x14138, size: 0x8, addend: 0x0, symName: __ZNSt3__114__split_bufferIP20HVTDeviceMotionEventNS_9allocatorIS2_EEE12emplace_backIJRS2_EEEvDpOT_, symObjAddr: 0x2818, symBinAddr: 0x6804, symSize: 0xEC }
+  - { offset: 0x1478F, size: 0x8, addend: 0x0, symName: __ZNSt3__114__split_bufferIP20HVTDeviceMotionEventRNS_9allocatorIS2_EEE12emplace_backIJS2_EEEvDpOT_, symObjAddr: 0x2AF8, symBinAddr: 0x69F8, symSize: 0xEC }
+  - { offset: 0x14B8B, size: 0x8, addend: 0x0, symName: __ZNSt3__114__split_bufferIP20HVTDeviceMotionEventRNS_9allocatorIS2_EEE13emplace_frontIJRS2_EEEvDpOT_, symObjAddr: 0x2BE4, symBinAddr: 0x6AE4, symSize: 0x104 }
+  - { offset: 0x14F95, size: 0x8, addend: 0x0, symName: __ZNSt3__114__split_bufferIP20HVTDeviceMotionEventNS_9allocatorIS2_EEE13emplace_frontIJS2_EEEvDpOT_, symObjAddr: 0x29F0, symBinAddr: 0x68F0, symSize: 0x108 }
+  - { offset: 0x15909, size: 0x8, addend: 0x0, symName: __ZNSt3__15dequeI20HVTDeviceMotionEventNS_9allocatorIS1_EEE20__add_front_capacityEv, symObjAddr: 0x317C, symBinAddr: 0x7048, symSize: 0x220 }
+  - { offset: 0x168A6, size: 0x8, addend: 0x0, symName: __ZNKSt3__120__move_backward_implINS_17_ClassicAlgPolicyEEclB9nqe220106IP20HVTDeviceMotionEventNS_16__deque_iteratorIS4_S5_RS4_PS5_lLl102EEELi0EEENS_4pairIT_T0_EESB_SB_SC_, symObjAddr: 0x39DC, symBinAddr: 0x76B4, symSize: 0xDC }
+  - { offset: 0x190EC, size: 0x8, addend: 0x0, symName: _mat4f_LoadIdentity, symObjAddr: 0x0, symBinAddr: 0x77EC, symSize: 0x2C }
+  - { offset: 0x190FA, size: 0x8, addend: 0x0, symName: _mat4f_LoadIdentity, symObjAddr: 0x0, symBinAddr: 0x77EC, symSize: 0x2C }
+  - { offset: 0x1911F, size: 0x8, addend: 0x0, symName: _mat4f_LoadScale, symObjAddr: 0x2C, symBinAddr: 0x7818, symSize: 0x38 }
+  - { offset: 0x19152, size: 0x8, addend: 0x0, symName: _mat4f_LoadXRotation, symObjAddr: 0x64, symBinAddr: 0x7850, symSize: 0x4C }
+  - { offset: 0x191A9, size: 0x8, addend: 0x0, symName: _mat4f_LoadYRotation, symObjAddr: 0xB0, symBinAddr: 0x789C, symSize: 0x5C }
+  - { offset: 0x19200, size: 0x8, addend: 0x0, symName: _mat4f_LoadZRotation, symObjAddr: 0x10C, symBinAddr: 0x78F8, symSize: 0x48 }
+  - { offset: 0x19257, size: 0x8, addend: 0x0, symName: _mat4f_LoadTranslation, symObjAddr: 0x154, symBinAddr: 0x7940, symSize: 0x44 }
+  - { offset: 0x1928A, size: 0x8, addend: 0x0, symName: _mat4f_LoadPerspective, symObjAddr: 0x198, symBinAddr: 0x7984, symSize: 0x98 }
+  - { offset: 0x19301, size: 0x8, addend: 0x0, symName: _mat4f_LoadOrtho, symObjAddr: 0x230, symBinAddr: 0x7A1C, symSize: 0x74 }
+  - { offset: 0x193E5, size: 0x8, addend: 0x0, symName: _mat4f_MultiplyMat4f, symObjAddr: 0x2A4, symBinAddr: 0x7A90, symSize: 0x2C4 }
+  - { offset: 0x1942A, size: 0x8, addend: 0x0, symName: _mat4f_MultiplyVec3f, symObjAddr: 0x568, symBinAddr: 0x7D54, symSize: 0xB4 }
+  - { offset: 0x1946F, size: 0x8, addend: 0x0, symName: _mat4f_Inverse, symObjAddr: 0x61C, symBinAddr: 0x7E08, symSize: 0x410 }
+  - { offset: 0x19570, size: 0x8, addend: 0x0, symName: _crypto_verify_16_tweet, symObjAddr: 0x0, symBinAddr: 0x8218, symSize: 0x3C }
+  - { offset: 0x1958A, size: 0x8, addend: 0x0, symName: __0, symObjAddr: 0x2CE8, symBinAddr: 0x33C88, symSize: 0x0 }
+  - { offset: 0x195CB, size: 0x8, addend: 0x0, symName: _sigma, symObjAddr: 0x2C50, symBinAddr: 0x33BF0, symSize: 0x0 }
+  - { offset: 0x195E1, size: 0x8, addend: 0x0, symName: _minusp, symObjAddr: 0x2C60, symBinAddr: 0x33C00, symSize: 0x0 }
+  - { offset: 0x1961B, size: 0x8, addend: 0x0, symName: __121665, symObjAddr: 0x2FB8, symBinAddr: 0x33F58, symSize: 0x0 }
+  - { offset: 0x19661, size: 0x8, addend: 0x0, symName: __9, symObjAddr: 0x3038, symBinAddr: 0x33FD8, symSize: 0x0 }
+  - { offset: 0x19684, size: 0x8, addend: 0x0, symName: _K, symObjAddr: 0x2CF8, symBinAddr: 0x33C98, symSize: 0x0 }
+  - { offset: 0x196BF, size: 0x8, addend: 0x0, symName: _iv, symObjAddr: 0x2F78, symBinAddr: 0x33F18, symSize: 0x0 }
+  - { offset: 0x196E1, size: 0x8, addend: 0x0, symName: _X, symObjAddr: 0x3058, symBinAddr: 0x33FF8, symSize: 0x0 }
+  - { offset: 0x196F7, size: 0x8, addend: 0x0, symName: _Y, symObjAddr: 0x30D8, symBinAddr: 0x34078, symSize: 0x0 }
+  - { offset: 0x1970D, size: 0x8, addend: 0x0, symName: _gf1, symObjAddr: 0x3158, symBinAddr: 0x340F8, symSize: 0x0 }
+  - { offset: 0x19724, size: 0x8, addend: 0x0, symName: _L, symObjAddr: 0x31D8, symBinAddr: 0x34178, symSize: 0x0 }
+  - { offset: 0x19746, size: 0x8, addend: 0x0, symName: _D, symObjAddr: 0x32D8, symBinAddr: 0x34278, symSize: 0x0 }
+  - { offset: 0x1975C, size: 0x8, addend: 0x0, symName: _I, symObjAddr: 0x3358, symBinAddr: 0x342F8, symSize: 0x0 }
+  - { offset: 0x19772, size: 0x8, addend: 0x0, symName: _D2, symObjAddr: 0x33D8, symBinAddr: 0x34378, symSize: 0x0 }
+  - { offset: 0x197D3, size: 0x8, addend: 0x0, symName: _crypto_verify_16_tweet, symObjAddr: 0x0, symBinAddr: 0x8218, symSize: 0x3C }
+  - { offset: 0x197FD, size: 0x8, addend: 0x0, symName: _crypto_verify_16_tweet, symObjAddr: 0x0, symBinAddr: 0x8218, symSize: 0x3C }
+  - { offset: 0x1982E, size: 0x8, addend: 0x0, symName: _crypto_verify_32_tweet, symObjAddr: 0x3C, symBinAddr: 0x8254, symSize: 0x44 }
+  - { offset: 0x19858, size: 0x8, addend: 0x0, symName: _crypto_verify_32_tweet, symObjAddr: 0x3C, symBinAddr: 0x8254, symSize: 0x44 }
+  - { offset: 0x19889, size: 0x8, addend: 0x0, symName: _crypto_core_salsa20_tweet, symObjAddr: 0x80, symBinAddr: 0x8298, symSize: 0x1C }
+  - { offset: 0x198F5, size: 0x8, addend: 0x0, symName: _core, symObjAddr: 0x9C, symBinAddr: 0x82B4, symSize: 0x2C8 }
+  - { offset: 0x19C1C, size: 0x8, addend: 0x0, symName: _crypto_core_hsalsa20_tweet, symObjAddr: 0x364, symBinAddr: 0x857C, symSize: 0x1C }
+  - { offset: 0x19CC6, size: 0x8, addend: 0x0, symName: _crypto_stream_salsa20_tweet_xor, symObjAddr: 0x380, symBinAddr: 0x8598, symSize: 0x174 }
+  - { offset: 0x19E3A, size: 0x8, addend: 0x0, symName: _crypto_stream_salsa20_tweet, symObjAddr: 0x4F4, symBinAddr: 0x870C, symSize: 0x28 }
+  - { offset: 0x19F22, size: 0x8, addend: 0x0, symName: _crypto_stream_xsalsa20_tweet, symObjAddr: 0x51C, symBinAddr: 0x8734, symSize: 0x9C }
+  - { offset: 0x1A024, size: 0x8, addend: 0x0, symName: _crypto_stream_xsalsa20_tweet_xor, symObjAddr: 0x5B8, symBinAddr: 0x87D0, symSize: 0x9C }
+  - { offset: 0x1A148, size: 0x8, addend: 0x0, symName: _crypto_onetimeauth_poly1305_tweet, symObjAddr: 0x654, symBinAddr: 0x886C, symSize: 0x3E0 }
+  - { offset: 0x1A302, size: 0x8, addend: 0x0, symName: _crypto_onetimeauth_poly1305_tweet_verify, symObjAddr: 0xA34, symBinAddr: 0x8C4C, symSize: 0x90 }
+  - { offset: 0x1A451, size: 0x8, addend: 0x0, symName: _crypto_secretbox_xsalsa20poly1305_tweet, symObjAddr: 0xAC4, symBinAddr: 0x8CDC, symSize: 0xCC }
+  - { offset: 0x1A60C, size: 0x8, addend: 0x0, symName: _crypto_secretbox_xsalsa20poly1305_tweet_open, symObjAddr: 0xB90, symBinAddr: 0x8DA8, symSize: 0x10C }
+  - { offset: 0x1A9B5, size: 0x8, addend: 0x0, symName: _crypto_scalarmult_curve25519_tweet, symObjAddr: 0xC9C, symBinAddr: 0x8EB4, symSize: 0x560 }
+  - { offset: 0x1AEFF, size: 0x8, addend: 0x0, symName: _M, symObjAddr: 0x11FC, symBinAddr: 0x9414, symSize: 0x130 }
+  - { offset: 0x1AF9D, size: 0x8, addend: 0x0, symName: _inv25519, symObjAddr: 0x132C, symBinAddr: 0x9544, symSize: 0xDC }
+  - { offset: 0x1B05F, size: 0x8, addend: 0x0, symName: _pack25519, symObjAddr: 0x1408, symBinAddr: 0x9620, symSize: 0x1DC }
+  - { offset: 0x1B164, size: 0x8, addend: 0x0, symName: _car25519, symObjAddr: 0x2B30, symBinAddr: 0xAD48, symSize: 0x5C }
+  - { offset: 0x1B1AD, size: 0x8, addend: 0x0, symName: _crypto_scalarmult_curve25519_tweet_base, symObjAddr: 0x15E4, symBinAddr: 0x97FC, symSize: 0x20 }
+  - { offset: 0x1B207, size: 0x8, addend: 0x0, symName: _crypto_box_curve25519xsalsa20poly1305_tweet_beforenm, symObjAddr: 0x1604, symBinAddr: 0x981C, symSize: 0x88 }
+  - { offset: 0x1B2C1, size: 0x8, addend: 0x0, symName: _crypto_box_curve25519xsalsa20poly1305_tweet_afternm, symObjAddr: 0x168C, symBinAddr: 0x98A4, symSize: 0x4 }
+  - { offset: 0x1B301, size: 0x8, addend: 0x0, symName: _crypto_box_curve25519xsalsa20poly1305_tweet_afternm, symObjAddr: 0x168C, symBinAddr: 0x98A4, symSize: 0x4 }
+  - { offset: 0x1B330, size: 0x8, addend: 0x0, symName: _crypto_box_curve25519xsalsa20poly1305_tweet_open_afternm, symObjAddr: 0x1690, symBinAddr: 0x98A8, symSize: 0x4 }
+  - { offset: 0x1B370, size: 0x8, addend: 0x0, symName: _crypto_box_curve25519xsalsa20poly1305_tweet_open_afternm, symObjAddr: 0x1690, symBinAddr: 0x98A8, symSize: 0x4 }
+  - { offset: 0x1B432, size: 0x8, addend: 0x0, symName: _crypto_box_curve25519xsalsa20poly1305_tweet, symObjAddr: 0x1694, symBinAddr: 0x98AC, symSize: 0xAC }
+  - { offset: 0x1B63F, size: 0x8, addend: 0x0, symName: _crypto_box_curve25519xsalsa20poly1305_tweet_open, symObjAddr: 0x1740, symBinAddr: 0x9958, symSize: 0xAC }
+  - { offset: 0x1B961, size: 0x8, addend: 0x0, symName: _crypto_hashblocks_sha512_tweet, symObjAddr: 0x17EC, symBinAddr: 0x9A04, symSize: 0x270 }
+  - { offset: 0x1BC1F, size: 0x8, addend: 0x0, symName: _crypto_hash_sha512_tweet, symObjAddr: 0x1A5C, symBinAddr: 0x9C74, symSize: 0x138 }
+  - { offset: 0x1BDCA, size: 0x8, addend: 0x0, symName: _crypto_sign_ed25519_tweet, symObjAddr: 0x1B94, symBinAddr: 0x9DAC, symSize: 0x410 }
+  - { offset: 0x1C101, size: 0x8, addend: 0x0, symName: _modL, symObjAddr: 0x2054, symBinAddr: 0xA26C, symSize: 0xF4 }
+  - { offset: 0x1C16C, size: 0x8, addend: 0x0, symName: _scalarmult, symObjAddr: 0x274C, symBinAddr: 0xA964, symSize: 0x184 }
+  - { offset: 0x1C3CA, size: 0x8, addend: 0x0, symName: _pack, symObjAddr: 0x1FA4, symBinAddr: 0xA1BC, symSize: 0xB0 }
+  - { offset: 0x1C602, size: 0x8, addend: 0x0, symName: _crypto_sign_ed25519_tweet_open, symObjAddr: 0x2148, symBinAddr: 0xA360, symSize: 0x604 }
+  - { offset: 0x1CE72, size: 0x8, addend: 0x0, symName: _neq25519, symObjAddr: 0x2B8C, symBinAddr: 0xADA4, symSize: 0xA8 }
+  - { offset: 0x1CF64, size: 0x8, addend: 0x0, symName: _add, symObjAddr: 0x28D0, symBinAddr: 0xAAE8, symSize: 0x260 }
+  - { offset: 0x1D398, size: 0x8, addend: 0x0, symName: '-[HVTCameraController init]', symObjAddr: 0x0, symBinAddr: 0xAE4C, symSize: 0xA0 }
+  - { offset: 0x1D3B1, size: 0x8, addend: 0x0, symName: _HVTCameraControllerMediaType, symObjAddr: 0x4F10, symBinAddr: 0x44000, symSize: 0x0 }
+  - { offset: 0x1D4B2, size: 0x8, addend: 0x0, symName: _HVTCameraControllerOriginalImage, symObjAddr: 0x4F18, symBinAddr: 0x44008, symSize: 0x0 }
+  - { offset: 0x1D4C7, size: 0x8, addend: 0x0, symName: _HVTCameraControllerMediaURL, symObjAddr: 0x4F20, symBinAddr: 0x44010, symSize: 0x0 }
+  - { offset: 0x1D4DC, size: 0x8, addend: 0x0, symName: _HVTCameraControllerMediaMetadata, symObjAddr: 0x4F28, symBinAddr: 0x44018, symSize: 0x0 }
+  - { offset: 0x1E0D0, size: 0x8, addend: 0x0, symName: '-[HVTCameraController init]', symObjAddr: 0x0, symBinAddr: 0xAE4C, symSize: 0xA0 }
+  - { offset: 0x1E117, size: 0x8, addend: 0x0, symName: '-[HVTCameraController initWithCoder:]', symObjAddr: 0xA0, symBinAddr: 0xAEEC, symSize: 0x50 }
+  - { offset: 0x1E15E, size: 0x8, addend: 0x0, symName: '-[HVTCameraController dealloc]', symObjAddr: 0xF0, symBinAddr: 0xAF3C, symSize: 0x7C }
+  - { offset: 0x1E191, size: 0x8, addend: 0x0, symName: '-[HVTCameraController viewDidLoad]', symObjAddr: 0x16C, symBinAddr: 0xAFB8, symSize: 0x62C }
+  - { offset: 0x1E1E4, size: 0x8, addend: 0x0, symName: '-[HVTCameraController viewDidAppear:]', symObjAddr: 0x798, symBinAddr: 0xB5E4, symSize: 0x48 }
+  - { offset: 0x1E226, size: 0x8, addend: 0x0, symName: '-[HVTCameraController supportedInterfaceOrientations]', symObjAddr: 0x7E0, symBinAddr: 0xB62C, symSize: 0x20 }
+  - { offset: 0x1E25D, size: 0x8, addend: 0x0, symName: '-[HVTCameraController shouldAutorotate]', symObjAddr: 0x800, symBinAddr: 0xB64C, symSize: 0x8 }
+  - { offset: 0x1E290, size: 0x8, addend: 0x0, symName: '-[HVTCameraController preferredInterfaceOrientationForPresentation]', symObjAddr: 0x808, symBinAddr: 0xB654, symSize: 0x1C }
+  - { offset: 0x1E2C7, size: 0x8, addend: 0x0, symName: '-[HVTCameraController prefersStatusBarHidden]', symObjAddr: 0x824, symBinAddr: 0xB670, symSize: 0x8 }
+  - { offset: 0x1E2FA, size: 0x8, addend: 0x0, symName: '-[HVTCameraController dismissViewControllerAnimated:completion:]', symObjAddr: 0x82C, symBinAddr: 0xB678, symSize: 0x84 }
+  - { offset: 0x1E34C, size: 0x8, addend: 0x0, symName: '-[HVTCameraController mediaTypes]', symObjAddr: 0x8B0, symBinAddr: 0xB6FC, symSize: 0x10 }
+  - { offset: 0x1E383, size: 0x8, addend: 0x0, symName: '-[HVTCameraController allowedContentTypes]', symObjAddr: 0x8C0, symBinAddr: 0xB70C, symSize: 0x154 }
+  - { offset: 0x1E3E8, size: 0x8, addend: 0x0, symName: '-[HVTCameraController setAllowedContentTypes:]', symObjAddr: 0xA14, symBinAddr: 0xB860, symSize: 0x4C }
+  - { offset: 0x1E42B, size: 0x8, addend: 0x0, symName: '-[HVTCameraController setMediaTypes:]', symObjAddr: 0xA60, symBinAddr: 0xB8AC, symSize: 0x4 }
+  - { offset: 0x1E46A, size: 0x8, addend: 0x0, symName: '-[HVTCameraController applyMediaTypes:]', symObjAddr: 0xA64, symBinAddr: 0xB8B0, symSize: 0x1FC }
+  - { offset: 0x1E4C4, size: 0x8, addend: 0x0, symName: '-[HVTCameraController videoMaximumDuration]', symObjAddr: 0xC60, symBinAddr: 0xBAAC, symSize: 0x44 }
+  - { offset: 0x1E523, size: 0x8, addend: 0x0, symName: '-[HVTCameraController setVideoMaximumDuration:]', symObjAddr: 0xCA4, symBinAddr: 0xBAF0, symSize: 0x48 }
+  - { offset: 0x1E597, size: 0x8, addend: 0x0, symName: '-[HVTCameraController videoQuality]', symObjAddr: 0xCEC, symBinAddr: 0xBB38, symSize: 0x10 }
+  - { offset: 0x1E5CF, size: 0x8, addend: 0x0, symName: '-[HVTCameraController setVideoQuality:]', symObjAddr: 0xCFC, symBinAddr: 0xBB48, symSize: 0xF8 }
+  - { offset: 0x1E635, size: 0x8, addend: 0x0, symName: '-[HVTCameraController showsCameraControls]', symObjAddr: 0xDF4, symBinAddr: 0xBC40, symSize: 0x40 }
+  - { offset: 0x1E66D, size: 0x8, addend: 0x0, symName: '-[HVTCameraController setShowsCameraControls:]', symObjAddr: 0xE34, symBinAddr: 0xBC80, symSize: 0x1A4 }
+  - { offset: 0x1E6B1, size: 0x8, addend: 0x0, symName: '-[HVTCameraController cameraOverlayView]', symObjAddr: 0xFD8, symBinAddr: 0xBE24, symSize: 0x10 }
+  - { offset: 0x1E6E9, size: 0x8, addend: 0x0, symName: '-[HVTCameraController setCameraOverlayView:]', symObjAddr: 0xFE8, symBinAddr: 0xBE34, symSize: 0xFC }
+  - { offset: 0x1E72E, size: 0x8, addend: 0x0, symName: '-[HVTCameraController cameraViewTransform]', symObjAddr: 0x10E4, symBinAddr: 0xBF30, symSize: 0x54 }
+  - { offset: 0x1E766, size: 0x8, addend: 0x0, symName: '-[HVTCameraController setCameraViewTransform:]', symObjAddr: 0x1138, symBinAddr: 0xBF84, symSize: 0x58 }
+  - { offset: 0x1E7AB, size: 0x8, addend: 0x0, symName: '-[HVTCameraController cameraCaptureMode]', symObjAddr: 0x1190, symBinAddr: 0xBFDC, symSize: 0x28 }
+  - { offset: 0x1E7E3, size: 0x8, addend: 0x0, symName: '-[HVTCameraController setCameraCaptureMode:]', symObjAddr: 0x11B8, symBinAddr: 0xC004, symSize: 0x200 }
+  - { offset: 0x1E839, size: 0x8, addend: 0x0, symName: '-[HVTCameraController cameraDevice]', symObjAddr: 0x13B8, symBinAddr: 0xC204, symSize: 0x28 }
+  - { offset: 0x1E871, size: 0x8, addend: 0x0, symName: '-[HVTCameraController setCameraDevice:]', symObjAddr: 0x13E0, symBinAddr: 0xC22C, symSize: 0xD4 }
+  - { offset: 0x1E8C7, size: 0x8, addend: 0x0, symName: '-[HVTCameraController cameraFlashMode]', symObjAddr: 0x14B4, symBinAddr: 0xC300, symSize: 0x44 }
+  - { offset: 0x1E8FF, size: 0x8, addend: 0x0, symName: '-[HVTCameraController setCameraFlashMode:]', symObjAddr: 0x14F8, symBinAddr: 0xC344, symSize: 0x24 }
+  - { offset: 0x1E944, size: 0x8, addend: 0x0, symName: '-[HVTCameraController tappedCancelButton:]', symObjAddr: 0x151C, symBinAddr: 0xC368, symSize: 0x64 }
+  - { offset: 0x1E985, size: 0x8, addend: 0x0, symName: '-[HVTCameraController tappedRecordButton:]', symObjAddr: 0x1580, symBinAddr: 0xC3CC, symSize: 0x84 }
+  - { offset: 0x1E9C6, size: 0x8, addend: 0x0, symName: '-[HVTCameraController tappedPositionButton:]', symObjAddr: 0x1604, symBinAddr: 0xC450, symSize: 0x90 }
+  - { offset: 0x1EA07, size: 0x8, addend: 0x0, symName: '___44-[HVTCameraController tappedPositionButton:]_block_invoke', symObjAddr: 0x1694, symBinAddr: 0xC4E0, symSize: 0x40 }
+  - { offset: 0x1EA68, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0x16D4, symBinAddr: 0xC520, symSize: 0x8 }
+  - { offset: 0x1EA8F, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x16DC, symBinAddr: 0xC528, symSize: 0x8 }
+  - { offset: 0x1EAAE, size: 0x8, addend: 0x0, symName: '-[HVTCameraController tappedFlashButton:]', symObjAddr: 0x16E4, symBinAddr: 0xC530, symSize: 0x84 }
+  - { offset: 0x1EAEF, size: 0x8, addend: 0x0, symName: '-[HVTCameraController tappedChangeMode:]', symObjAddr: 0x1768, symBinAddr: 0xC5B4, symSize: 0x9C }
+  - { offset: 0x1EB30, size: 0x8, addend: 0x0, symName: '___40-[HVTCameraController tappedChangeMode:]_block_invoke', symObjAddr: 0x1804, symBinAddr: 0xC650, symSize: 0x60 }
+  - { offset: 0x1EB8D, size: 0x8, addend: 0x0, symName: '+[HVTCameraController isCameraDeviceAvailable:]', symObjAddr: 0x1864, symBinAddr: 0xC6B0, symSize: 0x34 }
+  - { offset: 0x1EBD6, size: 0x8, addend: 0x0, symName: '+[HVTCameraController isFlashAvailableForCameraDevice:]', symObjAddr: 0x1898, symBinAddr: 0xC6E4, symSize: 0x50 }
+  - { offset: 0x1EC30, size: 0x8, addend: 0x0, symName: '+[HVTCameraController wideCameraForCameraDevice:]', symObjAddr: 0x18E8, symBinAddr: 0xC734, symSize: 0x170 }
+  - { offset: 0x1EC9D, size: 0x8, addend: 0x0, symName: '+[HVTCameraController formatOfDevice:resolution:frameRate:]', symObjAddr: 0x1A58, symBinAddr: 0xC8A4, symSize: 0x234 }
+  - { offset: 0x1ED98, size: 0x8, addend: 0x0, symName: '+[HVTCameraController maxResolutionOfDevice:aspectOf:]', symObjAddr: 0x1C8C, symBinAddr: 0xCAD8, symSize: 0x1E0 }
+  - { offset: 0x1EE53, size: 0x8, addend: 0x0, symName: '-[HVTCameraController takePicture]', symObjAddr: 0x1E6C, symBinAddr: 0xCCB8, symSize: 0x54 }
+  - { offset: 0x1EE87, size: 0x8, addend: 0x0, symName: '-[HVTCameraController capturePhoto]', symObjAddr: 0x1EC0, symBinAddr: 0xCD0C, symSize: 0x68 }
+  - { offset: 0x1EECC, size: 0x8, addend: 0x0, symName: '-[HVTCameraController startRecording]', symObjAddr: 0x1F28, symBinAddr: 0xCD74, symSize: 0x88 }
+  - { offset: 0x1EF15, size: 0x8, addend: 0x0, symName: '-[HVTCameraController startVideoCapture]', symObjAddr: 0x1FB0, symBinAddr: 0xCDFC, symSize: 0x60 }
+  - { offset: 0x1EF4D, size: 0x8, addend: 0x0, symName: '-[HVTCameraController stopVideoCapture]', symObjAddr: 0x2010, symBinAddr: 0xCE5C, symSize: 0x40 }
+  - { offset: 0x1EF81, size: 0x8, addend: 0x0, symName: '-[HVTCameraController recordingStopped]', symObjAddr: 0x2050, symBinAddr: 0xCE9C, symSize: 0x80 }
+  - { offset: 0x1EFB5, size: 0x8, addend: 0x0, symName: '___39-[HVTCameraController recordingStopped]_block_invoke', symObjAddr: 0x20D0, symBinAddr: 0xCF1C, symSize: 0x214 }
+  - { offset: 0x1EFF7, size: 0x8, addend: 0x0, symName: '___39-[HVTCameraController recordingStopped]_block_invoke_2', symObjAddr: 0x22E4, symBinAddr: 0xD130, symSize: 0x3C }
+  - { offset: 0x1F045, size: 0x8, addend: 0x0, symName: '-[HVTCameraController tempURLForResourceUsingMode:]', symObjAddr: 0x2320, symBinAddr: 0xD16C, symSize: 0x104 }
+  - { offset: 0x1F0B4, size: 0x8, addend: 0x0, symName: '-[HVTCameraController setup]', symObjAddr: 0x2424, symBinAddr: 0xD270, symSize: 0x2D0 }
+  - { offset: 0x1F108, size: 0x8, addend: 0x0, symName: '-[HVTCameraController applicationDidBecomeActive:]', symObjAddr: 0x26F4, symBinAddr: 0xD540, symSize: 0x10 }
+  - { offset: 0x1F149, size: 0x8, addend: 0x0, symName: '-[HVTCameraController applicationWillResignActive:]', symObjAddr: 0x2704, symBinAddr: 0xD550, symSize: 0x98 }
+  - { offset: 0x1F18A, size: 0x8, addend: 0x0, symName: '-[HVTCameraController orientationChanged:]', symObjAddr: 0x279C, symBinAddr: 0xD5E8, symSize: 0x11C }
+  - { offset: 0x1F1DC, size: 0x8, addend: 0x0, symName: '___42-[HVTCameraController orientationChanged:]_block_invoke', symObjAddr: 0x28B8, symBinAddr: 0xD704, symSize: 0xC }
+  - { offset: 0x1F22F, size: 0x8, addend: 0x0, symName: '-[HVTCameraController rotateForDeviceOrientation:]', symObjAddr: 0x28C4, symBinAddr: 0xD710, symSize: 0xA8 }
+  - { offset: 0x1F2AB, size: 0x8, addend: 0x0, symName: '-[HVTCameraController transformUIElements:]', symObjAddr: 0x296C, symBinAddr: 0xD7B8, symSize: 0xFC }
+  - { offset: 0x1F2F0, size: 0x8, addend: 0x0, symName: '-[HVTCameraController focusLocked]', symObjAddr: 0x2A68, symBinAddr: 0xD8B4, symSize: 0xC }
+  - { offset: 0x1F322, size: 0x8, addend: 0x0, symName: '-[HVTCameraController flashAvailability]', symObjAddr: 0x2A74, symBinAddr: 0xD8C0, symSize: 0x64 }
+  - { offset: 0x1F356, size: 0x8, addend: 0x0, symName: '-[HVTCameraController changeFilter:]', symObjAddr: 0x2AD8, symBinAddr: 0xD924, symSize: 0x278 }
+  - { offset: 0x1F3BD, size: 0x8, addend: 0x0, symName: '-[HVTCameraController showMessage:]', symObjAddr: 0x2D50, symBinAddr: 0xDB9C, symSize: 0x100 }
+  - { offset: 0x1F402, size: 0x8, addend: 0x0, symName: '___35-[HVTCameraController showMessage:]_block_invoke', symObjAddr: 0x2E50, symBinAddr: 0xDC9C, symSize: 0x38 }
+  - { offset: 0x1F444, size: 0x8, addend: 0x0, symName: '___35-[HVTCameraController showMessage:]_block_invoke_2', symObjAddr: 0x2E88, symBinAddr: 0xDCD4, symSize: 0x70 }
+  - { offset: 0x1F492, size: 0x8, addend: 0x0, symName: '___35-[HVTCameraController showMessage:]_block_invoke_3', symObjAddr: 0x2EF8, symBinAddr: 0xDD44, symSize: 0x38 }
+  - { offset: 0x1F4D4, size: 0x8, addend: 0x0, symName: '-[HVTCameraController updateWithCurrentCaptureMode]', symObjAddr: 0x2F30, symBinAddr: 0xDD7C, symSize: 0x20C }
+  - { offset: 0x1F508, size: 0x8, addend: 0x0, symName: '-[HVTCameraController updateWithCurrentFlashMode]', symObjAddr: 0x313C, symBinAddr: 0xDF88, symSize: 0x114 }
+  - { offset: 0x1F53C, size: 0x8, addend: 0x0, symName: '-[HVTCameraController fadeInOverlay:]', symObjAddr: 0x3250, symBinAddr: 0xE09C, symSize: 0xE0 }
+  - { offset: 0x1F581, size: 0x8, addend: 0x0, symName: '___37-[HVTCameraController fadeInOverlay:]_block_invoke', symObjAddr: 0x3330, symBinAddr: 0xE17C, symSize: 0x38 }
+  - { offset: 0x1F5C3, size: 0x8, addend: 0x0, symName: '___37-[HVTCameraController fadeInOverlay:]_block_invoke_2', symObjAddr: 0x3368, symBinAddr: 0xE1B4, symSize: 0x18 }
+  - { offset: 0x1F61D, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b, symObjAddr: 0x3380, symBinAddr: 0xE1CC, symSize: 0x10 }
+  - { offset: 0x1F646, size: 0x8, addend: 0x0, symName: '-[HVTCameraController fadeOutOverlay]', symObjAddr: 0x3390, symBinAddr: 0xE1DC, symSize: 0x88 }
+  - { offset: 0x1F67A, size: 0x8, addend: 0x0, symName: '___37-[HVTCameraController fadeOutOverlay]_block_invoke', symObjAddr: 0x3418, symBinAddr: 0xE264, symSize: 0x38 }
+  - { offset: 0x1F6BC, size: 0x8, addend: 0x0, symName: '-[HVTCameraController flashOverlay]', symObjAddr: 0x3450, symBinAddr: 0xE29C, symSize: 0x4 }
+  - { offset: 0x1F6EE, size: 0x8, addend: 0x0, symName: '-[HVTCameraController switchVideoResolutionWithPosition:]', symObjAddr: 0x3454, symBinAddr: 0xE2A0, symSize: 0x150 }
+  - { offset: 0x1F794, size: 0x8, addend: 0x0, symName: '+[HVTCameraController outputMovieSizeForQuality:cameraResolution:]', symObjAddr: 0x35A4, symBinAddr: 0xE3F0, symSize: 0x34 }
+  - { offset: 0x1F7F0, size: 0x8, addend: 0x0, symName: '-[HVTCameraController resolutionFromVideoQuality:]', symObjAddr: 0x35D8, symBinAddr: 0xE424, symSize: 0x3C }
+  - { offset: 0x1F844, size: 0x8, addend: 0x0, symName: '-[HVTCameraController authorizeCamera]', symObjAddr: 0x3614, symBinAddr: 0xE460, symSize: 0x68 }
+  - { offset: 0x1F878, size: 0x8, addend: 0x0, symName: '___38-[HVTCameraController authorizeCamera]_block_invoke', symObjAddr: 0x367C, symBinAddr: 0xE4C8, symSize: 0x5C }
+  - { offset: 0x1F98A, size: 0x8, addend: 0x0, symName: '___38-[HVTCameraController authorizeCamera]_block_invoke_2', symObjAddr: 0x36D8, symBinAddr: 0xE524, symSize: 0x8 }
+  - { offset: 0x1F9CC, size: 0x8, addend: 0x0, symName: '-[HVTCameraController authorizeMicrophone]', symObjAddr: 0x36E0, symBinAddr: 0xE52C, symSize: 0x68 }
+  - { offset: 0x1FA00, size: 0x8, addend: 0x0, symName: '___42-[HVTCameraController authorizeMicrophone]_block_invoke', symObjAddr: 0x3748, symBinAddr: 0xE594, symSize: 0x5C }
+  - { offset: 0x1FA62, size: 0x8, addend: 0x0, symName: '___42-[HVTCameraController authorizeMicrophone]_block_invoke_2', symObjAddr: 0x37A4, symBinAddr: 0xE5F0, symSize: 0x14 }
+  - { offset: 0x1FAA4, size: 0x8, addend: 0x0, symName: '-[HVTCameraController hvtCameraDidStartRunning:]', symObjAddr: 0x37B8, symBinAddr: 0xE604, symSize: 0x30 }
+  - { offset: 0x1FAE5, size: 0x8, addend: 0x0, symName: '-[HVTCameraController hvtCamera:didUpdateRecordingDuration:]', symObjAddr: 0x37E8, symBinAddr: 0xE634, symSize: 0x110 }
+  - { offset: 0x1FB57, size: 0x8, addend: 0x0, symName: '-[HVTCameraController hvtCameraRecordingDidStart:]', symObjAddr: 0x38F8, symBinAddr: 0xE744, symSize: 0x60 }
+  - { offset: 0x1FB98, size: 0x8, addend: 0x0, symName: '___50-[HVTCameraController hvtCameraRecordingDidStart:]_block_invoke', symObjAddr: 0x3958, symBinAddr: 0xE7A4, symSize: 0x214 }
+  - { offset: 0x1FC05, size: 0x8, addend: 0x0, symName: '-[HVTCameraController hvtCameraRecordingWillStop:]', symObjAddr: 0x3B6C, symBinAddr: 0xE9B8, symSize: 0x4 }
+  - { offset: 0x1FC44, size: 0x8, addend: 0x0, symName: '-[HVTCameraController hvtCamera:didStopRecordingWithMetadata:]', symObjAddr: 0x3B70, symBinAddr: 0xE9BC, symSize: 0xBC }
+  - { offset: 0x1FC96, size: 0x8, addend: 0x0, symName: '-[HVTCameraController hvtCamera:didCapturePhoto:]', symObjAddr: 0x3C2C, symBinAddr: 0xEA78, symSize: 0x208 }
+  - { offset: 0x1FD9A, size: 0x8, addend: 0x0, symName: '-[HVTCameraController hvtCamera:didUpdateParams:]', symObjAddr: 0x3E34, symBinAddr: 0xEC80, symSize: 0x94 }
+  - { offset: 0x1FE14, size: 0x8, addend: 0x0, symName: '-[HVTCameraController hvtCamera:recordingDidFailWithError:]', symObjAddr: 0x3EC8, symBinAddr: 0xED14, symSize: 0x4 }
+  - { offset: 0x1FE60, size: 0x8, addend: 0x0, symName: '-[HVTCameraController hvtCameraPlaybackControllerDelegateWillRetake:]', symObjAddr: 0x3ECC, symBinAddr: 0xED18, symSize: 0x3C }
+  - { offset: 0x1FEA5, size: 0x8, addend: 0x0, symName: '-[HVTCameraController hvtCameraPlaybackControllerDelegate:willUseVideoWithMetadata:]', symObjAddr: 0x3F08, symBinAddr: 0xED54, symSize: 0x150 }
+  - { offset: 0x1FEF7, size: 0x8, addend: 0x0, symName: '-[HVTCameraController hvtCameraPlaybackControllerDelegate:willUsePhoto:metadata:]', symObjAddr: 0x4058, symBinAddr: 0xEEA4, symSize: 0x17C }
+  - { offset: 0x1FF5A, size: 0x8, addend: 0x0, symName: '-[HVTCameraController cameraDelegate]', symObjAddr: 0x41D4, symBinAddr: 0xF020, symSize: 0x20 }
+  - { offset: 0x1FF91, size: 0x8, addend: 0x0, symName: '-[HVTCameraController setCameraDelegate:]', symObjAddr: 0x41F4, symBinAddr: 0xF040, symSize: 0x14 }
+  - { offset: 0x1FFD2, size: 0x8, addend: 0x0, symName: '-[HVTCameraController cancelButton]', symObjAddr: 0x4208, symBinAddr: 0xF054, symSize: 0x20 }
+  - { offset: 0x20009, size: 0x8, addend: 0x0, symName: '-[HVTCameraController setCancelButton:]', symObjAddr: 0x4228, symBinAddr: 0xF074, symSize: 0x14 }
+  - { offset: 0x2004A, size: 0x8, addend: 0x0, symName: '-[HVTCameraController recordButton]', symObjAddr: 0x423C, symBinAddr: 0xF088, symSize: 0x20 }
+  - { offset: 0x20081, size: 0x8, addend: 0x0, symName: '-[HVTCameraController setRecordButton:]', symObjAddr: 0x425C, symBinAddr: 0xF0A8, symSize: 0x14 }
+  - { offset: 0x200C2, size: 0x8, addend: 0x0, symName: '-[HVTCameraController positionButton]', symObjAddr: 0x4270, symBinAddr: 0xF0BC, symSize: 0x20 }
+  - { offset: 0x200F9, size: 0x8, addend: 0x0, symName: '-[HVTCameraController setPositionButton:]', symObjAddr: 0x4290, symBinAddr: 0xF0DC, symSize: 0x14 }
+  - { offset: 0x2013A, size: 0x8, addend: 0x0, symName: '-[HVTCameraController flashButton]', symObjAddr: 0x42A4, symBinAddr: 0xF0F0, symSize: 0x20 }
+  - { offset: 0x20171, size: 0x8, addend: 0x0, symName: '-[HVTCameraController setFlashButton:]', symObjAddr: 0x42C4, symBinAddr: 0xF110, symSize: 0x14 }
+  - { offset: 0x201B2, size: 0x8, addend: 0x0, symName: '-[HVTCameraController recordingDuration]', symObjAddr: 0x42D8, symBinAddr: 0xF124, symSize: 0x20 }
+  - { offset: 0x201E9, size: 0x8, addend: 0x0, symName: '-[HVTCameraController setRecordingDuration:]', symObjAddr: 0x42F8, symBinAddr: 0xF144, symSize: 0x14 }
+  - { offset: 0x2022A, size: 0x8, addend: 0x0, symName: '-[HVTCameraController changeModeButton]', symObjAddr: 0x430C, symBinAddr: 0xF158, symSize: 0x20 }
+  - { offset: 0x20261, size: 0x8, addend: 0x0, symName: '-[HVTCameraController setChangeModeButton:]', symObjAddr: 0x432C, symBinAddr: 0xF178, symSize: 0x14 }
+  - { offset: 0x202A2, size: 0x8, addend: 0x0, symName: '-[HVTCameraController cameraView]', symObjAddr: 0x4340, symBinAddr: 0xF18C, symSize: 0x20 }
+  - { offset: 0x202D9, size: 0x8, addend: 0x0, symName: '-[HVTCameraController setCameraView:]', symObjAddr: 0x4360, symBinAddr: 0xF1AC, symSize: 0x14 }
+  - { offset: 0x2031A, size: 0x8, addend: 0x0, symName: '-[HVTCameraController overlayMessage]', symObjAddr: 0x4374, symBinAddr: 0xF1C0, symSize: 0x20 }
+  - { offset: 0x20351, size: 0x8, addend: 0x0, symName: '-[HVTCameraController setOverlayMessage:]', symObjAddr: 0x4394, symBinAddr: 0xF1E0, symSize: 0x14 }
+  - { offset: 0x20392, size: 0x8, addend: 0x0, symName: '-[HVTCameraController recordContainer]', symObjAddr: 0x43A8, symBinAddr: 0xF1F4, symSize: 0x20 }
+  - { offset: 0x203C9, size: 0x8, addend: 0x0, symName: '-[HVTCameraController setRecordContainer:]', symObjAddr: 0x43C8, symBinAddr: 0xF214, symSize: 0x14 }
+  - { offset: 0x2040A, size: 0x8, addend: 0x0, symName: '-[HVTCameraController overlayView]', symObjAddr: 0x43DC, symBinAddr: 0xF228, symSize: 0x20 }
+  - { offset: 0x20441, size: 0x8, addend: 0x0, symName: '-[HVTCameraController setOverlayView:]', symObjAddr: 0x43FC, symBinAddr: 0xF248, symSize: 0x14 }
+  - { offset: 0x20482, size: 0x8, addend: 0x0, symName: '-[HVTCameraController .cxx_destruct]', symObjAddr: 0x4410, symBinAddr: 0xF25C, symSize: 0x12C }
+  - { offset: 0x20E83, size: 0x8, addend: 0x0, symName: '-[HVTCameraPlaybackController initWithType:]', symObjAddr: 0x0, symBinAddr: 0xF388, symSize: 0x150 }
+  - { offset: 0x21205, size: 0x8, addend: 0x0, symName: '-[HVTCameraPlaybackController initWithType:]', symObjAddr: 0x0, symBinAddr: 0xF388, symSize: 0x150 }
+  - { offset: 0x2125C, size: 0x8, addend: 0x0, symName: '-[HVTCameraPlaybackController viewDidLoad]', symObjAddr: 0x150, symBinAddr: 0xF4D8, symSize: 0x4EC }
+  - { offset: 0x213D4, size: 0x8, addend: 0x0, symName: '-[HVTCameraPlaybackController dealloc]', symObjAddr: 0x63C, symBinAddr: 0xF9C4, symSize: 0x78 }
+  - { offset: 0x21407, size: 0x8, addend: 0x0, symName: '-[HVTCameraPlaybackController supportedInterfaceOrientations]', symObjAddr: 0x6B4, symBinAddr: 0xFA3C, symSize: 0x8 }
+  - { offset: 0x2143A, size: 0x8, addend: 0x0, symName: '-[HVTCameraPlaybackController shouldAutorotate]', symObjAddr: 0x6BC, symBinAddr: 0xFA44, symSize: 0x8 }
+  - { offset: 0x2146D, size: 0x8, addend: 0x0, symName: '-[HVTCameraPlaybackController preferredInterfaceOrientationForPresentation]', symObjAddr: 0x6C4, symBinAddr: 0xFA4C, symSize: 0x8 }
+  - { offset: 0x214A0, size: 0x8, addend: 0x0, symName: '-[HVTCameraPlaybackController prefersStatusBarHidden]', symObjAddr: 0x6CC, symBinAddr: 0xFA54, symSize: 0x8 }
+  - { offset: 0x214D3, size: 0x8, addend: 0x0, symName: '-[HVTCameraPlaybackController retake:]', symObjAddr: 0x6D4, symBinAddr: 0xFA5C, symSize: 0x38 }
+  - { offset: 0x21512, size: 0x8, addend: 0x0, symName: '-[HVTCameraPlaybackController changePlayback:]', symObjAddr: 0x70C, symBinAddr: 0xFA94, symSize: 0x178 }
+  - { offset: 0x21551, size: 0x8, addend: 0x0, symName: '-[HVTCameraPlaybackController useResource:]', symObjAddr: 0x884, symBinAddr: 0xFC0C, symSize: 0xBC }
+  - { offset: 0x21590, size: 0x8, addend: 0x0, symName: '-[HVTCameraPlaybackController playbackFinished]', symObjAddr: 0x940, symBinAddr: 0xFCC8, symSize: 0x14C }
+  - { offset: 0x215C3, size: 0x8, addend: 0x0, symName: '-[HVTCameraPlaybackController photoImage]', symObjAddr: 0xA8C, symBinAddr: 0xFE14, symSize: 0x10 }
+  - { offset: 0x215FA, size: 0x8, addend: 0x0, symName: '-[HVTCameraPlaybackController setPhotoImage:]', symObjAddr: 0xA9C, symBinAddr: 0xFE24, symSize: 0x14 }
+  - { offset: 0x2163B, size: 0x8, addend: 0x0, symName: '-[HVTCameraPlaybackController metadata]', symObjAddr: 0xAB0, symBinAddr: 0xFE38, symSize: 0x10 }
+  - { offset: 0x21672, size: 0x8, addend: 0x0, symName: '-[HVTCameraPlaybackController setMetadata:]', symObjAddr: 0xAC0, symBinAddr: 0xFE48, symSize: 0x14 }
+  - { offset: 0x216B3, size: 0x8, addend: 0x0, symName: '-[HVTCameraPlaybackController delegate]', symObjAddr: 0xAD4, symBinAddr: 0xFE5C, symSize: 0x20 }
+  - { offset: 0x216EA, size: 0x8, addend: 0x0, symName: '-[HVTCameraPlaybackController setDelegate:]', symObjAddr: 0xAF4, symBinAddr: 0xFE7C, symSize: 0x14 }
+  - { offset: 0x2172B, size: 0x8, addend: 0x0, symName: '-[HVTCameraPlaybackController photoView]', symObjAddr: 0xB08, symBinAddr: 0xFE90, symSize: 0x20 }
+  - { offset: 0x21762, size: 0x8, addend: 0x0, symName: '-[HVTCameraPlaybackController setPhotoView:]', symObjAddr: 0xB28, symBinAddr: 0xFEB0, symSize: 0x14 }
+  - { offset: 0x217A3, size: 0x8, addend: 0x0, symName: '-[HVTCameraPlaybackController buttonsContainer]', symObjAddr: 0xB3C, symBinAddr: 0xFEC4, symSize: 0x20 }
+  - { offset: 0x217DA, size: 0x8, addend: 0x0, symName: '-[HVTCameraPlaybackController setButtonsContainer:]', symObjAddr: 0xB5C, symBinAddr: 0xFEE4, symSize: 0x14 }
+  - { offset: 0x2181B, size: 0x8, addend: 0x0, symName: '-[HVTCameraPlaybackController retakeButton]', symObjAddr: 0xB70, symBinAddr: 0xFEF8, symSize: 0x20 }
+  - { offset: 0x21852, size: 0x8, addend: 0x0, symName: '-[HVTCameraPlaybackController setRetakeButton:]', symObjAddr: 0xB90, symBinAddr: 0xFF18, symSize: 0x14 }
+  - { offset: 0x21893, size: 0x8, addend: 0x0, symName: '-[HVTCameraPlaybackController playButton]', symObjAddr: 0xBA4, symBinAddr: 0xFF2C, symSize: 0x20 }
+  - { offset: 0x218CA, size: 0x8, addend: 0x0, symName: '-[HVTCameraPlaybackController setPlayButton:]', symObjAddr: 0xBC4, symBinAddr: 0xFF4C, symSize: 0x14 }
+  - { offset: 0x2190B, size: 0x8, addend: 0x0, symName: '-[HVTCameraPlaybackController useButton]', symObjAddr: 0xBD8, symBinAddr: 0xFF60, symSize: 0x20 }
+  - { offset: 0x21942, size: 0x8, addend: 0x0, symName: '-[HVTCameraPlaybackController setUseButton:]', symObjAddr: 0xBF8, symBinAddr: 0xFF80, symSize: 0x14 }
+  - { offset: 0x21983, size: 0x8, addend: 0x0, symName: '-[HVTCameraPlaybackController .cxx_destruct]', symObjAddr: 0xC0C, symBinAddr: 0xFF94, symSize: 0xF0 }
+  - { offset: 0x21AAF, size: 0x8, addend: 0x0, symName: '-[Interpolator getInterpolation:]', symObjAddr: 0x0, symBinAddr: 0x10084, symSize: 0xC0 }
+  - { offset: 0x21AC4, size: 0x8, addend: 0x0, symName: __ZTVNSt3__120__shared_ptr_emplaceI28DecelerateNativeInterpolatorNS_9allocatorIS1_EEEE, symObjAddr: 0x1440, symBinAddr: 0x440E0, symSize: 0x0 }
+  - { offset: 0x24F45, size: 0x8, addend: 0x0, symName: __ZTV28DecelerateNativeInterpolator, symObjAddr: 0x1490, symBinAddr: 0x44130, symSize: 0x0 }
+  - { offset: 0x24F5A, size: 0x8, addend: 0x0, symName: __ZTVNSt3__120__shared_ptr_emplaceI28AccelerateNativeInterpolatorNS_9allocatorIS1_EEEE, symObjAddr: 0x14D0, symBinAddr: 0x44170, symSize: 0x0 }
+  - { offset: 0x25031, size: 0x8, addend: 0x0, symName: __ZTV28AccelerateNativeInterpolator, symObjAddr: 0x1520, symBinAddr: 0x441C0, symSize: 0x0 }
+  - { offset: 0x25046, size: 0x8, addend: 0x0, symName: __ZTVNSt3__120__shared_ptr_emplaceI38AccelerateDecelerateNativeInterpolatorNS_9allocatorIS1_EEEE, symObjAddr: 0x1550, symBinAddr: 0x441F0, symSize: 0x0 }
+  - { offset: 0x25108, size: 0x8, addend: 0x0, symName: __ZTV38AccelerateDecelerateNativeInterpolator, symObjAddr: 0x15A0, symBinAddr: 0x44240, symSize: 0x0 }
+  - { offset: 0x2524D, size: 0x8, addend: 0x0, symName: '-[Interpolator getInterpolation:]', symObjAddr: 0x0, symBinAddr: 0x10084, symSize: 0xC0 }
+  - { offset: 0x252FC, size: 0x8, addend: 0x0, symName: '-[Interpolator getNativeInterpolator]', symObjAddr: 0xC0, symBinAddr: 0x10144, symSize: 0xC0 }
+  - { offset: 0x25666, size: 0x8, addend: 0x0, symName: '-[DecelerateInterpolator init]', symObjAddr: 0x180, symBinAddr: 0x10204, symSize: 0xDC }
+  - { offset: 0x25923, size: 0x8, addend: 0x0, symName: __ZNSt3__110shared_ptrI28DecelerateNativeInterpolatorEaSB9nqe220106EOS2_, symObjAddr: 0x25C, symBinAddr: 0x102E0, symSize: 0x64 }
+  - { offset: 0x25C7D, size: 0x8, addend: 0x0, symName: '-[DecelerateInterpolator initWithFactor:]', symObjAddr: 0x2C0, symBinAddr: 0x10344, symSize: 0xE4 }
+  - { offset: 0x25F75, size: 0x8, addend: 0x0, symName: '-[DecelerateInterpolator getInterpolation:]', symObjAddr: 0x3A4, symBinAddr: 0x10428, symSize: 0x10 }
+  - { offset: 0x25FBC, size: 0x8, addend: 0x0, symName: '-[DecelerateInterpolator getInterpolation:]', symObjAddr: 0x3A4, symBinAddr: 0x10428, symSize: 0x10 }
+  - { offset: 0x260B9, size: 0x8, addend: 0x0, symName: '-[DecelerateInterpolator getNativeInterpolator]', symObjAddr: 0x3B4, symBinAddr: 0x10438, symSize: 0x28 }
+  - { offset: 0x260F0, size: 0x8, addend: 0x0, symName: '-[DecelerateInterpolator getNativeInterpolator]', symObjAddr: 0x3B4, symBinAddr: 0x10438, symSize: 0x28 }
+  - { offset: 0x26116, size: 0x8, addend: 0x0, symName: '-[DecelerateInterpolator getNativeInterpolator]', symObjAddr: 0x3B4, symBinAddr: 0x10438, symSize: 0x28 }
+  - { offset: 0x26184, size: 0x8, addend: 0x0, symName: '-[DecelerateInterpolator .cxx_destruct]', symObjAddr: 0x3DC, symBinAddr: 0x10460, symSize: 0x8 }
+  - { offset: 0x261D8, size: 0x8, addend: 0x0, symName: __ZNSt3__110shared_ptrI28DecelerateNativeInterpolatorED2B9nqe220106Ev, symObjAddr: 0x858, symBinAddr: 0x10814, symSize: 0x58 }
+  - { offset: 0x26296, size: 0x8, addend: 0x0, symName: '-[DecelerateInterpolator .cxx_construct]', symObjAddr: 0x3E4, symBinAddr: 0x10468, symSize: 0x8 }
+  - { offset: 0x262CD, size: 0x8, addend: 0x0, symName: '-[DecelerateInterpolator .cxx_construct]', symObjAddr: 0x3E4, symBinAddr: 0x10468, symSize: 0x8 }
+  - { offset: 0x262EA, size: 0x8, addend: 0x0, symName: '-[DecelerateInterpolator .cxx_construct]', symObjAddr: 0x3E4, symBinAddr: 0x10468, symSize: 0x8 }
+  - { offset: 0x265C9, size: 0x8, addend: 0x0, symName: '-[AccelerateInterpolator init]', symObjAddr: 0x3EC, symBinAddr: 0x10470, symSize: 0xDC }
+  - { offset: 0x26B45, size: 0x8, addend: 0x0, symName: '-[AccelerateInterpolator initWithFactor:]', symObjAddr: 0x52C, symBinAddr: 0x1054C, symSize: 0xE4 }
+  - { offset: 0x26E3D, size: 0x8, addend: 0x0, symName: '-[AccelerateInterpolator getInterpolation:]', symObjAddr: 0x610, symBinAddr: 0x10630, symSize: 0x10 }
+  - { offset: 0x26E84, size: 0x8, addend: 0x0, symName: '-[AccelerateInterpolator getInterpolation:]', symObjAddr: 0x610, symBinAddr: 0x10630, symSize: 0x10 }
+  - { offset: 0x26F20, size: 0x8, addend: 0x0, symName: '-[AccelerateInterpolator getNativeInterpolator]', symObjAddr: 0x620, symBinAddr: 0x10640, symSize: 0x28 }
+  - { offset: 0x26F57, size: 0x8, addend: 0x0, symName: '-[AccelerateInterpolator getNativeInterpolator]', symObjAddr: 0x620, symBinAddr: 0x10640, symSize: 0x28 }
+  - { offset: 0x26F7D, size: 0x8, addend: 0x0, symName: '-[AccelerateInterpolator getNativeInterpolator]', symObjAddr: 0x620, symBinAddr: 0x10640, symSize: 0x28 }
+  - { offset: 0x26FEB, size: 0x8, addend: 0x0, symName: '-[AccelerateInterpolator .cxx_destruct]', symObjAddr: 0x648, symBinAddr: 0x10668, symSize: 0x8 }
+  - { offset: 0x270C7, size: 0x8, addend: 0x0, symName: '-[AccelerateInterpolator .cxx_construct]', symObjAddr: 0x650, symBinAddr: 0x10670, symSize: 0x8 }
+  - { offset: 0x270FE, size: 0x8, addend: 0x0, symName: '-[AccelerateInterpolator .cxx_construct]', symObjAddr: 0x650, symBinAddr: 0x10670, symSize: 0x8 }
+  - { offset: 0x2711B, size: 0x8, addend: 0x0, symName: '-[AccelerateInterpolator .cxx_construct]', symObjAddr: 0x650, symBinAddr: 0x10670, symSize: 0x8 }
+  - { offset: 0x273FA, size: 0x8, addend: 0x0, symName: '-[AccelerateDecelerateInterpolator init]', symObjAddr: 0x658, symBinAddr: 0x10678, symSize: 0xD4 }
+  - { offset: 0x277F9, size: 0x8, addend: 0x0, symName: '-[AccelerateDecelerateInterpolator getInterpolation:]', symObjAddr: 0x790, symBinAddr: 0x1074C, symSize: 0x10 }
+  - { offset: 0x27840, size: 0x8, addend: 0x0, symName: '-[AccelerateDecelerateInterpolator getInterpolation:]', symObjAddr: 0x790, symBinAddr: 0x1074C, symSize: 0x10 }
+  - { offset: 0x278DC, size: 0x8, addend: 0x0, symName: '-[AccelerateDecelerateInterpolator getNativeInterpolator]', symObjAddr: 0x7A0, symBinAddr: 0x1075C, symSize: 0x28 }
+  - { offset: 0x27913, size: 0x8, addend: 0x0, symName: '-[AccelerateDecelerateInterpolator getNativeInterpolator]', symObjAddr: 0x7A0, symBinAddr: 0x1075C, symSize: 0x28 }
+  - { offset: 0x27939, size: 0x8, addend: 0x0, symName: '-[AccelerateDecelerateInterpolator getNativeInterpolator]', symObjAddr: 0x7A0, symBinAddr: 0x1075C, symSize: 0x28 }
+  - { offset: 0x279A7, size: 0x8, addend: 0x0, symName: '-[AccelerateDecelerateInterpolator .cxx_destruct]', symObjAddr: 0x7C8, symBinAddr: 0x10784, symSize: 0x8 }
+  - { offset: 0x27A83, size: 0x8, addend: 0x0, symName: '-[AccelerateDecelerateInterpolator .cxx_construct]', symObjAddr: 0x7D0, symBinAddr: 0x1078C, symSize: 0x8 }
+  - { offset: 0x27ABA, size: 0x8, addend: 0x0, symName: '-[AccelerateDecelerateInterpolator .cxx_construct]', symObjAddr: 0x7D0, symBinAddr: 0x1078C, symSize: 0x8 }
+  - { offset: 0x27AD7, size: 0x8, addend: 0x0, symName: '-[AccelerateDecelerateInterpolator .cxx_construct]', symObjAddr: 0x7D0, symBinAddr: 0x1078C, symSize: 0x8 }
+  - { offset: 0x27B15, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceI28DecelerateNativeInterpolatorNS_9allocatorIS1_EEED1Ev, symObjAddr: 0x7D8, symBinAddr: 0x10794, symSize: 0x14 }
+  - { offset: 0x27B37, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceI28DecelerateNativeInterpolatorNS_9allocatorIS1_EEED1Ev, symObjAddr: 0x7D8, symBinAddr: 0x10794, symSize: 0x14 }
+  - { offset: 0x27B71, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceI28DecelerateNativeInterpolatorNS_9allocatorIS1_EEED0Ev, symObjAddr: 0x7EC, symBinAddr: 0x107A8, symSize: 0x24 }
+  - { offset: 0x27BD4, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceI28DecelerateNativeInterpolatorNS_9allocatorIS1_EEE16__on_zero_sharedEv, symObjAddr: 0x810, symBinAddr: 0x107CC, symSize: 0x4 }
+  - { offset: 0x27C57, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceI28DecelerateNativeInterpolatorNS_9allocatorIS1_EEE21__on_zero_shared_weakEv, symObjAddr: 0x814, symBinAddr: 0x107D0, symSize: 0x4 }
+  - { offset: 0x27C89, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceI28DecelerateNativeInterpolatorNS_9allocatorIS1_EEE21__on_zero_shared_weakEv, symObjAddr: 0x814, symBinAddr: 0x107D0, symSize: 0x4 }
+  - { offset: 0x27CAA, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceI28DecelerateNativeInterpolatorNS_9allocatorIS1_EEE21__on_zero_shared_weakEv, symObjAddr: 0x814, symBinAddr: 0x107D0, symSize: 0x4 }
+  - { offset: 0x27CCC, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceI28DecelerateNativeInterpolatorNS_9allocatorIS1_EEE21__on_zero_shared_weakEv, symObjAddr: 0x814, symBinAddr: 0x107D0, symSize: 0x4 }
+  - { offset: 0x27D0A, size: 0x8, addend: 0x0, symName: __ZN28DecelerateNativeInterpolator16getInterpolationEd, symObjAddr: 0x818, symBinAddr: 0x107D4, symSize: 0x40 }
+  - { offset: 0x27D60, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceI28AccelerateNativeInterpolatorNS_9allocatorIS1_EEED1Ev, symObjAddr: 0x8B0, symBinAddr: 0x1086C, symSize: 0x14 }
+  - { offset: 0x27D82, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceI28AccelerateNativeInterpolatorNS_9allocatorIS1_EEED1Ev, symObjAddr: 0x8B0, symBinAddr: 0x1086C, symSize: 0x14 }
+  - { offset: 0x27DBC, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceI28AccelerateNativeInterpolatorNS_9allocatorIS1_EEED0Ev, symObjAddr: 0x8C4, symBinAddr: 0x10880, symSize: 0x24 }
+  - { offset: 0x27E1F, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceI28AccelerateNativeInterpolatorNS_9allocatorIS1_EEE16__on_zero_sharedEv, symObjAddr: 0x8E8, symBinAddr: 0x108A4, symSize: 0x4 }
+  - { offset: 0x27EA2, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceI28AccelerateNativeInterpolatorNS_9allocatorIS1_EEE21__on_zero_shared_weakEv, symObjAddr: 0x8EC, symBinAddr: 0x108A8, symSize: 0x4 }
+  - { offset: 0x27ED4, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceI28AccelerateNativeInterpolatorNS_9allocatorIS1_EEE21__on_zero_shared_weakEv, symObjAddr: 0x8EC, symBinAddr: 0x108A8, symSize: 0x4 }
+  - { offset: 0x27EF5, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceI28AccelerateNativeInterpolatorNS_9allocatorIS1_EEE21__on_zero_shared_weakEv, symObjAddr: 0x8EC, symBinAddr: 0x108A8, symSize: 0x4 }
+  - { offset: 0x27F17, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceI28AccelerateNativeInterpolatorNS_9allocatorIS1_EEE21__on_zero_shared_weakEv, symObjAddr: 0x8EC, symBinAddr: 0x108A8, symSize: 0x4 }
+  - { offset: 0x27F55, size: 0x8, addend: 0x0, symName: __ZN28AccelerateNativeInterpolator16getInterpolationEd, symObjAddr: 0x8F0, symBinAddr: 0x108AC, symSize: 0x20 }
+  - { offset: 0x27FA9, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceI38AccelerateDecelerateNativeInterpolatorNS_9allocatorIS1_EEED1Ev, symObjAddr: 0x968, symBinAddr: 0x108CC, symSize: 0x14 }
+  - { offset: 0x27FCB, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceI38AccelerateDecelerateNativeInterpolatorNS_9allocatorIS1_EEED1Ev, symObjAddr: 0x968, symBinAddr: 0x108CC, symSize: 0x14 }
+  - { offset: 0x28005, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceI38AccelerateDecelerateNativeInterpolatorNS_9allocatorIS1_EEED0Ev, symObjAddr: 0x97C, symBinAddr: 0x108E0, symSize: 0x24 }
+  - { offset: 0x28068, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceI38AccelerateDecelerateNativeInterpolatorNS_9allocatorIS1_EEE16__on_zero_sharedEv, symObjAddr: 0x9A0, symBinAddr: 0x10904, symSize: 0x4 }
+  - { offset: 0x280EB, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceI38AccelerateDecelerateNativeInterpolatorNS_9allocatorIS1_EEE21__on_zero_shared_weakEv, symObjAddr: 0x9A4, symBinAddr: 0x10908, symSize: 0x4 }
+  - { offset: 0x2811D, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceI38AccelerateDecelerateNativeInterpolatorNS_9allocatorIS1_EEE21__on_zero_shared_weakEv, symObjAddr: 0x9A4, symBinAddr: 0x10908, symSize: 0x4 }
+  - { offset: 0x2813E, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceI38AccelerateDecelerateNativeInterpolatorNS_9allocatorIS1_EEE21__on_zero_shared_weakEv, symObjAddr: 0x9A4, symBinAddr: 0x10908, symSize: 0x4 }
+  - { offset: 0x28160, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceI38AccelerateDecelerateNativeInterpolatorNS_9allocatorIS1_EEE21__on_zero_shared_weakEv, symObjAddr: 0x9A4, symBinAddr: 0x10908, symSize: 0x4 }
+  - { offset: 0x2819E, size: 0x8, addend: 0x0, symName: __ZN38AccelerateDecelerateNativeInterpolator16getInterpolationEd, symObjAddr: 0x9A8, symBinAddr: 0x1090C, symSize: 0x34 }
+  - { offset: 0x2A106, size: 0x8, addend: 0x0, symName: '-[ValueInterpolator initWithInterpolator:andDuration:]', symObjAddr: 0x0, symBinAddr: 0x10940, symSize: 0x154 }
+  - { offset: 0x2A13B, size: 0x8, addend: 0x0, symName: __ZTVNSt3__120__shared_ptr_emplaceI23ValueNativeInterpolatorNS_9allocatorIS1_EEEE, symObjAddr: 0x9B8, symBinAddr: 0x44270, symSize: 0x0 }
+  - { offset: 0x2A746, size: 0x8, addend: 0x0, symName: __ZNSt3__115allocate_sharedB9nqe220106I23ValueNativeInterpolatorNS_9allocatorIS1_EEJNS_10shared_ptrI18NativeInterpolatorEERdELi0EEENS4_IT_EERKT0_DpOT1_, symObjAddr: 0x360, symBinAddr: 0x10BE4, symSize: 0x60 }
+  - { offset: 0x2BE22, size: 0x8, addend: 0x0, symName: '-[ValueInterpolator initWithInterpolator:andDuration:]', symObjAddr: 0x0, symBinAddr: 0x10940, symSize: 0x154 }
+  - { offset: 0x2C22C, size: 0x8, addend: 0x0, symName: '-[ValueInterpolator setDuration:]', symObjAddr: 0x1B8, symBinAddr: 0x10A94, symSize: 0xC }
+  - { offset: 0x2C26D, size: 0x8, addend: 0x0, symName: '-[ValueInterpolator setDuration:]', symObjAddr: 0x1B8, symBinAddr: 0x10A94, symSize: 0xC }
+  - { offset: 0x2C2CE, size: 0x8, addend: 0x0, symName: '-[ValueInterpolator setAreAngleData:]', symObjAddr: 0x1C4, symBinAddr: 0x10AA0, symSize: 0xC }
+  - { offset: 0x2C313, size: 0x8, addend: 0x0, symName: '-[ValueInterpolator setAreAngleData:]', symObjAddr: 0x1C4, symBinAddr: 0x10AA0, symSize: 0xC }
+  - { offset: 0x2C361, size: 0x8, addend: 0x0, symName: '-[ValueInterpolator startInterpolating]', symObjAddr: 0x1D0, symBinAddr: 0x10AAC, symSize: 0x28 }
+  - { offset: 0x2C394, size: 0x8, addend: 0x0, symName: '-[ValueInterpolator startInterpolating]', symObjAddr: 0x1D0, symBinAddr: 0x10AAC, symSize: 0x28 }
+  - { offset: 0x2C3E2, size: 0x8, addend: 0x0, symName: '-[ValueInterpolator isInterpolating]', symObjAddr: 0x1F8, symBinAddr: 0x10AD4, symSize: 0xC }
+  - { offset: 0x2C41B, size: 0x8, addend: 0x0, symName: '-[ValueInterpolator isInterpolating]', symObjAddr: 0x1F8, symBinAddr: 0x10AD4, symSize: 0xC }
+  - { offset: 0x2C453, size: 0x8, addend: 0x0, symName: '-[ValueInterpolator getValueForInput:andTimestamp:]', symObjAddr: 0x204, symBinAddr: 0x10AE0, symSize: 0x8 }
+  - { offset: 0x2C4A8, size: 0x8, addend: 0x0, symName: '-[ValueInterpolator getValueForInput:andTimestamp:]', symObjAddr: 0x204, symBinAddr: 0x10AE0, symSize: 0x8 }
+  - { offset: 0x2C4E5, size: 0x8, addend: 0x0, symName: __ZN23ValueNativeInterpolator16getValueForInputEdd, symObjAddr: 0x20C, symBinAddr: 0x10AE8, symSize: 0xEC }
+  - { offset: 0x2C663, size: 0x8, addend: 0x0, symName: '-[ValueInterpolator .cxx_destruct]', symObjAddr: 0x2F8, symBinAddr: 0x10BD4, symSize: 0x8 }
+  - { offset: 0x2C73F, size: 0x8, addend: 0x0, symName: '-[ValueInterpolator .cxx_construct]', symObjAddr: 0x300, symBinAddr: 0x10BDC, symSize: 0x8 }
+  - { offset: 0x2C776, size: 0x8, addend: 0x0, symName: '-[ValueInterpolator .cxx_construct]', symObjAddr: 0x300, symBinAddr: 0x10BDC, symSize: 0x8 }
+  - { offset: 0x2C793, size: 0x8, addend: 0x0, symName: '-[ValueInterpolator .cxx_construct]', symObjAddr: 0x300, symBinAddr: 0x10BDC, symSize: 0x8 }
+  - { offset: 0x2CA1F, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceI23ValueNativeInterpolatorNS_9allocatorIS1_EEEC2B9nqe220106IJNS_10shared_ptrI18NativeInterpolatorEERdES3_Li0EEES3_DpOT_, symObjAddr: 0x3C0, symBinAddr: 0x10C44, symSize: 0x64 }
+  - { offset: 0x2CBF5, size: 0x8, addend: 0x0, symName: __ZNSt3__19allocatorI23ValueNativeInterpolatorE9constructB9nqe220106IS1_JNS_10shared_ptrI18NativeInterpolatorEERdEEEvPT_DpOT0_, symObjAddr: 0x468, symBinAddr: 0x10CEC, symSize: 0xA8 }
+  - { offset: 0x2CE00, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceI23ValueNativeInterpolatorNS_9allocatorIS1_EEED1Ev, symObjAddr: 0x424, symBinAddr: 0x10CA8, symSize: 0x14 }
+  - { offset: 0x2CE22, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceI23ValueNativeInterpolatorNS_9allocatorIS1_EEED1Ev, symObjAddr: 0x424, symBinAddr: 0x10CA8, symSize: 0x14 }
+  - { offset: 0x2CE5C, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceI23ValueNativeInterpolatorNS_9allocatorIS1_EEED0Ev, symObjAddr: 0x438, symBinAddr: 0x10CBC, symSize: 0x24 }
+  - { offset: 0x2CF8A, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceI23ValueNativeInterpolatorNS_9allocatorIS1_EEE16__on_zero_sharedEv, symObjAddr: 0x45C, symBinAddr: 0x10CE0, symSize: 0x8 }
+  - { offset: 0x2CFB3, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceI23ValueNativeInterpolatorNS_9allocatorIS1_EEE16__on_zero_sharedEv, symObjAddr: 0x45C, symBinAddr: 0x10CE0, symSize: 0x8 }
+  - { offset: 0x2CFD0, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceI23ValueNativeInterpolatorNS_9allocatorIS1_EEE16__on_zero_sharedEv, symObjAddr: 0x45C, symBinAddr: 0x10CE0, symSize: 0x8 }
+  - { offset: 0x2CFED, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceI23ValueNativeInterpolatorNS_9allocatorIS1_EEE16__on_zero_sharedEv, symObjAddr: 0x45C, symBinAddr: 0x10CE0, symSize: 0x8 }
+  - { offset: 0x2D00B, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceI23ValueNativeInterpolatorNS_9allocatorIS1_EEE16__on_zero_sharedEv, symObjAddr: 0x45C, symBinAddr: 0x10CE0, symSize: 0x8 }
+  - { offset: 0x2D028, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceI23ValueNativeInterpolatorNS_9allocatorIS1_EEE16__on_zero_sharedEv, symObjAddr: 0x45C, symBinAddr: 0x10CE0, symSize: 0x8 }
+  - { offset: 0x2D069, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceI23ValueNativeInterpolatorNS_9allocatorIS1_EEE21__on_zero_shared_weakEv, symObjAddr: 0x464, symBinAddr: 0x10CE8, symSize: 0x4 }
+  - { offset: 0x2D09B, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceI23ValueNativeInterpolatorNS_9allocatorIS1_EEE21__on_zero_shared_weakEv, symObjAddr: 0x464, symBinAddr: 0x10CE8, symSize: 0x4 }
+  - { offset: 0x2D0BC, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceI23ValueNativeInterpolatorNS_9allocatorIS1_EEE21__on_zero_shared_weakEv, symObjAddr: 0x464, symBinAddr: 0x10CE8, symSize: 0x4 }
+  - { offset: 0x2D0DE, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_emplaceI23ValueNativeInterpolatorNS_9allocatorIS1_EEE21__on_zero_shared_weakEv, symObjAddr: 0x464, symBinAddr: 0x10CE8, symSize: 0x4 }
+  - { offset: 0x2D1FC, size: 0x8, addend: 0x0, symName: __ZNSt3__110shared_ptrI18NativeInterpolatorEaSB9nqe220106ERKS2_, symObjAddr: 0x510, symBinAddr: 0x10D94, symSize: 0x7C }
+  - { offset: 0x32777, size: 0x8, addend: 0x0, symName: '-[HVTRealtimeLeveler init]', symObjAddr: 0x0, symBinAddr: 0x10E10, symSize: 0x124 }
+  - { offset: 0x327E6, size: 0x8, addend: 0x0, symName: __ZN21FrameParamsCalculatorC2Ef, symObjAddr: 0xEA8, symBinAddr: 0x11CB8, symSize: 0x168 }
+  - { offset: 0x32E7E, size: 0x8, addend: 0x0, symName: '-[HVTRealtimeLeveler dealloc]', symObjAddr: 0x124, symBinAddr: 0x10F34, symSize: 0xB4 }
+  - { offset: 0x3322F, size: 0x8, addend: 0x0, symName: '-[HVTRealtimeLeveler beginRecordingData]', symObjAddr: 0x1E8, symBinAddr: 0x10FF8, symSize: 0x74 }
+  - { offset: 0x33262, size: 0x8, addend: 0x0, symName: '-[HVTRealtimeLeveler endRecordingDataWithFilePath:]', symObjAddr: 0x25C, symBinAddr: 0x1106C, symSize: 0x114 }
+  - { offset: 0x332A4, size: 0x8, addend: 0x0, symName: '-[HVTRealtimeLeveler start]', symObjAddr: 0x370, symBinAddr: 0x11180, symSize: 0x134 }
+  - { offset: 0x332E6, size: 0x8, addend: 0x0, symName: '___27-[HVTRealtimeLeveler start]_block_invoke', symObjAddr: 0x4A4, symBinAddr: 0x112B4, symSize: 0x128 }
+  - { offset: 0x33364, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32w, symObjAddr: 0x5CC, symBinAddr: 0x113DC, symSize: 0xC }
+  - { offset: 0x3338D, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_ea8_32w, symObjAddr: 0x5D8, symBinAddr: 0x113E8, symSize: 0x8 }
+  - { offset: 0x333AC, size: 0x8, addend: 0x0, symName: '___27-[HVTRealtimeLeveler start]_block_invoke.16', symObjAddr: 0x5E0, symBinAddr: 0x113F0, symSize: 0x21C }
+  - { offset: 0x3344C, size: 0x8, addend: 0x0, symName: '-[HVTRealtimeLeveler stop]', symObjAddr: 0x7FC, symBinAddr: 0x1160C, symSize: 0x4C }
+  - { offset: 0x3347F, size: 0x8, addend: 0x0, symName: '-[HVTRealtimeLeveler getLevelParamsForTimestamp:]', symObjAddr: 0x848, symBinAddr: 0x11658, symSize: 0xD4 }
+  - { offset: 0x334FC, size: 0x8, addend: 0x0, symName: __ZN21FrameParamsCalculator21getFrameParamsForDataEddddd18HVTLevelerCropMode27HVTLevelerLockedOrientationbbb, symObjAddr: 0x91C, symBinAddr: 0x1172C, symSize: 0x1D4 }
+  - { offset: 0x3397E, size: 0x8, addend: 0x0, symName: __ZN21FrameParamsCalculator18aspectRatioChangedEdd, symObjAddr: 0x1010, symBinAddr: 0x11E20, symSize: 0x94 }
+  - { offset: 0x339E0, size: 0x8, addend: 0x0, symName: __ZN12GimbalFilter14resultForInputEddd, symObjAddr: 0x1688, symBinAddr: 0x12350, symSize: 0x80 }
+  - { offset: 0x33A6C, size: 0x8, addend: 0x0, symName: __ZN10SnapFilter14resultForInputEddd18HVTLevelerCropMode, symObjAddr: 0x1708, symBinAddr: 0x123D0, symSize: 0xDC }
+  - { offset: 0x33BB2, size: 0x8, addend: 0x0, symName: __ZN20CropModeInterpolator11setCropModeE18HVTLevelerCropMode, symObjAddr: 0x17E4, symBinAddr: 0x124AC, symSize: 0x80 }
+  - { offset: 0x33C32, size: 0x8, addend: 0x0, symName: __ZN15LockedYawFilter14resultForInputEdd27HVTLevelerLockedOrientationbb, symObjAddr: 0x1864, symBinAddr: 0x1252C, symSize: 0x98 }
+  - { offset: 0x33DC9, size: 0x8, addend: 0x0, symName: __ZN21FrameParamsCalculator13scaleForAngleEdddddd, symObjAddr: 0x18FC, symBinAddr: 0x125C4, symSize: 0x1AC }
+  - { offset: 0x33E77, size: 0x8, addend: 0x0, symName: __ZN11ScaleFilter14resultForInputEdddb, symObjAddr: 0x1AA8, symBinAddr: 0x12770, symSize: 0x84 }
+  - { offset: 0x33F8E, size: 0x8, addend: 0x0, symName: '-[HVTRealtimeLeveler setCropMode:]', symObjAddr: 0xAF0, symBinAddr: 0x11900, symSize: 0x38 }
+  - { offset: 0x33FD0, size: 0x8, addend: 0x0, symName: '-[HVTRealtimeLeveler setFlexSpeed:]', symObjAddr: 0xB28, symBinAddr: 0x11938, symSize: 0x38 }
+  - { offset: 0x34012, size: 0x8, addend: 0x0, symName: '-[HVTRealtimeLeveler setLockedOrientation:]', symObjAddr: 0xB60, symBinAddr: 0x11970, symSize: 0x38 }
+  - { offset: 0x34054, size: 0x8, addend: 0x0, symName: '-[HVTRealtimeLeveler setCameraResolution:]', symObjAddr: 0xB98, symBinAddr: 0x119A8, symSize: 0x48 }
+  - { offset: 0x34096, size: 0x8, addend: 0x0, symName: '-[HVTRealtimeLeveler setOutputMovieSize:]', symObjAddr: 0xBE0, symBinAddr: 0x119F0, symSize: 0x48 }
+  - { offset: 0x340D8, size: 0x8, addend: 0x0, symName: '-[HVTRealtimeLeveler setIsRecording:]', symObjAddr: 0xC28, symBinAddr: 0x11A38, symSize: 0x38 }
+  - { offset: 0x34200, size: 0x8, addend: 0x0, symName: '-[HVTRealtimeLeveler stillImageOrientationForYaw:]', symObjAddr: 0xC60, symBinAddr: 0x11A70, symSize: 0xE8 }
+  - { offset: 0x342A0, size: 0x8, addend: 0x0, symName: '-[HVTRealtimeLeveler enqueueEvent:]', symObjAddr: 0xD48, symBinAddr: 0x11B58, symSize: 0x78 }
+  - { offset: 0x342E4, size: 0x8, addend: 0x0, symName: '-[HVTRealtimeLeveler cropMode]', symObjAddr: 0xDC0, symBinAddr: 0x11BD0, symSize: 0x8 }
+  - { offset: 0x3431B, size: 0x8, addend: 0x0, symName: '-[HVTRealtimeLeveler flexSpeed]', symObjAddr: 0xDC8, symBinAddr: 0x11BD8, symSize: 0x8 }
+  - { offset: 0x34352, size: 0x8, addend: 0x0, symName: '-[HVTRealtimeLeveler lockedOrientation]', symObjAddr: 0xDD0, symBinAddr: 0x11BE0, symSize: 0x8 }
+  - { offset: 0x34389, size: 0x8, addend: 0x0, symName: '-[HVTRealtimeLeveler debugDataString]', symObjAddr: 0xDD8, symBinAddr: 0x11BE8, symSize: 0x8 }
+  - { offset: 0x343C0, size: 0x8, addend: 0x0, symName: '-[HVTRealtimeLeveler setDebugDataString:]', symObjAddr: 0xDE0, symBinAddr: 0x11BF0, symSize: 0xC }
+  - { offset: 0x34401, size: 0x8, addend: 0x0, symName: '-[HVTRealtimeLeveler debugDataGyroString]', symObjAddr: 0xDEC, symBinAddr: 0x11BFC, symSize: 0x8 }
+  - { offset: 0x34438, size: 0x8, addend: 0x0, symName: '-[HVTRealtimeLeveler setDebugDataGyroString:]', symObjAddr: 0xDF4, symBinAddr: 0x11C04, symSize: 0xC }
+  - { offset: 0x344E3, size: 0x8, addend: 0x0, symName: '-[HVTRealtimeLeveler .cxx_destruct]', symObjAddr: 0xE00, symBinAddr: 0x11C10, symSize: 0x50 }
+  - { offset: 0x34568, size: 0x8, addend: 0x0, symName: __ZNSt3__15dequeI20HVTDeviceMotionEventNS_9allocatorIS1_EEED2B9nqe220106Ev, symObjAddr: 0x2008, symBinAddr: 0x12BE4, symSize: 0x98 }
+  - { offset: 0x347DD, size: 0x8, addend: 0x0, symName: '-[HVTRealtimeLeveler .cxx_construct]', symObjAddr: 0xE50, symBinAddr: 0x11C60, symSize: 0x28 }
+  - { offset: 0x34814, size: 0x8, addend: 0x0, symName: '-[HVTRealtimeLeveler(Testing) injectMotionForTesting:]', symObjAddr: 0xE78, symBinAddr: 0x11C88, symSize: 0x30 }
+  - { offset: 0x349E3, size: 0x8, addend: 0x0, symName: __ZN12GimbalFilterC2Edd, symObjAddr: 0x10A4, symBinAddr: 0x11EB4, symSize: 0xFC }
+  - { offset: 0x34CE8, size: 0x8, addend: 0x0, symName: __ZN10SnapFilterC2Eddd, symObjAddr: 0x12E8, symBinAddr: 0x11FB0, symSize: 0x110 }
+  - { offset: 0x35081, size: 0x8, addend: 0x0, symName: __ZN15LockedYawFilterC2Edd, symObjAddr: 0x13F8, symBinAddr: 0x120C0, symSize: 0x104 }
+  - { offset: 0x35386, size: 0x8, addend: 0x0, symName: __ZN20CropModeInterpolatorC2Ev, symObjAddr: 0x14FC, symBinAddr: 0x121C4, symSize: 0x18C }
+  - { offset: 0x35FE0, size: 0x8, addend: 0x0, symName: __ZN10SnapFilter10yawSnappedEd, symObjAddr: 0x1C18, symBinAddr: 0x127F4, symSize: 0xE8 }
+  - { offset: 0x36068, size: 0x8, addend: 0x0, symName: __ZN13LowPassFilter11filterInputEdd, symObjAddr: 0x1D00, symBinAddr: 0x128DC, symSize: 0xB0 }
+  - { offset: 0x36126, size: 0x8, addend: 0x0, symName: __ZN15LockedYawFilter23yawForLockedOrientationE27HVTLevelerLockedOrientationd, symObjAddr: 0x1DB0, symBinAddr: 0x1298C, symSize: 0x128 }
+  - { offset: 0x361EC, size: 0x8, addend: 0x0, symName: __ZN15LockedYawFilter12shouldChangeEdd, symObjAddr: 0x1ED8, symBinAddr: 0x12AB4, symSize: 0x6C }
+  - { offset: 0x362F4, size: 0x8, addend: 0x0, symName: __ZN13LowPassFilter11filterInputEddd, symObjAddr: 0x1F44, symBinAddr: 0x12B20, symSize: 0xC4 }
+  - { offset: 0x36568, size: 0x8, addend: 0x0, symName: __ZNSt3__114__split_bufferIP20HVTDeviceMotionEventNS_9allocatorIS2_EEED2Ev, symObjAddr: 0x20A0, symBinAddr: 0x12C7C, symSize: 0x48 }
+  - { offset: 0x38863, size: 0x8, addend: 0x0, symName: '-[HVTQueueGuard initWithQueueSize:]', symObjAddr: 0x0, symBinAddr: 0x12CC4, symSize: 0x88 }
+  - { offset: 0x388C9, size: 0x8, addend: 0x0, symName: '-[HVTQueueGuard initWithQueueSize:]', symObjAddr: 0x0, symBinAddr: 0x12CC4, symSize: 0x88 }
+  - { offset: 0x3890F, size: 0x8, addend: 0x0, symName: '-[HVTQueueGuard canEnqueue]', symObjAddr: 0x88, symBinAddr: 0x12D4C, symSize: 0x54 }
+  - { offset: 0x38955, size: 0x8, addend: 0x0, symName: '-[HVTQueueGuard dequeue]', symObjAddr: 0xDC, symBinAddr: 0x12DA0, symSize: 0x18 }
+  - { offset: 0x38986, size: 0x8, addend: 0x0, symName: '-[HVTQueueGuard reset]', symObjAddr: 0xF4, symBinAddr: 0x12DB8, symSize: 0xC }
+  - { offset: 0x38A51, size: 0x8, addend: 0x0, symName: '+[HVTCameraUtilities doesFormat:supportFramerate:]', symObjAddr: 0x0, symBinAddr: 0x12DC4, symSize: 0x120 }
+  - { offset: 0x38A66, size: 0x8, addend: 0x0, symName: '+[HVTCameraUtilities doesFormat:supportFramerate:]', symObjAddr: 0x0, symBinAddr: 0x12DC4, symSize: 0x120 }
+  - { offset: 0x38ADE, size: 0x8, addend: 0x0, symName: '+[HVTCameraUtilities maxFramerateSupportedByFormat:]', symObjAddr: 0x120, symBinAddr: 0x12EE4, symSize: 0x128 }
+  - { offset: 0x38B47, size: 0x8, addend: 0x0, symName: '+[HVTCameraUtilities videoDeviceForPosition:]', symObjAddr: 0x248, symBinAddr: 0x1300C, symSize: 0x60 }
+  - { offset: 0x38BB4, size: 0x8, addend: 0x0, symName: '+[HVTCameraUtilities formatForDevice:resolution:framerate:]', symObjAddr: 0x2A8, symBinAddr: 0x1306C, symSize: 0x19C }
+  - { offset: 0x38CD5, size: 0x8, addend: 0x0, symName: '+[HVTCameraUtilities maxSupportedResolutionForDevice:]', symObjAddr: 0x444, symBinAddr: 0x13208, symSize: 0x178 }
+  - { offset: 0x38D85, size: 0x8, addend: 0x0, symName: '+[HVTCameraUtilities formatWithMaxAllowedResolution:device:]', symObjAddr: 0x5BC, symBinAddr: 0x13380, symSize: 0x198 }
+  - { offset: 0x38E45, size: 0x8, addend: 0x0, symName: '+[HVTCameraUtilities formatForResolution:position:framerate:]', symObjAddr: 0x754, symBinAddr: 0x13518, symSize: 0x80 }
+  - { offset: 0x38EB8, size: 0x8, addend: 0x0, symName: '+[HVTCameraUtilities maxSupportedResolutionForPosition:]', symObjAddr: 0x7D4, symBinAddr: 0x13598, symSize: 0x60 }
+  - { offset: 0x38F0F, size: 0x8, addend: 0x0, symName: '+[HVTCameraUtilities formatWithMaxAllowedResolution:position:]', symObjAddr: 0x834, symBinAddr: 0x135F8, symSize: 0x70 }
+  - { offset: 0x39078, size: 0x8, addend: 0x0, symName: '+[HVTView layerClass]', symObjAddr: 0x0, symBinAddr: 0x13668, symSize: 0xC }
+  - { offset: 0x399CC, size: 0x8, addend: 0x0, symName: '+[HVTView layerClass]', symObjAddr: 0x0, symBinAddr: 0x13668, symSize: 0xC }
+  - { offset: 0x399FF, size: 0x8, addend: 0x0, symName: '-[HVTView initWithCoder:]', symObjAddr: 0xC, symBinAddr: 0x13674, symSize: 0x74 }
+  - { offset: 0x39A46, size: 0x8, addend: 0x0, symName: '-[HVTView initWithFrame:]', symObjAddr: 0x80, symBinAddr: 0x136E8, symSize: 0xAC }
+  - { offset: 0x39A89, size: 0x8, addend: 0x0, symName: '-[HVTView didMoveToSuperview]', symObjAddr: 0x12C, symBinAddr: 0x13794, symSize: 0x164 }
+  - { offset: 0x39AD2, size: 0x8, addend: 0x0, symName: '-[HVTView layoutSubviews]', symObjAddr: 0x290, symBinAddr: 0x138F8, symSize: 0xB0 }
+  - { offset: 0x39B45, size: 0x8, addend: 0x0, symName: '-[HVTView dealloc]', symObjAddr: 0x340, symBinAddr: 0x139A8, symSize: 0x70 }
+  - { offset: 0x39B78, size: 0x8, addend: 0x0, symName: '-[HVTView watermarkCenter]', symObjAddr: 0x3B0, symBinAddr: 0x13A18, symSize: 0x198 }
+  - { offset: 0x39C7B, size: 0x8, addend: 0x0, symName: '-[HVTView constructView]', symObjAddr: 0x548, symBinAddr: 0x13BB0, symSize: 0x184 }
+  - { offset: 0x39D70, size: 0x8, addend: 0x0, symName: '-[HVTView updateOrientationAngle]', symObjAddr: 0x6CC, symBinAddr: 0x13D34, symSize: 0x98 }
+  - { offset: 0x39DB1, size: 0x8, addend: 0x0, symName: '-[HVTView updateShouldRenderHUD]', symObjAddr: 0x764, symBinAddr: 0x13DCC, symSize: 0x40 }
+  - { offset: 0x39DE3, size: 0x8, addend: 0x0, symName: '-[HVTView setup]', symObjAddr: 0x7A4, symBinAddr: 0x13E0C, symSize: 0x4B4 }
+  - { offset: 0x39E42, size: 0x8, addend: 0x0, symName: '-[HVTView sourceSizeChangedTo:]', symObjAddr: 0xC58, symBinAddr: 0x142C0, symSize: 0x28 }
+  - { offset: 0x39E85, size: 0x8, addend: 0x0, symName: '-[HVTView computeCameraMatrix:]', symObjAddr: 0xC80, symBinAddr: 0x142E8, symSize: 0xDC }
+  - { offset: 0x39FB8, size: 0x8, addend: 0x0, symName: '-[HVTView computeRotateScaleMatrix:]', symObjAddr: 0xD5C, symBinAddr: 0x143C4, symSize: 0xD4 }
+  - { offset: 0x3A0C6, size: 0x8, addend: 0x0, symName: '-[HVTView computeTransformedAspectRatiosAndDrawables]', symObjAddr: 0xE30, symBinAddr: 0x14498, symSize: 0x2D8 }
+  - { offset: 0x3A10B, size: 0x8, addend: 0x0, symName: '-[HVTView captureDevicePointOfInterestForPoint:error:]', symObjAddr: 0x1108, symBinAddr: 0x14770, symSize: 0x368 }
+  - { offset: 0x3A5C4, size: 0x8, addend: 0x0, symName: '-[HVTView reset]', symObjAddr: 0x1470, symBinAddr: 0x14AD8, symSize: 0x38 }
+  - { offset: 0x3A5F8, size: 0x8, addend: 0x0, symName: '-[HVTView displayPixelBuffer:withCameraPosition:andLevelParams:]', symObjAddr: 0x14A8, symBinAddr: 0x14B10, symSize: 0x1C0 }
+  - { offset: 0x3A71D, size: 0x8, addend: 0x0, symName: '-[HVTView fillScaleAt:]', symObjAddr: 0x1668, symBinAddr: 0x14CD0, symSize: 0x90 }
+  - { offset: 0x3A7AF, size: 0x8, addend: 0x0, symName: '-[HVTView drawFrame:params:]', symObjAddr: 0x16F8, symBinAddr: 0x14D60, symSize: 0x2AC }
+  - { offset: 0x3A913, size: 0x8, addend: 0x0, symName: '-[HVTView noteFrameParams:]', symObjAddr: 0x19A4, symBinAddr: 0x1500C, symSize: 0x64 }
+  - { offset: 0x3A971, size: 0x8, addend: 0x0, symName: '-[HVTView smoothedParams]', symObjAddr: 0x1A08, symBinAddr: 0x15070, symSize: 0xB8 }
+  - { offset: 0x3A9D4, size: 0x8, addend: 0x0, symName: _HVTLevelParamsBetween, symObjAddr: 0x1AC0, symBinAddr: 0x15128, symSize: 0x94 }
+  - { offset: 0x3AB24, size: 0x8, addend: 0x0, symName: '-[HVTView holdFrame:]', symObjAddr: 0x1B54, symBinAddr: 0x151BC, symSize: 0x50 }
+  - { offset: 0x3ABA7, size: 0x8, addend: 0x0, symName: '-[HVTView smoothHUDForDuration:]', symObjAddr: 0x1BA4, symBinAddr: 0x1520C, symSize: 0x118 }
+  - { offset: 0x3AC53, size: 0x8, addend: 0x0, symName: '-[HVTView smoothingHUD]', symObjAddr: 0x1CBC, symBinAddr: 0x15324, symSize: 0x18 }
+  - { offset: 0x3AC8B, size: 0x8, addend: 0x0, symName: '-[HVTView smoothTick:]', symObjAddr: 0x1CD4, symBinAddr: 0x1533C, symSize: 0xCC }
+  - { offset: 0x3ACD9, size: 0x8, addend: 0x0, symName: '-[HVTView stopSmoothing]', symObjAddr: 0x1DA0, symBinAddr: 0x15408, symSize: 0x58 }
+  - { offset: 0x3AD1A, size: 0x8, addend: 0x0, symName: '-[HVTView encodeFrame:toTexture:commandBuffer:]', symObjAddr: 0x1DF8, symBinAddr: 0x15460, symSize: 0x160 }
+  - { offset: 0x3AD99, size: 0x8, addend: 0x0, symName: '-[HVTView flushPixelBufferCache]', symObjAddr: 0x1F58, symBinAddr: 0x155C0, symSize: 0x10 }
+  - { offset: 0x3ADCD, size: 0x8, addend: 0x0, symName: '-[HVTView setOutputMovieSize:]', symObjAddr: 0x1F68, symBinAddr: 0x155D0, symSize: 0x18 }
+  - { offset: 0x3AE10, size: 0x8, addend: 0x0, symName: '-[HVTView getOrientation]', symObjAddr: 0x1F80, symBinAddr: 0x155E8, symSize: 0x10 }
+  - { offset: 0x3AE48, size: 0x8, addend: 0x0, symName: '-[HVTView setOrientation:]', symObjAddr: 0x1F90, symBinAddr: 0x155F8, symSize: 0x30 }
+  - { offset: 0x3AE8D, size: 0x8, addend: 0x0, symName: '-[HVTView setEnabled:]', symObjAddr: 0x1FC0, symBinAddr: 0x15628, symSize: 0x10 }
+  - { offset: 0x3AECB, size: 0x8, addend: 0x0, symName: '-[HVTView enabled]', symObjAddr: 0x1FD0, symBinAddr: 0x15638, symSize: 0x10 }
+  - { offset: 0x3AF03, size: 0x8, addend: 0x0, symName: '-[HVTView doubleTapToChangeFillMode]', symObjAddr: 0x1FE0, symBinAddr: 0x15648, symSize: 0x2C }
+  - { offset: 0x3AF37, size: 0x8, addend: 0x0, symName: '-[HVTView applicationDidBecomeActive:]', symObjAddr: 0x200C, symBinAddr: 0x15674, symSize: 0x18 }
+  - { offset: 0x3AF76, size: 0x8, addend: 0x0, symName: '-[HVTView subjectAreaDidChange:]', symObjAddr: 0x2024, symBinAddr: 0x1568C, symSize: 0x158 }
+  - { offset: 0x3AFD1, size: 0x8, addend: 0x0, symName: '___32-[HVTView subjectAreaDidChange:]_block_invoke', symObjAddr: 0x217C, symBinAddr: 0x157E4, symSize: 0x18 }
+  - { offset: 0x3B013, size: 0x8, addend: 0x0, symName: '___32-[HVTView subjectAreaDidChange:]_block_invoke.43', symObjAddr: 0x21A4, symBinAddr: 0x157FC, symSize: 0x98 }
+  - { offset: 0x3B065, size: 0x8, addend: 0x0, symName: '___32-[HVTView subjectAreaDidChange:]_block_invoke_2', symObjAddr: 0x223C, symBinAddr: 0x15894, symSize: 0x18 }
+  - { offset: 0x3B0A7, size: 0x8, addend: 0x0, symName: '___32-[HVTView subjectAreaDidChange:]_block_invoke_3', symObjAddr: 0x2254, symBinAddr: 0x158AC, symSize: 0x1C }
+  - { offset: 0x3B0FC, size: 0x8, addend: 0x0, symName: '-[HVTView touchesBegan:withEvent:]', symObjAddr: 0x2270, symBinAddr: 0x158C8, symSize: 0x1F0 }
+  - { offset: 0x3B1CE, size: 0x8, addend: 0x0, symName: '-[HVTView touchesCancelled:withEvent:]', symObjAddr: 0x2460, symBinAddr: 0x15AB8, symSize: 0x114 }
+  - { offset: 0x3B224, size: 0x8, addend: 0x0, symName: '___38-[HVTView touchesCancelled:withEvent:]_block_invoke', symObjAddr: 0x2574, symBinAddr: 0x15BCC, symSize: 0x6C }
+  - { offset: 0x3B27A, size: 0x8, addend: 0x0, symName: '___38-[HVTView touchesCancelled:withEvent:]_block_invoke_2', symObjAddr: 0x25E0, symBinAddr: 0x15C38, symSize: 0x60 }
+  - { offset: 0x3B2CC, size: 0x8, addend: 0x0, symName: '-[HVTView touchesMoved:withEvent:]', symObjAddr: 0x2640, symBinAddr: 0x15C98, symSize: 0x24 }
+  - { offset: 0x3B318, size: 0x8, addend: 0x0, symName: '-[HVTView touchesEnded:withEvent:]', symObjAddr: 0x2664, symBinAddr: 0x15CBC, symSize: 0xF0 }
+  - { offset: 0x3B36E, size: 0x8, addend: 0x0, symName: '-[HVTView longPressToLockFocusExposure]', symObjAddr: 0x2754, symBinAddr: 0x15DAC, symSize: 0xC0 }
+  - { offset: 0x3B3A2, size: 0x8, addend: 0x0, symName: '-[HVTView startFocusSqrAnimation:]', symObjAddr: 0x2814, symBinAddr: 0x15E6C, symSize: 0x118 }
+  - { offset: 0x3B3E6, size: 0x8, addend: 0x0, symName: '___34-[HVTView startFocusSqrAnimation:]_block_invoke', symObjAddr: 0x292C, symBinAddr: 0x15F84, symSize: 0x50 }
+  - { offset: 0x3B43C, size: 0x8, addend: 0x0, symName: '___34-[HVTView startFocusSqrAnimation:]_block_invoke_2', symObjAddr: 0x297C, symBinAddr: 0x15FD4, symSize: 0x98 }
+  - { offset: 0x3B48E, size: 0x8, addend: 0x0, symName: '___34-[HVTView startFocusSqrAnimation:]_block_invoke_3', symObjAddr: 0x2A14, symBinAddr: 0x1606C, symSize: 0x48 }
+  - { offset: 0x3B4D0, size: 0x8, addend: 0x0, symName: '___34-[HVTView startFocusSqrAnimation:]_block_invoke_4', symObjAddr: 0x2A5C, symBinAddr: 0x160B4, symSize: 0x60 }
+  - { offset: 0x3B522, size: 0x8, addend: 0x0, symName: '___34-[HVTView startFocusSqrAnimation:]_block_invoke_5', symObjAddr: 0x2ABC, symBinAddr: 0x16114, symSize: 0x48 }
+  - { offset: 0x3B564, size: 0x8, addend: 0x0, symName: '___34-[HVTView startFocusSqrAnimation:]_block_invoke_6', symObjAddr: 0x2B04, symBinAddr: 0x1615C, symSize: 0x9C }
+  - { offset: 0x3B5B6, size: 0x8, addend: 0x0, symName: '___34-[HVTView startFocusSqrAnimation:]_block_invoke_7', symObjAddr: 0x2BA0, symBinAddr: 0x161F8, symSize: 0x6C }
+  - { offset: 0x3B60C, size: 0x8, addend: 0x0, symName: '___34-[HVTView startFocusSqrAnimation:]_block_invoke_8', symObjAddr: 0x2C0C, symBinAddr: 0x16264, symSize: 0xCC }
+  - { offset: 0x3B65E, size: 0x8, addend: 0x0, symName: '___34-[HVTView startFocusSqrAnimation:]_block_invoke_9', symObjAddr: 0x2CD8, symBinAddr: 0x16330, symSize: 0x6C }
+  - { offset: 0x3B6B4, size: 0x8, addend: 0x0, symName: '___34-[HVTView startFocusSqrAnimation:]_block_invoke_10', symObjAddr: 0x2D44, symBinAddr: 0x1639C, symSize: 0x60 }
+  - { offset: 0x3B706, size: 0x8, addend: 0x0, symName: '-[HVTView isDoubleTapToChangeFillModeEnabled]', symObjAddr: 0x2DA4, symBinAddr: 0x163FC, symSize: 0x10 }
+  - { offset: 0x3B73E, size: 0x8, addend: 0x0, symName: '-[HVTView setEnablesDoubleTapToChangeFillMode:]', symObjAddr: 0x2DB4, symBinAddr: 0x1640C, symSize: 0xB8 }
+  - { offset: 0x3B77E, size: 0x8, addend: 0x0, symName: '-[HVTView isTapToFocusEnabled]', symObjAddr: 0x2E6C, symBinAddr: 0x164C4, symSize: 0x10 }
+  - { offset: 0x3B7B6, size: 0x8, addend: 0x0, symName: '-[HVTView setEnablesTapToFocus:]', symObjAddr: 0x2E7C, symBinAddr: 0x164D4, symSize: 0x10 }
+  - { offset: 0x3B7F4, size: 0x8, addend: 0x0, symName: '-[HVTView isLongPressToLockFocusExposureEnabled]', symObjAddr: 0x2E8C, symBinAddr: 0x164E4, symSize: 0x10 }
+  - { offset: 0x3B82C, size: 0x8, addend: 0x0, symName: '-[HVTView setEnablesLongPressToLockFocusExposure:]', symObjAddr: 0x2E9C, symBinAddr: 0x164F4, symSize: 0xAC }
+  - { offset: 0x3B86C, size: 0x8, addend: 0x0, symName: '-[HVTView setViewType:]', symObjAddr: 0x2F48, symBinAddr: 0x165A0, symSize: 0x90 }
+  - { offset: 0x3B8C2, size: 0x8, addend: 0x0, symName: '-[HVTView viewType]', symObjAddr: 0x2FD8, symBinAddr: 0x16630, symSize: 0x10 }
+  - { offset: 0x3B8FA, size: 0x8, addend: 0x0, symName: '-[HVTView setWatermarkPosition:]', symObjAddr: 0x2FE8, symBinAddr: 0x16640, symSize: 0x28 }
+  - { offset: 0x3B93B, size: 0x8, addend: 0x0, symName: '-[HVTView watermarkPosition]', symObjAddr: 0x3010, symBinAddr: 0x16668, symSize: 0x10 }
+  - { offset: 0x3B973, size: 0x8, addend: 0x0, symName: '-[HVTView setFilter:]', symObjAddr: 0x3020, symBinAddr: 0x16678, symSize: 0x90 }
+  - { offset: 0x3B9B8, size: 0x8, addend: 0x0, symName: '-[HVTView filter]', symObjAddr: 0x30B0, symBinAddr: 0x16708, symSize: 0x10 }
+  - { offset: 0x3B9F0, size: 0x8, addend: 0x0, symName: '-[HVTView setShowHUD:]', symObjAddr: 0x30C0, symBinAddr: 0x16718, symSize: 0x10 }
+  - { offset: 0x3BA2E, size: 0x8, addend: 0x0, symName: '-[HVTView fillMode]', symObjAddr: 0x30D0, symBinAddr: 0x16728, symSize: 0x10 }
+  - { offset: 0x3BA66, size: 0x8, addend: 0x0, symName: '-[HVTView setFillMode:]', symObjAddr: 0x30E0, symBinAddr: 0x16738, symSize: 0x1C }
+  - { offset: 0x3BAA9, size: 0x8, addend: 0x0, symName: '-[HVTView setFocusViewColor:]', symObjAddr: 0x30FC, symBinAddr: 0x16754, symSize: 0x74 }
+  - { offset: 0x3BAEE, size: 0x8, addend: 0x0, symName: '-[HVTView focusViewColor]', symObjAddr: 0x3170, symBinAddr: 0x167C8, symSize: 0x64 }
+  - { offset: 0x3BB26, size: 0x8, addend: 0x0, symName: '-[HVTView setFocusViewBorderWidth:]', symObjAddr: 0x31D4, symBinAddr: 0x1682C, symSize: 0x4C }
+  - { offset: 0x3BB6A, size: 0x8, addend: 0x0, symName: '-[HVTView focusViewBorderWidth]', symObjAddr: 0x3220, symBinAddr: 0x16878, symSize: 0x50 }
+  - { offset: 0x3BBA2, size: 0x8, addend: 0x0, symName: '-[HVTView setCropRegionTintColor:]', symObjAddr: 0x3270, symBinAddr: 0x168C8, symSize: 0x74 }
+  - { offset: 0x3BCA0, size: 0x8, addend: 0x0, symName: '-[HVTView cropRegionTintColor]', symObjAddr: 0x32E4, symBinAddr: 0x1693C, symSize: 0x34 }
+  - { offset: 0x3BCD8, size: 0x8, addend: 0x0, symName: '-[HVTView captureSnapshot]', symObjAddr: 0x3318, symBinAddr: 0x16970, symSize: 0x60 }
+  - { offset: 0x3BD0C, size: 0x8, addend: 0x0, symName: '-[HVTView setContentScaleFactor:]', symObjAddr: 0x3378, symBinAddr: 0x169D0, symSize: 0x48 }
+  - { offset: 0x3BD50, size: 0x8, addend: 0x0, symName: '-[HVTView gestureRecognizer:shouldReceiveTouch:]', symObjAddr: 0x33C0, symBinAddr: 0x16A18, symSize: 0x58 }
+  - { offset: 0x3BDA2, size: 0x8, addend: 0x0, symName: '-[HVTView gestureRecognizer:shouldRequireFailureOfGestureRecognizer:]', symObjAddr: 0x3418, symBinAddr: 0x16A70, symSize: 0x38 }
+  - { offset: 0x3BDF8, size: 0x8, addend: 0x0, symName: '-[HVTView orientation]', symObjAddr: 0x3450, symBinAddr: 0x16AA8, symSize: 0x10 }
+  - { offset: 0x3BE2F, size: 0x8, addend: 0x0, symName: '-[HVTView rendererKey]', symObjAddr: 0x3460, symBinAddr: 0x16AB8, symSize: 0x10 }
+  - { offset: 0x3BE66, size: 0x8, addend: 0x0, symName: '-[HVTView setRendererKey:]', symObjAddr: 0x3470, symBinAddr: 0x16AC8, symSize: 0x14 }
+  - { offset: 0x3BEA7, size: 0x8, addend: 0x0, symName: '-[HVTView showHUD]', symObjAddr: 0x3484, symBinAddr: 0x16ADC, symSize: 0x10 }
+  - { offset: 0x3BEDE, size: 0x8, addend: 0x0, symName: '-[HVTView installed]', symObjAddr: 0x3494, symBinAddr: 0x16AEC, symSize: 0x10 }
+  - { offset: 0x3BF15, size: 0x8, addend: 0x0, symName: '-[HVTView setInstalled:]', symObjAddr: 0x34A4, symBinAddr: 0x16AFC, symSize: 0x10 }
+  - { offset: 0x3BF50, size: 0x8, addend: 0x0, symName: '-[HVTView delegate]', symObjAddr: 0x34B4, symBinAddr: 0x16B0C, symSize: 0x20 }
+  - { offset: 0x3BF87, size: 0x8, addend: 0x0, symName: '-[HVTView setDelegate:]', symObjAddr: 0x34D4, symBinAddr: 0x16B2C, symSize: 0x14 }
+  - { offset: 0x3BFC8, size: 0x8, addend: 0x0, symName: '-[HVTView viewSize]', symObjAddr: 0x34E8, symBinAddr: 0x16B40, symSize: 0x14 }
+  - { offset: 0x3BFFD, size: 0x8, addend: 0x0, symName: '-[HVTView setViewSize:]', symObjAddr: 0x34FC, symBinAddr: 0x16B54, symSize: 0x14 }
+  - { offset: 0x3C03C, size: 0x8, addend: 0x0, symName: '-[HVTView .cxx_destruct]', symObjAddr: 0x3510, symBinAddr: 0x16B68, symSize: 0x118 }
+  - { offset: 0x3C9B5, size: 0x8, addend: 0x0, symName: '-[Drawable2D initWithPrefabShape:andHalfSize:]', symObjAddr: 0x0, symBinAddr: 0x16C80, symSize: 0x158 }
+  - { offset: 0x3CB40, size: 0x8, addend: 0x0, symName: '-[Drawable2D initWithPrefabShape:andHalfSize:]', symObjAddr: 0x0, symBinAddr: 0x16C80, symSize: 0x158 }
+  - { offset: 0x3CC8E, size: 0x8, addend: 0x0, symName: '-[Drawable2D dealloc]', symObjAddr: 0x158, symBinAddr: 0x16DD8, symSize: 0x58 }
+  - { offset: 0x3CCEA, size: 0x8, addend: 0x0, symName: '-[Drawable2D getVertexArray]', symObjAddr: 0x1B0, symBinAddr: 0x16E30, symSize: 0x8 }
+  - { offset: 0x3CD21, size: 0x8, addend: 0x0, symName: '-[Drawable2D getVertexCount]', symObjAddr: 0x1B8, symBinAddr: 0x16E38, symSize: 0x8 }
+  - { offset: 0x3CD58, size: 0x8, addend: 0x0, symName: '-[Drawable2D getVertexStride]', symObjAddr: 0x1C0, symBinAddr: 0x16E40, symSize: 0x8 }
+  - { offset: 0x3CD8F, size: 0x8, addend: 0x0, symName: '-[Drawable2D getCoordsPerVertex]', symObjAddr: 0x1C8, symBinAddr: 0x16E48, symSize: 0x8 }
+  - { offset: 0x3CDC6, size: 0x8, addend: 0x0, symName: '-[Drawable2D getTexCoordStride]', symObjAddr: 0x1D0, symBinAddr: 0x16E50, symSize: 0x8 }
+  - { offset: 0x3CDFD, size: 0x8, addend: 0x0, symName: '-[Drawable2D getTexCoordArray]', symObjAddr: 0x1D8, symBinAddr: 0x16E58, symSize: 0x8 }
+  - { offset: 0x3CE34, size: 0x8, addend: 0x0, symName: '-[Drawable2D updateCornerVerticesWithScale:andHeight:andContentScaleFactor:]', symObjAddr: 0x1E0, symBinAddr: 0x16E60, symSize: 0x194 }
+  - { offset: 0x3CF54, size: 0x8, addend: 0x0, symName: '-[HVTMovieRecorder initWithURL:]', symObjAddr: 0x0, symBinAddr: 0x16FF4, symSize: 0x16C }
+  - { offset: 0x3D49E, size: 0x8, addend: 0x0, symName: '-[HVTMovieRecorder initWithURL:]', symObjAddr: 0x0, symBinAddr: 0x16FF4, symSize: 0x16C }
+  - { offset: 0x3D5A6, size: 0x8, addend: 0x0, symName: '-[HVTMovieRecorder addVideoTrackWithSourceFormatDescription:transform:settings:]', symObjAddr: 0x16C, symBinAddr: 0x17160, symSize: 0x11C }
+  - { offset: 0x3D637, size: 0x8, addend: 0x0, symName: '-[HVTMovieRecorder addAudioTrackWithSourceFormatDescription:settings:]', symObjAddr: 0x288, symBinAddr: 0x1727C, symSize: 0xE0 }
+  - { offset: 0x3D69D, size: 0x8, addend: 0x0, symName: '-[HVTMovieRecorder delegate]', symObjAddr: 0x368, symBinAddr: 0x1735C, symSize: 0x44 }
+  - { offset: 0x3D6E4, size: 0x8, addend: 0x0, symName: '-[HVTMovieRecorder setDelegate:callbackQueue:]', symObjAddr: 0x3AC, symBinAddr: 0x173A0, symSize: 0xCC }
+  - { offset: 0x3D737, size: 0x8, addend: 0x0, symName: '-[HVTMovieRecorder prepareToRecord]', symObjAddr: 0x478, symBinAddr: 0x1746C, symSize: 0xF8 }
+  - { offset: 0x3D859, size: 0x8, addend: 0x0, symName: '___35-[HVTMovieRecorder prepareToRecord]_block_invoke', symObjAddr: 0x570, symBinAddr: 0x17564, symSize: 0x1C8 }
+  - { offset: 0x3D8C3, size: 0x8, addend: 0x0, symName: '-[HVTMovieRecorder appendVideoSampleBuffer:]', symObjAddr: 0x748, symBinAddr: 0x1772C, symSize: 0x1C }
+  - { offset: 0x3D902, size: 0x8, addend: 0x0, symName: '-[HVTMovieRecorder appendVideoPixelBuffer:withPresentationTime:]', symObjAddr: 0x764, symBinAddr: 0x17748, symSize: 0x338 }
+  - { offset: 0x3DC1F, size: 0x8, addend: 0x0, symName: '-[HVTMovieRecorder appendAudioSampleBuffer:]', symObjAddr: 0xA9C, symBinAddr: 0x17A80, symSize: 0x98 }
+  - { offset: 0x3DC9D, size: 0x8, addend: 0x0, symName: '-[HVTMovieRecorder finishRecording]', symObjAddr: 0xB34, symBinAddr: 0x17B18, symSize: 0x104 }
+  - { offset: 0x3DCFB, size: 0x8, addend: 0x0, symName: '___35-[HVTMovieRecorder finishRecording]_block_invoke', symObjAddr: 0xC38, symBinAddr: 0x17C1C, symSize: 0xE0 }
+  - { offset: 0x3DD3D, size: 0x8, addend: 0x0, symName: '___35-[HVTMovieRecorder finishRecording]_block_invoke_2', symObjAddr: 0xD18, symBinAddr: 0x17CFC, symSize: 0x8C }
+  - { offset: 0x3DD96, size: 0x8, addend: 0x0, symName: '-[HVTMovieRecorder videoBitRate]', symObjAddr: 0xDA4, symBinAddr: 0x17D88, symSize: 0x78 }
+  - { offset: 0x3DDCE, size: 0x8, addend: 0x0, symName: '-[HVTMovieRecorder audioBitRate]', symObjAddr: 0xE1C, symBinAddr: 0x17E00, symSize: 0xD0 }
+  - { offset: 0x3DE69, size: 0x8, addend: 0x0, symName: '-[HVTMovieRecorder pauseRecording]', symObjAddr: 0xEEC, symBinAddr: 0x17ED0, symSize: 0x14 }
+  - { offset: 0x3DE9B, size: 0x8, addend: 0x0, symName: '-[HVTMovieRecorder resumeRecording]', symObjAddr: 0xF00, symBinAddr: 0x17EE4, symSize: 0x14 }
+  - { offset: 0x3DECD, size: 0x8, addend: 0x0, symName: '-[HVTMovieRecorder isPaused]', symObjAddr: 0xF14, symBinAddr: 0x17EF8, symSize: 0x8 }
+  - { offset: 0x3DF05, size: 0x8, addend: 0x0, symName: '-[HVTMovieRecorder recordingDuration]', symObjAddr: 0xF1C, symBinAddr: 0x17F00, symSize: 0x70 }
+  - { offset: 0x3DF57, size: 0x8, addend: 0x0, symName: '-[HVTMovieRecorder setVideoMetadata:]', symObjAddr: 0xF8C, symBinAddr: 0x17F70, symSize: 0xC }
+  - { offset: 0x3DF9C, size: 0x8, addend: 0x0, symName: '-[HVTMovieRecorder videoMetadata]', symObjAddr: 0xF98, symBinAddr: 0x17F7C, symSize: 0x8 }
+  - { offset: 0x3DFD4, size: 0x8, addend: 0x0, symName: '-[HVTMovieRecorder dealloc]', symObjAddr: 0xFA0, symBinAddr: 0x17F84, symSize: 0xA8 }
+  - { offset: 0x3E022, size: 0x8, addend: 0x0, symName: '-[HVTMovieRecorder automaticallyFinishRecordingIfMaxDurationReachedWithPresentationTimestamp:]', symObjAddr: 0x1048, symBinAddr: 0x1802C, symSize: 0x134 }
+  - { offset: 0x3E0F3, size: 0x8, addend: 0x0, symName: '___94-[HVTMovieRecorder automaticallyFinishRecordingIfMaxDurationReachedWithPresentationTimestamp:]_block_invoke', symObjAddr: 0x117C, symBinAddr: 0x18160, symSize: 0x54 }
+  - { offset: 0x3E135, size: 0x8, addend: 0x0, symName: '+[HVTMovieRecorder createOffsetSampleBufferWithSampleBuffer:withTimeOffset:]', symObjAddr: 0x11D0, symBinAddr: 0x181B4, symSize: 0x164 }
+  - { offset: 0x3E344, size: 0x8, addend: 0x0, symName: '-[HVTMovieRecorder appendSampleBuffer:ofMediaType:]', symObjAddr: 0x1334, symBinAddr: 0x18318, symSize: 0x160 }
+  - { offset: 0x3E3F0, size: 0x8, addend: 0x0, symName: '___51-[HVTMovieRecorder appendSampleBuffer:ofMediaType:]_block_invoke', symObjAddr: 0x1494, symBinAddr: 0x18478, symSize: 0x180 }
+  - { offset: 0x3E4D6, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0x1614, symBinAddr: 0x185F8, symSize: 0x28 }
+  - { offset: 0x3E4FF, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0x163C, symBinAddr: 0x18620, symSize: 0x28 }
+  - { offset: 0x3E51E, size: 0x8, addend: 0x0, symName: '-[HVTMovieRecorder transitionToStatus:error:]', symObjAddr: 0x1664, symBinAddr: 0x18648, symSize: 0x120 }
+  - { offset: 0x3E5B3, size: 0x8, addend: 0x0, symName: '___45-[HVTMovieRecorder transitionToStatus:error:]_block_invoke', symObjAddr: 0x1784, symBinAddr: 0x18768, symSize: 0x68 }
+  - { offset: 0x3E606, size: 0x8, addend: 0x0, symName: '___45-[HVTMovieRecorder transitionToStatus:error:]_block_invoke.30', symObjAddr: 0x17EC, symBinAddr: 0x187D0, symSize: 0xB0 }
+  - { offset: 0x3E66A, size: 0x8, addend: 0x0, symName: '-[HVTMovieRecorder setupAssetWriterAudioInputWithSourceFormatDescription:settings:error:]', symObjAddr: 0x189C, symBinAddr: 0x18880, symSize: 0x168 }
+  - { offset: 0x3E6D4, size: 0x8, addend: 0x0, symName: '-[HVTMovieRecorder setupAssetWriterVideoInputWithSourceFormatDescription:transform:settings:error:]', symObjAddr: 0x1A04, symBinAddr: 0x189E8, symSize: 0x2C0 }
+  - { offset: 0x3E7D9, size: 0x8, addend: 0x0, symName: '+[HVTMovieRecorder cannotSetupInputError]', symObjAddr: 0x1CC4, symBinAddr: 0x18CA8, symSize: 0x160 }
+  - { offset: 0x3E840, size: 0x8, addend: 0x0, symName: '-[HVTMovieRecorder teardownAssetWriterAndInputs]', symObjAddr: 0x1E24, symBinAddr: 0x18E08, symSize: 0x40 }
+  - { offset: 0x3E874, size: 0x8, addend: 0x0, symName: '-[HVTMovieRecorder maxRecordingDuration]', symObjAddr: 0x1E64, symBinAddr: 0x18E48, symSize: 0x14 }
+  - { offset: 0x3E8A9, size: 0x8, addend: 0x0, symName: '-[HVTMovieRecorder setMaxRecordingDuration:]', symObjAddr: 0x1E78, symBinAddr: 0x18E5C, symSize: 0x14 }
+  - { offset: 0x3E8E7, size: 0x8, addend: 0x0, symName: '-[HVTMovieRecorder rendererKey]', symObjAddr: 0x1E8C, symBinAddr: 0x18E70, symSize: 0x8 }
+  - { offset: 0x3E91E, size: 0x8, addend: 0x0, symName: '-[HVTMovieRecorder setRendererKey:]', symObjAddr: 0x1E94, symBinAddr: 0x18E78, symSize: 0xC }
+  - { offset: 0x3E95F, size: 0x8, addend: 0x0, symName: '-[HVTMovieRecorder fileType]', symObjAddr: 0x1EA0, symBinAddr: 0x18E84, symSize: 0x8 }
+  - { offset: 0x3E996, size: 0x8, addend: 0x0, symName: '-[HVTMovieRecorder setFileType:]', symObjAddr: 0x1EA8, symBinAddr: 0x18E8C, symSize: 0x8 }
+  - { offset: 0x3E9D5, size: 0x8, addend: 0x0, symName: '-[HVTMovieRecorder debugDataString]', symObjAddr: 0x1EB0, symBinAddr: 0x18E94, symSize: 0x8 }
+  - { offset: 0x3EA0C, size: 0x8, addend: 0x0, symName: '-[HVTMovieRecorder setDebugDataString:]', symObjAddr: 0x1EB8, symBinAddr: 0x18E9C, symSize: 0xC }
+  - { offset: 0x3EA4D, size: 0x8, addend: 0x0, symName: '-[HVTMovieRecorder .cxx_destruct]', symObjAddr: 0x1EC4, symBinAddr: 0x18EA8, symSize: 0xB0 }
+  - { offset: 0x3EED5, size: 0x8, addend: 0x0, symName: '-[HVTHDRFilter customKernel]', symObjAddr: 0x0, symBinAddr: 0x18F58, symSize: 0x30 }
+  - { offset: 0x3EEE3, size: 0x8, addend: 0x0, symName: '-[HVTHDRFilter customKernel]', symObjAddr: 0x0, symBinAddr: 0x18F58, symSize: 0x30 }
+  - { offset: 0x3EF0D, size: 0x8, addend: 0x0, symName: _customKernel.kernel, symObjAddr: 0x2778, symBinAddr: 0x50390, symSize: 0x0 }
+  - { offset: 0x3EF23, size: 0x8, addend: 0x0, symName: _customKernel.once, symObjAddr: 0x2780, symBinAddr: 0x50398, symSize: 0x0 }
+  - { offset: 0x3F08B, size: 0x8, addend: 0x0, symName: '-[HVTHDRFilter customKernel].cold.1', symObjAddr: 0x368, symBinAddr: 0x2A1D0, symSize: 0x14 }
+  - { offset: 0x3F0A7, size: 0x8, addend: 0x0, symName: '-[HVTHDRFilter customKernel].cold.1', symObjAddr: 0x368, symBinAddr: 0x2A1D0, symSize: 0x14 }
+  - { offset: 0x3F0B9, size: 0x8, addend: 0x0, symName: '___28-[HVTHDRFilter customKernel]_block_invoke', symObjAddr: 0x30, symBinAddr: 0x18F88, symSize: 0x104 }
+  - { offset: 0x3F11E, size: 0x8, addend: 0x0, symName: '-[HVTHDRFilter outputImage]', symObjAddr: 0x134, symBinAddr: 0x1908C, symSize: 0x174 }
+  - { offset: 0x3F155, size: 0x8, addend: 0x0, symName: '-[HVTHDRFilter overExposed]', symObjAddr: 0x2A8, symBinAddr: 0x19200, symSize: 0x10 }
+  - { offset: 0x3F18C, size: 0x8, addend: 0x0, symName: '-[HVTHDRFilter setOverExposed:]', symObjAddr: 0x2B8, symBinAddr: 0x19210, symSize: 0x14 }
+  - { offset: 0x3F1CD, size: 0x8, addend: 0x0, symName: '-[HVTHDRFilter normalExposed]', symObjAddr: 0x2CC, symBinAddr: 0x19224, symSize: 0x10 }
+  - { offset: 0x3F204, size: 0x8, addend: 0x0, symName: '-[HVTHDRFilter setNormalExposed:]', symObjAddr: 0x2DC, symBinAddr: 0x19234, symSize: 0x14 }
+  - { offset: 0x3F245, size: 0x8, addend: 0x0, symName: '-[HVTHDRFilter underExposed]', symObjAddr: 0x2F0, symBinAddr: 0x19248, symSize: 0x10 }
+  - { offset: 0x3F27C, size: 0x8, addend: 0x0, symName: '-[HVTHDRFilter setUnderExposed:]', symObjAddr: 0x300, symBinAddr: 0x19258, symSize: 0x14 }
+  - { offset: 0x3F2BD, size: 0x8, addend: 0x0, symName: '-[HVTHDRFilter .cxx_destruct]', symObjAddr: 0x314, symBinAddr: 0x1926C, symSize: 0x54 }
+  - { offset: 0x3F420, size: 0x8, addend: 0x0, symName: '-[HVTCIFilterRenderer initWithStillImage:]', symObjAddr: 0x0, symBinAddr: 0x192C0, symSize: 0xC0 }
+  - { offset: 0x3F46C, size: 0x8, addend: 0x0, symName: _HVTSharedCIContext, symObjAddr: 0xC0, symBinAddr: 0x19380, symSize: 0x30 }
+  - { offset: 0x3F492, size: 0x8, addend: 0x0, symName: _HVTSharedCIContext.context, symObjAddr: 0xADA8, symBinAddr: 0x503A0, symSize: 0x0 }
+  - { offset: 0x3F4A8, size: 0x8, addend: 0x0, symName: _HVTSharedCIContext.once, symObjAddr: 0xADB0, symBinAddr: 0x503A8, symSize: 0x0 }
+  - { offset: 0x3F964, size: 0x8, addend: 0x0, symName: '-[HVTCIFilterRenderer initWithStillImage:]', symObjAddr: 0x0, symBinAddr: 0x192C0, symSize: 0xC0 }
+  - { offset: 0x3F9E6, size: 0x8, addend: 0x0, symName: _HVTSharedCIContext.cold.1, symObjAddr: 0x1170, symBinAddr: 0x2A1E4, symSize: 0x14 }
+  - { offset: 0x3FA02, size: 0x8, addend: 0x0, symName: _HVTSharedCIContext.cold.1, symObjAddr: 0x1170, symBinAddr: 0x2A1E4, symSize: 0x14 }
+  - { offset: 0x3FA14, size: 0x8, addend: 0x0, symName: '-[HVTCIFilterRenderer dealloc]', symObjAddr: 0xF0, symBinAddr: 0x193B0, symSize: 0x44 }
+  - { offset: 0x3FA47, size: 0x8, addend: 0x0, symName: '-[HVTCIFilterRenderer newCgImageFromPixelBuffer:params:outputSize:]', symObjAddr: 0x134, symBinAddr: 0x193F4, symSize: 0x8C }
+  - { offset: 0x3FAB6, size: 0x8, addend: 0x0, symName: '-[HVTCIFilterRenderer newHDRImageUsingParams:outputSize:]', symObjAddr: 0x1C0, symBinAddr: 0x19480, symSize: 0x10C }
+  - { offset: 0x3FB39, size: 0x8, addend: 0x0, symName: '-[HVTCIFilterRenderer copyRenderedPixelBuffer:params:outputSize:]', symObjAddr: 0x2CC, symBinAddr: 0x1958C, symSize: 0x13C }
+  - { offset: 0x3FC72, size: 0x8, addend: 0x0, symName: '-[HVTCIFilterRenderer outputImageForPixelBuffer:params:outputSize:]', symObjAddr: 0x408, symBinAddr: 0x196C8, symSize: 0xDC }
+  - { offset: 0x3FCF5, size: 0x8, addend: 0x0, symName: '-[HVTCIFilterRenderer imageByApplyingActiveFilterToImage:]', symObjAddr: 0x4E4, symBinAddr: 0x197A4, symSize: 0x7C }
+  - { offset: 0x3FD4C, size: 0x8, addend: 0x0, symName: '-[HVTCIFilterRenderer getStraightenedImageFromSourceImage:outputSize:]', symObjAddr: 0x560, symBinAddr: 0x19820, symSize: 0x1D8 }
+  - { offset: 0x3FEDB, size: 0x8, addend: 0x0, symName: '-[HVTCIFilterRenderer setInputPixelFormat:]', symObjAddr: 0x738, symBinAddr: 0x199F8, symSize: 0x8 }
+  - { offset: 0x3FF19, size: 0x8, addend: 0x0, symName: '-[HVTCIFilterRenderer operatesInPlace]', symObjAddr: 0x740, symBinAddr: 0x19A00, symSize: 0x8 }
+  - { offset: 0x3FF4C, size: 0x8, addend: 0x0, symName: '-[HVTCIFilterRenderer inputPixelFormat]', symObjAddr: 0x748, symBinAddr: 0x19A08, symSize: 0x8 }
+  - { offset: 0x3FF83, size: 0x8, addend: 0x0, symName: '-[HVTCIFilterRenderer setActiveFilter:]', symObjAddr: 0x750, symBinAddr: 0x19A10, symSize: 0xC }
+  - { offset: 0x3FFC6, size: 0x8, addend: 0x0, symName: '-[HVTCIFilterRenderer activeFilter]', symObjAddr: 0x75C, symBinAddr: 0x19A1C, symSize: 0x8 }
+  - { offset: 0x3FFFE, size: 0x8, addend: 0x0, symName: '-[HVTCIFilterRenderer prepareForInputWithDimensions:outputRetainedBufferCountHint:]', symObjAddr: 0x764, symBinAddr: 0x19A24, symSize: 0xC4 }
+  - { offset: 0x40079, size: 0x8, addend: 0x0, symName: '-[HVTCIFilterRenderer prepareForInputWithFormatDescription:outputRetainedBufferCountHint:]', symObjAddr: 0x828, symBinAddr: 0x19AE8, symSize: 0x74 }
+  - { offset: 0x400FE, size: 0x8, addend: 0x0, symName: '-[HVTCIFilterRenderer reset]', symObjAddr: 0x89C, symBinAddr: 0x19B5C, symSize: 0x4 }
+  - { offset: 0x40130, size: 0x8, addend: 0x0, symName: '-[HVTCIFilterRenderer isBufferEmpty]', symObjAddr: 0x8A0, symBinAddr: 0x19B60, symSize: 0x8 }
+  - { offset: 0x40168, size: 0x8, addend: 0x0, symName: '-[HVTCIFilterRenderer copyRenderedPixelBuffer:]', symObjAddr: 0x8A8, symBinAddr: 0x19B68, symSize: 0x20 }
+  - { offset: 0x401BE, size: 0x8, addend: 0x0, symName: '-[HVTCIFilterRenderer outputFormatDescription]', symObjAddr: 0x8C8, symBinAddr: 0x19B88, symSize: 0x8 }
+  - { offset: 0x402D0, size: 0x8, addend: 0x0, symName: '-[HVTCIFilterRenderer initializeBuffersWithOutputDimensions:retainedBufferCountHint:]', symObjAddr: 0x8D0, symBinAddr: 0x19B90, symSize: 0x368 }
+  - { offset: 0x405AE, size: 0x8, addend: 0x0, symName: '-[HVTCIFilterRenderer initializeBuffersWithOutputDimensions:retainedBufferCountHint:].cold.1', symObjAddr: 0x1184, symBinAddr: 0x2A1F8, symSize: 0x28 }
+  - { offset: 0x405DD, size: 0x8, addend: 0x0, symName: '-[HVTCIFilterRenderer deleteBuffers]', symObjAddr: 0xC38, symBinAddr: 0x19EF8, symSize: 0x70 }
+  - { offset: 0x40645, size: 0x8, addend: 0x0, symName: '-[HVTCIFilterRenderer tonemapHDR]', symObjAddr: 0xCA8, symBinAddr: 0x19F68, symSize: 0x18C }
+  - { offset: 0x406CE, size: 0x8, addend: 0x0, symName: '-[HVTCIFilterRenderer imageFromEncodedData:]', symObjAddr: 0xE34, symBinAddr: 0x1A0F4, symSize: 0x10C }
+  - { offset: 0x4083E, size: 0x8, addend: 0x0, symName: '-[HVTCIFilterRenderer HDRtimestamp]', symObjAddr: 0xF40, symBinAddr: 0x1A200, symSize: 0x8 }
+  - { offset: 0x40874, size: 0x8, addend: 0x0, symName: '-[HVTCIFilterRenderer HDRmetadata]', symObjAddr: 0xF48, symBinAddr: 0x1A208, symSize: 0x8 }
+  - { offset: 0x408AC, size: 0x8, addend: 0x0, symName: '-[HVTCIFilterRenderer addLDRImageData:timestamp:metadata:]', symObjAddr: 0xF50, symBinAddr: 0x1A210, symSize: 0x84 }
+  - { offset: 0x40913, size: 0x8, addend: 0x0, symName: '-[HVTCIFilterRenderer clearLDRBuffers]', symObjAddr: 0xFD4, symBinAddr: 0x1A294, symSize: 0x30 }
+  - { offset: 0x40947, size: 0x8, addend: 0x0, symName: '-[HVTCIFilterRenderer level]', symObjAddr: 0x1004, symBinAddr: 0x1A2C4, symSize: 0x8 }
+  - { offset: 0x4097E, size: 0x8, addend: 0x0, symName: '-[HVTCIFilterRenderer setLevel:]', symObjAddr: 0x100C, symBinAddr: 0x1A2CC, symSize: 0x8 }
+  - { offset: 0x409B9, size: 0x8, addend: 0x0, symName: '-[HVTCIFilterRenderer matchViewFrameSize]', symObjAddr: 0x1014, symBinAddr: 0x1A2D4, symSize: 0x8 }
+  - { offset: 0x409F0, size: 0x8, addend: 0x0, symName: '-[HVTCIFilterRenderer setMatchViewFrameSize:]', symObjAddr: 0x101C, symBinAddr: 0x1A2DC, symSize: 0x8 }
+  - { offset: 0x40A2B, size: 0x8, addend: 0x0, symName: '-[HVTCIFilterRenderer .cxx_destruct]', symObjAddr: 0x1024, symBinAddr: 0x1A2E4, symSize: 0x48 }
+  - { offset: 0x40A5E, size: 0x8, addend: 0x0, symName: ___HVTSharedCIContext_block_invoke, symObjAddr: 0x106C, symBinAddr: 0x1A32C, symSize: 0x104 }
+  - { offset: 0x40BE3, size: 0x8, addend: 0x0, symName: '+[HVTKeychain uuidIdentifier]', symObjAddr: 0x0, symBinAddr: 0x1A430, symSize: 0xC }
+  - { offset: 0x40C53, size: 0x8, addend: 0x0, symName: '+[HVTKeychain uuidIdentifier]', symObjAddr: 0x0, symBinAddr: 0x1A430, symSize: 0xC }
+  - { offset: 0x40C86, size: 0x8, addend: 0x0, symName: '+[HVTKeychain bannedIdentifier]', symObjAddr: 0xC, symBinAddr: 0x1A43C, symSize: 0xC }
+  - { offset: 0x40CB9, size: 0x8, addend: 0x0, symName: '+[HVTKeychain setupSearchDirectoryForIdentifier:]', symObjAddr: 0x18, symBinAddr: 0x1A448, symSize: 0x108 }
+  - { offset: 0x40D1C, size: 0x8, addend: 0x0, symName: '+[HVTKeychain searchKeychainCopyMatchingIdentifier:]', symObjAddr: 0x120, symBinAddr: 0x1A550, symSize: 0x94 }
+  - { offset: 0x40DE1, size: 0x8, addend: 0x0, symName: '+[HVTKeychain keychainStringFromMatchingIdentifier:]', symObjAddr: 0x1B4, symBinAddr: 0x1A5E4, symSize: 0x5C }
+  - { offset: 0x40E56, size: 0x8, addend: 0x0, symName: '+[HVTKeychain keychainBoolFromMachingIdentifier:]', symObjAddr: 0x210, symBinAddr: 0x1A640, symSize: 0x74 }
+  - { offset: 0x40ECB, size: 0x8, addend: 0x0, symName: '+[HVTKeychain createKeychainValue:forIdentifier:]', symObjAddr: 0x284, symBinAddr: 0x1A6B4, symSize: 0x114 }
+  - { offset: 0x40F83, size: 0x8, addend: 0x0, symName: '+[HVTKeychain updateKeychainValue:forIdentifier:]', symObjAddr: 0x398, symBinAddr: 0x1A7C8, symSize: 0xC4 }
+  - { offset: 0x410B1, size: 0x8, addend: 0x0, symName: '+[HVTSDK sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x1A88C, symSize: 0x74 }
+  - { offset: 0x410CA, size: 0x8, addend: 0x0, symName: _HVTScaleFilterFrequencySettingsKey, symObjAddr: 0xE28, symBinAddr: 0x443B0, symSize: 0x0 }
+  - { offset: 0x41188, size: 0x8, addend: 0x0, symName: '+[HVTSDK sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x1A88C, symSize: 0x74 }
+  - { offset: 0x411B2, size: 0x8, addend: 0x0, symName: _sharedInstance.sHVTSDKClient, symObjAddr: 0x6648, symBinAddr: 0x503B0, symSize: 0x0 }
+  - { offset: 0x411C8, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x6650, symBinAddr: 0x503B8, symSize: 0x0 }
+  - { offset: 0x41370, size: 0x8, addend: 0x0, symName: '___24+[HVTSDK sharedInstance]_block_invoke', symObjAddr: 0x74, symBinAddr: 0x1A900, symSize: 0x2C }
+  - { offset: 0x413AF, size: 0x8, addend: 0x0, symName: '-[HVTSDK init]', symObjAddr: 0xA0, symBinAddr: 0x1A92C, symSize: 0x44 }
+  - { offset: 0x413E6, size: 0x8, addend: 0x0, symName: '-[HVTSDK activateWithAPIKey:]', symObjAddr: 0xE4, symBinAddr: 0x1A970, symSize: 0x54 }
+  - { offset: 0x41457, size: 0x8, addend: 0x0, symName: _HVTThrowIfFailed, symObjAddr: 0x138, symBinAddr: 0x1A9C4, symSize: 0x88 }
+  - { offset: 0x41492, size: 0x8, addend: 0x0, symName: '-[HVTSDK activateWithAPIKey:settings:]', symObjAddr: 0x1C0, symBinAddr: 0x1AA4C, symSize: 0x54 }
+  - { offset: 0x41513, size: 0x8, addend: 0x0, symName: '-[HVTSDK activateWithAPIKey:error:]', symObjAddr: 0x214, symBinAddr: 0x1AAA0, symSize: 0x580 }
+  - { offset: 0x417B1, size: 0x8, addend: 0x0, symName: _HVTActivationError, symObjAddr: 0x794, symBinAddr: 0x1B020, symSize: 0xDC }
+  - { offset: 0x417DC, size: 0x8, addend: 0x0, symName: '-[HVTSDK activateWithAPIKey:settings:error:]', symObjAddr: 0x870, symBinAddr: 0x1B0FC, symSize: 0xC4 }
+  - { offset: 0x4186C, size: 0x8, addend: 0x0, symName: '+[HVTSDK wasActivated]', symObjAddr: 0x934, symBinAddr: 0x1B1C0, symSize: 0x44 }
+  - { offset: 0x4189F, size: 0x8, addend: 0x0, symName: '+[HVTSDK hasDevKey]', symObjAddr: 0x978, symBinAddr: 0x1B204, symSize: 0x6C }
+  - { offset: 0x418D2, size: 0x8, addend: 0x0, symName: '+[HVTSDK hasFreeLicense]', symObjAddr: 0x9E4, symBinAddr: 0x1B270, symSize: 0x6C }
+  - { offset: 0x41905, size: 0x8, addend: 0x0, symName: '+[HVTSDK hasNormalLicense]', symObjAddr: 0xA50, symBinAddr: 0x1B2DC, symSize: 0x80 }
+  - { offset: 0x41938, size: 0x8, addend: 0x0, symName: '+[HVTSDK scaleFilterFrequency]', symObjAddr: 0xAD0, symBinAddr: 0x1B35C, symSize: 0x4C }
+  - { offset: 0x4196B, size: 0x8, addend: 0x0, symName: '-[HVTSDK activated]', symObjAddr: 0xB1C, symBinAddr: 0x1B3A8, symSize: 0x8 }
+  - { offset: 0x419A2, size: 0x8, addend: 0x0, symName: '-[HVTSDK setActivated:]', symObjAddr: 0xB24, symBinAddr: 0x1B3B0, symSize: 0x8 }
+  - { offset: 0x419DD, size: 0x8, addend: 0x0, symName: '-[HVTSDK uuid]', symObjAddr: 0xB2C, symBinAddr: 0x1B3B8, symSize: 0x8 }
+  - { offset: 0x41A14, size: 0x8, addend: 0x0, symName: '-[HVTSDK setUuid:]', symObjAddr: 0xB34, symBinAddr: 0x1B3C0, symSize: 0xC }
+  - { offset: 0x41A55, size: 0x8, addend: 0x0, symName: '-[HVTSDK apiKey]', symObjAddr: 0xB40, symBinAddr: 0x1B3CC, symSize: 0x8 }
+  - { offset: 0x41A8C, size: 0x8, addend: 0x0, symName: '-[HVTSDK setApiKey:]', symObjAddr: 0xB48, symBinAddr: 0x1B3D4, symSize: 0xC }
+  - { offset: 0x41ACD, size: 0x8, addend: 0x0, symName: '-[HVTSDK licenseType]', symObjAddr: 0xB54, symBinAddr: 0x1B3E0, symSize: 0x8 }
+  - { offset: 0x41B04, size: 0x8, addend: 0x0, symName: '-[HVTSDK setLicenseType:]', symObjAddr: 0xB5C, symBinAddr: 0x1B3E8, symSize: 0xC }
+  - { offset: 0x41B45, size: 0x8, addend: 0x0, symName: '-[HVTSDK scaleFilterFrequency]', symObjAddr: 0xB68, symBinAddr: 0x1B3F4, symSize: 0x8 }
+  - { offset: 0x41B7A, size: 0x8, addend: 0x0, symName: '-[HVTSDK setScaleFilterFrequency:]', symObjAddr: 0xB70, symBinAddr: 0x1B3FC, symSize: 0x8 }
+  - { offset: 0x41BB8, size: 0x8, addend: 0x0, symName: '-[HVTSDK .cxx_destruct]', symObjAddr: 0xB78, symBinAddr: 0x1B404, symSize: 0x3C }
+  - { offset: 0x41D90, size: 0x8, addend: 0x0, symName: '-[HVTPipeline initWithLeveler:]', symObjAddr: 0x0, symBinAddr: 0x1B440, symSize: 0x428 }
+  - { offset: 0x42D69, size: 0x8, addend: 0x0, symName: '-[HVTPipeline initWithLeveler:]', symObjAddr: 0x0, symBinAddr: 0x1B440, symSize: 0x428 }
+  - { offset: 0x42F6A, size: 0x8, addend: 0x0, symName: '___31-[HVTPipeline initWithLeveler:]_block_invoke', symObjAddr: 0x428, symBinAddr: 0x1B868, symSize: 0x50 }
+  - { offset: 0x42FA9, size: 0x8, addend: 0x0, symName: '-[HVTPipeline dealloc]', symObjAddr: 0x488, symBinAddr: 0x1B8B8, symSize: 0xA8 }
+  - { offset: 0x42FF9, size: 0x8, addend: 0x0, symName: '-[HVTPipeline appDidEnterBackground]', symObjAddr: 0x530, symBinAddr: 0x1B960, symSize: 0x8C }
+  - { offset: 0x4302D, size: 0x8, addend: 0x0, symName: '-[HVTPipeline appWillEnterForeground]', symObjAddr: 0x5BC, symBinAddr: 0x1B9EC, symSize: 0x78 }
+  - { offset: 0x43061, size: 0x8, addend: 0x0, symName: '-[HVTPipeline addView:]', symObjAddr: 0x634, symBinAddr: 0x1BA64, symSize: 0xC0 }
+  - { offset: 0x430C0, size: 0x8, addend: 0x0, symName: '___23-[HVTPipeline addView:]_block_invoke', symObjAddr: 0x6F4, symBinAddr: 0x1BB24, symSize: 0xC }
+  - { offset: 0x43113, size: 0x8, addend: 0x0, symName: '-[HVTPipeline removeView:]', symObjAddr: 0x750, symBinAddr: 0x1BB30, symSize: 0xA8 }
+  - { offset: 0x43172, size: 0x8, addend: 0x0, symName: '___26-[HVTPipeline removeView:]_block_invoke', symObjAddr: 0x7F8, symBinAddr: 0x1BBD8, symSize: 0x30 }
+  - { offset: 0x431C5, size: 0x8, addend: 0x0, symName: '-[HVTPipeline setActiveFilter:]', symObjAddr: 0x828, symBinAddr: 0x1BC08, symSize: 0x90 }
+  - { offset: 0x4321E, size: 0x8, addend: 0x0, symName: '___31-[HVTPipeline setActiveFilter:]_block_invoke', symObjAddr: 0x8B8, symBinAddr: 0x1BC98, symSize: 0x10 }
+  - { offset: 0x43260, size: 0x8, addend: 0x0, symName: '-[HVTPipeline removeActiveFilter]', symObjAddr: 0x8C8, symBinAddr: 0x1BCA8, symSize: 0x78 }
+  - { offset: 0x432A8, size: 0x8, addend: 0x0, symName: '___33-[HVTPipeline removeActiveFilter]_block_invoke', symObjAddr: 0x940, symBinAddr: 0x1BD20, symSize: 0x10 }
+  - { offset: 0x432EA, size: 0x8, addend: 0x0, symName: '-[HVTPipeline isVideoStabilizationModeSupported:]', symObjAddr: 0x950, symBinAddr: 0x1BD30, symSize: 0x48 }
+  - { offset: 0x43333, size: 0x8, addend: 0x0, symName: '-[HVTPipeline setPreferredVideoStabilizationMode:]', symObjAddr: 0x998, symBinAddr: 0x1BD78, symSize: 0x48 }
+  - { offset: 0x43378, size: 0x8, addend: 0x0, symName: '-[HVTPipeline interfaceOrientation]', symObjAddr: 0x9E0, symBinAddr: 0x1BDC0, symSize: 0x8 }
+  - { offset: 0x433B0, size: 0x8, addend: 0x0, symName: '-[HVTPipeline setInterfaceOrientation:]', symObjAddr: 0x9E8, symBinAddr: 0x1BDC8, symSize: 0x30 }
+  - { offset: 0x433F1, size: 0x8, addend: 0x0, symName: '-[HVTPipeline setSampleBufferCallbackQueue:]', symObjAddr: 0xA18, symBinAddr: 0x1BDF8, symSize: 0x70 }
+  - { offset: 0x43436, size: 0x8, addend: 0x0, symName: '-[HVTPipeline setDelegate:callbackQueue:]', symObjAddr: 0xA88, symBinAddr: 0x1BE68, symSize: 0xD4 }
+  - { offset: 0x4348C, size: 0x8, addend: 0x0, symName: '-[HVTPipeline delegate]', symObjAddr: 0xB5C, symBinAddr: 0x1BF3C, symSize: 0x4C }
+  - { offset: 0x434D5, size: 0x8, addend: 0x0, symName: '-[HVTPipeline cameraDevice]', symObjAddr: 0xBA8, symBinAddr: 0x1BF88, symSize: 0x8 }
+  - { offset: 0x4350D, size: 0x8, addend: 0x0, symName: '-[HVTPipeline cameraResolution]', symObjAddr: 0xBB0, symBinAddr: 0x1BF90, symSize: 0x28 }
+  - { offset: 0x43586, size: 0x8, addend: 0x0, symName: '-[HVTPipeline cameraPosition]', symObjAddr: 0xBD8, symBinAddr: 0x1BFB8, symSize: 0x8 }
+  - { offset: 0x435BE, size: 0x8, addend: 0x0, symName: '-[HVTPipeline setCaptureDevice:error:]', symObjAddr: 0xBE0, symBinAddr: 0x1BFC0, symSize: 0x150 }
+  - { offset: 0x43645, size: 0x8, addend: 0x0, symName: '-[HVTPipeline setCaptureDevice:resolution:frameRate:error:]', symObjAddr: 0xD30, symBinAddr: 0x1C110, symSize: 0xEC }
+  - { offset: 0x4370D, size: 0x8, addend: 0x0, symName: '-[HVTPipeline setCaptureDevice:format:frameRate:error:]', symObjAddr: 0xE1C, symBinAddr: 0x1C1FC, symSize: 0x308 }
+  - { offset: 0x437DD, size: 0x8, addend: 0x0, symName: '-[HVTPipeline performOnSessionQueue:]', symObjAddr: 0x1124, symBinAddr: 0x1C504, symSize: 0xF8 }
+  - { offset: 0x438FB, size: 0x8, addend: 0x0, symName: '-[HVTPipeline startRunning]', symObjAddr: 0x121C, symBinAddr: 0x1C5FC, symSize: 0x50 }
+  - { offset: 0x4392F, size: 0x8, addend: 0x0, symName: '___27-[HVTPipeline startRunning]_block_invoke', symObjAddr: 0x126C, symBinAddr: 0x1C64C, symSize: 0x20 }
+  - { offset: 0x43971, size: 0x8, addend: 0x0, symName: '-[HVTPipeline startRunningWithCompletion:]', symObjAddr: 0x128C, symBinAddr: 0x1C66C, symSize: 0x144 }
+  - { offset: 0x439CA, size: 0x8, addend: 0x0, symName: '___42-[HVTPipeline startRunningWithCompletion:]_block_invoke', symObjAddr: 0x13D0, symBinAddr: 0x1C7B0, symSize: 0xF8 }
+  - { offset: 0x43A50, size: 0x8, addend: 0x0, symName: '___42-[HVTPipeline startRunningWithCompletion:]_block_invoke_2', symObjAddr: 0x14C8, symBinAddr: 0x1C8A8, symSize: 0xF8 }
+  - { offset: 0x43ACA, size: 0x8, addend: 0x0, symName: '-[HVTPipeline startSessionOnQueue]', symObjAddr: 0x15C0, symBinAddr: 0x1C9A0, symSize: 0x8C }
+  - { offset: 0x43B02, size: 0x8, addend: 0x0, symName: '-[HVTPipeline stopRunning]', symObjAddr: 0x164C, symBinAddr: 0x1CA2C, symSize: 0x50 }
+  - { offset: 0x43B36, size: 0x8, addend: 0x0, symName: '___26-[HVTPipeline stopRunning]_block_invoke', symObjAddr: 0x169C, symBinAddr: 0x1CA7C, symSize: 0x8 }
+  - { offset: 0x43B78, size: 0x8, addend: 0x0, symName: '-[HVTPipeline stopRunningWithCompletion:]', symObjAddr: 0x16A4, symBinAddr: 0x1CA84, symSize: 0x84 }
+  - { offset: 0x43BD7, size: 0x8, addend: 0x0, symName: '___41-[HVTPipeline stopRunningWithCompletion:]_block_invoke', symObjAddr: 0x1728, symBinAddr: 0x1CB08, symSize: 0x7C }
+  - { offset: 0x43C3E, size: 0x8, addend: 0x0, symName: '___41-[HVTPipeline stopRunningWithCompletion:]_block_invoke_2', symObjAddr: 0x17A4, symBinAddr: 0x1CB84, symSize: 0xC }
+  - { offset: 0x43C88, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40b, symObjAddr: 0x17C0, symBinAddr: 0x1CB90, symSize: 0x34 }
+  - { offset: 0x43CB1, size: 0x8, addend: 0x0, symName: '-[HVTPipeline stopSessionOnQueue]', symObjAddr: 0x17F4, symBinAddr: 0x1CBC4, symSize: 0x60 }
+  - { offset: 0x43CE5, size: 0x8, addend: 0x0, symName: '-[HVTPipeline isReadyToRecord]', symObjAddr: 0x1854, symBinAddr: 0x1CC24, symSize: 0x20 }
+  - { offset: 0x43D1D, size: 0x8, addend: 0x0, symName: '-[HVTPipeline isRunning]', symObjAddr: 0x1874, symBinAddr: 0x1CC44, symSize: 0x54 }
+  - { offset: 0x43D55, size: 0x8, addend: 0x0, symName: '-[HVTPipeline outputMovieSize]', symObjAddr: 0x18C8, symBinAddr: 0x1CC98, symSize: 0x8 }
+  - { offset: 0x43D8B, size: 0x8, addend: 0x0, symName: '-[HVTPipeline setOutputMovieSize:]', symObjAddr: 0x18D0, symBinAddr: 0x1CCA0, symSize: 0x8 }
+  - { offset: 0x43DCA, size: 0x8, addend: 0x0, symName: '-[HVTPipeline setOutputMovieSize:error:]', symObjAddr: 0x18D8, symBinAddr: 0x1CCA8, symSize: 0x2C }
+  - { offset: 0x43E2C, size: 0x8, addend: 0x0, symName: '-[HVTPipeline updateOutputMovieSize:error:]', symObjAddr: 0x1904, symBinAddr: 0x1CCD4, symSize: 0xD8 }
+  - { offset: 0x43E9A, size: 0x8, addend: 0x0, symName: '___43-[HVTPipeline updateOutputMovieSize:error:]_block_invoke', symObjAddr: 0x19DC, symBinAddr: 0x1CDAC, symSize: 0xC }
+  - { offset: 0x43EDC, size: 0x8, addend: 0x0, symName: '-[HVTPipeline updateMovieRecorderVideoSettings]', symObjAddr: 0x19E8, symBinAddr: 0x1CDB8, symSize: 0x144 }
+  - { offset: 0x43F32, size: 0x8, addend: 0x0, symName: '-[HVTPipeline stillImageOrientation]', symObjAddr: 0x1B2C, symBinAddr: 0x1CEFC, symSize: 0x8 }
+  - { offset: 0x43F6A, size: 0x8, addend: 0x0, symName: '-[HVTPipeline setStillImageOrientation:]', symObjAddr: 0x1B34, symBinAddr: 0x1CF04, symSize: 0x20 }
+  - { offset: 0x43FAB, size: 0x8, addend: 0x0, symName: '-[HVTPipeline captureMode]', symObjAddr: 0x1B54, symBinAddr: 0x1CF24, symSize: 0x8 }
+  - { offset: 0x43FE3, size: 0x8, addend: 0x0, symName: '-[HVTPipeline setCaptureMode:]', symObjAddr: 0x1B5C, symBinAddr: 0x1CF2C, symSize: 0x8 }
+  - { offset: 0x44024, size: 0x8, addend: 0x0, symName: '-[HVTPipeline setCaptureMode:cameraPosition:]', symObjAddr: 0x1B64, symBinAddr: 0x1CF34, symSize: 0xBC }
+  - { offset: 0x44086, size: 0x8, addend: 0x0, symName: '-[HVTPipeline enablePhotoModeWithCameraPosition:]', symObjAddr: 0x1C20, symBinAddr: 0x1CFF0, symSize: 0xC }
+  - { offset: 0x440C9, size: 0x8, addend: 0x0, symName: '-[HVTPipeline captureFullResolutionPhotoUsingHDR:]', symObjAddr: 0x1C2C, symBinAddr: 0x1CFFC, symSize: 0xC }
+  - { offset: 0x4410F, size: 0x8, addend: 0x0, symName: '-[HVTPipeline capturePhotoWithSettings:]', symObjAddr: 0x1C38, symBinAddr: 0x1D008, symSize: 0x64 }
+  - { offset: 0x44158, size: 0x8, addend: 0x0, symName: '-[HVTPipeline captureFullResolution:settings:]', symObjAddr: 0x1C9C, symBinAddr: 0x1D06C, symSize: 0xB8 }
+  - { offset: 0x441C6, size: 0x8, addend: 0x0, symName: '___46-[HVTPipeline captureFullResolution:settings:]_block_invoke', symObjAddr: 0x1D54, symBinAddr: 0x1D124, symSize: 0x8C }
+  - { offset: 0x44227, size: 0x8, addend: 0x0, symName: '-[HVTPipeline captureSnapshot]', symObjAddr: 0x1DE0, symBinAddr: 0x1D1B0, symSize: 0x10 }
+  - { offset: 0x4425D, size: 0x8, addend: 0x0, symName: '-[HVTPipeline isHDRPhotoCaptureAvailable]', symObjAddr: 0x1DF0, symBinAddr: 0x1D1C0, symSize: 0x54 }
+  - { offset: 0x442A6, size: 0x8, addend: 0x0, symName: '-[HVTPipeline isFlashAvailable]', symObjAddr: 0x1E44, symBinAddr: 0x1D214, symSize: 0x8 }
+  - { offset: 0x442DE, size: 0x8, addend: 0x0, symName: '-[HVTPipeline flashMode]', symObjAddr: 0x1E4C, symBinAddr: 0x1D21C, symSize: 0x8 }
+  - { offset: 0x44316, size: 0x8, addend: 0x0, symName: '-[HVTPipeline setOutputPixelFormat]', symObjAddr: 0x1E54, symBinAddr: 0x1D224, symSize: 0x8 }
+  - { offset: 0x4434E, size: 0x8, addend: 0x0, symName: '-[HVTPipeline setOutputPixelFormat:]', symObjAddr: 0x1E5C, symBinAddr: 0x1D22C, symSize: 0x88 }
+  - { offset: 0x4439E, size: 0x8, addend: 0x0, symName: '-[HVTPipeline setFlashMode:]', symObjAddr: 0x1EE4, symBinAddr: 0x1D2B4, symSize: 0xAC }
+  - { offset: 0x4441D, size: 0x8, addend: 0x0, symName: '-[HVTPipeline setupOutputStillImageSize]', symObjAddr: 0x1F90, symBinAddr: 0x1D360, symSize: 0x94 }
+  - { offset: 0x4447C, size: 0x8, addend: 0x0, symName: '-[HVTPipeline capturePhotoWithType:bracket:settings:]', symObjAddr: 0x2024, symBinAddr: 0x1D3F4, symSize: 0x98 }
+  - { offset: 0x44510, size: 0x8, addend: 0x0, symName: '-[HVTPipeline _extractPhotoFromCGImage:metadata:]', symObjAddr: 0x20BC, symBinAddr: 0x1D48C, symSize: 0x178 }
+  - { offset: 0x4465F, size: 0x8, addend: 0x0, symName: '-[HVTPipeline photoOutputSizeFromParams:]', symObjAddr: 0x2234, symBinAddr: 0x1D604, symSize: 0x16C }
+  - { offset: 0x4477D, size: 0x8, addend: 0x0, symName: '-[HVTPipeline levelParams:metadata:]', symObjAddr: 0x23A0, symBinAddr: 0x1D770, symSize: 0xB0 }
+  - { offset: 0x447E8, size: 0x8, addend: 0x0, symName: '-[HVTPipeline _extractTonemappedPhotoFromBracket:]', symObjAddr: 0x2450, symBinAddr: 0x1D820, symSize: 0x27C }
+  - { offset: 0x448A4, size: 0x8, addend: 0x0, symName: '-[HVTPipeline _extractPhotoFromSampleBuffer:]', symObjAddr: 0x26CC, symBinAddr: 0x1DA9C, symSize: 0x78 }
+  - { offset: 0x449A6, size: 0x8, addend: 0x0, symName: '-[HVTPipeline _extractPhotoFromPixelBuffer:timestamp:metadata:]', symObjAddr: 0x2744, symBinAddr: 0x1DB14, symSize: 0x11C }
+  - { offset: 0x44A6A, size: 0x8, addend: 0x0, symName: '-[HVTPipeline setCameraDeviceWhileRecordingWithNewDevice:error:]', symObjAddr: 0x2860, symBinAddr: 0x1DC30, symSize: 0x110 }
+  - { offset: 0x44AF7, size: 0x8, addend: 0x0, symName: '-[HVTPipeline changeSessionWithNewDevice:activeFormat:frameRate:]', symObjAddr: 0x2970, symBinAddr: 0x1DD40, symSize: 0xC8 }
+  - { offset: 0x44B8D, size: 0x8, addend: 0x0, symName: '___65-[HVTPipeline changeSessionWithNewDevice:activeFormat:frameRate:]_block_invoke', symObjAddr: 0x2A38, symBinAddr: 0x1DE08, symSize: 0x194 }
+  - { offset: 0x44C53, size: 0x8, addend: 0x0, symName: _HVTFrameDurationForRate, symObjAddr: 0x2BCC, symBinAddr: 0x1DF9C, symSize: 0x3C }
+  - { offset: 0x44CD6, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s, symObjAddr: 0x2C08, symBinAddr: 0x1DFD8, symSize: 0x30 }
+  - { offset: 0x44CFF, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s, symObjAddr: 0x2C38, symBinAddr: 0x1E008, symSize: 0x30 }
+  - { offset: 0x44D1E, size: 0x8, addend: 0x0, symName: '-[HVTPipeline applyPreferredStabilizationMode:]', symObjAddr: 0x2C68, symBinAddr: 0x1E038, symSize: 0x8 }
+  - { offset: 0x44D61, size: 0x8, addend: 0x0, symName: '-[HVTPipeline shouldSkipFrameAt:]', symObjAddr: 0x2C70, symBinAddr: 0x1E040, symSize: 0x9C }
+  - { offset: 0x44E17, size: 0x8, addend: 0x0, symName: '-[HVTPipeline setupCaptureSession]', symObjAddr: 0x2D0C, symBinAddr: 0x1E0DC, symSize: 0x4DC }
+  - { offset: 0x44F21, size: 0x8, addend: 0x0, symName: '-[HVTPipeline teardownCaptureSession]', symObjAddr: 0x31E8, symBinAddr: 0x1E5B8, symSize: 0x6C }
+  - { offset: 0x44F7B, size: 0x8, addend: 0x0, symName: '-[HVTPipeline sessionService:wasInterruptedWithReason:]', symObjAddr: 0x3254, symBinAddr: 0x1E624, symSize: 0xD4 }
+  - { offset: 0x45028, size: 0x8, addend: 0x0, symName: '___55-[HVTPipeline sessionService:wasInterruptedWithReason:]_block_invoke', symObjAddr: 0x3328, symBinAddr: 0x1E6F8, symSize: 0x10 }
+  - { offset: 0x4508C, size: 0x8, addend: 0x0, symName: '-[HVTPipeline sessionServiceInterruptionEnded:]', symObjAddr: 0x3338, symBinAddr: 0x1E708, symSize: 0xA4 }
+  - { offset: 0x450F8, size: 0x8, addend: 0x0, symName: '___47-[HVTPipeline sessionServiceInterruptionEnded:]_block_invoke', symObjAddr: 0x33DC, symBinAddr: 0x1E7AC, symSize: 0xC }
+  - { offset: 0x4514B, size: 0x8, addend: 0x0, symName: '-[HVTPipeline sessionService:didFailWithError:]', symObjAddr: 0x33E8, symBinAddr: 0x1E7B8, symSize: 0x74 }
+  - { offset: 0x451AD, size: 0x8, addend: 0x0, symName: '-[HVTPipeline sessionServiceDidStartRunning:]', symObjAddr: 0x345C, symBinAddr: 0x1E82C, symSize: 0x5C }
+  - { offset: 0x451F2, size: 0x8, addend: 0x0, symName: '-[HVTPipeline handleRecoverableCaptureSessionRuntimeError:running:]', symObjAddr: 0x34B8, symBinAddr: 0x1E888, symSize: 0x10 }
+  - { offset: 0x45246, size: 0x8, addend: 0x0, symName: '-[HVTPipeline handleNonRecoverableCaptureSessionRuntimeError:]', symObjAddr: 0x34C8, symBinAddr: 0x1E898, symSize: 0xBC }
+  - { offset: 0x452A5, size: 0x8, addend: 0x0, symName: '___62-[HVTPipeline handleNonRecoverableCaptureSessionRuntimeError:]_block_invoke', symObjAddr: 0x3584, symBinAddr: 0x1E954, symSize: 0x54 }
+  - { offset: 0x452F8, size: 0x8, addend: 0x0, symName: '-[HVTPipeline captureSessionDidStopRunning]', symObjAddr: 0x35D8, symBinAddr: 0x1E9A8, symSize: 0x28 }
+  - { offset: 0x4532C, size: 0x8, addend: 0x0, symName: '-[HVTPipeline teardownVideoPipeline]', symObjAddr: 0x3600, symBinAddr: 0x1E9D0, symSize: 0x58 }
+  - { offset: 0x45374, size: 0x8, addend: 0x0, symName: '___36-[HVTPipeline teardownVideoPipeline]_block_invoke', symObjAddr: 0x3658, symBinAddr: 0x1EA28, symSize: 0x58 }
+  - { offset: 0x453B6, size: 0x8, addend: 0x0, symName: '-[HVTPipeline videoPipelineWillStartRunning]', symObjAddr: 0x36B0, symBinAddr: 0x1EA80, symSize: 0xF0 }
+  - { offset: 0x453FB, size: 0x8, addend: 0x0, symName: '___44-[HVTPipeline videoPipelineWillStartRunning]_block_invoke', symObjAddr: 0x37A0, symBinAddr: 0x1EB70, symSize: 0x64 }
+  - { offset: 0x45458, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32w, symObjAddr: 0x3804, symBinAddr: 0x1EBD4, symSize: 0xC }
+  - { offset: 0x45481, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32w, symObjAddr: 0x3810, symBinAddr: 0x1EBE0, symSize: 0x8 }
+  - { offset: 0x454A0, size: 0x8, addend: 0x0, symName: '-[HVTPipeline videoPipelineDidFinishRunning]', symObjAddr: 0x3818, symBinAddr: 0x1EBE8, symSize: 0x68 }
+  - { offset: 0x454D4, size: 0x8, addend: 0x0, symName: '-[HVTPipeline setRenderingEnabled:]', symObjAddr: 0x3880, symBinAddr: 0x1EC50, symSize: 0x6C }
+  - { offset: 0x45518, size: 0x8, addend: 0x0, symName: '-[HVTPipeline renderingEnabled]', symObjAddr: 0x38EC, symBinAddr: 0x1ECBC, symSize: 0x6C }
+  - { offset: 0x45550, size: 0x8, addend: 0x0, symName: '-[HVTPipeline captureOutput:didDropSampleBuffer:fromConnection:]', symObjAddr: 0x3958, symBinAddr: 0x1ED28, symSize: 0x20 }
+  - { offset: 0x455AB, size: 0x8, addend: 0x0, symName: '-[HVTPipeline captureOutput:didOutputSampleBuffer:fromConnection:]', symObjAddr: 0x3978, symBinAddr: 0x1ED48, symSize: 0x800 }
+  - { offset: 0x45A89, size: 0x8, addend: 0x0, symName: '___66-[HVTPipeline captureOutput:didOutputSampleBuffer:fromConnection:]_block_invoke', symObjAddr: 0x4178, symBinAddr: 0x1F548, symSize: 0x54 }
+  - { offset: 0x45ACB, size: 0x8, addend: 0x0, symName: '___66-[HVTPipeline captureOutput:didOutputSampleBuffer:fromConnection:]_block_invoke_2', symObjAddr: 0x41CC, symBinAddr: 0x1F59C, symSize: 0xD4 }
+  - { offset: 0x45B62, size: 0x8, addend: 0x0, symName: '___66-[HVTPipeline captureOutput:didOutputSampleBuffer:fromConnection:]_block_invoke.36', symObjAddr: 0x42A0, symBinAddr: 0x1F670, symSize: 0x50 }
+  - { offset: 0x45BC2, size: 0x8, addend: 0x0, symName: '___66-[HVTPipeline captureOutput:didOutputSampleBuffer:fromConnection:]_block_invoke.37', symObjAddr: 0x42F0, symBinAddr: 0x1F6C0, symSize: 0x3C }
+  - { offset: 0x45C33, size: 0x8, addend: 0x0, symName: '___66-[HVTPipeline captureOutput:didOutputSampleBuffer:fromConnection:]_block_invoke.38', symObjAddr: 0x432C, symBinAddr: 0x1F6FC, symSize: 0x44 }
+  - { offset: 0x45C93, size: 0x8, addend: 0x0, symName: '-[HVTPipeline renderVideoSampleBuffer:levelParams:]', symObjAddr: 0x4370, symBinAddr: 0x1F740, symSize: 0x260 }
+  - { offset: 0x45D95, size: 0x8, addend: 0x0, symName: '___51-[HVTPipeline renderVideoSampleBuffer:levelParams:]_block_invoke', symObjAddr: 0x45D0, symBinAddr: 0x1F9A0, symSize: 0x15C }
+  - { offset: 0x45EDE, size: 0x8, addend: 0x0, symName: '___51-[HVTPipeline renderVideoSampleBuffer:levelParams:]_block_invoke.40', symObjAddr: 0x472C, symBinAddr: 0x1FAFC, symSize: 0x2C }
+  - { offset: 0x45F3E, size: 0x8, addend: 0x0, symName: '___51-[HVTPipeline renderVideoSampleBuffer:levelParams:]_block_invoke_2', symObjAddr: 0x4758, symBinAddr: 0x1FB28, symSize: 0x1B4 }
+  - { offset: 0x46033, size: 0x8, addend: 0x0, symName: '-[HVTPipeline resetRenderers]', symObjAddr: 0x490C, symBinAddr: 0x1FCDC, symSize: 0x68 }
+  - { offset: 0x4607B, size: 0x8, addend: 0x0, symName: '___29-[HVTPipeline resetRenderers]_block_invoke', symObjAddr: 0x4974, symBinAddr: 0x1FD44, symSize: 0x14 }
+  - { offset: 0x460BD, size: 0x8, addend: 0x0, symName: '___29-[HVTPipeline resetRenderers]_block_invoke_2', symObjAddr: 0x4988, symBinAddr: 0x1FD58, symSize: 0x34 }
+  - { offset: 0x460F7, size: 0x8, addend: 0x0, symName: '-[HVTPipeline setupLeveledRenderers]', symObjAddr: 0x49BC, symBinAddr: 0x1FD8C, symSize: 0x160 }
+  - { offset: 0x461A9, size: 0x8, addend: 0x0, symName: '___36-[HVTPipeline setupLeveledRenderers]_block_invoke', symObjAddr: 0x4B1C, symBinAddr: 0x1FEEC, symSize: 0xC }
+  - { offset: 0x461EB, size: 0x8, addend: 0x0, symName: '-[HVTPipeline setupNonLeveledRenderers:]', symObjAddr: 0x4B28, symBinAddr: 0x1FEF8, symSize: 0xA4 }
+  - { offset: 0x46269, size: 0x8, addend: 0x0, symName: '___40-[HVTPipeline setupNonLeveledRenderers:]_block_invoke', symObjAddr: 0x4BCC, symBinAddr: 0x1FF9C, symSize: 0xC }
+  - { offset: 0x462AB, size: 0x8, addend: 0x0, symName: '-[HVTPipeline prepareRenderers:]', symObjAddr: 0x4BD8, symBinAddr: 0x1FFA8, symSize: 0x64 }
+  - { offset: 0x46300, size: 0x8, addend: 0x0, symName: '___32-[HVTPipeline prepareRenderers:]_block_invoke', symObjAddr: 0x4C3C, symBinAddr: 0x2000C, symSize: 0x13C }
+  - { offset: 0x463D5, size: 0x8, addend: 0x0, symName: '-[HVTPipeline rendererDimensionsWithLevel:viewSize:]', symObjAddr: 0x4D78, symBinAddr: 0x20148, symSize: 0xD4 }
+  - { offset: 0x46492, size: 0x8, addend: 0x0, symName: '-[HVTPipeline updateViewInRenderers:]', symObjAddr: 0x4E4C, symBinAddr: 0x2021C, symSize: 0x9C }
+  - { offset: 0x464E8, size: 0x8, addend: 0x0, symName: '-[HVTPipeline batchUpdateViewsWithSetOrientation:]', symObjAddr: 0x4EE8, symBinAddr: 0x202B8, symSize: 0xF4 }
+  - { offset: 0x4654C, size: 0x8, addend: 0x0, symName: '-[HVTPipeline smoothViewsForCropModeChange]', symObjAddr: 0x4FDC, symBinAddr: 0x203AC, symSize: 0x58 }
+  - { offset: 0x46594, size: 0x8, addend: 0x0, symName: '___43-[HVTPipeline smoothViewsForCropModeChange]_block_invoke', symObjAddr: 0x5034, symBinAddr: 0x20404, symSize: 0xF4 }
+  - { offset: 0x465ED, size: 0x8, addend: 0x0, symName: '-[HVTPipeline batchUpdateViewsWithReset]', symObjAddr: 0x5128, symBinAddr: 0x204F8, symSize: 0x10 }
+  - { offset: 0x46621, size: 0x8, addend: 0x0, symName: '___40-[HVTPipeline batchUpdateViewsWithReset]_block_invoke', symObjAddr: 0x5138, symBinAddr: 0x20508, symSize: 0x8 }
+  - { offset: 0x4665B, size: 0x8, addend: 0x0, symName: '-[HVTPipeline batchUpdateViewsWithSetNeedsLayout]', symObjAddr: 0x5140, symBinAddr: 0x20510, symSize: 0x10 }
+  - { offset: 0x4668F, size: 0x8, addend: 0x0, symName: '___49-[HVTPipeline batchUpdateViewsWithSetNeedsLayout]_block_invoke', symObjAddr: 0x5150, symBinAddr: 0x20520, symSize: 0x8 }
+  - { offset: 0x466C9, size: 0x8, addend: 0x0, symName: '-[HVTPipeline batchUpdateViewsWithOutputSize:]', symObjAddr: 0x5158, symBinAddr: 0x20528, symSize: 0xC8 }
+  - { offset: 0x4671E, size: 0x8, addend: 0x0, symName: '___46-[HVTPipeline batchUpdateViewsWithOutputSize:]_block_invoke', symObjAddr: 0x5220, symBinAddr: 0x205F0, symSize: 0x10 }
+  - { offset: 0x46771, size: 0x8, addend: 0x0, symName: '___46-[HVTPipeline batchUpdateViewsWithOutputSize:]_block_invoke.49', symObjAddr: 0x5230, symBinAddr: 0x20600, symSize: 0xC }
+  - { offset: 0x467C0, size: 0x8, addend: 0x0, symName: '-[HVTPipeline startRecordingWithMovieURL:videoSettings:audioSettings:metadata:]', symObjAddr: 0x523C, symBinAddr: 0x2060C, symSize: 0x14 }
+  - { offset: 0x4682E, size: 0x8, addend: 0x0, symName: '-[HVTPipeline startRecordingWithConfiguration:]', symObjAddr: 0x5250, symBinAddr: 0x20620, symSize: 0x108 }
+  - { offset: 0x46873, size: 0x8, addend: 0x0, symName: '-[HVTPipeline canRecordVideoCodec:fileType:]', symObjAddr: 0x5358, symBinAddr: 0x20728, symSize: 0x9C }
+  - { offset: 0x468CD, size: 0x8, addend: 0x0, symName: '-[HVTPipeline videoSettingsForCodec:fileType:]', symObjAddr: 0x53F4, symBinAddr: 0x207C4, symSize: 0x168 }
+  - { offset: 0x46938, size: 0x8, addend: 0x0, symName: '-[HVTPipeline startRecordingWithMovieURL:videoSettings:audioSettings:metadata:fileType:codec:]', symObjAddr: 0x555C, symBinAddr: 0x2092C, symSize: 0x4F8 }
+  - { offset: 0x46A77, size: 0x8, addend: 0x0, symName: '___94-[HVTPipeline startRecordingWithMovieURL:videoSettings:audioSettings:metadata:fileType:codec:]_block_invoke', symObjAddr: 0x5A54, symBinAddr: 0x20E24, symSize: 0x8C }
+  - { offset: 0x46AD8, size: 0x8, addend: 0x0, symName: '-[HVTPipeline stopRecording]', symObjAddr: 0x5AE0, symBinAddr: 0x20EB0, symSize: 0x38 }
+  - { offset: 0x46B0C, size: 0x8, addend: 0x0, symName: '-[HVTPipeline pauseRecording]', symObjAddr: 0x5B18, symBinAddr: 0x20EE8, symSize: 0x8 }
+  - { offset: 0x46B40, size: 0x8, addend: 0x0, symName: '-[HVTPipeline resumeRecording]', symObjAddr: 0x5B20, symBinAddr: 0x20EF0, symSize: 0x8 }
+  - { offset: 0x46B74, size: 0x8, addend: 0x0, symName: '-[HVTPipeline isPaused]', symObjAddr: 0x5B28, symBinAddr: 0x20EF8, symSize: 0x8 }
+  - { offset: 0x46BAC, size: 0x8, addend: 0x0, symName: '-[HVTPipeline videoBitRate]', symObjAddr: 0x5B30, symBinAddr: 0x20F00, symSize: 0x8 }
+  - { offset: 0x46BE4, size: 0x8, addend: 0x0, symName: '-[HVTPipeline audioBitRate]', symObjAddr: 0x5B38, symBinAddr: 0x20F08, symSize: 0x8 }
+  - { offset: 0x46C1C, size: 0x8, addend: 0x0, symName: '-[HVTPipeline recordingStatus]', symObjAddr: 0x5B40, symBinAddr: 0x20F10, symSize: 0x8 }
+  - { offset: 0x46C54, size: 0x8, addend: 0x0, symName: '-[HVTPipeline maxRecordingDuration]', symObjAddr: 0x5B48, symBinAddr: 0x20F18, symSize: 0x18 }
+  - { offset: 0x46C8C, size: 0x8, addend: 0x0, symName: '-[HVTPipeline setMaxRecordingDuration:]', symObjAddr: 0x5B60, symBinAddr: 0x20F30, symSize: 0x34 }
+  - { offset: 0x46CD1, size: 0x8, addend: 0x0, symName: '-[HVTPipeline resetFocus]', symObjAddr: 0x5B94, symBinAddr: 0x20F64, symSize: 0x8 }
+  - { offset: 0x46D05, size: 0x8, addend: 0x0, symName: '-[HVTPipeline focusServiceDidSettle:]', symObjAddr: 0x5B9C, symBinAddr: 0x20F6C, symSize: 0x8 }
+  - { offset: 0x46D46, size: 0x8, addend: 0x0, symName: '-[HVTPipeline focusServiceCaptureMode:]', symObjAddr: 0x5BA4, symBinAddr: 0x20F74, symSize: 0x8 }
+  - { offset: 0x46D8B, size: 0x8, addend: 0x0, symName: '-[HVTPipeline focusServiceIsRecording:]', symObjAddr: 0x5BAC, symBinAddr: 0x20F7C, symSize: 0x20 }
+  - { offset: 0x46DD0, size: 0x8, addend: 0x0, symName: '-[HVTPipeline wantsSampleBuffers]', symObjAddr: 0x5BCC, symBinAddr: 0x20F9C, symSize: 0x78 }
+  - { offset: 0x46E19, size: 0x8, addend: 0x0, symName: '-[HVTPipeline notifyRecordingDelegate:]', symObjAddr: 0x5C44, symBinAddr: 0x21014, symSize: 0xAC }
+  - { offset: 0x46E78, size: 0x8, addend: 0x0, symName: '___39-[HVTPipeline notifyRecordingDelegate:]_block_invoke', symObjAddr: 0x5CF0, symBinAddr: 0x210C0, symSize: 0x5C }
+  - { offset: 0x46EE4, size: 0x8, addend: 0x0, symName: '-[HVTPipeline recordingServiceDidStart:]', symObjAddr: 0x5D4C, symBinAddr: 0x2111C, symSize: 0x50 }
+  - { offset: 0x46F25, size: 0x8, addend: 0x0, symName: '___40-[HVTPipeline recordingServiceDidStart:]_block_invoke', symObjAddr: 0x5D9C, symBinAddr: 0x2116C, symSize: 0xC }
+  - { offset: 0x46F78, size: 0x8, addend: 0x0, symName: '-[HVTPipeline recordingServiceWillStop:]', symObjAddr: 0x5DA8, symBinAddr: 0x21178, symSize: 0x50 }
+  - { offset: 0x46FB9, size: 0x8, addend: 0x0, symName: '___40-[HVTPipeline recordingServiceWillStop:]_block_invoke', symObjAddr: 0x5DF8, symBinAddr: 0x211C8, symSize: 0xC }
+  - { offset: 0x4700C, size: 0x8, addend: 0x0, symName: '-[HVTPipeline recordingServiceDidFinishWriting:]', symObjAddr: 0x5E04, symBinAddr: 0x211D4, symSize: 0x44 }
+  - { offset: 0x4704D, size: 0x8, addend: 0x0, symName: '-[HVTPipeline recordingService:didStopWithURL:duration:]', symObjAddr: 0x5E48, symBinAddr: 0x21218, symSize: 0x148 }
+  - { offset: 0x470D5, size: 0x8, addend: 0x0, symName: '___56-[HVTPipeline recordingService:didStopWithURL:duration:]_block_invoke', symObjAddr: 0x5F90, symBinAddr: 0x21360, symSize: 0xC }
+  - { offset: 0x47139, size: 0x8, addend: 0x0, symName: '-[HVTPipeline recordingService:didFailWithError:]', symObjAddr: 0x5F9C, symBinAddr: 0x2136C, symSize: 0x80 }
+  - { offset: 0x4718B, size: 0x8, addend: 0x0, symName: '___49-[HVTPipeline recordingService:didFailWithError:]_block_invoke', symObjAddr: 0x601C, symBinAddr: 0x213EC, symSize: 0xC }
+  - { offset: 0x471EF, size: 0x8, addend: 0x0, symName: '-[HVTPipeline recordingServiceDidReachMaxDuration:]', symObjAddr: 0x6028, symBinAddr: 0x213F8, symSize: 0x4 }
+  - { offset: 0x4722E, size: 0x8, addend: 0x0, symName: '-[HVTPipeline photoService:didCapturePixelBuffer:timestamp:metadata:]', symObjAddr: 0x602C, symBinAddr: 0x213FC, symSize: 0x38 }
+  - { offset: 0x472A2, size: 0x8, addend: 0x0, symName: '-[HVTPipeline photoService:didCaptureBracket:]', symObjAddr: 0x6064, symBinAddr: 0x21434, symSize: 0x8 }
+  - { offset: 0x472F2, size: 0x8, addend: 0x0, symName: '-[HVTPipeline photoService:didCapturePhoto:metadata:]', symObjAddr: 0x606C, symBinAddr: 0x2143C, symSize: 0xA4 }
+  - { offset: 0x47383, size: 0x8, addend: 0x0, symName: '___53-[HVTPipeline photoService:didCapturePhoto:metadata:]_block_invoke', symObjAddr: 0x6110, symBinAddr: 0x214E0, symSize: 0x88 }
+  - { offset: 0x473F4, size: 0x8, addend: 0x0, symName: '-[HVTPipeline photoService:didFailWithError:]', symObjAddr: 0x6198, symBinAddr: 0x21568, symSize: 0x84 }
+  - { offset: 0x47460, size: 0x8, addend: 0x0, symName: '___45-[HVTPipeline photoService:didFailWithError:]_block_invoke', symObjAddr: 0x621C, symBinAddr: 0x215EC, symSize: 0x54 }
+  - { offset: 0x474B3, size: 0x8, addend: 0x0, symName: '-[HVTPipeline viewNeedsRendering:]', symObjAddr: 0x6270, symBinAddr: 0x21640, symSize: 0x84 }
+  - { offset: 0x47512, size: 0x8, addend: 0x0, symName: '___34-[HVTPipeline viewNeedsRendering:]_block_invoke', symObjAddr: 0x62F4, symBinAddr: 0x216C4, symSize: 0xC }
+  - { offset: 0x47565, size: 0x8, addend: 0x0, symName: '-[HVTPipeline focusAtPoint:gesture:]', symObjAddr: 0x6300, symBinAddr: 0x216D0, symSize: 0x8 }
+  - { offset: 0x475B5, size: 0x8, addend: 0x0, symName: '-[HVTPipeline captureViewSnapshot]', symObjAddr: 0x6308, symBinAddr: 0x216D8, symSize: 0x74 }
+  - { offset: 0x4760D, size: 0x8, addend: 0x0, symName: '___34-[HVTPipeline captureViewSnapshot]_block_invoke', symObjAddr: 0x637C, symBinAddr: 0x2174C, symSize: 0x88 }
+  - { offset: 0x4766E, size: 0x8, addend: 0x0, symName: '-[HVTPipeline brightnessValue]', symObjAddr: 0x6404, symBinAddr: 0x217D4, symSize: 0x8 }
+  - { offset: 0x476A3, size: 0x8, addend: 0x0, symName: '-[HVTPipeline setBrightnessValue:]', symObjAddr: 0x640C, symBinAddr: 0x217DC, symSize: 0x8 }
+  - { offset: 0x476E1, size: 0x8, addend: 0x0, symName: '-[HVTPipeline outputPixelFormat]', symObjAddr: 0x6414, symBinAddr: 0x217E4, symSize: 0x8 }
+  - { offset: 0x47718, size: 0x8, addend: 0x0, symName: '-[HVTPipeline maxAllowedResolution]', symObjAddr: 0x641C, symBinAddr: 0x217EC, symSize: 0x8 }
+  - { offset: 0x4774D, size: 0x8, addend: 0x0, symName: '-[HVTPipeline setMaxAllowedResolution:]', symObjAddr: 0x6424, symBinAddr: 0x217F4, symSize: 0x8 }
+  - { offset: 0x4778C, size: 0x8, addend: 0x0, symName: '-[HVTPipeline preferredVideoStabilizationMode]', symObjAddr: 0x642C, symBinAddr: 0x217FC, symSize: 0x8 }
+  - { offset: 0x477C3, size: 0x8, addend: 0x0, symName: '-[HVTPipeline videoDimensions]', symObjAddr: 0x6434, symBinAddr: 0x21804, symSize: 0x38 }
+  - { offset: 0x477FA, size: 0x8, addend: 0x0, symName: '-[HVTPipeline outputAudioFormatDescription]', symObjAddr: 0x646C, symBinAddr: 0x2183C, symSize: 0x8 }
+  - { offset: 0x47831, size: 0x8, addend: 0x0, symName: '-[HVTPipeline setOutputAudioFormatDescription:]', symObjAddr: 0x6474, symBinAddr: 0x21844, symSize: 0x8 }
+  - { offset: 0x47870, size: 0x8, addend: 0x0, symName: '-[HVTPipeline normalVideoFormatDimensions]', symObjAddr: 0x647C, symBinAddr: 0x2184C, symSize: 0x8 }
+  - { offset: 0x478A7, size: 0x8, addend: 0x0, symName: '-[HVTPipeline setNormalVideoFormatDimensions:]', symObjAddr: 0x6484, symBinAddr: 0x21854, symSize: 0xC }
+  - { offset: 0x478E8, size: 0x8, addend: 0x0, symName: '-[HVTPipeline leveledVideoFormatDimensions]', symObjAddr: 0x6490, symBinAddr: 0x21860, symSize: 0x8 }
+  - { offset: 0x4791F, size: 0x8, addend: 0x0, symName: '-[HVTPipeline setLeveledVideoFormatDimensions:]', symObjAddr: 0x6498, symBinAddr: 0x21868, symSize: 0xC }
+  - { offset: 0x47960, size: 0x8, addend: 0x0, symName: '-[HVTPipeline .cxx_destruct]', symObjAddr: 0x64A4, symBinAddr: 0x21874, symSize: 0x19C }
+  - { offset: 0x47993, size: 0x8, addend: 0x0, symName: '-[HVTPipeline(Testing) sessionForTesting]', symObjAddr: 0x6640, symBinAddr: 0x21A10, symSize: 0x8 }
+  - { offset: 0x479CB, size: 0x8, addend: 0x0, symName: '-[HVTPipeline(Testing) sessionQueueForTesting]', symObjAddr: 0x6648, symBinAddr: 0x21A18, symSize: 0x8 }
+  - { offset: 0x47A03, size: 0x8, addend: 0x0, symName: '-[HVTPipeline(Testing) frameQueueForTesting]', symObjAddr: 0x6650, symBinAddr: 0x21A20, symSize: 0x8 }
+  - { offset: 0x47A3B, size: 0x8, addend: 0x0, symName: '-[HVTPipeline(Testing) renderQueueForTesting]', symObjAddr: 0x6658, symBinAddr: 0x21A28, symSize: 0x8 }
+  - { offset: 0x47A73, size: 0x8, addend: 0x0, symName: '-[HVTPipeline(Testing) stillQueueForTesting]', symObjAddr: 0x6660, symBinAddr: 0x21A30, symSize: 0x8 }
+  - { offset: 0x47AAB, size: 0x8, addend: 0x0, symName: '-[HVTPipeline(Testing) audioOutputForTesting]', symObjAddr: 0x6668, symBinAddr: 0x21A38, symSize: 0x8 }
+  - { offset: 0x47AE3, size: 0x8, addend: 0x0, symName: '-[HVTPipeline(Testing) orientationAngleForTesting]', symObjAddr: 0x6670, symBinAddr: 0x21A40, symSize: 0x8 }
+  - { offset: 0x47B19, size: 0x8, addend: 0x0, symName: '-[HVTPipeline(Testing) stillStatusForTesting]', symObjAddr: 0x6678, symBinAddr: 0x21A48, symSize: 0x8 }
+  - { offset: 0x47B51, size: 0x8, addend: 0x0, symName: '-[HVTPipeline(Testing) runningTaskForTesting]', symObjAddr: 0x6680, symBinAddr: 0x21A50, symSize: 0x8 }
+  - { offset: 0x47B89, size: 0x8, addend: 0x0, symName: '-[HVTPipeline(Testing) setRecorderForTesting:status:]', symObjAddr: 0x6688, symBinAddr: 0x21A58, symSize: 0x8 }
+  - { offset: 0x47BDB, size: 0x8, addend: 0x0, symName: '-[HVTPipeline(Testing) setVideoDeviceForTesting:]', symObjAddr: 0x6690, symBinAddr: 0x21A60, symSize: 0xC }
+  - { offset: 0x47C20, size: 0x8, addend: 0x0, symName: '-[HVTPipeline(Testing) setAudioFormatForTesting:]', symObjAddr: 0x669C, symBinAddr: 0x21A6C, symSize: 0x4 }
+  - { offset: 0x47C60, size: 0x8, addend: 0x0, symName: '-[HVTPipeline(Testing) skipsPreviewFrameForTesting:]', symObjAddr: 0x66A0, symBinAddr: 0x21A70, symSize: 0x3C }
+  - { offset: 0x47CC4, size: 0x8, addend: 0x0, symName: '-[HVTPipeline(Testing) willStartRunningForTesting]', symObjAddr: 0x66DC, symBinAddr: 0x21AAC, symSize: 0x4 }
+  - { offset: 0x47CF6, size: 0x8, addend: 0x0, symName: '-[HVTPipeline(Testing) teardownForTesting]', symObjAddr: 0x66E0, symBinAddr: 0x21AB0, symSize: 0x4 }
+  - { offset: 0x47D28, size: 0x8, addend: 0x0, symName: '-[HVTPipeline(Testing) keyForTesting:viewType:dimensions:]', symObjAddr: 0x66E4, symBinAddr: 0x21AB4, symSize: 0xC }
+  - { offset: 0x49927, size: 0x8, addend: 0x0, symName: '-[HVTCamera init]', symObjAddr: 0x0, symBinAddr: 0x21AC0, symSize: 0x264 }
+  - { offset: 0x49940, size: 0x8, addend: 0x0, symName: _HVTMetadataMovieURLKey, symObjAddr: 0x33B0, symBinAddr: 0x44708, symSize: 0x0 }
+  - { offset: 0x49A26, size: 0x8, addend: 0x0, symName: _HVTMetadataMovieDurationKey, symObjAddr: 0x33B8, symBinAddr: 0x44710, symSize: 0x0 }
+  - { offset: 0x49A3B, size: 0x8, addend: 0x0, symName: _HVTMetadataPhotoDimensions, symObjAddr: 0x33C0, symBinAddr: 0x44718, symSize: 0x0 }
+  - { offset: 0x49A50, size: 0x8, addend: 0x0, symName: _HVTMetadataOriginalPhotoMetadata, symObjAddr: 0x33C8, symBinAddr: 0x44720, symSize: 0x0 }
+  - { offset: 0x49A65, size: 0x8, addend: 0x0, symName: _HVTErrorDomain, symObjAddr: 0x33D0, symBinAddr: 0x44728, symSize: 0x0 }
+  - { offset: 0x49A7A, size: 0x8, addend: 0x0, symName: _HVTFlashIsAvailableNotification, symObjAddr: 0x33D8, symBinAddr: 0x44730, symSize: 0x0 }
+  - { offset: 0x49A8F, size: 0x8, addend: 0x0, symName: _HVTFocusExposureIsLockedNotification, symObjAddr: 0x33E0, symBinAddr: 0x44738, symSize: 0x0 }
+  - { offset: 0x49AA4, size: 0x8, addend: 0x0, symName: _HVTSubjectAreaDidChangeNotification, symObjAddr: 0x33E8, symBinAddr: 0x44740, symSize: 0x0 }
+  - { offset: 0x49AB9, size: 0x8, addend: 0x0, symName: _HVTFocusFinishedNotification, symObjAddr: 0x33F0, symBinAddr: 0x44748, symSize: 0x0 }
+  - { offset: 0x4A1EA, size: 0x8, addend: 0x0, symName: '-[HVTCamera init]', symObjAddr: 0x0, symBinAddr: 0x21AC0, symSize: 0x264 }
+  - { offset: 0x4A221, size: 0x8, addend: 0x0, symName: '-[HVTCamera dealloc]', symObjAddr: 0x264, symBinAddr: 0x21D24, symSize: 0x8C }
+  - { offset: 0x4A254, size: 0x8, addend: 0x0, symName: '-[HVTCamera applicationDidEnterBackground]', symObjAddr: 0x2F0, symBinAddr: 0x21DB0, symSize: 0x8 }
+  - { offset: 0x4A287, size: 0x8, addend: 0x0, symName: '-[HVTCamera applicationWillEnterForeground]', symObjAddr: 0x2F8, symBinAddr: 0x21DB8, symSize: 0x8 }
+  - { offset: 0x4A2BA, size: 0x8, addend: 0x0, symName: '-[HVTCamera setSampleBufferDelegate:queue:]', symObjAddr: 0x300, symBinAddr: 0x21DC0, symSize: 0xF0 }
+  - { offset: 0x4A30D, size: 0x8, addend: 0x0, symName: '-[HVTCamera addView:]', symObjAddr: 0x3F0, symBinAddr: 0x21EB0, symSize: 0xDC }
+  - { offset: 0x4A350, size: 0x8, addend: 0x0, symName: '-[HVTCamera removeView:]', symObjAddr: 0x4CC, symBinAddr: 0x21F8C, symSize: 0x4C }
+  - { offset: 0x4A393, size: 0x8, addend: 0x0, symName: '-[HVTCamera hvtView:didUpdateFilter:]', symObjAddr: 0x518, symBinAddr: 0x21FD8, symSize: 0x8 }
+  - { offset: 0x4A3E0, size: 0x8, addend: 0x0, symName: '-[HVTCamera hvtView:didUpdateViewType:]', symObjAddr: 0x520, symBinAddr: 0x21FE0, symSize: 0x8 }
+  - { offset: 0x4A42D, size: 0x8, addend: 0x0, symName: '-[HVTCamera hvtView:didTapToAutoFocusAtPoint:locked:]', symObjAddr: 0x528, symBinAddr: 0x21FE8, symSize: 0xC }
+  - { offset: 0x4A48A, size: 0x8, addend: 0x0, symName: '-[HVTCamera hvtViewWillCaptureSnapshot:]', symObjAddr: 0x534, symBinAddr: 0x21FF4, symSize: 0x8 }
+  - { offset: 0x4A4C9, size: 0x8, addend: 0x0, symName: '-[HVTCamera setActiveFilter:]', symObjAddr: 0x53C, symBinAddr: 0x21FFC, symSize: 0x8 }
+  - { offset: 0x4A50A, size: 0x8, addend: 0x0, symName: '-[HVTCamera removeActiveFilter]', symObjAddr: 0x544, symBinAddr: 0x22004, symSize: 0x8 }
+  - { offset: 0x4A53D, size: 0x8, addend: 0x0, symName: '-[HVTCamera isVideoStabilizationModeSupported:]', symObjAddr: 0x54C, symBinAddr: 0x2200C, symSize: 0x8 }
+  - { offset: 0x4A582, size: 0x8, addend: 0x0, symName: '-[HVTCamera setPreferredVideoStabilizationMode:]', symObjAddr: 0x554, symBinAddr: 0x22014, symSize: 0x8 }
+  - { offset: 0x4A5C3, size: 0x8, addend: 0x0, symName: '-[HVTCamera preferredVideoStabilizationMode]', symObjAddr: 0x55C, symBinAddr: 0x2201C, symSize: 0x8 }
+  - { offset: 0x4A5FA, size: 0x8, addend: 0x0, symName: '-[HVTCamera startRunning]', symObjAddr: 0x564, symBinAddr: 0x22024, symSize: 0x90 }
+  - { offset: 0x4A62D, size: 0x8, addend: 0x0, symName: '-[HVTCamera startRunningWithCompletion:]', symObjAddr: 0x5F4, symBinAddr: 0x220B4, symSize: 0x114 }
+  - { offset: 0x4A737, size: 0x8, addend: 0x0, symName: '___40-[HVTCamera startRunningWithCompletion:]_block_invoke', symObjAddr: 0x708, symBinAddr: 0x221C8, symSize: 0x10 }
+  - { offset: 0x4A78E, size: 0x8, addend: 0x0, symName: '___40-[HVTCamera startRunningWithCompletion:]_block_invoke.43', symObjAddr: 0x774, symBinAddr: 0x221D8, symSize: 0x74 }
+  - { offset: 0x4A800, size: 0x8, addend: 0x0, symName: '-[HVTCamera startRefusal]', symObjAddr: 0x7E8, symBinAddr: 0x2224C, symSize: 0x5C }
+  - { offset: 0x4A834, size: 0x8, addend: 0x0, symName: '-[HVTCamera stopRunning]', symObjAddr: 0x844, symBinAddr: 0x222A8, symSize: 0x28 }
+  - { offset: 0x4A868, size: 0x8, addend: 0x0, symName: '-[HVTCamera stopRunningWithCompletion:]', symObjAddr: 0x86C, symBinAddr: 0x222D0, symSize: 0x84 }
+  - { offset: 0x4A8AD, size: 0x8, addend: 0x0, symName: '___39-[HVTCamera stopRunningWithCompletion:]_block_invoke', symObjAddr: 0x8F0, symBinAddr: 0x22354, symSize: 0x30 }
+  - { offset: 0x4A90C, size: 0x8, addend: 0x0, symName: '-[HVTCamera isRunning]', symObjAddr: 0x920, symBinAddr: 0x22384, symSize: 0x8 }
+  - { offset: 0x4A944, size: 0x8, addend: 0x0, symName: '-[HVTCamera setCameraPosition:error:]', symObjAddr: 0x928, symBinAddr: 0x2238C, symSize: 0x60 }
+  - { offset: 0x4A9AF, size: 0x8, addend: 0x0, symName: '-[HVTCamera setCameraPosition:withResolution:error:]', symObjAddr: 0x988, symBinAddr: 0x223EC, symSize: 0xC }
+  - { offset: 0x4AA12, size: 0x8, addend: 0x0, symName: '-[HVTCamera setCameraPosition:withResolution:frameRate:error:]', symObjAddr: 0x994, symBinAddr: 0x223F8, symSize: 0x80 }
+  - { offset: 0x4AA9B, size: 0x8, addend: 0x0, symName: '-[HVTCamera setCameraResolution:error:]', symObjAddr: 0xA14, symBinAddr: 0x22478, symSize: 0x50 }
+  - { offset: 0x4AAF1, size: 0x8, addend: 0x0, symName: '-[HVTCamera setCameraResolution:frameRate:error:]', symObjAddr: 0xA64, symBinAddr: 0x224C8, symSize: 0x5C }
+  - { offset: 0x4AB58, size: 0x8, addend: 0x0, symName: '-[HVTCamera setCaptureDevice:error:]', symObjAddr: 0xAC0, symBinAddr: 0x22524, symSize: 0x48 }
+  - { offset: 0x4ABBE, size: 0x8, addend: 0x0, symName: '-[HVTCamera setCaptureDevice:resolution:frameRate:error:]', symObjAddr: 0xB08, symBinAddr: 0x2256C, symSize: 0x13C }
+  - { offset: 0x4AC46, size: 0x8, addend: 0x0, symName: '-[HVTCamera cameraPosition]', symObjAddr: 0xC44, symBinAddr: 0x226A8, symSize: 0x8 }
+  - { offset: 0x4AC7E, size: 0x8, addend: 0x0, symName: '-[HVTCamera startRecordingWithMovieURL:]', symObjAddr: 0xC4C, symBinAddr: 0x226B0, symSize: 0x10 }
+  - { offset: 0x4ACBF, size: 0x8, addend: 0x0, symName: '-[HVTCamera startRecordingWithConfiguration:error:]', symObjAddr: 0xC5C, symBinAddr: 0x226C0, symSize: 0xAC }
+  - { offset: 0x4AD2A, size: 0x8, addend: 0x0, symName: '-[HVTCamera errorForStartingRecordingWithConfiguration:]', symObjAddr: 0xD08, symBinAddr: 0x2276C, symSize: 0x360 }
+  - { offset: 0x4AD95, size: 0x8, addend: 0x0, symName: '-[HVTCamera startRecordingWithMovieURL:videoSettings:audioSettings:metadata:]', symObjAddr: 0x1068, symBinAddr: 0x22ACC, symSize: 0x17C }
+  - { offset: 0x4AE28, size: 0x8, addend: 0x0, symName: '-[HVTCamera stopRecording]', symObjAddr: 0x11E4, symBinAddr: 0x22C48, symSize: 0x18 }
+  - { offset: 0x4AE5C, size: 0x8, addend: 0x0, symName: '-[HVTCamera pauseRecording]', symObjAddr: 0x11FC, symBinAddr: 0x22C60, symSize: 0x8 }
+  - { offset: 0x4AE90, size: 0x8, addend: 0x0, symName: '-[HVTCamera resumeRecording]', symObjAddr: 0x1204, symBinAddr: 0x22C68, symSize: 0x8 }
+  - { offset: 0x4AEC4, size: 0x8, addend: 0x0, symName: '-[HVTCamera isPaused]', symObjAddr: 0x120C, symBinAddr: 0x22C70, symSize: 0x8 }
+  - { offset: 0x4AEFC, size: 0x8, addend: 0x0, symName: '-[HVTCamera recorderVideoBitRate]', symObjAddr: 0x1214, symBinAddr: 0x22C78, symSize: 0x8 }
+  - { offset: 0x4AF34, size: 0x8, addend: 0x0, symName: '-[HVTCamera recorderAudioBitRate]', symObjAddr: 0x121C, symBinAddr: 0x22C80, symSize: 0x8 }
+  - { offset: 0x4AF6C, size: 0x8, addend: 0x0, symName: '-[HVTCamera isRecording]', symObjAddr: 0x1224, symBinAddr: 0x22C88, symSize: 0x8 }
+  - { offset: 0x4AFA4, size: 0x8, addend: 0x0, symName: '-[HVTCamera stillImageOrientation]', symObjAddr: 0x122C, symBinAddr: 0x22C90, symSize: 0x8 }
+  - { offset: 0x4AFDC, size: 0x8, addend: 0x0, symName: '-[HVTCamera setStillImageOrientation:]', symObjAddr: 0x1234, symBinAddr: 0x22C98, symSize: 0x8 }
+  - { offset: 0x4B01F, size: 0x8, addend: 0x0, symName: '-[HVTCamera captureMode]', symObjAddr: 0x123C, symBinAddr: 0x22CA0, symSize: 0x8 }
+  - { offset: 0x4B057, size: 0x8, addend: 0x0, symName: '-[HVTCamera setCaptureMode:]', symObjAddr: 0x1244, symBinAddr: 0x22CA8, symSize: 0x8 }
+  - { offset: 0x4B09A, size: 0x8, addend: 0x0, symName: '-[HVTCamera setCaptureMode:cameraPosition:]', symObjAddr: 0x124C, symBinAddr: 0x22CB0, symSize: 0x8 }
+  - { offset: 0x4B0EC, size: 0x8, addend: 0x0, symName: '-[HVTCamera enablePhotoMode]', symObjAddr: 0x1254, symBinAddr: 0x22CB8, symSize: 0x2C }
+  - { offset: 0x4B120, size: 0x8, addend: 0x0, symName: '-[HVTCamera setGPSMetadata:]', symObjAddr: 0x1280, symBinAddr: 0x22CE4, symSize: 0xC }
+  - { offset: 0x4B165, size: 0x8, addend: 0x0, symName: '-[HVTCamera enablePhotoModeWithCameraPosition:]', symObjAddr: 0x128C, symBinAddr: 0x22CF0, symSize: 0x8 }
+  - { offset: 0x4B1A8, size: 0x8, addend: 0x0, symName: '-[HVTCamera captureFullResolutionPhoto]', symObjAddr: 0x1294, symBinAddr: 0x22CF8, symSize: 0x8 }
+  - { offset: 0x4B1DE, size: 0x8, addend: 0x0, symName: '-[HVTCamera captureFullResolutionPhotoUsingHDR:]', symObjAddr: 0x129C, symBinAddr: 0x22D00, symSize: 0x7C }
+  - { offset: 0x4B237, size: 0x8, addend: 0x0, symName: '-[HVTCamera capturePhotoWithSettings:]', symObjAddr: 0x1318, symBinAddr: 0x22D7C, symSize: 0x6C }
+  - { offset: 0x4B290, size: 0x8, addend: 0x0, symName: '___38-[HVTCamera capturePhotoWithSettings:]_block_invoke', symObjAddr: 0x1384, symBinAddr: 0x22DE8, symSize: 0xC0 }
+  - { offset: 0x4B2D2, size: 0x8, addend: 0x0, symName: '-[HVTCamera startPhotoCaptureWithSettings:]', symObjAddr: 0x1454, symBinAddr: 0x22EA8, symSize: 0x5C }
+  - { offset: 0x4B32C, size: 0x8, addend: 0x0, symName: '-[HVTCamera captureSnapshot]', symObjAddr: 0x14B0, symBinAddr: 0x22F04, symSize: 0x8 }
+  - { offset: 0x4B364, size: 0x8, addend: 0x0, symName: '-[HVTCamera isHDRPhotoCaptureAvailable]', symObjAddr: 0x14B8, symBinAddr: 0x22F0C, symSize: 0x8 }
+  - { offset: 0x4B39C, size: 0x8, addend: 0x0, symName: '-[HVTCamera cameraDevice]', symObjAddr: 0x14C0, symBinAddr: 0x22F14, symSize: 0x8 }
+  - { offset: 0x4B3D4, size: 0x8, addend: 0x0, symName: '-[HVTCamera resetFocusExposureWhiteBalance]', symObjAddr: 0x14C8, symBinAddr: 0x22F1C, symSize: 0x8 }
+  - { offset: 0x4B408, size: 0x8, addend: 0x0, symName: '+[HVTCamera availableDevices]', symObjAddr: 0x14D0, symBinAddr: 0x22F24, symSize: 0x128 }
+  - { offset: 0x4B44D, size: 0x8, addend: 0x0, symName: '+[HVTCamera formatForDevice:resolution:frameRate:]', symObjAddr: 0x15F8, symBinAddr: 0x2304C, symSize: 0x23C }
+  - { offset: 0x4B538, size: 0x8, addend: 0x0, symName: '-[HVTCamera setCaptureDevice:format:frameRate:error:]', symObjAddr: 0x1834, symBinAddr: 0x23288, symSize: 0x1C8 }
+  - { offset: 0x4B5E3, size: 0x8, addend: 0x0, symName: '+[HVTCamera isCameraPositionSupported:]', symObjAddr: 0x19FC, symBinAddr: 0x23450, symSize: 0xF4 }
+  - { offset: 0x4B639, size: 0x8, addend: 0x0, symName: '-[HVTCamera isFlashAvailable]', symObjAddr: 0x1AF0, symBinAddr: 0x23544, symSize: 0x8 }
+  - { offset: 0x4B671, size: 0x8, addend: 0x0, symName: '-[HVTCamera setFlashMode:]', symObjAddr: 0x1AF8, symBinAddr: 0x2354C, symSize: 0x8 }
+  - { offset: 0x4B6B4, size: 0x8, addend: 0x0, symName: '-[HVTCamera flashMode]', symObjAddr: 0x1B00, symBinAddr: 0x23554, symSize: 0x8 }
+  - { offset: 0x4B6EC, size: 0x8, addend: 0x0, symName: '-[HVTCamera outputPixelFormat]', symObjAddr: 0x1B08, symBinAddr: 0x2355C, symSize: 0x8 }
+  - { offset: 0x4B724, size: 0x8, addend: 0x0, symName: '-[HVTCamera setOutputPixelFormat:]', symObjAddr: 0x1B10, symBinAddr: 0x23564, symSize: 0x94 }
+  - { offset: 0x4B768, size: 0x8, addend: 0x0, symName: '-[HVTCamera brightnessValue]', symObjAddr: 0x1BA4, symBinAddr: 0x235F8, symSize: 0x8 }
+  - { offset: 0x4B79E, size: 0x8, addend: 0x0, symName: '-[HVTCamera interfaceOrientation]', symObjAddr: 0x1BAC, symBinAddr: 0x23600, symSize: 0x8 }
+  - { offset: 0x4B7D6, size: 0x8, addend: 0x0, symName: '-[HVTCamera setInterfaceOrientation:]', symObjAddr: 0x1BB4, symBinAddr: 0x23608, symSize: 0x8 }
+  - { offset: 0x4B819, size: 0x8, addend: 0x0, symName: '-[HVTCamera cameraResolution]', symObjAddr: 0x1BBC, symBinAddr: 0x23610, symSize: 0x8 }
+  - { offset: 0x4B851, size: 0x8, addend: 0x0, symName: '-[HVTCamera levelerCropMode]', symObjAddr: 0x1BC4, symBinAddr: 0x23618, symSize: 0x8 }
+  - { offset: 0x4B889, size: 0x8, addend: 0x0, symName: '-[HVTCamera setLevelerCropMode:]', symObjAddr: 0x1BCC, symBinAddr: 0x23620, symSize: 0x40 }
+  - { offset: 0x4B8CE, size: 0x8, addend: 0x0, symName: '-[HVTCamera levelerFlexSpeed]', symObjAddr: 0x1C0C, symBinAddr: 0x23660, symSize: 0x8 }
+  - { offset: 0x4B906, size: 0x8, addend: 0x0, symName: '-[HVTCamera setLevelerFlexSpeed:]', symObjAddr: 0x1C14, symBinAddr: 0x23668, symSize: 0x8 }
+  - { offset: 0x4B949, size: 0x8, addend: 0x0, symName: '-[HVTCamera levelerLockedOrientation]', symObjAddr: 0x1C1C, symBinAddr: 0x23670, symSize: 0x8 }
+  - { offset: 0x4B981, size: 0x8, addend: 0x0, symName: '-[HVTCamera setLevelerLockedOrientation:]', symObjAddr: 0x1C24, symBinAddr: 0x23678, symSize: 0x8 }
+  - { offset: 0x4B9C4, size: 0x8, addend: 0x0, symName: '-[HVTCamera outputMovieSize]', symObjAddr: 0x1C2C, symBinAddr: 0x23680, symSize: 0x8 }
+  - { offset: 0x4B9FC, size: 0x8, addend: 0x0, symName: '-[HVTCamera setOutputMovieSize:]', symObjAddr: 0x1C34, symBinAddr: 0x23688, symSize: 0x8 }
+  - { offset: 0x4BA3D, size: 0x8, addend: 0x0, symName: '-[HVTCamera setOutputMovieSize:error:]', symObjAddr: 0x1C3C, symBinAddr: 0x23690, symSize: 0x8 }
+  - { offset: 0x4BA91, size: 0x8, addend: 0x0, symName: '-[HVTCamera maxRecordingDuration]', symObjAddr: 0x1C44, symBinAddr: 0x23698, symSize: 0x18 }
+  - { offset: 0x4BAC9, size: 0x8, addend: 0x0, symName: '-[HVTCamera setMaxRecordingDuration:]', symObjAddr: 0x1C5C, symBinAddr: 0x236B0, symSize: 0x34 }
+  - { offset: 0x4BB0E, size: 0x8, addend: 0x0, symName: '-[HVTCamera capturePipelineDidStartRunning:]', symObjAddr: 0x1C90, symBinAddr: 0x236E4, symSize: 0xA0 }
+  - { offset: 0x4BB4F, size: 0x8, addend: 0x0, symName: '-[HVTCamera capturePipeline:didStopRunningWithError:]', symObjAddr: 0x1D30, symBinAddr: 0x23784, symSize: 0xB4 }
+  - { offset: 0x4BBA1, size: 0x8, addend: 0x0, symName: '-[HVTCamera capturePipeline:wasInterrupted:]', symObjAddr: 0x1DE4, symBinAddr: 0x23838, symSize: 0x88 }
+  - { offset: 0x4BBF3, size: 0x8, addend: 0x0, symName: '-[HVTCamera capturePipelineInterruptionEnded:]', symObjAddr: 0x1E6C, symBinAddr: 0x238C0, symSize: 0x80 }
+  - { offset: 0x4BC34, size: 0x8, addend: 0x0, symName: '-[HVTCamera capturePipelineRecordingDidStart:]', symObjAddr: 0x1EEC, symBinAddr: 0x23940, symSize: 0xA0 }
+  - { offset: 0x4BC75, size: 0x8, addend: 0x0, symName: '-[HVTCamera capturePipelineRecordingWillStop:]', symObjAddr: 0x1F8C, symBinAddr: 0x239E0, symSize: 0xA0 }
+  - { offset: 0x4BCB6, size: 0x8, addend: 0x0, symName: '-[HVTCamera capturePipeline:didStopRecordingWithMetadata:]', symObjAddr: 0x202C, symBinAddr: 0x23A80, symSize: 0xBC }
+  - { offset: 0x4BD08, size: 0x8, addend: 0x0, symName: '-[HVTCamera capturePipeline:didUpdateRecordingDuration:]', symObjAddr: 0x20E8, symBinAddr: 0x23B3C, symSize: 0xB4 }
+  - { offset: 0x4BD59, size: 0x8, addend: 0x0, symName: '-[HVTCamera capturePipeline:recordingDidFailWithError:]', symObjAddr: 0x219C, symBinAddr: 0x23BF0, symSize: 0xBC }
+  - { offset: 0x4BDAB, size: 0x8, addend: 0x0, symName: '-[HVTCamera capturePipeline:didUpdateParams:]', symObjAddr: 0x2258, symBinAddr: 0x23CAC, symSize: 0x7C }
+  - { offset: 0x4BDF9, size: 0x8, addend: 0x0, symName: '-[HVTCamera capturePipeline:didCapturePhoto:withMetadata:]', symObjAddr: 0x22D4, symBinAddr: 0x23D28, symSize: 0x3D8 }
+  - { offset: 0x4C07F, size: 0x8, addend: 0x0, symName: '-[HVTCamera capturePipeline:photoCapturingDidFailWithError:]', symObjAddr: 0x26AC, symBinAddr: 0x24100, symSize: 0xB4 }
+  - { offset: 0x4C0D1, size: 0x8, addend: 0x0, symName: '-[HVTCamera capturePipelineWantsSampleBuffers:]', symObjAddr: 0x2760, symBinAddr: 0x241B4, symSize: 0x34 }
+  - { offset: 0x4C116, size: 0x8, addend: 0x0, symName: '-[HVTCamera capturePipeline:didOutputSampleBuffer:]', symObjAddr: 0x2794, symBinAddr: 0x241E8, symSize: 0x74 }
+  - { offset: 0x4C168, size: 0x8, addend: 0x0, symName: '-[HVTCamera sampleBufferDelegate]', symObjAddr: 0x2808, symBinAddr: 0x2425C, symSize: 0x44 }
+  - { offset: 0x4C1B1, size: 0x8, addend: 0x0, symName: '-[HVTCamera recordingStarting]', symObjAddr: 0x284C, symBinAddr: 0x242A0, symSize: 0x118 }
+  - { offset: 0x4C1F6, size: 0x8, addend: 0x0, symName: '___30-[HVTCamera recordingStarting]_block_invoke', symObjAddr: 0x2964, symBinAddr: 0x243B8, symSize: 0x64 }
+  - { offset: 0x4C253, size: 0x8, addend: 0x0, symName: '-[HVTCamera recordingStopped]', symObjAddr: 0x29DC, symBinAddr: 0x2441C, symSize: 0x64 }
+  - { offset: 0x4C287, size: 0x8, addend: 0x0, symName: '+[HVTCamera automaticallyNotifiesObserversForBrightnessValue]', symObjAddr: 0x2A40, symBinAddr: 0x24480, symSize: 0x8 }
+  - { offset: 0x4C2BB, size: 0x8, addend: 0x0, symName: '-[HVTCamera observeValueForKeyPath:ofObject:change:context:]', symObjAddr: 0x2A48, symBinAddr: 0x24488, symSize: 0x94 }
+  - { offset: 0x4C359, size: 0x8, addend: 0x0, symName: '___60-[HVTCamera observeValueForKeyPath:ofObject:change:context:]_block_invoke', symObjAddr: 0x2ADC, symBinAddr: 0x2451C, symSize: 0x58 }
+  - { offset: 0x4C3B6, size: 0x8, addend: 0x0, symName: '-[HVTCamera delegate]', symObjAddr: 0x2B34, symBinAddr: 0x24574, symSize: 0x18 }
+  - { offset: 0x4C3ED, size: 0x8, addend: 0x0, symName: '-[HVTCamera setDelegate:]', symObjAddr: 0x2B4C, symBinAddr: 0x2458C, symSize: 0xC }
+  - { offset: 0x4C42E, size: 0x8, addend: 0x0, symName: '-[HVTCamera .cxx_destruct]', symObjAddr: 0x2B58, symBinAddr: 0x24598, symSize: 0x64 }
+  - { offset: 0x4C461, size: 0x8, addend: 0x0, symName: '-[HVTCamera(Testing) pipelineForTesting]', symObjAddr: 0x2BBC, symBinAddr: 0x245FC, symSize: 0x8 }
+  - { offset: 0x4C499, size: 0x8, addend: 0x0, symName: '-[HVTCamera(Testing) levelerForTesting]', symObjAddr: 0x2BC4, symBinAddr: 0x24604, symSize: 0x8 }
+  - { offset: 0x4C4D1, size: 0x8, addend: 0x0, symName: '-[HVTCamera(Testing) recordingTaskForTesting]', symObjAddr: 0x2BCC, symBinAddr: 0x2460C, symSize: 0x8 }
+  - { offset: 0x4C509, size: 0x8, addend: 0x0, symName: '-[HVTCamera(Testing) recordingStartingForTesting]', symObjAddr: 0x2BD4, symBinAddr: 0x24614, symSize: 0x4 }
+  - { offset: 0x4CBC9, size: 0x8, addend: 0x0, symName: '-[HVTPhoto initWithCGImage:metadata:settings:]', symObjAddr: 0x0, symBinAddr: 0x24618, symSize: 0xC0 }
+  - { offset: 0x4CDFF, size: 0x8, addend: 0x0, symName: '-[HVTPhoto initWithCGImage:metadata:settings:]', symObjAddr: 0x0, symBinAddr: 0x24618, symSize: 0xC0 }
+  - { offset: 0x4CE8E, size: 0x8, addend: 0x0, symName: '-[HVTPhoto dealloc]', symObjAddr: 0xC0, symBinAddr: 0x246D8, symSize: 0x48 }
+  - { offset: 0x4CEDE, size: 0x8, addend: 0x0, symName: '-[HVTPhoto fileDataRepresentation]', symObjAddr: 0x108, symBinAddr: 0x24720, symSize: 0x110 }
+  - { offset: 0x4D04E, size: 0x8, addend: 0x0, symName: '-[HVTPhoto CGImage]', symObjAddr: 0x218, symBinAddr: 0x24830, symSize: 0x8 }
+  - { offset: 0x4D085, size: 0x8, addend: 0x0, symName: '-[HVTPhoto metadata]', symObjAddr: 0x220, symBinAddr: 0x24838, symSize: 0x8 }
+  - { offset: 0x4D0BC, size: 0x8, addend: 0x0, symName: '-[HVTPhoto settings]', symObjAddr: 0x228, symBinAddr: 0x24840, symSize: 0x8 }
+  - { offset: 0x4D0F3, size: 0x8, addend: 0x0, symName: '-[HVTPhoto .cxx_destruct]', symObjAddr: 0x230, symBinAddr: 0x24848, symSize: 0x30 }
+  - { offset: 0x4D204, size: 0x8, addend: 0x0, symName: '+[HVTPhotoSettings photoSettings]', symObjAddr: 0x0, symBinAddr: 0x24878, symSize: 0x14 }
+  - { offset: 0x4D385, size: 0x8, addend: 0x0, symName: '+[HVTPhotoSettings photoSettings]', symObjAddr: 0x0, symBinAddr: 0x24878, symSize: 0x14 }
+  - { offset: 0x4D3BC, size: 0x8, addend: 0x0, symName: '-[HVTPhotoSettings init]', symObjAddr: 0x14, symBinAddr: 0x2488C, symSize: 0x6C }
+  - { offset: 0x4D3F3, size: 0x8, addend: 0x0, symName: '-[HVTPhotoSettings copyWithZone:]', symObjAddr: 0x80, symBinAddr: 0x248F8, symSize: 0x64 }
+  - { offset: 0x4D44A, size: 0x8, addend: 0x0, symName: '-[HVTPhotoSettings flashMode]', symObjAddr: 0xE4, symBinAddr: 0x2495C, symSize: 0x8 }
+  - { offset: 0x4D481, size: 0x8, addend: 0x0, symName: '-[HVTPhotoSettings setFlashMode:]', symObjAddr: 0xEC, symBinAddr: 0x24964, symSize: 0x8 }
+  - { offset: 0x4D4BE, size: 0x8, addend: 0x0, symName: '-[HVTPhotoSettings usesHDRBracket]', symObjAddr: 0xF4, symBinAddr: 0x2496C, symSize: 0x8 }
+  - { offset: 0x4D4F5, size: 0x8, addend: 0x0, symName: '-[HVTPhotoSettings setUsesHDRBracket:]', symObjAddr: 0xFC, symBinAddr: 0x24974, symSize: 0x8 }
+  - { offset: 0x4D530, size: 0x8, addend: 0x0, symName: '-[HVTPhotoSettings qualityPrioritization]', symObjAddr: 0x104, symBinAddr: 0x2497C, symSize: 0x8 }
+  - { offset: 0x4D567, size: 0x8, addend: 0x0, symName: '-[HVTPhotoSettings setQualityPrioritization:]', symObjAddr: 0x10C, symBinAddr: 0x24984, symSize: 0x8 }
+  - { offset: 0x4D5A4, size: 0x8, addend: 0x0, symName: '-[HVTPhotoSettings codec]', symObjAddr: 0x114, symBinAddr: 0x2498C, symSize: 0x8 }
+  - { offset: 0x4D5DB, size: 0x8, addend: 0x0, symName: '-[HVTPhotoSettings setCodec:]', symObjAddr: 0x11C, symBinAddr: 0x24994, symSize: 0x8 }
+  - { offset: 0x4D61A, size: 0x8, addend: 0x0, symName: '-[HVTPhotoSettings .cxx_destruct]', symObjAddr: 0x124, symBinAddr: 0x2499C, symSize: 0xC }
+  - { offset: 0x4D6F6, size: 0x8, addend: 0x0, symName: '+[HVTRecordingConfiguration configurationWithMovieURL:]', symObjAddr: 0x0, symBinAddr: 0x249A8, symSize: 0x48 }
+  - { offset: 0x4D8D8, size: 0x8, addend: 0x0, symName: '+[HVTRecordingConfiguration configurationWithMovieURL:]', symObjAddr: 0x0, symBinAddr: 0x249A8, symSize: 0x48 }
+  - { offset: 0x4D91F, size: 0x8, addend: 0x0, symName: '-[HVTRecordingConfiguration initWithMovieURL:]', symObjAddr: 0x48, symBinAddr: 0x249F0, symSize: 0xA0 }
+  - { offset: 0x4D966, size: 0x8, addend: 0x0, symName: '-[HVTRecordingConfiguration copyWithZone:]', symObjAddr: 0xE8, symBinAddr: 0x24A90, symSize: 0x74 }
+  - { offset: 0x4D9BD, size: 0x8, addend: 0x0, symName: '-[HVTRecordingConfiguration movieURL]', symObjAddr: 0x15C, symBinAddr: 0x24B04, symSize: 0x8 }
+  - { offset: 0x4D9F4, size: 0x8, addend: 0x0, symName: '-[HVTRecordingConfiguration setMovieURL:]', symObjAddr: 0x164, symBinAddr: 0x24B0C, symSize: 0x8 }
+  - { offset: 0x4DA33, size: 0x8, addend: 0x0, symName: '-[HVTRecordingConfiguration codec]', symObjAddr: 0x16C, symBinAddr: 0x24B14, symSize: 0x8 }
+  - { offset: 0x4DA6A, size: 0x8, addend: 0x0, symName: '-[HVTRecordingConfiguration setCodec:]', symObjAddr: 0x174, symBinAddr: 0x24B1C, symSize: 0x8 }
+  - { offset: 0x4DAA9, size: 0x8, addend: 0x0, symName: '-[HVTRecordingConfiguration fileType]', symObjAddr: 0x17C, symBinAddr: 0x24B24, symSize: 0x8 }
+  - { offset: 0x4DAE0, size: 0x8, addend: 0x0, symName: '-[HVTRecordingConfiguration setFileType:]', symObjAddr: 0x184, symBinAddr: 0x24B2C, symSize: 0x8 }
+  - { offset: 0x4DB1F, size: 0x8, addend: 0x0, symName: '-[HVTRecordingConfiguration videoSettings]', symObjAddr: 0x18C, symBinAddr: 0x24B34, symSize: 0x8 }
+  - { offset: 0x4DB56, size: 0x8, addend: 0x0, symName: '-[HVTRecordingConfiguration setVideoSettings:]', symObjAddr: 0x194, symBinAddr: 0x24B3C, symSize: 0x8 }
+  - { offset: 0x4DB95, size: 0x8, addend: 0x0, symName: '-[HVTRecordingConfiguration audioSettings]', symObjAddr: 0x19C, symBinAddr: 0x24B44, symSize: 0x8 }
+  - { offset: 0x4DBCC, size: 0x8, addend: 0x0, symName: '-[HVTRecordingConfiguration setAudioSettings:]', symObjAddr: 0x1A4, symBinAddr: 0x24B4C, symSize: 0x8 }
+  - { offset: 0x4DC0B, size: 0x8, addend: 0x0, symName: '-[HVTRecordingConfiguration metadata]', symObjAddr: 0x1AC, symBinAddr: 0x24B54, symSize: 0x8 }
+  - { offset: 0x4DC42, size: 0x8, addend: 0x0, symName: '-[HVTRecordingConfiguration setMetadata:]', symObjAddr: 0x1B4, symBinAddr: 0x24B5C, symSize: 0x8 }
+  - { offset: 0x4DC81, size: 0x8, addend: 0x0, symName: '-[HVTRecordingConfiguration .cxx_destruct]', symObjAddr: 0x1BC, symBinAddr: 0x24B64, symSize: 0x60 }
+  - { offset: 0x4DD5D, size: 0x8, addend: 0x0, symName: '-[HVTPreviewRenderer init]', symObjAddr: 0x0, symBinAddr: 0x24BC4, symSize: 0x214 }
+  - { offset: 0x4E05D, size: 0x8, addend: 0x0, symName: '-[HVTPreviewRenderer init]', symObjAddr: 0x0, symBinAddr: 0x24BC4, symSize: 0x214 }
+  - { offset: 0x4E120, size: 0x8, addend: 0x0, symName: '-[HVTPreviewRenderer dealloc]', symObjAddr: 0x214, symBinAddr: 0x24DD8, symSize: 0x4C }
+  - { offset: 0x4E16F, size: 0x8, addend: 0x0, symName: '-[HVTPreviewRenderer pipelineWithLibrary:vertex:fragment:blend:]', symObjAddr: 0x260, symBinAddr: 0x24E24, symSize: 0x1AC }
+  - { offset: 0x4E226, size: 0x8, addend: 0x0, symName: '-[HVTPreviewRenderer commandBuffer]', symObjAddr: 0x40C, symBinAddr: 0x24FD0, symSize: 0x8 }
+  - { offset: 0x4E25D, size: 0x8, addend: 0x0, symName: '-[HVTPreviewRenderer flushTextureCache]', symObjAddr: 0x414, symBinAddr: 0x24FD8, symSize: 0xC }
+  - { offset: 0x4E2BF, size: 0x8, addend: 0x0, symName: '-[HVTPreviewRenderer encodeScene:video:toTexture:commandBuffer:]', symObjAddr: 0x420, symBinAddr: 0x24FE4, symSize: 0x428 }
+  - { offset: 0x4E488, size: 0x8, addend: 0x0, symName: '___64-[HVTPreviewRenderer encodeScene:video:toTexture:commandBuffer:]_block_invoke', symObjAddr: 0x848, symBinAddr: 0x2540C, symSize: 0x8 }
+  - { offset: 0x4E4DC, size: 0x8, addend: 0x0, symName: '-[HVTPreviewRenderer drawFlat:matrix:color:encoder:]', symObjAddr: 0x850, symBinAddr: 0x25414, symSize: 0xD8 }
+  - { offset: 0x4E549, size: 0x8, addend: 0x0, symName: '-[HVTPreviewRenderer drawVideo:matrix:encoder:]', symObjAddr: 0x928, symBinAddr: 0x254EC, symSize: 0xF4 }
+  - { offset: 0x4E5A8, size: 0x8, addend: 0x0, symName: '-[HVTPreviewRenderer device]', symObjAddr: 0xA1C, symBinAddr: 0x255E0, symSize: 0x8 }
+  - { offset: 0x4E5DF, size: 0x8, addend: 0x0, symName: '-[HVTPreviewRenderer .cxx_destruct]', symObjAddr: 0xA24, symBinAddr: 0x255E8, symSize: 0x60 }
+  - { offset: 0x4E7EE, size: 0x8, addend: 0x0, symName: '-[HVTRecordingService initWithDelegate:]', symObjAddr: 0x0, symBinAddr: 0x25648, symSize: 0x9C }
+  - { offset: 0x4EAB2, size: 0x8, addend: 0x0, symName: '-[HVTRecordingService initWithDelegate:]', symObjAddr: 0x0, symBinAddr: 0x25648, symSize: 0x9C }
+  - { offset: 0x4EAF9, size: 0x8, addend: 0x0, symName: '-[HVTRecordingService status]', symObjAddr: 0x9C, symBinAddr: 0x256E4, symSize: 0x3C }
+  - { offset: 0x4EB30, size: 0x8, addend: 0x0, symName: '-[HVTRecordingService isPaused]', symObjAddr: 0xD8, symBinAddr: 0x25720, symSize: 0x58 }
+  - { offset: 0x4EB67, size: 0x8, addend: 0x0, symName: '-[HVTRecordingService duration]', symObjAddr: 0x130, symBinAddr: 0x25778, symSize: 0x74 }
+  - { offset: 0x4EB9E, size: 0x8, addend: 0x0, symName: '-[HVTRecordingService videoBitRate]', symObjAddr: 0x1A4, symBinAddr: 0x257EC, symSize: 0x58 }
+  - { offset: 0x4EBD5, size: 0x8, addend: 0x0, symName: '-[HVTRecordingService audioBitRate]', symObjAddr: 0x1FC, symBinAddr: 0x25844, symSize: 0x58 }
+  - { offset: 0x4EC0C, size: 0x8, addend: 0x0, symName: '-[HVTRecordingService begin]', symObjAddr: 0x254, symBinAddr: 0x2589C, symSize: 0x9C }
+  - { offset: 0x4EC3F, size: 0x8, addend: 0x0, symName: '-[HVTRecordingService startWithURL:fileType:metadata:videoFormat:videoSettings:audioFormat:audioSettings:]', symObjAddr: 0x2F0, symBinAddr: 0x25938, symSize: 0x1D4 }
+  - { offset: 0x4ED65, size: 0x8, addend: 0x0, symName: '-[HVTRecordingService abandonWithError:]', symObjAddr: 0x4C4, symBinAddr: 0x25B0C, symSize: 0xBC }
+  - { offset: 0x4EDB7, size: 0x8, addend: 0x0, symName: '-[HVTRecordingService stop]', symObjAddr: 0x580, symBinAddr: 0x25BC8, symSize: 0xC4 }
+  - { offset: 0x4EE0D, size: 0x8, addend: 0x0, symName: '-[HVTRecordingService pause]', symObjAddr: 0x644, symBinAddr: 0x25C8C, symSize: 0x5C }
+  - { offset: 0x4EE40, size: 0x8, addend: 0x0, symName: '-[HVTRecordingService resume]', symObjAddr: 0x6A0, symBinAddr: 0x25CE8, symSize: 0x4C }
+  - { offset: 0x4EE73, size: 0x8, addend: 0x0, symName: '-[HVTRecordingService appendVideoPixelBuffer:time:]', symObjAddr: 0x6EC, symBinAddr: 0x25D34, symSize: 0xAC }
+  - { offset: 0x4EED6, size: 0x8, addend: 0x0, symName: '-[HVTRecordingService appendAudioSampleBuffer:]', symObjAddr: 0x798, symBinAddr: 0x25DE0, symSize: 0x78 }
+  - { offset: 0x4EF29, size: 0x8, addend: 0x0, symName: '-[HVTRecordingService transitionToStatus:error:]', symObjAddr: 0x810, symBinAddr: 0x25E58, symSize: 0x23C }
+  - { offset: 0x4EFC6, size: 0x8, addend: 0x0, symName: '___48-[HVTRecordingService transitionToStatus:error:]_block_invoke', symObjAddr: 0xA4C, symBinAddr: 0x26094, symSize: 0x10 }
+  - { offset: 0x4F025, size: 0x8, addend: 0x0, symName: '___48-[HVTRecordingService transitionToStatus:error:]_block_invoke.4', symObjAddr: 0xABC, symBinAddr: 0x260A4, symSize: 0xC }
+  - { offset: 0x4F074, size: 0x8, addend: 0x0, symName: '___48-[HVTRecordingService transitionToStatus:error:]_block_invoke.5', symObjAddr: 0xB18, symBinAddr: 0x260B0, symSize: 0xC }
+  - { offset: 0x4F0C3, size: 0x8, addend: 0x0, symName: '___48-[HVTRecordingService transitionToStatus:error:]_block_invoke_2', symObjAddr: 0xB24, symBinAddr: 0x260BC, symSize: 0x3C }
+  - { offset: 0x4F132, size: 0x8, addend: 0x0, symName: '-[HVTRecordingService deliver:]', symObjAddr: 0xB60, symBinAddr: 0x260F8, symSize: 0x14 }
+  - { offset: 0x4F17C, size: 0x8, addend: 0x0, symName: '-[HVTRecordingService movieRecorderDidFinishPreparing:]', symObjAddr: 0xB74, symBinAddr: 0x2610C, symSize: 0xDC }
+  - { offset: 0x4F1D1, size: 0x8, addend: 0x0, symName: '-[HVTRecordingService movieRecorder:didFailWithError:]', symObjAddr: 0xC50, symBinAddr: 0x261E8, symSize: 0xBC }
+  - { offset: 0x4F237, size: 0x8, addend: 0x0, symName: '-[HVTRecordingService movieRecorderDidFinishRecording:]', symObjAddr: 0xD0C, symBinAddr: 0x262A4, symSize: 0x1A8 }
+  - { offset: 0x4F28C, size: 0x8, addend: 0x0, symName: '-[HVTRecordingService movieRecorderDidAutomaticallyFinishedRecording:]', symObjAddr: 0xEB4, symBinAddr: 0x2644C, symSize: 0x34 }
+  - { offset: 0x4F2CD, size: 0x8, addend: 0x0, symName: '-[HVTRecordingService maxDuration]', symObjAddr: 0xEE8, symBinAddr: 0x26480, symSize: 0x14 }
+  - { offset: 0x4F302, size: 0x8, addend: 0x0, symName: '-[HVTRecordingService setMaxDuration:]', symObjAddr: 0xEFC, symBinAddr: 0x26494, symSize: 0x14 }
+  - { offset: 0x4F340, size: 0x8, addend: 0x0, symName: '-[HVTRecordingService .cxx_destruct]', symObjAddr: 0xF10, symBinAddr: 0x264A8, symSize: 0x38 }
+  - { offset: 0x4F373, size: 0x8, addend: 0x0, symName: '-[HVTRecordingService(Testing) setRecorderForTesting:status:]', symObjAddr: 0xF48, symBinAddr: 0x264E0, symSize: 0x60 }
+  - { offset: 0x4F766, size: 0x8, addend: 0x0, symName: '-[HVTBracketExposure initWithPhoto:]', symObjAddr: 0x0, symBinAddr: 0x26540, symSize: 0x110 }
+  - { offset: 0x4FBF8, size: 0x8, addend: 0x0, symName: '-[HVTBracketExposure initWithPhoto:]', symObjAddr: 0x0, symBinAddr: 0x26540, symSize: 0x110 }
+  - { offset: 0x4FC92, size: 0x8, addend: 0x0, symName: '-[HVTBracketExposure imageData]', symObjAddr: 0x110, symBinAddr: 0x26650, symSize: 0x8 }
+  - { offset: 0x4FCC9, size: 0x8, addend: 0x0, symName: '-[HVTBracketExposure timestamp]', symObjAddr: 0x118, symBinAddr: 0x26658, symSize: 0x8 }
+  - { offset: 0x4FCFE, size: 0x8, addend: 0x0, symName: '-[HVTBracketExposure metadata]', symObjAddr: 0x120, symBinAddr: 0x26660, symSize: 0x8 }
+  - { offset: 0x4FD35, size: 0x8, addend: 0x0, symName: '-[HVTBracketExposure .cxx_destruct]', symObjAddr: 0x128, symBinAddr: 0x26668, symSize: 0x30 }
+  - { offset: 0x4FD68, size: 0x8, addend: 0x0, symName: '-[HVTPhotoService initWithDelegate:queue:]', symObjAddr: 0x158, symBinAddr: 0x26698, symSize: 0xAC }
+  - { offset: 0x4FDBF, size: 0x8, addend: 0x0, symName: '-[HVTPhotoService status]', symObjAddr: 0x204, symBinAddr: 0x26744, symSize: 0x3C }
+  - { offset: 0x4FDF6, size: 0x8, addend: 0x0, symName: '-[HVTPhotoService captureType]', symObjAddr: 0x240, symBinAddr: 0x26780, symSize: 0x3C }
+  - { offset: 0x4FE2D, size: 0x8, addend: 0x0, symName: '-[HVTPhotoService isHDRAvailable]', symObjAddr: 0x27C, symBinAddr: 0x267BC, symSize: 0x24 }
+  - { offset: 0x4FE64, size: 0x8, addend: 0x0, symName: '-[HVTPhotoService captureType:bracket:settings:focus:]', symObjAddr: 0x2A0, symBinAddr: 0x267E0, symSize: 0x164 }
+  - { offset: 0x4FF73, size: 0x8, addend: 0x0, symName: '___54-[HVTPhotoService captureType:bracket:settings:focus:]_block_invoke', symObjAddr: 0x404, symBinAddr: 0x26944, symSize: 0x2C }
+  - { offset: 0x4FFAE, size: 0x8, addend: 0x0, symName: '-[HVTPhotoService focusDidSettle]', symObjAddr: 0x444, symBinAddr: 0x26970, symSize: 0x64 }
+  - { offset: 0x4FFE1, size: 0x8, addend: 0x0, symName: '-[HVTPhotoService captureNow]', symObjAddr: 0x4A8, symBinAddr: 0x269D4, symSize: 0x100 }
+  - { offset: 0x50024, size: 0x8, addend: 0x0, symName: '-[HVTPhotoService takePendingSnapshot]', symObjAddr: 0x5A8, symBinAddr: 0x26AD4, symSize: 0x54 }
+  - { offset: 0x5005B, size: 0x8, addend: 0x0, symName: '-[HVTPhotoService fullResolutionSettings]', symObjAddr: 0x5FC, symBinAddr: 0x26B28, symSize: 0x1E0 }
+  - { offset: 0x500F0, size: 0x8, addend: 0x0, symName: '-[HVTPhotoService captureHDRBracket]', symObjAddr: 0x7DC, symBinAddr: 0x26D08, symSize: 0x200 }
+  - { offset: 0x50143, size: 0x8, addend: 0x0, symName: '-[HVTPhotoService finishWithImage:metadata:]', symObjAddr: 0x9DC, symBinAddr: 0x26F08, symSize: 0x8C }
+  - { offset: 0x50196, size: 0x8, addend: 0x0, symName: '-[HVTPhotoService failWithError:]', symObjAddr: 0xA68, symBinAddr: 0x26F94, symSize: 0xC8 }
+  - { offset: 0x501EA, size: 0x8, addend: 0x0, symName: '-[HVTPhotoService captureOutput:didFinishProcessingPhoto:error:]', symObjAddr: 0xB30, symBinAddr: 0x2705C, symSize: 0x168 }
+  - { offset: 0x5033B, size: 0x8, addend: 0x0, symName: '___64-[HVTPhotoService captureOutput:didFinishProcessingPhoto:error:]_block_invoke', symObjAddr: 0xC98, symBinAddr: 0x271C4, symSize: 0x64 }
+  - { offset: 0x503CD, size: 0x8, addend: 0x0, symName: '-[HVTPhotoService didCaptureExposure:error:]', symObjAddr: 0xD4C, symBinAddr: 0x27228, symSize: 0x16C }
+  - { offset: 0x5045B, size: 0x8, addend: 0x0, symName: '___44-[HVTPhotoService didCaptureExposure:error:]_block_invoke', symObjAddr: 0xEB8, symBinAddr: 0x27394, symSize: 0x38 }
+  - { offset: 0x504AE, size: 0x8, addend: 0x0, symName: '-[HVTPhotoService photoOutput]', symObjAddr: 0xEF0, symBinAddr: 0x273CC, symSize: 0x8 }
+  - { offset: 0x504E5, size: 0x8, addend: 0x0, symName: '-[HVTPhotoService setPhotoOutput:]', symObjAddr: 0xEF8, symBinAddr: 0x273D4, symSize: 0xC }
+  - { offset: 0x50526, size: 0x8, addend: 0x0, symName: '-[HVTPhotoService flashMode]', symObjAddr: 0xF04, symBinAddr: 0x273E0, symSize: 0x8 }
+  - { offset: 0x5055D, size: 0x8, addend: 0x0, symName: '-[HVTPhotoService setFlashMode:]', symObjAddr: 0xF0C, symBinAddr: 0x273E8, symSize: 0x8 }
+  - { offset: 0x5059A, size: 0x8, addend: 0x0, symName: '-[HVTPhotoService .cxx_destruct]', symObjAddr: 0xF14, symBinAddr: 0x273F0, symSize: 0x5C }
+  - { offset: 0x5087C, size: 0x8, addend: 0x0, symName: '-[HVTFocusService initWithDelegate:]', symObjAddr: 0x0, symBinAddr: 0x2744C, symSize: 0x7C }
+  - { offset: 0x5090F, size: 0x8, addend: 0x0, symName: _HVTHasFlashObserverContext, symObjAddr: 0xF00, symBinAddr: 0x50378, symSize: 0x0 }
+  - { offset: 0x50927, size: 0x8, addend: 0x0, symName: _HVTIsAdjustingExposureObserverContext, symObjAddr: 0xF08, symBinAddr: 0x50380, symSize: 0x0 }
+  - { offset: 0x5093D, size: 0x8, addend: 0x0, symName: _HVTIsAdjustingFocusObserverContext, symObjAddr: 0xF10, symBinAddr: 0x50388, symSize: 0x0 }
+  - { offset: 0x50B33, size: 0x8, addend: 0x0, symName: '-[HVTFocusService initWithDelegate:]', symObjAddr: 0x0, symBinAddr: 0x2744C, symSize: 0x7C }
+  - { offset: 0x50B7A, size: 0x8, addend: 0x0, symName: '-[HVTFocusService dealloc]', symObjAddr: 0x7C, symBinAddr: 0x274C8, symSize: 0x48 }
+  - { offset: 0x50BAD, size: 0x8, addend: 0x0, symName: '-[HVTFocusService setDevice:]', symObjAddr: 0xC4, symBinAddr: 0x27510, symSize: 0x68 }
+  - { offset: 0x50BF0, size: 0x8, addend: 0x0, symName: '-[HVTFocusService startObserving]', symObjAddr: 0x12C, symBinAddr: 0x27578, symSize: 0xC8 }
+  - { offset: 0x50C33, size: 0x8, addend: 0x0, symName: '-[HVTFocusService stopObserving]', symObjAddr: 0x1F4, symBinAddr: 0x27640, symSize: 0xB4 }
+  - { offset: 0x50C66, size: 0x8, addend: 0x0, symName: '-[HVTFocusService focusPixelsEnabled]', symObjAddr: 0x2A8, symBinAddr: 0x276F4, symSize: 0x44 }
+  - { offset: 0x50C9D, size: 0x8, addend: 0x0, symName: '-[HVTFocusService handleAreaChange]', symObjAddr: 0x2EC, symBinAddr: 0x27738, symSize: 0x30 }
+  - { offset: 0x50D28, size: 0x8, addend: 0x0, symName: '___35-[HVTFocusService handleAreaChange]_block_invoke', symObjAddr: 0x31C, symBinAddr: 0x27768, symSize: 0x80 }
+  - { offset: 0x50D4F, size: 0x8, addend: 0x0, symName: '-[HVTFocusService lockFocus]', symObjAddr: 0x39C, symBinAddr: 0x277E8, symSize: 0x94 }
+  - { offset: 0x50D92, size: 0x8, addend: 0x0, symName: '-[HVTFocusService reset]', symObjAddr: 0x430, symBinAddr: 0x2787C, symSize: 0x14 }
+  - { offset: 0x50DC3, size: 0x8, addend: 0x0, symName: '-[HVTFocusService continuousAtPoint:monitoring:]', symObjAddr: 0x444, symBinAddr: 0x27890, symSize: 0x14 }
+  - { offset: 0x50E10, size: 0x8, addend: 0x0, symName: '-[HVTFocusService focusAtPoint:gesture:]', symObjAddr: 0x458, symBinAddr: 0x278A4, symSize: 0x24 }
+  - { offset: 0x50E61, size: 0x8, addend: 0x0, symName: '-[HVTFocusService focusWithMode:exposeWithMode:whitebalanceMode:atDevicePoint:monitoring:]', symObjAddr: 0x47C, symBinAddr: 0x278C8, symSize: 0x12C }
+  - { offset: 0x50EF0, size: 0x8, addend: 0x0, symName: '-[HVTFocusService observeValueForKeyPath:ofObject:change:context:]', symObjAddr: 0x5A8, symBinAddr: 0x279F4, symSize: 0x12C }
+  - { offset: 0x50F63, size: 0x8, addend: 0x0, symName: '-[HVTFocusService flashDidChange]', symObjAddr: 0x6D4, symBinAddr: 0x27B20, symSize: 0xA4 }
+  - { offset: 0x50FAE, size: 0x8, addend: 0x0, symName: '___33-[HVTFocusService flashDidChange]_block_invoke', symObjAddr: 0x778, symBinAddr: 0x27BC4, symSize: 0x48 }
+  - { offset: 0x50FD5, size: 0x8, addend: 0x0, symName: '-[HVTFocusService exposureDidChange:]', symObjAddr: 0x7C0, symBinAddr: 0x27C0C, symSize: 0x1A8 }
+  - { offset: 0x51091, size: 0x8, addend: 0x0, symName: '___37-[HVTFocusService exposureDidChange:]_block_invoke', symObjAddr: 0x968, symBinAddr: 0x27DB4, symSize: 0x80 }
+  - { offset: 0x510CF, size: 0x8, addend: 0x0, symName: '-[HVTFocusService focusDidChange:]', symObjAddr: 0x9E8, symBinAddr: 0x27E34, symSize: 0xC4 }
+  - { offset: 0x51121, size: 0x8, addend: 0x0, symName: '___34-[HVTFocusService focusDidChange:]_block_invoke', symObjAddr: 0xAAC, symBinAddr: 0x27EF8, symSize: 0x48 }
+  - { offset: 0x5114A, size: 0x8, addend: 0x0, symName: '-[HVTFocusService device]', symObjAddr: 0xAF4, symBinAddr: 0x27F40, symSize: 0x8 }
+  - { offset: 0x51181, size: 0x8, addend: 0x0, symName: '-[HVTFocusService isFlashAvailable]', symObjAddr: 0xAFC, symBinAddr: 0x27F48, symSize: 0x8 }
+  - { offset: 0x511B8, size: 0x8, addend: 0x0, symName: '-[HVTFocusService isExposureSettled]', symObjAddr: 0xB04, symBinAddr: 0x27F50, symSize: 0x8 }
+  - { offset: 0x511EF, size: 0x8, addend: 0x0, symName: '-[HVTFocusService .cxx_destruct]', symObjAddr: 0xB0C, symBinAddr: 0x27F58, symSize: 0x2C }
+  - { offset: 0x5144A, size: 0x8, addend: 0x0, symName: '-[HVTSessionService initWithDelegate:sessionQueue:sampleDelegate:videoQueue:]', symObjAddr: 0x0, symBinAddr: 0x27F84, symSize: 0x100 }
+  - { offset: 0x51821, size: 0x8, addend: 0x0, symName: '-[HVTSessionService initWithDelegate:sessionQueue:sampleDelegate:videoQueue:]', symObjAddr: 0x0, symBinAddr: 0x27F84, symSize: 0x100 }
+  - { offset: 0x51898, size: 0x8, addend: 0x0, symName: '-[HVTSessionService dealloc]', symObjAddr: 0x100, symBinAddr: 0x28084, symSize: 0x68 }
+  - { offset: 0x518CB, size: 0x8, addend: 0x0, symName: '-[HVTSessionService setUpWithMode:device:error:]', symObjAddr: 0x168, symBinAddr: 0x280EC, symSize: 0x480 }
+  - { offset: 0x519EE, size: 0x8, addend: 0x0, symName: '-[HVTSessionService configurePhotoOutputForDevice:]', symObjAddr: 0x5E8, symBinAddr: 0x2856C, symSize: 0x120 }
+  - { offset: 0x51A4F, size: 0x8, addend: 0x0, symName: '-[HVTSessionService failSetUp:into:]', symObjAddr: 0x708, symBinAddr: 0x2868C, symSize: 0x58 }
+  - { offset: 0x51AA6, size: 0x8, addend: 0x0, symName: '-[HVTSessionService tearDown]', symObjAddr: 0x760, symBinAddr: 0x286E4, symSize: 0x78 }
+  - { offset: 0x51AE9, size: 0x8, addend: 0x0, symName: '-[HVTSessionService startRunning]', symObjAddr: 0x7D8, symBinAddr: 0x2875C, symSize: 0x30 }
+  - { offset: 0x51B1C, size: 0x8, addend: 0x0, symName: '-[HVTSessionService stopRunning]', symObjAddr: 0x808, symBinAddr: 0x2878C, symSize: 0x30 }
+  - { offset: 0x51B4F, size: 0x8, addend: 0x0, symName: '-[HVTSessionService replaceVideoDevice:]', symObjAddr: 0x838, symBinAddr: 0x287BC, symSize: 0x118 }
+  - { offset: 0x51BA2, size: 0x8, addend: 0x0, symName: '-[HVTSessionService applyStabilization:]', symObjAddr: 0x950, symBinAddr: 0x288D4, symSize: 0x44 }
+  - { offset: 0x51BF5, size: 0x8, addend: 0x0, symName: '-[HVTSessionService switchAudioCategory]', symObjAddr: 0x994, symBinAddr: 0x28918, symSize: 0xB8 }
+  - { offset: 0x51C38, size: 0x8, addend: 0x0, symName: '-[HVTSessionService restoreAudioCategory]', symObjAddr: 0xA4C, symBinAddr: 0x289D0, symSize: 0x5C }
+  - { offset: 0x51C6C, size: 0x8, addend: 0x0, symName: '-[HVTSessionService sessionNotification:]', symObjAddr: 0xAA8, symBinAddr: 0x28A2C, symSize: 0x84 }
+  - { offset: 0x51CF7, size: 0x8, addend: 0x0, symName: '___41-[HVTSessionService sessionNotification:]_block_invoke', symObjAddr: 0xB2C, symBinAddr: 0x28AB0, symSize: 0x190 }
+  - { offset: 0x51D89, size: 0x8, addend: 0x0, symName: '-[HVTSessionService session]', symObjAddr: 0xD0C, symBinAddr: 0x28C40, symSize: 0xC }
+  - { offset: 0x51DC0, size: 0x8, addend: 0x0, symName: '-[HVTSessionService setSession:]', symObjAddr: 0xD18, symBinAddr: 0x28C4C, symSize: 0x8 }
+  - { offset: 0x51DFF, size: 0x8, addend: 0x0, symName: '-[HVTSessionService videoOutput]', symObjAddr: 0xD20, symBinAddr: 0x28C54, symSize: 0xC }
+  - { offset: 0x51E36, size: 0x8, addend: 0x0, symName: '-[HVTSessionService setVideoOutput:]', symObjAddr: 0xD2C, symBinAddr: 0x28C60, symSize: 0x8 }
+  - { offset: 0x51E75, size: 0x8, addend: 0x0, symName: '-[HVTSessionService videoConnection]', symObjAddr: 0xD34, symBinAddr: 0x28C68, symSize: 0xC }
+  - { offset: 0x51EAC, size: 0x8, addend: 0x0, symName: '-[HVTSessionService setVideoConnection:]', symObjAddr: 0xD40, symBinAddr: 0x28C74, symSize: 0x8 }
+  - { offset: 0x51EEB, size: 0x8, addend: 0x0, symName: '-[HVTSessionService audioOutput]', symObjAddr: 0xD48, symBinAddr: 0x28C7C, symSize: 0xC }
+  - { offset: 0x51F22, size: 0x8, addend: 0x0, symName: '-[HVTSessionService setAudioOutput:]', symObjAddr: 0xD54, symBinAddr: 0x28C88, symSize: 0x8 }
+  - { offset: 0x51F61, size: 0x8, addend: 0x0, symName: '-[HVTSessionService audioConnection]', symObjAddr: 0xD5C, symBinAddr: 0x28C90, symSize: 0xC }
+  - { offset: 0x51F98, size: 0x8, addend: 0x0, symName: '-[HVTSessionService setAudioConnection:]', symObjAddr: 0xD68, symBinAddr: 0x28C9C, symSize: 0x8 }
+  - { offset: 0x51FD7, size: 0x8, addend: 0x0, symName: '-[HVTSessionService photoOutput]', symObjAddr: 0xD70, symBinAddr: 0x28CA4, symSize: 0xC }
+  - { offset: 0x5200E, size: 0x8, addend: 0x0, symName: '-[HVTSessionService setPhotoOutput:]', symObjAddr: 0xD7C, symBinAddr: 0x28CB0, symSize: 0x8 }
+  - { offset: 0x5204D, size: 0x8, addend: 0x0, symName: '-[HVTSessionService .cxx_destruct]', symObjAddr: 0xD84, symBinAddr: 0x28CB8, symSize: 0xAC }
+  - { offset: 0x521E9, size: 0x8, addend: 0x0, symName: '-[HVTRenderNode initWithKey:renderer:view:]', symObjAddr: 0x0, symBinAddr: 0x28D64, symSize: 0xFC }
+  - { offset: 0x5245D, size: 0x8, addend: 0x0, symName: '-[HVTRenderNode initWithKey:renderer:view:]', symObjAddr: 0x0, symBinAddr: 0x28D64, symSize: 0xFC }
+  - { offset: 0x524C4, size: 0x8, addend: 0x0, symName: '-[HVTRenderNode views]', symObjAddr: 0xFC, symBinAddr: 0x28E60, symSize: 0x8 }
+  - { offset: 0x524FB, size: 0x8, addend: 0x0, symName: '-[HVTRenderNode addView:]', symObjAddr: 0x104, symBinAddr: 0x28E68, symSize: 0x8 }
+  - { offset: 0x5253C, size: 0x8, addend: 0x0, symName: '-[HVTRenderNode removeView:]', symObjAddr: 0x10C, symBinAddr: 0x28E70, symSize: 0x8 }
+  - { offset: 0x5257D, size: 0x8, addend: 0x0, symName: '-[HVTRenderNode hasEnabledView]', symObjAddr: 0x114, symBinAddr: 0x28E78, symSize: 0xFC }
+  - { offset: 0x525D2, size: 0x8, addend: 0x0, symName: '-[HVTRenderNode key]', symObjAddr: 0x210, symBinAddr: 0x28F74, symSize: 0x8 }
+  - { offset: 0x52609, size: 0x8, addend: 0x0, symName: '-[HVTRenderNode setKey:]', symObjAddr: 0x218, symBinAddr: 0x28F7C, symSize: 0x8 }
+  - { offset: 0x52648, size: 0x8, addend: 0x0, symName: '-[HVTRenderNode renderer]', symObjAddr: 0x220, symBinAddr: 0x28F84, symSize: 0x8 }
+  - { offset: 0x5267F, size: 0x8, addend: 0x0, symName: '-[HVTRenderNode .cxx_destruct]', symObjAddr: 0x228, symBinAddr: 0x28F8C, symSize: 0x3C }
+  - { offset: 0x526B2, size: 0x8, addend: 0x0, symName: '-[HVTFrameRouter init]', symObjAddr: 0x264, symBinAddr: 0x28FC8, symSize: 0x7C }
+  - { offset: 0x52742, size: 0x8, addend: 0x0, symName: '+[HVTFrameRouter keyForFilter:viewType:dimensions:]', symObjAddr: 0x2E0, symBinAddr: 0x29044, symSize: 0x3A8 }
+  - { offset: 0x52875, size: 0x8, addend: 0x0, symName: '-[HVTFrameRouter isEmpty]', symObjAddr: 0x688, symBinAddr: 0x293EC, symSize: 0x5C }
+  - { offset: 0x528AC, size: 0x8, addend: 0x0, symName: '-[HVTFrameRouter placeView:filter:viewType:dimensions:]', symObjAddr: 0x6E4, symBinAddr: 0x29448, symSize: 0x2F0 }
+  - { offset: 0x52998, size: 0x8, addend: 0x0, symName: '-[HVTFrameRouter newRendererWithFilter:level:dimensions:]', symObjAddr: 0x9D4, symBinAddr: 0x29738, symSize: 0x108 }
+  - { offset: 0x52A53, size: 0x8, addend: 0x0, symName: '-[HVTFrameRouter removeView:]', symObjAddr: 0xADC, symBinAddr: 0x29840, symSize: 0x6C }
+  - { offset: 0x52A96, size: 0x8, addend: 0x0, symName: '-[HVTFrameRouter removeViewLocked:]', symObjAddr: 0xB48, symBinAddr: 0x298AC, symSize: 0x10C }
+  - { offset: 0x52AE9, size: 0x8, addend: 0x0, symName: '-[HVTFrameRouter forEachNode:]', symObjAddr: 0xC54, symBinAddr: 0x299B8, symSize: 0x160 }
+  - { offset: 0x52B58, size: 0x8, addend: 0x0, symName: '-[HVTFrameRouter forEachView:]', symObjAddr: 0xDB4, symBinAddr: 0x29B18, symSize: 0x218 }
+  - { offset: 0x52BDE, size: 0x8, addend: 0x0, symName: '-[HVTFrameRouter .cxx_destruct]', symObjAddr: 0xFCC, symBinAddr: 0x29D30, symSize: 0xC }
+...
