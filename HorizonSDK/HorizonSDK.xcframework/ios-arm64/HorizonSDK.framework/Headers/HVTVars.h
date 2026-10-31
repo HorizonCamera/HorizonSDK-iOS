@@ -174,6 +174,28 @@ typedef NS_ENUM(NSInteger, HVTCameraInterruption) {
 };
 
 /**
+ Channels of the recorded sound.
+ @see HVTCamera.audioChannels
+ */
+typedef NS_ENUM(NSInteger, HVTAudioChannels) {
+    /** One channel.*/
+    HVTAudioChannelsMono = 0,
+    /** Left and right, from the built-in microphones where HVTCamera.supportsStereoAudio is `YES`; mono elsewhere.*/
+    HVTAudioChannelsStereo
+};
+
+/**
+ Shape of photos in photo mode.
+ @see HVTCamera.photoAspectRatio
+ */
+typedef NS_ENUM(NSInteger, HVTPhotoAspectRatio) {
+    /** The camera's own shape, 4:3 on iPhone and iPad cameras.*/
+    HVTPhotoAspectRatioSensor = 0,
+    /** 16:9, cropped from the full width of the camera's shape.*/
+    HVTPhotoAspectRatio16x9 NS_SWIFT_NAME(ratio16x9)
+};
+
+/**
  Notification name for changes on the isFlashAvailable property of HVTCamera object
  */
 extern NSString *const HVTFlashIsAvailableNotification;

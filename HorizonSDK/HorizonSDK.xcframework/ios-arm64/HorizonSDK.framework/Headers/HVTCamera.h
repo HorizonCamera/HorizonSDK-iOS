@@ -370,6 +370,14 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic) HVTStillImageOrientation stillImageOrientation;
 
 /**
+ Shape of photos in photo mode, and of the preview that shows them. The default value is
+ `HVTPhotoAspectRatioSensor`.
+
+ Applies at once. In video mode photos follow outputMovieSize instead.
+ */
+@property (nonatomic) HVTPhotoAspectRatio photoAspectRatio;
+
+/**
  Sets the GPS metadata that can be used for photos
  
  @param gpsMetadata The dictionary containing GPS coordinates, conforming kCGImagePropertyGPSDictionary
@@ -720,6 +728,20 @@ NS_ASSUME_NONNULL_BEGIN
  In order to return to unlimited recording, user can set this property value to kCMTimeInvalid
  */
 @property (nonatomic) CMTime maxRecordingDuration;
+
+/**
+ Whether the built-in microphones can record stereo: iOS 18 and later, on devices whose microphones
+ support it, with microphone access granted.
+ */
+@property (nonatomic, readonly) BOOL supportsStereoAudio;
+
+/**
+ Channels of the recorded sound. The default value is `HVTAudioChannelsMono`.
+
+ Stereo applies where supportsStereoAudio is `YES`; elsewhere the sound stays mono. A change applies
+ from the next startRunning or capture mode change.
+ */
+@property (nonatomic) HVTAudioChannels audioChannels;
 
 #pragma mark Leveler Settings
 /**----------------------------------------------------------------------

@@ -1,3 +1,26 @@
+# Horizon SDK 3.1
+
+Stereo sound, 16:9 photos, recordings that survive a crash, and fixes to photo mode.
+
+## New
+
+- **Stereo sound.** `HVTCamera.audioChannels` records left and right from the built-in microphones (`HVTAudioChannelsStereo`). It needs iOS 18 or later, a device whose microphones support it, and microphone access; check `supportsStereoAudio`. Elsewhere the sound stays mono. The default is still mono, and a change applies from the next `startRunning` or capture mode change.
+- **16:9 photos.** `HVTCamera.photoAspectRatio` set to `HVTPhotoAspectRatio16x9` (Swift: `.ratio16x9`) takes photos in 16:9, cropped from the full width of the camera's 4:3, and the preview shows the same shape. The default, `HVTPhotoAspectRatioSensor`, keeps the camera's shape. Video mode is unchanged: photos there follow `outputMovieSize`.
+
+## Fixed
+
+- **A recording cut short is no longer lost.** QuickTime recordings had no index until the recording finished, so a take ended by a crash, the app being killed or the battery running out left a file that would not open. They are now written in 10 s fragments: a take cut short plays, losing at most its last few seconds. Files are 2-4% larger (measured on a 60 s 4K take). `.mp4` recordings are unchanged.
+- **Photo dates follow the Gregorian calendar.** EXIF `DateTimeOriginal` and `DateTimeDigitized` were formatted with the user's calendar and clock settings: a phone on the Japanese calendar wrote the year as `0008`, a Buddhist one as `2569`. They are now always written in the EXIF format.
+- **Photo mode crops from the camera's real shape.** In photo mode the leveler had no camera shape to work from, so 4:3 photo sizes varied between runs on the same device.
+- **No white flash when the phone turns in photo mode.** With `HVTStillImageOrientationAuto`, the frame where the photo switched between landscape and portrait was drawn with the zoom of the old shape. Turning to landscape, the HUD showed white past the camera image for that frame, and on the first frame after start.
+- **Stereo input is recorded in stereo.** QuickTime recordings without app audio settings used the audio settings from when the session was set up, which could record a stereo input as one channel.
+- **`cameraResolution` in photo mode.** It reported 0x0 when the camera started in photo mode, and the last video format after a switch from video mode. It now reports the format the camera runs.
+
+## Installation
+
+- **Swift Package Manager**: `https://github.com/HorizonCamera/HorizonSDK-iOS`, from 3.1.
+- **CocoaPods**: `pod 'HorizonSDK', '~> 3.1'`.
+
 # Horizon SDK 3.0.2
 
 A packaging fix, with no API or behavior changes.

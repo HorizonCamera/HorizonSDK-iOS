@@ -14,7 +14,7 @@
 		</data>
 		<key>ios-arm64/HorizonSDK.framework/Headers/HVTCamera.h</key>
 		<data>
-		nCcX+Vn1ITGtmG4exHEUM9PcD8Q=
+		p6q5Rm8aZ+2gwe9i7SDOl2GkLsE=
 		</data>
 		<key>ios-arm64/HorizonSDK.framework/Headers/HVTCameraController.h</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>ios-arm64/HorizonSDK.framework/Headers/HVTVars.h</key>
 		<data>
-		WciJahw3l0r+sLpIQVj1hlbKxSs=
+		2t+2Ls0jeEHWfskZ86pWKOTLLw0=
 		</data>
 		<key>ios-arm64/HorizonSDK.framework/Headers/HVTView.h</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>ios-arm64/HorizonSDK.framework/HorizonSDK</key>
 		<data>
-		jLHOX9WdxuhTOxYg5i2ljm9+hSU=
+		Fi1RAvkMQrUhsXuGoSTXbbDEdyk=
 		</data>
 		<key>ios-arm64/HorizonSDK.framework/Info.plist</key>
 		<data>
-		wiEFWxzQwzqPTkgyGXXQLefyfew=
+		CN3UFlODcvo1h+Xfxt1aBBpe0GA=
 		</data>
 		<key>ios-arm64/HorizonSDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>ios-arm64/HorizonSDK.framework/default.metallib</key>
 		<data>
-		QC8P93qMTMMv7vTnTZNbeyE4d1g=
+		p58c260WO8ifoSsQu/HohcjGLCA=
 		</data>
 		<key>ios-arm64/HorizonSDK.framework/hvtcameracontroller-cancel.png</key>
 		<data>
@@ -226,15 +226,15 @@
 		</data>
 		<key>ios-arm64/dSYMs/HorizonSDK.framework.dSYM/Contents/Info.plist</key>
 		<data>
-		cwEMLfjYCsS0O6bHGEvuhT9TsVo=
+		hr4/bKAWOhkpJU9IryYKsvAijDc=
 		</data>
 		<key>ios-arm64/dSYMs/HorizonSDK.framework.dSYM/Contents/Resources/DWARF/HorizonSDK</key>
 		<data>
-		lcq0s6QYql3OuMIQ5qoMiNspsS4=
+		tfb+Jt1a3i725AIEDCK2rq3hQ10=
 		</data>
 		<key>ios-arm64/dSYMs/HorizonSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/HorizonSDK.yml</key>
 		<data>
-		NHVoUTVWnsfpec1J2cG6PAaOjzI=
+		h/mUy+BR+lKXU2WTn0gvdHAl0Dc=
 		</data>
 		<key>ios-arm64_x86_64-simulator/HorizonSDK.framework/HVTCameraController.nib</key>
 		<data>
@@ -246,7 +246,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/HorizonSDK.framework/Headers/HVTCamera.h</key>
 		<data>
-		nCcX+Vn1ITGtmG4exHEUM9PcD8Q=
+		p6q5Rm8aZ+2gwe9i7SDOl2GkLsE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/HorizonSDK.framework/Headers/HVTCameraController.h</key>
 		<data>
@@ -270,7 +270,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/HorizonSDK.framework/Headers/HVTVars.h</key>
 		<data>
-		WciJahw3l0r+sLpIQVj1hlbKxSs=
+		2t+2Ls0jeEHWfskZ86pWKOTLLw0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/HorizonSDK.framework/Headers/HVTView.h</key>
 		<data>
@@ -282,11 +282,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/HorizonSDK.framework/HorizonSDK</key>
 		<data>
-		+2jbgqEzP6uy4krnMVszpdStBqI=
+		+QcTF60Hvj0zzd8WWLkkjU4yUfo=
 		</data>
 		<key>ios-arm64_x86_64-simulator/HorizonSDK.framework/Info.plist</key>
 		<data>
-		eaXHkA7HbiRNS3qhB2WfVxLHuW0=
+		oDTzzD71lDwWyBKmaTHQp6v4088=
 		</data>
 		<key>ios-arm64_x86_64-simulator/HorizonSDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -298,7 +298,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/HorizonSDK.framework/default.metallib</key>
 		<data>
-		nFtkr2mXzDym3ib9XtJ21HMPjjs=
+		ItykR6gxTDepwjn4LohyckYCFDs=
 		</data>
 		<key>ios-arm64_x86_64-simulator/HorizonSDK.framework/hvtcameracontroller-cancel.png</key>
 		<data>
@@ -458,19 +458,19 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/HorizonSDK.framework.dSYM/Contents/Info.plist</key>
 		<data>
-		cwEMLfjYCsS0O6bHGEvuhT9TsVo=
+		hr4/bKAWOhkpJU9IryYKsvAijDc=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/HorizonSDK.framework.dSYM/Contents/Resources/DWARF/HorizonSDK</key>
 		<data>
-		pnbQgwnhS1v5XUmVD2VGq904uvM=
+		Xca+KUN/5QNqj6KXhy7zIl+sCcs=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/HorizonSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/HorizonSDK.yml</key>
 		<data>
-		q6uTXsPp1cm6vzpyKy/Daq/kQaU=
+		IqgM2wBfSisMk6quk7UOHL73yZM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/HorizonSDK.framework.dSYM/Contents/Resources/Relocations/x86_64/HorizonSDK.yml</key>
 		<data>
-		o/8SbdP08PdXYyO0ogMZTh4w9iE=
+		RnR8FUVOmpj6KLW6i+po+Ha+4jI=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -493,7 +493,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			J3HfiPF1ro3RQmnpX4AQa8I7i0n2pMdWezRm0M91hU0=
+			rjTY4H5ml2ygwrXqaI6LOWdvsHmi/nl0JpIc1GMN9pM=
 			</data>
 		</dict>
 		<key>ios-arm64/HorizonSDK.framework/Headers/HVTCameraController.h</key>
@@ -535,7 +535,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RAanaw4QfZ0FTWM0a59r7M3dqDRjrkihK05ZIoz/Iog=
+			f+1QWDAIxWW1EhKXWyt3t1Xxt3BC11RuJZVbUQWCDHU=
 			</data>
 		</dict>
 		<key>ios-arm64/HorizonSDK.framework/Headers/HVTView.h</key>
@@ -556,14 +556,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pbSU0eu4FAUqP+0J/Yuzma66YNgul7Qb0M0ppIVUI2Q=
+			bTzSQmYHmkgHIL+tdKTkEniEvWR5H/o2eIfJwx4mJYY=
 			</data>
 		</dict>
 		<key>ios-arm64/HorizonSDK.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			buZapePt1nCgOnMsFOdtPAzinn13JEci4PtxyRHFP5U=
+			qIO/KxLbFLgBX2AX8D0rJLWYzUhUD3E9M7LLLgqaDPA=
 			</data>
 		</dict>
 		<key>ios-arm64/HorizonSDK.framework/Modules/module.modulemap</key>
@@ -584,7 +584,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NBeZg6UBjJAUK2Udg7+MpHoFr8cEHrOYHBfLbKVh9K8=
+			bu9x1vCm4UQumUW/WSKnvqiOUDkkCk3AhWYWB7evrC4=
 			</data>
 		</dict>
 		<key>ios-arm64/HorizonSDK.framework/hvtcameracontroller-cancel.png</key>
@@ -864,21 +864,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			V9VTTiPBkyOR1oF5p4jl3hAmSfhyNiEOf6xTCVhDb+U=
+			v+S4Z1zWwzD3FVgsIHL8iRxOfZj0NvlyM8fW5qx1B0I=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/HorizonSDK.framework.dSYM/Contents/Resources/DWARF/HorizonSDK</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sGVv6CJZ+NRKZ0qnhW6PIXC1HifM2+sXR5bRfTucQoo=
+			RpXAdlh0SruHA1tKizsa8x9ZS7q9RYdE4NgdyOO4upI=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/HorizonSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/HorizonSDK.yml</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fTc0gk0CvRqCnbvkLUaG2L+mEeP+gfD06NHFEySBcpg=
+			rEaATGh07d48AbwxBiWWBS8042PPHSP5KHIV81I8+/I=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/HorizonSDK.framework/HVTCameraController.nib</key>
@@ -899,7 +899,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			J3HfiPF1ro3RQmnpX4AQa8I7i0n2pMdWezRm0M91hU0=
+			rjTY4H5ml2ygwrXqaI6LOWdvsHmi/nl0JpIc1GMN9pM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/HorizonSDK.framework/Headers/HVTCameraController.h</key>
@@ -941,7 +941,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RAanaw4QfZ0FTWM0a59r7M3dqDRjrkihK05ZIoz/Iog=
+			f+1QWDAIxWW1EhKXWyt3t1Xxt3BC11RuJZVbUQWCDHU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/HorizonSDK.framework/Headers/HVTView.h</key>
@@ -962,14 +962,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			g9hkOOyHjdEK482Ld3e9GIOs33+FwHIZ89WH2+FyhO8=
+			LO13E8aXHy54cUMDnsK8bck710LDrONIj3JlOHQsof8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/HorizonSDK.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PNFWS/TIwSRCmJ3SI0yQTfbfWNHL1uHk3OCxo6z6dZ0=
+			0lBj/PN9mh3b4N/oHPwbkgupMXbaMsv0Fo7p3Abr6qE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/HorizonSDK.framework/Modules/module.modulemap</key>
@@ -990,7 +990,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Fb4kG0QJj5evE26sOYoj1b1Abk4ZhNpfYkaOo3kEorA=
+			PbMI3qBwSQfesMnQxyBW8qjTyG8bvXppG7N9nzANiXo=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/HorizonSDK.framework/hvtcameracontroller-cancel.png</key>
@@ -1270,28 +1270,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			V9VTTiPBkyOR1oF5p4jl3hAmSfhyNiEOf6xTCVhDb+U=
+			v+S4Z1zWwzD3FVgsIHL8iRxOfZj0NvlyM8fW5qx1B0I=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/HorizonSDK.framework.dSYM/Contents/Resources/DWARF/HorizonSDK</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KKxL6dfJJg6jDNQ+RinUfDPb+UsioNN5I4pcijN19lk=
+			P+hJcc0c/lYm0ildMw6+p5i5Hp54+Ovj7uMerN5Duks=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/HorizonSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/HorizonSDK.yml</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HuExHuuIHuqSLRPF40LpIPKJCIGXsxKHJTmF1LARpis=
+			MJwtSPizNTM5vonAeYatBNPe1m7ab1VtT4FBUFOiaEY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/HorizonSDK.framework.dSYM/Contents/Resources/Relocations/x86_64/HorizonSDK.yml</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q6TX+0/Uvqr4saWStQcKBRQ8+SVdidtF43I2gSRmoNw=
+			GtUEjMngx9IUAa1r856oRZXlhdKkCtYqREYJTMV/S7c=
 			</data>
 		</dict>
 	</dict>

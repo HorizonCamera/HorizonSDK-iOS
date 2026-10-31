@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'HorizonSDK'
-  s.version          = '3.0.2'
+  s.version          = '3.1'
   s.license          =  { :type => 'Commercial', :text => "See https://horizon.camera/sdk/tos/" }
   s.homepage         = 'https://horizon.camera/sdk/'
   s.documentation_url = 'https://horizoncamera.github.io/HorizonSDK-iOS/'
@@ -16,6 +16,7 @@ Horizon real-time leveling algorithm (you can find more at https://horizon.camer
 Support for multiple resolutions (up to 4K recording) and frame rates.
 Custom filter support using the Core Image framework.
 Multiple previews.
+Stereo sound recording (iOS 18 or later) and 16:9 photos.
 A simple view controller that makes integrating the SDK to your app really easy.
 Access to the video buffer so that it can be further processed or live streamed using other libraries.
 In order to use Horizon SDK on your app, you have to receive an API key by contacting us. The provided sample apps contain their own API keys.
